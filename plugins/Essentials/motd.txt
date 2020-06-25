@@ -1,0 +1,11 @@
+&7/&7&m--------&6-=&b&nInsert Server Name&6=-&7&m--------&7\
+&7|
+&7|    &aAny information you want to display 
+&7|
+&7|    &aregarding your server can be displayed
+&7|
+&7|    &ahere and players will see it upon
+&7|
+&7|    &ajoining your server!
+&7|
+&7\&7&m-------------------------------------&7/

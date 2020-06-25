@@ -1,0 +1,30 @@
+# Below are any new strings for your current version of Quests! Transfer them to the strings.yml of the same folder to stay up-to-date and suppress console warnings.
+stageEditorSmeltItems: Smelt items
+stageEditorBrewPotions: Brew potions
+stageEditorEnterBlockAmounts: Enter block amounts, <space>, <cancel>
+stageEditorNotSolid: is not a solid block!
+stageEditorObjectiveCleared: Objective cleared.
+stageEditorMessageCleared: Message cleared.
+eventEditorPlayer: Player
+eventEditorTimer: Timer
+eventEditorEffect: Effect
+eventEditorWeather: Weather
+optNumberPrompt: Enter a level (number) for tracking progress, <clear>, <cancel>
+optAllowQuitting: Allow quitting during quest
+optShareProgressLevel: Level of progress sharing
+optRequireSameQuest: Require same quest
+rewCommands: Command rewards
+rewSetCommandsOverrides: Set command display overrides
+rewCommandsCleared: Command rewards cleared.
+rewCommandsOverridePrompt: Enter command display override, <clear>, <cancel>
+rewCommandsOverrideHint: (This override will display your own text as the reward)
+rewNoCommands: You must set commands first!
+smelt: Smelt
+brew: Brew
+listsNotSameSize: All required lists must have the same number of entries!
+objectives: Objectives
+everything: Everything
+timePrompt: Enter amount of time (in seconds), <clear>, <cancel>
+duplicateEditor: You are already using an editor!
+notInstalled: Not installed
+confirmDelete: Are you sure?

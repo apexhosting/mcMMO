@@ -1,0 +1,14 @@
+# ActionAnnouncer v1.15.0 Main configuration
+announcer_enabled: true
+announcer_random: true
+announce_interval: 60
+announcement_length: 6
+announcements:
+- '&6Test Announcement! &8I can be disabled or changed in the &6ActionAnnouncer &8config.yml
+  file!'
+- '&8You can &aadd &8or &4delete &8announcements using this format in the &6config.yml
+  file!'
+announce_on_join: true
+join_announcement: '&eWelcome to the server &b%player%! There are &f%online% &epeople
+  online!'
+disable_sounds: false

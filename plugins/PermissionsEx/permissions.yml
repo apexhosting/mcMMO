@@ -1,0 +1,174 @@
+groups:
+  Roamer:
+    options:
+      default: true
+      prefix: '&8[&2Roamer&8] &7'
+    permissions:
+    - dshop.user.shop.*
+    - multiverse.teleport.self.*
+    - modifyworld.*
+    - jobs.max.2
+    - jobs.command.browse
+    - jobs.use
+    - jobs.command.top
+    - jobs.command.stats
+    - jobs.command.join
+    - jobs.command.leave
+    - jobs.command.leaveall
+    - jobs.command.info
+    - jobs.command.playerinfo
+    - jobs.command.help
+    - shopguiplus.shop
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.ban.notify
+    - essentials.delhome
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.kick.notify
+    - essentials.kit
+    - essentials.kits.newcomer
+    - essentials.kits.playershop
+    - essentials.kits.protection
+    - essentials.kits.patrick
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.clear
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.msg
+    - essentials.mute.notify
+    - essentials.pay
+    - essentials.ping
+    - essentials.realname
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.multiple.Newcomer
+    - essentials.showkit
+    - essentials.signs.use.disposal
+    - essentials.signs.use.free
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.use.signs.balance
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.*
+  Ranger:
+    options:
+      default: false
+      prefix: '&8[&eRanger&8] &7'
+    inheritance:
+    - Roamer
+    permissions:
+    - modifyworld.*
+    - jobs.max.3
+    - jobs.boost.all.money.5
+    - jobs.boost.all.exp.5
+    - essentials.sethome.multiple.Ranger
+  Adventurer:
+    options:
+      default: false
+      prefix: '&8[&aAdventurer&8] &7'
+    inheritance:
+    - Roamer
+    - Ranger
+    permissions:
+    - modifyworld.*
+    - jobs.max.4
+    - jobs.boost.all.money.10
+    - jobs.boost.all.exp.10
+    - essentials.sethome.multiple.Adventurer
+  Explorer:
+    options:
+      default: false
+      prefix: '&8[&6Explorer&8] &7'
+    inheritance:
+    - Roamer
+    - Ranger
+    - Adventurer
+    permissions:
+    - modifyworld.*
+    - jobs.max.5
+    - jobs.boost.all.money.15
+    - jobs.boost.all.exp.15
+    - essentials.sethome.multiple.explorer
+    - mcmmo.perks.xp.25percentboost.all
+  Warrior:
+    options:
+      default: false
+      prefix: '&8[&bWarrior&8] &7'
+    inheritance:
+    - Roamer
+    - Ranger
+    - Adventurer
+    - Explorer
+    permissions:
+    - modifyworld.*
+    - jobs.max.6
+    - jobs.boost.all.money.20
+    - jobs.boost.all.exp.20
+    - essentials.sethome.multiple.warrior
+    - mcmmo.perks.xp.50percentboost.all
+  Knight:
+    options:
+      default: false
+      prefix: '&8[&cKnight&8] &7'
+    inheritance:
+    - Roamer
+    - Ranger
+    - Adventurer
+    - Explorer
+    - Warrior
+    permissions:
+    - modifyworld.*
+    - jobs.max.6
+    - jobs.boost.all.money.25
+    - jobs.boost.all.exp.25
+    - essentials.sethome.multiple.knight
+    - mcmmo.perks.xp.double.all
+    - mcmmo.perks.lucky.acrobatics
+    - mcmmo.perks.lucky.archery
+    - mcmmo.perks.lucky.axes
+    - mcmmo.perks.lucky.excavation
+    - mcmmo.perks.lucky.fishing
+    - mcmmo.perks.lucky.herbalism
+    - mcmmo.perks.lucky.mining
+    - mcmmo.perks.lucky.repair
+    - mcmmo.perks.lucky.smelting
+    - mcmmo.perks.lucky.swords
+    - mcmmo.perks.lucky.taming
+    - mcmmo.perks.lucky.unarmed
+    - mcmmo.perks.lucky.woodcutting
+  King:
+    options:
+      default: false
+      prefix: '&8[&6King&8] &7'
+    inheritance:
+    - Knight
+    - Roamer
+    - Ranger
+    - Adventurer
+    - Explorer
+    - Warrior
+    permissions:
+    - modifyworld.*
+  Owner:
+    options:
+      default: false
+      prefix: '&8[&4Owner&8]'
+    inheritance:
+    - King
+    permissions:
+    - essentials.*
+schema-version: 1

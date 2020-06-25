@@ -1,0 +1,53 @@
+# see https://github.com/okx-code/Rankup3/wiki/Rank-format      
+
+# this name doesn't matter
+Roamer:
+  # the name of the group
+  # players have to be in this rank to rankup
+  rank: 'Roamer'
+  # the name of the rank a player can rankup to
+  next: 'Ranger'
+  # List of requirements to go to the next rank
+  # This example will charge 1000 money to rankup from A to B.
+  # https://github.com/okx-code/Rankup3/wiki/Requirements
+  # custom requirements can also be added by other plugins.
+  requirements:
+    - 'money 10000'
+  # the console will run these commands when a player ranks up
+  # nb: groups are automatically changed with vault
+  #commands:
+  # this will run when a player ranks up from A to B.
+  #- 'say {PLAYER} well done for ranking up from {OLD_RANK} to {RANK}!'
+Ranger:
+  rank: 'Ranger'
+  next: 'Adventurer'
+  requirements:
+    - 'money 30000'
+Adventurer:
+  rank: 'Adventurer'
+  next: 'Explorer'
+  requirements:
+    - 'money 50000'
+Explorer:
+  rank: 'Explorer'
+  next: 'Warrior'
+  requirements:
+    - 'money 75000'
+Warrior:
+  rank: 'Warrior'
+  next: 'Knight'
+  requirements:
+    - 'money 100000'
+Knight:
+  rank: 'Knight'
+  next: 'King'
+  requirements:
+    - 'money 500000'
+  # you can have a custom messages for each rank
+  # the paths of these messages are the same as in the messages for your locale
+  rankup:
+    requirements-not-met: '&cYou need 5000 money and 2 levels of XP to rankup to D.'
+    list:
+      complete: "&7{OLD_RANK} &8\xbb &7{RANK} &e(5000 money, 2 XP levels)"
+      current: "&c{OLD_RANK} &e\xbb &c{RANK} &e(5000 money, 2 XP levels)"
+      incomplete: "&r{OLD_RANK} &e\xbb &r{RANK} &e(5000 money, 2 XP levels)"

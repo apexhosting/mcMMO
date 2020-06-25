@@ -1,0 +1,196 @@
+# LineBreak: \, |, bracket is NOT working. Recommended character: /, _, ;, ※
+Buttons:
+  '0':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '2':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '4':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '6':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '8':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '44':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '36':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '7':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '5':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '3':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '1':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '27':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '35':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '17':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '9':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '18':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '26':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '10':
+    displayName: §3Weapon&Armor
+    lore: §fGo to shop
+    icon: DIAMOND_SWORD
+    action: ds shop Weapon&Armor
+  '34':
+    displayName: §3Concrete
+    lore: §fGo to shop
+    icon: BLACK_CONCRETE
+    action: ds shop Concrete
+  '32':
+    displayName: §3Wool
+    lore: §fGo to shop
+    icon: WHITE_WOOL
+    action: ds shop Wool
+  '16':
+    displayName: §3Transport
+    lore: §fGo to shop
+    icon: RAIL
+    action: ds shop Transport
+  '22':
+    displayName: §3Ore
+    lore: §fGo to shop
+    icon: COAL
+    action: ds shop Ore
+  '20':
+    displayName: §3Food
+    lore: §fGo to shop
+    icon: BREAD
+    action: ds shop Food
+  '12':
+    displayName: §3Booty
+    lore: §fGo to shop
+    icon: BONE
+    action: ds shop Booty
+  '28':
+    displayName: §3Block
+    lore: §fGo to shop
+    icon: GRASS_BLOCK
+    action: ds shop Block
+  '30':
+    displayName: §3Wood
+    lore: §fGo to shop
+    icon: OAK_WOOD
+    action: ds shop Wood
+  '14':
+    displayName: §3Dyes
+    lore: §fGo to shop
+    icon: RED_DYE
+    action: ds shop Dyes
+  '24':
+    displayName: §3Redstone
+    lore: §fGo to shop
+    icon: REDSTONE
+    action: ds shop Redstone
+  '45':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '47':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '49':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '51':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '53':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '52':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '50':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '48':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '46':
+    icon: BLUE_STAINED_GLASS_PANE
+    action: ''
+  '42':
+    displayName: §3Terracotta
+    lore: §fGo to shop
+    icon: ORANGE_TERRACOTTA
+    action: ds shop Terracotta
+  '40':
+    displayName: §3Glass
+    lore: §fGo to shop
+    icon: GLASS
+    action: ds shop Glass
+  '11':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '21':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '19':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '29':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '39':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '37':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '31':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '23':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '13':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '15':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '25':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '33':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '43':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '41':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ''
+  '38':
+    displayName: §3Potion&Enchant
+    lore: §fGo to shop
+    icon: POTION
+    action: ds shop Potion&Enchant
+Options:
+  LineBreak: /
+  Title: §3§lShop
+  UiSlotCount: 54

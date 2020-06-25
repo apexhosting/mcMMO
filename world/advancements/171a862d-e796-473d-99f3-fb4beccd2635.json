@@ -1,0 +1,246 @@
+{
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_boots": "2019-07-09 06:40:31 +1000",
+      "has_iron_leggings": "2019-07-09 06:40:31 +1000",
+      "has_iron_helmet": "2019-07-09 06:40:31 +1000",
+      "has_iron_chestplate": "2019-07-09 06:40:31 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2019-07-09 06:50:11 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2019-11-26 08:48:01 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:40 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2019-11-26 08:43:15 +1100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2019-11-26 08:43:15 +1100",
+      "minecraft:spider": "2019-11-26 08:44:06 +1100",
+      "minecraft:creeper": "2019-11-26 08:49:13 +1100",
+      "minecraft:slime": "2019-11-26 08:44:10 +1100",
+      "minecraft:zombie": "2019-11-26 08:43:35 +1100"
+    },
+    "done": false
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2019-07-09 06:40:31 +1000",
+      "iron_chestplate": "2019-07-09 06:40:31 +1000",
+      "iron_leggings": "2019-07-09 06:40:31 +1000",
+      "iron_helmet": "2019-07-09 06:40:31 +1000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "porkchop": "2019-07-09 06:50:15 +1000",
+      "rotten_flesh": "2019-07-09 06:50:18 +1000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2019-11-26 08:46:07 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2019-11-26 08:46:07 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_boots": "2019-07-09 06:40:31 +1000",
+      "has_iron_leggings": "2019-07-09 06:40:31 +1000",
+      "has_iron_helmet": "2019-07-09 06:40:31 +1000",
+      "has_iron_chestplate": "2019-07-09 06:40:31 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2019-07-09 06:49:43 +1000",
+      "minecraft:forest": "2019-07-09 06:38:04 +1000",
+      "minecraft:beach": "2019-07-09 06:39:03 +1000",
+      "minecraft:wooded_mountains": "2019-07-09 06:49:10 +1000",
+      "minecraft:plains": "2019-07-09 06:38:03 +1000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2019-11-26 08:46:07 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2019-11-26 08:48:01 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2019-11-26 08:46:07 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-07-09 06:50:15 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2019-07-09 06:45:24 +1000",
+      "diamond_helmet": "2019-07-09 06:45:24 +1000",
+      "diamond_chestplate": "2019-07-09 06:45:24 +1000",
+      "diamond_boots": "2019-07-09 06:45:24 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:40 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2019-11-26 08:46:07 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-11-26 08:48:01 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:40 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:40 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2019-11-26 08:50:36 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2019-07-09 06:50:11 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2019-11-26 08:46:07 +1100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2019-07-09 06:50:10 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2019-07-09 06:50:11 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:40 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:40 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2019-11-26 08:48:08 +1100"
+    },
+    "done": true
+  },
+  "DataVersion": 1976
+}

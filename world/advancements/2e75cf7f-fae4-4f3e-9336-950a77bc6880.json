@@ -1,0 +1,17 @@
+{
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2019-05-11 16:04:56 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2019-05-11 16:04:37 +1000",
+      "minecraft:beach": "2019-05-11 16:10:30 +1000",
+      "minecraft:plains": "2019-05-11 16:04:37 +1000"
+    },
+    "done": false
+  },
+  "DataVersion": 1952
+}

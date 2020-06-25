@@ -1,0 +1,16 @@
+currentQuests:
+- Iron Miner
+currentStages:
+- 0
+quest-points: 0
+questData:
+  Iron Miner:
+    blocks-broken-names:
+    - IRON_ORE
+    blocks-broken-amounts:
+    - 0
+    blocks-broken-durability:
+    - 0
+completed-Quests: none
+hasJournal: false
+lastKnownName: robert_beckley

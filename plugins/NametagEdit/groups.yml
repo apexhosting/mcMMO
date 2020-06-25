@@ -1,0 +1,31 @@
+Groups:
+  Owner:
+    Permission: nte.owner
+    Prefix: '&4Owner &f' 
+    Suffix: '&f'
+    SortPriority: 1
+  Admin:
+    Permission: nte.admin
+    Prefix: '&cAdmin &f'
+    Suffix: '&f'
+    SortPriority: 2
+  Staff:
+    Permission: nte.moderator
+    Prefix: '&3Staff &f'
+    Suffix: '&f'
+    SortPriority: 3
+  member2:
+    Permission: nte.ranger
+    Prefix: '&eRanger &f'
+    Suffix: '&f'
+    SortPriority: 9
+  member3:
+    Permission: nte.roamer
+    Prefix: '&2Roamer &f'
+    Suffix: '&f'
+    SortPriority: 9
+  member:
+    Permission: nte.adventurer
+    Prefix: '&aAdventurer &f'
+    Suffix: '&f'
+    SortPriority: 9

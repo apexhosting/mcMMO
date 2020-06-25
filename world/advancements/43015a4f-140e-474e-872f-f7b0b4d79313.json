@@ -1,0 +1,137 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_boots": "2019-07-09 06:41:50 +1000",
+      "has_iron_leggings": "2019-07-09 06:41:50 +1000",
+      "has_iron_helmet": "2019-07-09 06:41:50 +1000",
+      "has_iron_chestplate": "2019-07-09 06:41:50 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2019-07-02 07:13:29 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:26 +1000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-07-09 06:43:36 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-07-02 07:13:29 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:26 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2019-07-09 06:42:44 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2019-07-09 06:43:48 +1000",
+      "minecraft:zombie": "2019-07-09 06:42:44 +1000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2019-07-09 06:52:32 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:26 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:26 +1000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2019-07-09 06:41:50 +1000",
+      "iron_chestplate": "2019-07-09 06:41:50 +1000",
+      "iron_leggings": "2019-07-09 06:41:50 +1000",
+      "iron_helmet": "2019-07-09 06:41:50 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2019-07-02 07:14:13 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:26 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_red_flower": "2019-07-09 06:52:45 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2019-07-02 07:13:59 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_boots": "2019-07-09 06:41:50 +1000",
+      "has_iron_leggings": "2019-07-09 06:41:50 +1000",
+      "has_iron_helmet": "2019-07-09 06:41:50 +1000",
+      "has_iron_chestplate": "2019-07-09 06:41:50 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2019-07-09 06:48:26 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2019-07-02 07:11:50 +1000",
+      "minecraft:mountains": "2019-07-09 06:53:22 +1000",
+      "minecraft:beach": "2019-07-09 06:44:22 +1000",
+      "minecraft:wooded_mountains": "2019-07-09 06:53:17 +1000",
+      "minecraft:plains": "2019-07-02 07:11:49 +1000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2019-07-02 07:13:29 +1000"
+    },
+    "done": true
+  },
+  "DataVersion": 1968
+}
