@@ -58,6 +58,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    seed-based-feature-search: true
+    portal-create-radius: 16
     portal-search-radius: 128
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false

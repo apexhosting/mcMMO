@@ -1,0 +1,11 @@
+dragon-name: "&3Barrioth the Gentle"
+bar-style: SEGMENTED_10
+bar-color: PINK
+
+spawn-weight: 0.25
+
+attributes:
+  GENERIC_MAX_HEALTH: 400
+  GENERIC_ARMOR: 5
+
+loot: "rare_dragon"

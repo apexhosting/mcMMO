@@ -1,0 +1,7 @@
+dragon-name: "&bFalcor"
+bar-style: SOLID
+bar-color: RED
+
+spawn-weight: 2
+
+loot: "common_dragon"

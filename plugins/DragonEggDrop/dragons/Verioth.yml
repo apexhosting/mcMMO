@@ -1,0 +1,11 @@
+dragon-name: "&2Verioth the Chosen"
+bar-style: SEGMENTED_10
+bar-color: GREEN
+
+spawn-weight: 0.25
+
+attributes:
+  GENERIC_MAX_HEALTH: 400
+  GENERIC_ARMOR: 5
+
+loot: "rare_dragon"

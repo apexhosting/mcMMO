@@ -22,12 +22,19 @@ npc:
         z: '156.2076'
         yaw: '179.0557'
         pitch: '0.0'
+        bodyYaw: 179.0557
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Bdfc4CtLr0ouJLu4D3v1UlaccIguXmv1S1qY6n5LqKBkXF1JgGS5rMXKfubjWEXJ28w8TFeeHaXU3ciJwPOUTg0J433u/a4le6IquY/WBpkCg1ZRA8wAEXQqq4Wwx2DNtHCFQMfc0MZsi4GPHiIXGVulFWTICb5M34mAFvksDP0lcHDKiZKM1+rV31qKutlaYeIqb1eKD1lAj8tVINLKWB2CGXpNg/XxdMviRg3xa4EiM5dbBYk7fI4DxP9UuedvprEKIMrYXBkzgiEDuH3FbONzPEUUCOp1nz/LI7Wr7WFP49FgX/gmq0SdL5617bgVesGkC+e7VcOBql1gtpIAgDXTmSOUKS5nw1VKcVrtXExwh2SpPZuZKLZ5GxmtORHK8kfZtmswasiqtUwa3zcnEKegFy4mVE0srMpNRPbUWOjVsovEqxQQzmsfQP1lpwDhVQaQbB7F7jJYIm+T+U1vC/jc0w9SlDubqLX8VavwSvMaL8hFim2ybJ/HC09728C0vP3vYsXbEwDhHHG2Ls3XYTm40lkukxe1K29HBN+LvVmP6eWrc05+BrHOOk6n0k59yUMnFO4VNyWW3/JgZfNCS2nqVtOvHDV40giM0+gmG3PW4XAR2dJqeGVHgKjxPNZhcwjghDfSS0eDqfHvwOipbyGZMNzwt7J0lAo3WGqa+YA=
+        skinName: miner
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODY0MDAwNTUsInByb2ZpbGVJZCI6IjRlOTRmNDVjNzU5YzQyOTNhZjE2ZmRmMjE5MjM3YTVkIiwicHJvZmlsZU5hbWUiOiJNaW5lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ4ODcwY2E3N2FhNjk5ZDAxNzA5M2I4Mjc3OWQwYTU5OGRjNGYzZjQ5ZDM1MTUzMmFlNGQ5NjMzZGNjMmE1YSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,inventory,gravity,spawned,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,location,equipment,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -51,12 +58,19 @@ npc:
         z: '169.4421'
         yaw: '-90.872'
         pitch: '0.0'
+        bodyYaw: -90.872
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
+        skinName: currency
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,gravity,spawned,inventory,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,location,equipment,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -80,12 +94,19 @@ npc:
         z: '173.3547'
         yaw: '-90.3488'
         pitch: '0.0'
+        bodyYaw: -90.3488
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
+        skinName: currency
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,gravity,inventory,spawned,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,equipment,location,inventory,owner,spawned,skintrait,gravity,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -109,12 +130,19 @@ npc:
         z: '176.2682'
         yaw: '-89.9865'
         pitch: '0.0'
+        bodyYaw: -89.9865
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
+        skinName: currency
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,inventory,gravity,spawned,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,equipment,location,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -138,12 +166,19 @@ npc:
         z: '169.5'
         yaw: '179.1382'
         pitch: '0.0'
+        bodyYaw: 179.1382
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
+        skinName: currency
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,spawned,inventory,gravity,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,location,equipment,inventory,owner,spawned,skintrait,gravity,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -167,12 +202,19 @@ npc:
         z: '176.2264'
         yaw: '84.6393'
         pitch: '0.0'
+        bodyYaw: 84.6393
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
+        skinName: currency
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,inventory,gravity,spawned,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,equipment,location,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -196,12 +238,19 @@ npc:
         z: '173.2709'
         yaw: '88.5049'
         pitch: '0.0'
+        bodyYaw: 88.5049
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
+        skinName: currency
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,spawned,gravity,inventory,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,location,equipment,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -226,12 +275,19 @@ npc:
         z: '138.5'
         yaw: '90.5149'
         pitch: '0.0'
+        bodyYaw: 90.5149
       gravity:
         enabled: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
+        skinName: currency
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
+        updateSkins: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,spawned,inventory,gravity,owner,location,type,scoreboardtrait
+    traitnames: mounttrait,location,equipment,inventory,owner,spawned,skintrait,gravity,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -252,8 +308,9 @@ npc:
         x: '-4.4248'
         y: '64.5'
         z: '134.5626'
-        yaw: '-57.6406'
-        pitch: '4.4549'
+        yaw: '-24.7003'
+        pitch: '4.7496'
+        bodyYaw: -24.700317
       gravity:
         enabled: false
       type: PLAYER
@@ -270,10 +327,16 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: f/CkyJ4Fc6Cm+nNKKLGgGDcB2BNSEzXXLsPdctIEtTICSu7mSX6uoKrFhzGr1nJGaKpB6bK6rWtV2DjQ803Tbu20chbO6fLgXIpylRZiZlXXJ5E6fq+wK8OjPQzM7D2AALEy41xNuL0rVjplz35uRjhdQpF28dbzf/w5wTFfnezG2C33nFwE8dZ56xWcQVNlMaNSIqdwwEdmiy+KwmHF9DIxvaK0G9t4iGDGBIHhmDpMgVTRV8wg73+C8BMTxyxswZBVyA32qWY+1u4B0HX3c9pt6eSUwvFczv1vtV9pp/r9B213YDeK0z+nEq5B92sOFXCIUDB4bdh/vMGtnQs/RIrgaN13O2jgxfVjlk5z/LrNkd5K32fcYSV6AAHmrD6cGQoQH9pjLWVcLO+mdYeJleKMJjk7ONwTBOpMDlSXfQxR1iDKkAUBlrzcjJ/RF+9Uq4yDX2CA1Z7XEPXEZhirrBlSKHAmsoByL/lIyqGKueE+q5TVeReJbfoPgR7514e6GDEVOXvoniyuo3Vd9AXxwJ6aY+htVQTN4vVc0XluBwybzxlEn+6CmBDL4ARvEemkT5kR3Aqj0E5QABFY7uK2WhQZX8xjTS8MJ8Amf6XoYbZdzE8jCozfliJYYy7X/zdd7gPWh27rBXcg1in14G4NfaRd3EpeDQi21frH8ygXvWE=
+        skinName: fallenicarus
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDI5NzM2NTIsInByb2ZpbGVJZCI6IjIzMzIzODRjZTk2YzQyMWQ5ZjI1NTI1NTEyNWEzZjk3IiwicHJvZmlsZU5hbWUiOiJGYWxsZW5JY2FydXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNTQwYTE2MjQyZGM1ZmRmZTM4MGQ4OWQwZDUwYzBjODQyYThiZDAyNDc3NGFlZjkyOGY0NTE0ODk2YzdiYWMifX19
+        updateSkins: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,equipment,gravity,inventory,spawned,owner,location,lookclose,type,scoreboardtrait
+    traitnames: mounttrait,equipment,location,inventory,owner,lookclose,spawned,gravity,skintrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -294,8 +357,9 @@ npc:
         x: '-4.3882'
         y: '64.5'
         z: '144.4076'
-        yaw: '-159.5944'
-        pitch: '4.9104'
+        yaw: '-107.0271'
+        pitch: '4.5679'
+        bodyYaw: -107.02712
       gravity:
         enabled: false
       type: PLAYER
@@ -312,10 +376,16 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: yhbBQQ1OeyqizNlRJn6sS2JWoP41DS84BSybEZff+RAhrcq2dpZCQAeUTXz8xiyZnk9OHRsI32+6K9M5Q4HObWGtzP9gTHQa+DgfifmlNaY1rYfLcSpgUBZzrI33RWCxAZbq4OmbfQdOW8zaZULviY2eJ85IA/c7OFwAM8OwAxmOFSi5kjHW27H4ygtQJOFGZIt5+NKCTDxw91MOUBPCtWxsJit4Z6/R2IwqsOOso/0WxoZ7UVYReU0qq3y4kEHWa7yPtCevRmjpdgdLlXzcpq9/U9jz8ehaszmvt85AX2QsikWtWzBLt5Y1yzRJ2JzifPLHwNDvp5j7RVXlldPTeTO2+tBH/3VXem1TPBuvDTg2Zq6Zua0r/h5jtsCe+pEBkHSP4KsPmdGYw9qmLhNid1SB2BOSWERx1S0JbBF5N1sawYmkXyYTKE+sD1tO0Y9scFgwFNq5dOOsykvPdetxfYmcPC5qMsv057D4Etp81QGLSaAP0EUjUtagae4MDiVLSf9jeH8d0uNmrc1kz9P+o4ps53/ZCJ19mC9CcuCeFr621NcVmcxD6MPqbf4PG4jH8X/8J910uo8hsICbWhWPptX1EaES+YhbSIx3apGkZkDVVnNwIrpqYj+mi4ChZuE+OCOOTe5tSlyjTjefZF8uCmQzgBuXdZszlYJo1Eeu6CY=
+        skinName: toodie
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDMyNTExMzQsInByb2ZpbGVJZCI6IjhiOTU5MjI5Y2QxMzQzOGY4NzgwMjZiNDNkNzJlMTIzIiwicHJvZmlsZU5hbWUiOiJUb29kaWUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk0MTkwNTVmOTAzMTE1ZjQ5ZjU2YzkxNWYwMWUxNzYwYWIwODhiMTRmOTdiYTRlYjU5MGI1M2M1ZjQzODViNWQifX19
+        updateSkins: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,equipment,gravity,inventory,spawned,owner,location,lookclose,type,scoreboardtrait
+    traitnames: mounttrait,equipment,location,inventory,owner,lookclose,spawned,gravity,skintrait,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -334,8 +404,9 @@ npc:
         x: '5.3807'
         y: '64.5'
         z: '144.394'
-        yaw: '168.1534'
-        pitch: '5.1176'
+        yaw: '149.6208'
+        pitch: '4.5783'
+        bodyYaw: 149.62082
       gravity:
         enabled: false
       lookclose:
@@ -352,10 +423,15 @@ npc:
           '1': 360.0
       type: PLAYER
       spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: UvK+Wsp3fcS5VQOWJqn7/OvsO38FVZAjibuAsbF2B28JNcH/rXQizryOjvP56GwR7WSSd4iknTi18rQlAVADTXtHKj2d9cARA2Yn7cESEDbs7ZA7pdmLBgKmintw4RK9l9cYNrjnD4PazG/1iCLsHjm0srBTFDb4pkssxXRNBp9Lps70SXD0yOoW2Fot91vtPxHd4a7mugVV+4zJzMxHYBV0YC2AYEKi2yR5RFb94XH+sVwWFq9xpd5cNPzs8YlYA1lKr56hM1n996rCAcWpJJbljh6u1vMuZTrjqTcqQ7zTp6f/eBnqq106gpgU3gCc1pwUAxyDXi03RIuqOelyDviZZ8ButJbA6bJoM7ATKTLKBniIQtfgYqIo1MSJzUpEsJ2u3hjAI1UROk9kktX+/EfVABfQMdTnl7GZQkT55GPrwlxoGidT4y19V+ebSK+o1udPUxQdzH+0/av7gNMnaLXTcbsGrO+9ihvrjknprk4akxF8w2+lN5Wcm9E4UOjuHtVqJFBVeNiOnfM3PmSUYboHJCxwLqYbZ2TI44Z+psA0JshC26xzEJmKCPIuKUgx22RhBPSC7UGAIB6LPW3wmpgPuNVjrHdB4GygUfKSNZSSPAT4uK8oYeYPpZd+LriKR3hE3lgYRrebtJZ1WglGEnpkSad4CPZxQih50c/8DLo=
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTg4OTUsInByb2ZpbGVJZCI6IjA1Mjk4YmJiN2JiMjQzNmJhZjkyYzJiNjI0ZGE4NGJiIiwicHJvZmlsZU5hbWUiOiJNY01NTyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlYjA5NWZmYTg1M2ZkZjVjZjc3MDA1YjhhZjQ0ODQ4MWI1YTYzNGQ1Y2U4NTNkZDczOTVmNTgxODk3ZmFhNyJ9fX0=
+        updateSkins: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,equipment,spawned,inventory,gravity,owner,location,lookclose,type,scoreboardtrait
+    traitnames: mounttrait,location,equipment,inventory,owner,spawned,lookclose,skintrait,gravity,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -376,8 +452,9 @@ npc:
         x: '5.3475'
         y: '64.5'
         z: '134.6288'
-        yaw: '22.9261'
-        pitch: '12.0724'
+        yaw: '29.0126'
+        pitch: '11.9403'
+        bodyYaw: 29.012558
       gravity:
         enabled: false
       lookclose:
@@ -394,10 +471,16 @@ npc:
           '1': 360.0
       type: PLAYER
       spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: N5u5vgi2kW1wD2Z9v8re3POpjZshDB/m6I66UQGndBnbeEOwP5QbRAHf6qxJ43cBO5Y5nykVzrbMNnNyITJNGwwxV4Yt9YGsVEuxakuz0cVcupCoWYCj0Ahi+THrbPuW7yfxygaweIPMXkVzGLkT07e9ALuSnxioa+s9RU/eTfwP4WcfDP7PLvph3Yh6uFxR+YHHAwh6zK0NMlGnyYHOZ+NE7FH3uPadR9mlK6dQ4QAQ3GfEHqwDQqzYsYndI+OexEqWRXfC7Litk22xrTJipn5FVS8NbZJVD8cF8cr4F7w9+ADwWaW90xRC9Z1s6VvYomPZ7vntg6HghXh363rTe9/iOo2hEuj0WKbHGIBmRp3cqOMBPDpMdeXxd2taa8orpm9V2Nqk+ebTtH6ygOJi0pZgD2IndySazUrL+R0v74KTK8nkes63lEzgVQlr2c9FxwCU+E8yjwtMpajwC/eV3a6zPODQqsmH2RV0NNKlAxeLO+Ed/2cTaoFALHzcQ/d8Feg2ONRO6rT67wah3MACJIae2EXSTd9/0IgN2it5l7w8+baDZXE0lgvpcpflZ+6hnMPDivBWTWiE1JFSYU3OjLJOHqtVkkEEneh87G83GM/0+6fAoHVOmX+WZ0j4cvh7A76ElRMc1yLpZ82YPq8tiONWoe2UwRccHNeqnKm++dI=
+        skinName: xthexcommanderx
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDMzOTMxNTMsInByb2ZpbGVJZCI6IjhmM2I0ZjkxNTkyYzQwZDk4NTVhZGE5MTA1NTNmNWMxIiwicHJvZmlsZU5hbWUiOiJ4VGhleENvbW1hbmRlcngiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4ODQyM2Y1MjFmNDM1YjdjMmY5Y2RlZmNjZDljYTI3NDFkZmU1MWYzNjU3YmYyNWMwN2RiMTAwZjBiMDc2YjEifX19
+        updateSkins: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,equipment,inventory,spawned,gravity,owner,location,lookclose,type,scoreboardtrait
+    traitnames: mounttrait,equipment,location,inventory,owner,lookclose,spawned,skintrait,gravity,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

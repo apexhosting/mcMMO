@@ -1,4 +1,6 @@
 # See https://github.com/FlyingPikachu/Quests/wiki/2-%E2%80%90-Configuration
+allow-pranks: true
+top-limit: 150
 strict-player-movement: 0
 accept-timeout: 20
 allow-command-questing: true

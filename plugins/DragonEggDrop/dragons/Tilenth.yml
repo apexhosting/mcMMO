@@ -1,0 +1,15 @@
+dragon-name: "&8Tilenth, Lord of Death"
+bar-style: SEGMENTED_20
+bar-color: PURPLE
+
+spawn-weight: 0.05
+spawn-announcement:
+  - "&8[&c!!!&8] %dragoneggdrop_dragon% has respawned in the end!"
+  - "&7Kill it before the others can reap its rewards!"
+
+attributes:
+  GENERIC_MAX_HEALTH: 600
+  GENERIC_ARMOR: 15
+  GENERIC_ATTACK_DAMAGE: 9
+
+loot: "legendary_dragon"

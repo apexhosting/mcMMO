@@ -249,6 +249,8 @@ command:
     error:
       nojob: Please join a job first.
     output: 'Level %joblevel% for %jobname%: %jobxp%/%jobmaxxp% xp'
+    bossBarOutput: 'Lvl %joblevel% %jobname%: %jobxp%/%jobmaxxp% xp%gain%'
+    bossBarGain: ' &7(&f%gain%&7)'
   shop:
     help:
       info: Opens special jobs shop.
@@ -260,6 +262,9 @@ command:
       reqJobs: '&eRequired jobs:'
       reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
       reqTotalLevel: '&6Required total level: &e%totalLevel%'
+      reqJobsColor: '&4'
+      reqJobsLevelColor: '&4'
+      reqTotalLevelColor: '&4'
       cantOpen: '&cCan''t open this page'
       NoPermForItem: '&cYou don''t have required permissions for this item!'
       NoPermToBuy: '&cNo permissions to buy this item'
@@ -309,8 +314,10 @@ command:
       rightClick: '&eRight click to join job'
       leftSlots: '&eLeft slots:&f '
       working: '&2&nAlready working'
+      cantJoin: '&cYou can''t join to the selected job.'
       max: '&eMax level:&f '
       back: '&e<<< Back'
+      next: '&eNext >>>'
     output:
       break:
         info: '&eBreak'
@@ -417,6 +424,7 @@ command:
       info: Check who visited this chunk
     error:
       noexplore: No one visited this chunk
+    fullExplore: '&aThis chunk is fully explored'
     list: '&e%place%. %playername%'
   browse:
     help:
@@ -465,6 +473,10 @@ command:
       noquests: '&cThere are no quests'
     toplineseparator: '&7*********************** &6[playerName]&2(&f[questsDone]&2)
       &7***********************'
+    status:
+      changed: '&2The quests status has been changed to&r %status%'
+      started: '&aStarted'
+      stopped: '&cStopped'
     output:
       completed: '&2      !Completed!&r      '
       questLine: '[progress] &7[questName] &f[done]&7/&8[required]'
@@ -554,6 +566,8 @@ command:
       money: '&6money: %amount% '
       exp: '&eexp: %amount% '
       points: '&6points: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2
+        %points%'
       bottomline: '&7***********************************************************'
       prev: '&e<<<<< Prev page &2|'
       next: '&2|&e Next Page >>>>'
@@ -568,6 +582,8 @@ command:
       money: '&6money: %amount% '
       exp: '&eexp: %amount% '
       points: '&6points: %amount%'
+      totalIncomes: '    &6Total money:&2 %money%&6, Total exp:&2 %exp%&6, Total points:&2
+        %points%'
       bottomline: '&7**************************************************************'
       nodata: '&cData not found'
   transfer:

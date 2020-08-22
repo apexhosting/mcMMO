@@ -1,0 +1,12 @@
+dragon-name: "&4Bassilith, Lord of Ice"
+bar-style: SEGMENTED_12
+bar-color: BLUE
+
+spawn-weight: 0.15
+
+attributes:
+  GENERIC_MAX_HEALTH: 500
+  GENERIC_ARMOR: 10
+  GENERIC_ATTACK_DAMAGE: 6
+
+loot: "very_rare_dragon"

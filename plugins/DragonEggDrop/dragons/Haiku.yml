@@ -1,0 +1,7 @@
+dragon-name: "&cHaiku"
+bar-style: SOLID
+bar-color: GREEN
+
+spawn-weight: 2
+
+loot: "common_dragon"

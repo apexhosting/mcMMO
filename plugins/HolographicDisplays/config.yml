@@ -29,5 +29,4 @@ time:
   zone: GMT+1
 update-notification: true
 debug: false
-precise-hologram-movement: true
 quick-edit-commands: true

@@ -862,7 +862,6 @@ ItemList:
   YELLOW_WOOL: 黄色羊毛
   ZOMBIE_HEAD: 僵尸头颅
   ZOMBIE_HORSE_SPAWN_EGG: Spawn Zombie Horse
-  ZOMBIE_PIGMAN_SPAWN_EGG: 生成猪
   ZOMBIE_SPAWN_EGG: 生成僵尸
   ZOMBIE_VILLAGER_SPAWN_EGG: Spawn Zombie Villager
   ZOMBIE_WALL_HEAD: 生物头颅
@@ -976,12 +975,114 @@ ItemList:
   HONEYCOMB_BLOCK: Honeycomb Block
   HONEY_BLOCK: Honey Block
   HONEY_BOTTLE: Honey Bottle
+  ANCIENT_DEBRIS: ancient debris
+  BASALT: basalt
+  BLACKSTONE: blackstone
+  BLACKSTONE_SLAB: blackstone slab
+  BLACKSTONE_STAIRS: blackstone stairs
+  BLACKSTONE_WALL: blackstone wall
+  CHAIN: chain
+  CHISELED_NETHER_BRICKS: chiseled nether bricks
+  CHISELED_POLISHED_BLACKSTONE: chiseled polished blackstone
+  CRACKED_NETHER_BRICKS: cracked nether bricks
+  CRACKED_POLISHED_BLACKSTONE_BRICKS: cracked polished blackstone bricks
+  CRIMSON_BUTTON: crimson button
+  CRIMSON_DOOR: crimson door
+  CRIMSON_FENCE: crimson fence
+  CRIMSON_FENCE_GATE: crimson fence gate
+  CRIMSON_FUNGUS: crimson fungus
+  CRIMSON_HYPHAE: crimson hyphae
+  CRIMSON_NYLIUM: crimson nylium
+  CRIMSON_PLANKS: crimson planks
+  CRIMSON_PRESSURE_PLATE: crimson pressure plate
+  CRIMSON_ROOTS: crimson roots
+  CRIMSON_SIGN: crimson sign
+  CRIMSON_SLAB: crimson slab
+  CRIMSON_STAIRS: crimson stairs
+  CRIMSON_STEM: crimson stem
+  CRIMSON_TRAPDOOR: crimson trapdoor
+  CRIMSON_WALL_SIGN: crimson wall sign
+  CRYING_OBSIDIAN: crying obsidian
+  GILDED_BLACKSTONE: gilded blackstone
+  HOGLIN_SPAWN_EGG: hoglin spawn egg
+  LODESTONE: lodestone
+  MUSIC_DISC_PIGSTEP: music disc pigstep
+  NETHERITE_AXE: netherite axe
+  NETHERITE_BLOCK: netherite block
+  NETHERITE_BOOTS: netherite boots
+  NETHERITE_CHESTPLATE: netherite chestplate
+  NETHERITE_HELMET: netherite helmet
+  NETHERITE_HOE: netherite hoe
+  NETHERITE_INGOT: netherite ingot
+  NETHERITE_LEGGINGS: netherite leggings
+  NETHERITE_PICKAXE: netherite pickaxe
+  NETHERITE_SCRAP: netherite scrap
+  NETHERITE_SHOVEL: netherite shovel
+  NETHERITE_SWORD: netherite sword
+  NETHER_GOLD_ORE: nether gold ore
+  NETHER_SPROUTS: nether sprouts
+  PIGLIN_BANNER_PATTERN: piglin banner pattern
+  PIGLIN_SPAWN_EGG: piglin spawn egg
+  POLISHED_BASALT: polished basalt
+  POLISHED_BLACKSTONE: polished blackstone
+  POLISHED_BLACKSTONE_BRICKS: polished blackstone bricks
+  POLISHED_BLACKSTONE_BRICK_SLAB: polished blackstone brick slab
+  POLISHED_BLACKSTONE_BRICK_STAIRS: polished blackstone brick stairs
+  POLISHED_BLACKSTONE_BRICK_WALL: polished blackstone brick wall
+  POLISHED_BLACKSTONE_BUTTON: polished blackstone button
+  POLISHED_BLACKSTONE_PRESSURE_PLATE: polished blackstone pressure plate
+  POLISHED_BLACKSTONE_SLAB: polished blackstone slab
+  POLISHED_BLACKSTONE_STAIRS: polished blackstone stairs
+  POLISHED_BLACKSTONE_WALL: polished blackstone wall
+  POTTED_CRIMSON_FUNGUS: potted crimson fungus
+  POTTED_CRIMSON_ROOTS: potted crimson roots
+  POTTED_WARPED_FUNGUS: potted warped fungus
+  POTTED_WARPED_ROOTS: potted warped roots
+  QUARTZ_BRICKS: quartz bricks
+  RESPAWN_ANCHOR: respawn anchor
+  SHROOMLIGHT: shroomlight
+  SOUL_CAMPFIRE: soul campfire
+  SOUL_FIRE: soul fire
+  SOUL_LANTERN: soul lantern
+  SOUL_SOIL: soul soil
+  SOUL_TORCH: soul torch
+  SOUL_WALL_TORCH: soul wall torch
+  STRIDER_SPAWN_EGG: strider spawn egg
+  STRIPPED_CRIMSON_HYPHAE: stripped crimson hyphae
+  STRIPPED_CRIMSON_STEM: stripped crimson stem
+  STRIPPED_WARPED_HYPHAE: stripped warped hyphae
+  STRIPPED_WARPED_STEM: stripped warped stem
+  TARGET: target
+  TWISTING_VINES: twisting vines
+  TWISTING_VINES_PLANT: twisting vines plant
+  WARPED_BUTTON: warped button
+  WARPED_DOOR: warped door
+  WARPED_FENCE: warped fence
+  WARPED_FENCE_GATE: warped fence gate
+  WARPED_FUNGUS: warped fungus
+  WARPED_FUNGUS_ON_A_STICK: warped fungus on a stick
+  WARPED_HYPHAE: warped hyphae
+  WARPED_NYLIUM: warped nylium
+  WARPED_PLANKS: warped planks
+  WARPED_PRESSURE_PLATE: warped pressure plate
+  WARPED_ROOTS: warped roots
+  WARPED_SIGN: warped sign
+  WARPED_SLAB: warped slab
+  WARPED_STAIRS: warped stairs
+  WARPED_STEM: warped stem
+  WARPED_TRAPDOOR: warped trapdoor
+  WARPED_WALL_SIGN: warped wall sign
+  WARPED_WART_BLOCK: warped wart block
+  WEEPING_VINES: weeping vines
+  WEEPING_VINES_PLANT: weeping vines plant
+  ZOGLIN_SPAWN_EGG: zoglin spawn egg
+  ZOMBIFIED_PIGLIN_SPAWN_EGG: zombified piglin spawn egg
   LEGACY_STATIONARY_WATER: 静态水
   LEGACY_STATIONARY_LAVA: 静态岩浆
   LEGACY_BURNING_FURNACE: 燃烧的熔炉
   LEGACY_NETHER_WARTS: 地狱疣
   LEGACY_IRON_DOOR_BLOCK: 铁门
-  LEGACY_GLOWING_REDSTONE_ORE: 发光的红石矿石
+  LEGACY_GLOWING_REDSTON_ORE: Glowing Redstone Ore
   LEGACY_SUGAR_CANE_BLOCK: 甘蔗
   LEGACY_RAW_FISH: 生鱼
   LEGACY_SKULL: 生物头颅
@@ -992,9 +1093,10 @@ ItemList:
   LEGACY_CAKE_BLOCK: 蛋糕
   LEGACY_DIODE_BLOCK_OFF: 红石中继器(未开启)
   LEGACY_DIODE_BLOCK_ON: 红石中继器(已开启)
-  LEGACY_BREWING_STAND: 酿造台
+  LEGACY_MELON_BLOCK: Melon Block
   LEGACY_REDSTONE_COMPARATOR_OFF: 红石比较器(未开启)
   LEGACY_REDSTONE_COMPARATOR_ON: 红石比较器(已开启)
+  LEGACY_GLOWING_REDSTONE_ORE: 发光的红石矿石
 EntityList:
   4-ELDER_GUARDIAN: Elder Guardian
   5-WITHER_SKELETON: Wither Skeleton
@@ -1017,7 +1119,6 @@ EntityList:
   54-ZOMBIE: 僵尸
   55-SLIME: 史莱姆
   56-GHAST: 幽魂
-  57-PIG_ZOMBIE: Zombie Pigman
   58-ENDERMAN: 末影人
   59-CAVE_SPIDER: 洞穴蜘蛛
   60-SILVERFISH: 蠹虫
@@ -1030,7 +1131,6 @@ EntityList:
   67-ENDERMITE: 末影螨
   68-GUARDIAN: 守护者
   69-SHULKER: 潜影贝
-  75-CAT: Cat
   90-PIG: 猪
   91-SHEEP: 羊
   92-COW: 牛
@@ -1043,15 +1143,10 @@ EntityList:
   99-IRON_GOLEM: 铁傀儡
   100-HORSE: 马
   101-RABBIT: 兔子
-  59-RAVAGER: Ravager
   102-POLAR_BEAR: 北极熊
   103-LLAMA: Llama
   105-PARROT: Parrot
-  113-PANDA: Panda
-  114-PILLAGER: Pillager
   120-VILLAGER: 村民
-  121-FOX: Fox
-  604-WANDERING_TRADER: Wandering Trader
   901-TURTLE: Turtle
   902-PHANTOM: Phantom
   904-COD: Cod
@@ -1061,12 +1156,24 @@ EntityList:
   908-DROWNED: Drowned
   909-DOLPHIN: Dolphin
   914-PLAYER: Player
-  918-TRADER_LLAMA: Trader Llama
+  917-PANDA: Panda
+  918-PILLAGER: Pillager
+  919-RAVAGER: Ravager
+  920-TRADER_LLAMA: Trader Llama
+  921-WANDERING_TRADER: Wandering Trader
+  922-FOX: Fox
+  923-CAT: Cat
   924-BEE: Bee
+  929-ZOMBIFIED_PIGLIN: Zombified Piglin
+  925-HOGLIN: Hoglin
+  926-PIGLIN: Piglin
+  927-STRIDER: Strider
+  928-ZOGLIN: Zoglin
 EnchantList:
   Fire protection: Fire protection
   Sharpness: Sharpness
   Flame: Flame
+  Unknown: Unknown
   Aqua affinity: Aqua affinity
   Punch: Punch
   Loyalty: Loyalty
@@ -1118,3 +1225,6 @@ ColorList:
   13-green: '&2Green'
   14-red: '&cRed'
   15-black: '&0Black'
+MythicEntityList:
+  AngrySludge: Angry Sludge
+  SkeletalKnight: Skeletal Knight
