@@ -139,6 +139,7 @@ NO_ITEM_TO_SELL: §fNot enough item.
 INVEN_FULL: §4Inventory is full!
 IRREVERSIBLE: §fThis action is irreversible!
 HELP:
+  SETTAX_TEMP: Set sales tax temporarily
   TITLE: '§fHelp: {command} --------------------'
   SHOP: Open Shop GUI.
   CMD: Toggle Command Help.

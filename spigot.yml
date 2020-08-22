@@ -66,6 +66,13 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    seed-endcity: 10387313
+    seed-bastion: 30084232
+    seed-fortress: 30084232
+    seed-mansion: 10387319
+    seed-fossil: 14357921
+    seed-portal: 34222645
+    end-portal-sound-radius: 0
     view-distance: default
     trident-despawn-rate: 1200
     seed-desert: 14357617
@@ -77,6 +84,7 @@ world-settings:
     seed-outpost: 165745296
     verbose: true
     entity-activation-range:
+      water: 16
       raiders: 48
       tick-inactive-villagers: true
       animals: 32

@@ -33,12 +33,18 @@ npc:
     use-new-finder: false
     default-path-distance-margin: 1
     maximum-new-pathfinder-iterations: 50000
+    new-finder:
+      iterations-per-tick: 5000
+      check-bounding-boxes: false
+      open-doors: false
+    disable-mc-fallback-navigation: true
   default:
     look-close:
       enabled: false
       range: 5
       random-look-enabled: false
       random-look-delay: 60
+      disable-while-navigating: true
     pathfinding:
       range: 25.0
     random-talker: true
@@ -49,6 +55,8 @@ npc:
       range: 5
     text:
       '0': Hi, I'm <npc>!
+    waypoints:
+      cache-paths: false
   limits:
     default-limit: 10
     max-permission-checks: 100
@@ -81,8 +89,13 @@ npc:
   teleport-delay: -1
   controllable:
     use-boat-controls: true
+    ground-direction-modifier: 1.0
+    max-ground-speed: 0.5
   player-scoreboard-teams:
     enable: true
+  always-use-name-holograms: false
+  hologram:
+    default-line-height: 0.4
 advanced:
   check-minecraft-version: true
 economy:

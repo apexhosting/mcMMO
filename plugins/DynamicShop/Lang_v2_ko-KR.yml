@@ -138,6 +138,7 @@ NO_ITEM_TO_SELL: §f판매 할 아이탬이 없습니다.
 INVEN_FULL: §4인벤토리에 빈 공간이 없습니다!
 IRREVERSIBLE: §f이 행동은 되돌릴 수 없습니다!
 HELP:
+  SETTAX_TEMP: 임시 판매 세 설정
   TITLE: '§f도움말: {command} --------------------'
   SHOP: 상점을 엽니다.
   CMD: 명령어 도움말 표시 토글.

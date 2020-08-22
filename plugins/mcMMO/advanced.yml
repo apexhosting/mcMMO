@@ -1,7 +1,7 @@
 
 #
 #  Advanced configuration
-#  Last updated on 2.1.111-b${BUILD_NUMBER}
+#  Last updated on 2.1.143-b${BUILD_NUMBER}
 #
 #  For advanced users only! There is no need to change anything here.
 #
@@ -24,6 +24,9 @@ Feedback:
     Events:
         XP:
             SendTitles: true
+        # Send notifications to the chat or actionbar of other nearby players when a user activates an ability
+        AbilityActivation:
+            SendNotificationToOtherPlayers: true
     #The actionbar is the message location right above the health bar
     ## If you disable the action bar messages, mcMMO will send the message to the chat system instead
     ActionBarNotifications:
