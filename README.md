@@ -1,5 +1,5 @@
 # mcMMO
-![alt text](https://apex-misc.s3.amazonaws.com/Images/MCMMO_Thumbnail.png)
+![alt text](https://apex-misc.s3.amazonaws.com/Images/MCMMO+Thumbnail.png)
 MCMMO is a plugin that has been around for ages. It’s common on many survival type server as a sort of enhancement for the base game of Minecraft. It adds in a ton of new skills that players can level up that affect the way the game is played in both the PvP and PvE aspects of the game. For example, you can level up your sword skill that will allow you to do more damage to both players and mobs with a sword. However, that’s not where it ends. There are also “environmental” skills that can affect how you interact with the environment such as Fishing and Acrobatics. Both skills that don’t necessarily affect PvP in an enormous way but can definitely affect how you play Minecraft in general. Along with mcMMO, this game type also has Jobs and MobArena that only enhance the mcMMO gameplay offered.
 
 https://apexminecrafthosting.com/mcmmo-server/
