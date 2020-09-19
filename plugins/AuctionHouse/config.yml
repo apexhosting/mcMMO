@@ -84,7 +84,7 @@ log:
   dropped: true
   purged: true
 disabled-worlds: []
-configVersion: 31
+configVersion: 32
 restricted_items:
   mcmmo:
     lore:
@@ -98,6 +98,8 @@ restricted_items:
   '3':
     item: minecraft:structure_block
   example:
+    unbreakable: true
+    custom_model_data: 1
     name: \u00a7cVorpal Sword
     item: minecraft:diamond_sword
     lore:

@@ -1,7 +1,7 @@
 
 #
 #  Advanced configuration
-#  Last updated on 2.1.143-b${BUILD_NUMBER}
+#  Last updated on 2.1.145-b${BUILD_NUMBER}
 #
 #  For advanced users only! There is no need to change anything here.
 #
@@ -192,9 +192,6 @@ Skills:
             KnockbackModifier: 1.5
             BonusDamage: 2.0
         ArmorImpact:
-            # BonusMin: Minimum bonus damage for unarmed
-            # BonusMax: Maximum bonus damage for unarmed
-            # IncreaseLevel: Bonus damage increases every increase level
             IncreaseLevel: 5
             # IncreaseLevel: Every <IncreaseLevel> the durability damage goes up with 1
             # Chance: Chance of hitting with ArmorImpact
@@ -416,9 +413,6 @@ Skills:
         SecondSmelt:
             # ChanceMax: Maximum chance of preventing being disarmed
             # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
-            # ChanceMax & MaxBonusLevel are only used for Classic, I'll make that more clear in the future.
-            # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
-            # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
             ChanceMax: 50.0
             MaxBonusLevel:
                 Standard: 100
@@ -443,6 +437,9 @@ Skills:
     ###
     Swords:
         Rupture:
+            # ChanceMax & MaxBonusLevel are only used for Classic, I'll make that more clear in the future.
+            # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
+            # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
             ChanceMax: 33.0
             MaxBonusLevel:
                 Standard: 100
@@ -516,6 +513,32 @@ Skills:
                 RetroMode: 1000
         IronArmStyle:
             IncreaseLevel: 10
+        SteelArmStyle:
+            # BonusMin: Minimum bonus damage for unarmed
+            # BonusMax: Maximum bonus damage for unarmed
+            # IncreaseLevel: Bonus damage increases every increase level
+            Damage_Override: false
+            Override:
+                Rank_1: 1
+                Rank_2: 1.5
+                Rank_3: 2.0
+                Rank_4: 2.5
+                Rank_5: 3.0
+                Rank_6: 3.5
+                Rank_7: 4.0
+                Rank_8: 4.5
+                Rank_9: 5.0
+                Rank_10: 5.5
+                Rank_11: 6.0
+                Rank_12: 6.5
+                Rank_13: 7.0
+                Rank_14: 7.5
+                Rank_15: 8.0
+                Rank_16: 8.5
+                Rank_17: 9.0
+                Rank_18: 10.5
+                Rank_19: 12.0
+                Rank_20: 13.5
     #
     #  Settings for Woodcutting
     ###

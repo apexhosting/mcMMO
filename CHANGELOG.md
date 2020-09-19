@@ -1,6 +1,24 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1]
+
+### Changed
+- Updated Advanced Achievements from version 6.2.0 to 6.2.1
+- Updated Auction House from 2.1 RC 8 to 2.1.4
+- Updated Citizens from 2.0.27 to 2120
+- Updated Core Protect from version 19.1 to 19.2
+- Updated EssentialsX from version 2.18.0 to 2.18.1
+- Updated Grief Prevention from version 16.14.0 to 16.15.0
+- Updated Jobs from version 4.16.0 to 4.16.1
+- Updated Marriage Master from version 2.2.7 to 2.2.8
+- Updated mcMMO from 2.1.143 to 2.1.145
+- Updated Name Tag Edit from version 4.4.10 to Custom
+- Updated ProtocolLib from version 4.5.1 Build 476 to 4.6.0 Build 480
+- Updated Quests from version 3.9.5 to 4.0.0-rc-1
+- Updated WorldEdit from version 7.1.0 to 7.2.0
+
+
 ## [2.0]
 
 ### Added
@@ -42,8 +60,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
-### Changed
-- Nothing
-
+[2.1]: https://github.com/apexhosting/mcMMO/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/mcMMO/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/mcMMO/releases/tag/1.0

@@ -38,6 +38,8 @@ npc:
       check-bounding-boxes: false
       open-doors: false
     disable-mc-fallback-navigation: true
+    minecraft:
+      max-fall-distance: 3
   default:
     look-close:
       enabled: false
@@ -64,6 +66,7 @@ npc:
     max-speed: 100
   tablist:
     disable: true
+    remove-packet-delay: 1
   chunks:
     always-keep-loaded: false
   skins:

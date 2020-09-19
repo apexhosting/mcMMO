@@ -1077,6 +1077,7 @@ ItemList:
   WEEPING_VINES_PLANT: weeping vines plant
   ZOGLIN_SPAWN_EGG: zoglin spawn egg
   ZOMBIFIED_PIGLIN_SPAWN_EGG: zombified piglin spawn egg
+  PIGLIN_BRUTE_SPAWN_EGG: Piglin Brute Spawn Egg
   LEGACY_STATIONARY_WATER: Stationary Water
   LEGACY_STATIONARY_LAVA: Stationary Lava
   LEGACY_BURNING_FURNACE: Burning Furnace
@@ -1164,11 +1165,12 @@ EntityList:
   922-FOX: Fox
   923-CAT: Cat
   924-BEE: Bee
-  929-ZOMBIFIED_PIGLIN: Zombified Piglin
-  925-HOGLIN: Hoglin
-  926-PIGLIN: Piglin
-  927-STRIDER: Strider
-  928-ZOGLIN: Zoglin
+  925-ZOMBIFIED_PIGLIN: Zombified Piglin
+  926-HOGLIN: Hoglin
+  927-PIGLIN: Piglin
+  928-STRIDER: Strider
+  929-ZOGLIN: Zoglin
+  930-PIGLIN_BRUTE: Piglin Brute
 EnchantList:
   Fire protection: Fire protection
   Sharpness: Sharpness

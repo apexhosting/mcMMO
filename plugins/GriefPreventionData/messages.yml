@@ -577,3 +577,6 @@ Messages:
     Text: It seems you might be stuck inside a nether portal. We will rescue you in
       a few seconds if that is the case!
     Notes: Sent to player on join, if they left while inside a nether portal.
+  ConfirmAbandonAllClaims:
+    Text: Are you sure you want to abandon ALL of your claims?  Please confirm with
+      /AbandonAllClaims confirm

@@ -10,9 +10,9 @@ GriefPrevention:
     Mode:
       lobby: Survival
       world: Survival
-      world_the_end: Disabled
-      world_nether: Disabled
       yort: Survival
+      world_nether: Disabled
+      world_the_end: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -21,6 +21,7 @@ GriefPrevention:
     LockTrapDoors: false
     LockFenceGates: true
     EnderPearlsRequireAccessTrust: true
+    RaidTriggersRequireBuildTrust: true
     ProtectHorses: true
     ProtectDonkeys: true
     ProtectLlamas: true

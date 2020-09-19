@@ -13,6 +13,11 @@
 verbose: false
 config-version: 20
 settings:
+  console-has-all-permissions: false
+  max-joins-per-tick: 3
+  chunk-tasks-per-tick: 1000
+  player-auto-save-rate: -1
+  max-player-auto-save-per-tick: -1
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
   region-file-cache-size: 256
@@ -28,7 +33,7 @@ settings:
     secret: ''
   async-chunks:
     enable: true
-    load-threads: -1
+    threads: -1
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
@@ -38,6 +43,18 @@ settings:
   book-size:
     page-max: 2560
     total-multiplier: 0.98
+  unsupported-settings:
+    allow-headless-pistons: false
+    allow-permanent-block-break-exploits: false
+    allow-piston-duplication: false
+    allow-headless-pistons-readme: This setting controls if players should be able
+      to create headless pistons.
+    allow-permanent-block-break-exploits-readme: This setting controls if players
+      should be able to break bedrock, end portals and other intended to be permanent
+      blocks.
+    allow-piston-duplication-readme: This setting controls if player should be able
+      to use TNT duplication, but this also allows duplicating carpet, rails and potentially
+      other items
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -58,6 +75,13 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    delay-chunk-unloads-by: 10s
+    phantoms-do-not-spawn-on-creative-players: true
+    phantoms-only-attack-insomniacs: true
+    zombies-target-turtle-eggs: true
+    zombie-villager-infection-chance: -1.0
+    iron-golems-can-spawn-in-air: false
+    light-queue-size: 20
     seed-based-feature-search: true
     portal-create-radius: 16
     portal-search-radius: 128
@@ -108,6 +132,7 @@ world-settings:
     allow-leashing-undead-horse: false
     baby-zombie-movement-modifier: 0.5
     game-mechanics:
+      nerf-pigmen-from-nether-portals: false
       scan-for-legacy-ender-dragon: true
       disable-pillager-patrols: false
       disable-unloaded-chunk-enderpearl-exploit: true
@@ -117,6 +142,14 @@ world-settings:
       disable-sprint-interruption-on-attack: false
       disable-end-credits: false
       disable-relative-projectile-velocity: false
+      pillager-patrols:
+        spawn-chance: 0.2
+        spawn-delay:
+          per-player: false
+          ticks: 12000
+        start:
+          per-player: false
+          day: 5
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -175,3 +208,5 @@ world-settings:
       maximum: 0.0
     generator-settings:
       flat-bedrock: false
+    viewdistances:
+      no-tick-view-distance: -1
