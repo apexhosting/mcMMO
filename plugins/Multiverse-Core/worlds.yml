@@ -89,7 +89,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-7423690444401369148'
+    seed: '8692570616577468679'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -230,7 +230,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-7423690444401369148'
+    seed: '8692570616577468679'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

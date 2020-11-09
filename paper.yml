@@ -5,7 +5,7 @@
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
 # 
-# Discord: https://paperdiscord.emc.gs
+# Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=paper )
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
@@ -13,6 +13,7 @@
 verbose: false
 config-version: 20
 settings:
+  track-plugin-scoreboards: false
   console-has-all-permissions: false
   max-joins-per-tick: 3
   chunk-tasks-per-tick: 1000
@@ -183,6 +184,7 @@ world-settings:
       cooldown-when-full: true
       disable-move-event: false
     anti-xray:
+      lava-obscures: false
       enabled: false
       engine-mode: 1
       chunk-edge-mode: 2

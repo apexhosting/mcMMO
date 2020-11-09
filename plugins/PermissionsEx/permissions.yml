@@ -172,3 +172,9 @@ groups:
     permissions:
     - essentials.*
 schema-version: 1
+users:
+  bdc83502-6d75-4c26-a633-729e9ed81aee:
+    permissions:
+    - '*'
+    options:
+      name: AllanDev

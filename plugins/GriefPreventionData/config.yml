@@ -10,9 +10,9 @@ GriefPrevention:
     Mode:
       lobby: Survival
       world: Survival
-      yort: Survival
       world_nether: Disabled
       world_the_end: Disabled
+      yort: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true

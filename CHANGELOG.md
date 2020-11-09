@@ -1,6 +1,32 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.2]
+
+### Changed
+- Updated to 1.16.4
+- Added Server Icon
+- Added MOTD
+- Added Server List Plus
+- Fixed an issue with Potions
+- Update Action Announcer from 1.16.2 to 1.16.3
+- Update Advanced Achievements from 6.2.1 to 6.7.1
+- Update Auction House from 2.1.4 to 2.1.12
+- Update Citizens from 2.0.27 Build 2120 to 2.0.27 Build 2165
+- Update Core Protect from version 19.2 to 19.3
+- Update Grief Prevention from 16.15.0 to 16.16.0
+- Update Holographic Displays from 2.4.4 to 2.4.5
+- Update Illegal Stack Remover from 2.1.8 to 2.2.0e
+- Update Jobs from 4.16.1 to 4.16.3
+- Update Marriage Master from 2.2.8 to 2.2.10
+- Update mcMMO from 2.1.145 to 2.1.154
+- Update MobArena from 0.104.2 to 0.105
+- Update Multiverse-Core from 4.1.0 to 4.2.2
+- Update ProtocolLib from version 4.6.0 Build 480 to 4.6.0 Build 482
+- Update Quests from 4.0.0 rc 1 to 4.0.0 rc 2
+- Update WorldEdit from version 7.2.0 Beta 5 to 7.2.0
+- Update WorldGuard from version 7.0.4 Beta 1 to 7.0.4
+
 ## [2.1]
 
 ### Changed
@@ -16,7 +42,7 @@ All notable changes to this project will be documented in this file.
 - Updated Name Tag Edit from version 4.4.10 to Custom
 - Updated ProtocolLib from version 4.5.1 Build 476 to 4.6.0 Build 480
 - Updated Quests from version 3.9.5 to 4.0.0-rc-1
-- Updated WorldEdit from version 7.1.0 to 7.2.0
+- Updated WorldEdit from version 7.1.0 to 7.2.0 Beta 5
 
 
 ## [2.0]
@@ -60,6 +86,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[2.2]: https://github.com/apexhosting/mcMMO/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/mcMMO/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/mcMMO/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/mcMMO/releases/tag/1.0

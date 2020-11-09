@@ -186,10 +186,10 @@ Buttons:
     icon: CYAN_STAINED_GLASS_PANE
     action: ''
   '38':
-    displayName: §3Potion&Enchant
+    displayName: §3Potions
     lore: §fGo to shop
     icon: POTION
-    action: ds shop Potion&Enchant
+    action: ds shop Potions
 Options:
   LineBreak: /
   Title: §3§lShop
