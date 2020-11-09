@@ -6,7 +6,7 @@ Exploits:
     PunishForChestsOnMobs: false
     PreventItemSwapLagExploit: true
     PreventHoppersToUnloadedChunks: true
-    PreventInvalidPotions: true
+    PreventInvalidPotions: false
     PreventRailDupe: true
     PreventCommandsInBed: true
     PreventInvalidElytraFlight: true
@@ -36,6 +36,7 @@ Exploits:
     GroupStack: []
     AllowStack:
     - POTION
+    - SPLASH_POTION
     FixOverstackedItemInstead: false
   PortalDupe:
     EndWhiteList: []

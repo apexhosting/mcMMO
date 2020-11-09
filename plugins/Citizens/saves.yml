@@ -34,7 +34,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,location,equipment,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -70,7 +70,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,location,equipment,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -106,7 +106,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,location,inventory,owner,spawned,skintrait,gravity,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -142,7 +142,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,location,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -178,7 +178,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,location,equipment,inventory,owner,spawned,skintrait,gravity,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -214,7 +214,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,equipment,location,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -250,7 +250,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,location,equipment,inventory,owner,spawned,gravity,skintrait,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -287,7 +287,7 @@ npc:
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: mounttrait,location,equipment,inventory,owner,spawned,skintrait,gravity,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -308,9 +308,9 @@ npc:
         x: '-4.4248'
         y: '64.5'
         z: '134.5626'
-        yaw: '-24.7003'
-        pitch: '4.7496'
-        bodyYaw: -24.700317
+        yaw: '-48.4509'
+        pitch: '3.8808'
+        bodyYaw: -48.45087
       gravity:
         enabled: false
       type: PLAYER
@@ -336,7 +336,7 @@ npc:
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,equipment,location,inventory,owner,lookclose,spawned,gravity,skintrait,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,equipment,lookclose,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -357,9 +357,9 @@ npc:
         x: '-4.3882'
         y: '64.5'
         z: '144.4076'
-        yaw: '-107.0271'
-        pitch: '4.5679'
-        bodyYaw: -107.02712
+        yaw: '-89.8497'
+        pitch: '5.2076'
+        bodyYaw: -89.849655
       gravity:
         enabled: false
       type: PLAYER
@@ -385,7 +385,7 @@ npc:
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,equipment,location,inventory,owner,lookclose,spawned,gravity,skintrait,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,lookclose,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -404,9 +404,9 @@ npc:
         x: '5.3807'
         y: '64.5'
         z: '144.394'
-        yaw: '149.6208'
-        pitch: '4.5783'
-        bodyYaw: 149.62082
+        yaw: '131.573'
+        pitch: '5.6034'
+        bodyYaw: 131.57303
       gravity:
         enabled: false
       lookclose:
@@ -431,7 +431,7 @@ npc:
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,location,equipment,inventory,owner,spawned,lookclose,skintrait,gravity,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,lookclose,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -452,9 +452,9 @@ npc:
         x: '5.3475'
         y: '64.5'
         z: '134.6288'
-        yaw: '29.0126'
-        pitch: '11.9403'
-        bodyYaw: 29.012558
+        yaw: '19.4823'
+        pitch: '-2.8983'
+        bodyYaw: 19.482307
       gravity:
         enabled: false
       lookclose:
@@ -480,7 +480,7 @@ npc:
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: mounttrait,equipment,location,inventory,owner,lookclose,spawned,skintrait,gravity,scoreboardtrait,type
+    traitnames: mounttrait,owner,location,type,scoreboardtrait,lookclose,equipment,inventory,spawned,skintrait,gravity
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

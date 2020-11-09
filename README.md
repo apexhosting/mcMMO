@@ -29,6 +29,7 @@ https://apexminecrafthosting.com/mcmmo-server/
 [Quests Addon](https://www.spigotmc.org/resources/mobarena-quests-module.72355/)
 [Quests Addon](https://www.spigotmc.org/resources/mcmmo-overhaul-quests-module.69548/)
 [Rankup](https://www.spigotmc.org/resources/rankup.17933/)
+[Server List Plus](https://www.spigotmc.org/resources/serverlistplus.241/)
 [TitleManager](https://www.spigotmc.org/resources/titlemanager.1049/)
 [Vault](https://www.spigotmc.org/resources/vault.34315/)
 [WorldEdit](https://dev.bukkit.org/projects/worldedit)
