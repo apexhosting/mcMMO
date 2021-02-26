@@ -143,6 +143,8 @@ enable-boosted-items-in-offhand: true
 # Do you want to prevent crop resizing payment when placing more cactus?
 # This option is only related to: sugar_cane, cactus, kelp, bamboo
 prevent-crop-resize-payment: false
+# Allows to pay for stacked entities for each one. Requires StackMob or WildStacker.
+pay-for-stacked-entities: false
 # Allows, when losing maximum durability of item then it does not pay the player until it is repaired.
 # E.g. the player wants to enchant a item with enchanting table and the item has durability loss then not paying.
 allow-pay-for-durability-loss:
@@ -233,7 +235,7 @@ Economy:
     use: false
     # Username should be with Correct capitalization, it can be same as setup in server account before
     AccountName: Server
-    # Amount in percentage
+    # Amount in percentage. You can grant money and points permissions (jobs.tax.money.amount, jobs.tax.points.amount) for taxes.
     Amount: 15.0
     # Do you want to transfer taxes to server account?
     TransferToServerAccount: true
@@ -305,12 +307,17 @@ Economy:
   Enchant:
     # Do you want to give money for enchanting items in anvil?
     PayForEnchantingOnAnvil: false
+    # Do you want to allow players to enchant their boosted items?
+    AllowEnchantingBoostedItems: true
   Crafting:
     # With this true, player will get money for all crafted items instead of each crafting action (like with old payment mechanic)
     # By default its false, as you can make ALOT of money if prices kept from old payment mechanics
     PayForEachCraft: false
     # true - if players tries to combine (repair) 2 same items, like armor or weapon do they get income for it?
     PayForCombiningItems: true
+  VTrade:
+    # With this true, player will get money for all trade items instead of each trade action
+    payForEachTradeItem: false
   MilkingCow:
     # With this true, when timer is still going, cow milking event will be canceled
     # With this false, player will get bucket of milk, but still no payment
@@ -403,6 +410,7 @@ old-job:
 ActionBars:
   Messages:
     # When this set to true player will see action bar messages by default
+    # When false, players will see chat messages instead.
     EnabledByDefault: true
 BossBar:
   # Enables BossBar feature
@@ -431,6 +439,8 @@ ShowChatMessage:
   OnTitleChange: true
   OnLevelChange: true
   OnEmptyServerAccount: true
+# Send title and chat message when a player reached the maximum level in a job.
+SendTitleMessageWhenMaxLevelReached: false
 # Sounds
 # Extra sounds on some events
 # All sounds can be found in https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html

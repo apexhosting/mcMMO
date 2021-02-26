@@ -14,6 +14,7 @@ Exploits:
     PreventNestedShulkers: true
     PreventEndPortalDestruction: true
     DisableRidingExploitableMobs: true
+    PreventBedExplosions: true
   Enchants:
     FixIllegalEnchants: false
     RemoveUnbreakableFlag: false
@@ -53,6 +54,8 @@ Exploits:
     ExcludeNetherWorldFromHeightCheck: []
     NetherYLevel: 128
     BlockPlayersAboveNether: true
+    BlockBuildingAboveNether: true
+    EnsureSafeTeleportLocationIfAboveCeiling: true
   Teleport:
     PearlPhasing: true
   BookExploit:
@@ -88,6 +91,14 @@ Exploits:
     PreventRNGEnchant: true
   EndGateway:
     PreventEndGatewayCrashExploit: true
+  Minecart:
+    AlsoPreventHeadInside:
+    - COMPOSTER
+  1_16_Exploits:
+    Dupes:
+      PreventPiglinDupe: true
+  ShulkerCrash2: true
+  RecordDupe: true
 UserRequested:
   ItemRemoval:
     ItemNamesToRemove: []
@@ -103,6 +114,7 @@ UserRequested:
     HopperCheck:
       IgnoreAllHopperChecks: false
     BlockBadItemsFromCreativeTab: false
+    IgnoreAllShulkerPlaceChecks: false
   Obsure:
     Misc:
       RemoveAllRenamedItems: false
@@ -125,3 +137,5 @@ Misc:
   InGameOffenseNotifications: true
   NotifyNearbyPlayers: false
   DisableInWorlds: []
+  Spawners:
+    PreventSpawnEggsOnSpawners: true

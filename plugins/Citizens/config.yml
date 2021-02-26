@@ -12,6 +12,7 @@ general:
     message-error: <c>
   translation:
     locale: ''
+  debug-chunk-loads: false
 npc:
   chat:
     options:
@@ -40,6 +41,7 @@ npc:
     disable-mc-fallback-navigation: true
     minecraft:
       max-fall-distance: 3
+    straight-line-targeting-distance: 5
   default:
     look-close:
       enabled: false
@@ -76,6 +78,8 @@ npc:
     use-latest: true
     view-distance: 100.0
     use-latest-by-default: false
+    player-join-update-delay-ticks: 60
+    placeholder-update-frequency-ticks: 6000
   packets:
     update-delay: 30
   selection:
@@ -99,6 +103,16 @@ npc:
   always-use-name-holograms: false
   hologram:
     default-line-height: 0.4
+  commands:
+    error-messages:
+      maximum-times-used: You have reached the maximum number of uses ({0}).
+      no-permission: You don't have permission to do that.
+      not-enough-money: You need at least ${0}.
+      on-cooldown: Please wait {0} more seconds.
+      missing-item: Missing {1} {0}
+      on-global-cooldown: Please wait {0} more seconds.
+  follow:
+    teleport-across-worlds: true
 advanced:
   check-minecraft-version: true
 economy:

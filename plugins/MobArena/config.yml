@@ -77,6 +77,8 @@ arenas:
       join-interrupt-timer: 0
       next-wave-delay: 0
       boss-health-bar: boss-bar
+      arena-warp-offset: 0
+      announcer-type: title
     waves:
       recurrent:
         def1:

@@ -1,29 +1,115 @@
 # Below are any new strings for your current version of Quests! Transfer them to the strings.yml of the same folder to stay up-to-date and suppress console warnings.
+COMMAND_CONDITIONS_EDITOR: conditions
+COMMAND_CONDITIONS_EDITOR_HELP: <command> - Create, edit or delete conditions
+questEditorDefaultAskMessage: Challenge objectives!
+questEditorDefaultFinishMessage: Well done!
 stageEditorSmeltItems: Smelt items
 stageEditorBrewPotions: Brew potions
+stageEditorConsumeItems: Consume items
+stageEditorMilkCows: Milk cows
+stageEditorCows: cows
+stageEditorEventCleared: Action cleared.
+stageEditorFailEvent: Fail Action
+stageEditorConditions: Conditions
+stageEditorConditionCleared: Condition cleared.
 stageEditorEnterBlockAmounts: Enter block amounts, <space>, <cancel>
+stageEditorMilkCowsPrompt: Enter number of cows to milk, <clear>, <cancel>
+stageEditorConditionsPrompt: Enter a condition name, <clear>, <cancel>
 stageEditorNotSolid: is not a solid block!
+stageEditorInvalidCondition: is not a valid condition name!
 stageEditorObjectiveCleared: Objective cleared.
 stageEditorMessageCleared: Message cleared.
 eventEditorPlayer: Player
 eventEditorTimer: Timer
 eventEditorEffect: Effect
 eventEditorWeather: Weather
+conditionEditorCreate: Create new condition
+conditionEditorEdit: Edit a condition
+conditionEditorDelete: Delete a condition
+conditionEditorNoneToEdit: No conditions currently exist to be edited!
+conditionEditorNoneToDelete: No conditions currently exist to be deleted!
+conditionEditorNotFound: Condition not found!
+conditionEditorExists: Condition already exists!
+conditionEditorInUse: The following quests use the condition
+conditionEditorDeleted: Condition deleted. Quest and condition data reloaded.
+conditionEditorSaved: Condition saved. Quest and condition data reloaded.
+conditionEditorEnterName: Enter Condition name, <cancel>
+conditionEditorModifiedNote: 'Note: You have modified a condition that the following
+  quests use:'
+conditionEditorForcedToQuit: If you save the condition, anyone who is actively doing
+  any of these quests will be forced to quit them.
+conditionEditorSetName: Set name
+conditionEditorEntity: Entity
+conditionEditorWorld: World
+conditionEditorCheckPlaceholder: Check placeholder
+conditionEditorFailQuest: Fail the quest
+conditionEditorConditionCleared: Condition cleared.
+conditionEditorRideEntity: Ride entity
+conditionEditorEntitiesTitle: '- Entities -'
+conditionEditorEntitiesPrompt: Enter entity names, <space>, <cancel>
+conditionEditorPermissions: Own permission
+conditionEditorPermissionsPrompt: Enter permission nodes, <space>, <cancel>
+conditionEditorItemsInMainHand: Hold in main hand
+conditionEditorStayWithinWorld: Stay within world
+conditionEditorInvalidWorld: is not a valid world name!
+conditionEditorWorldsTitle: '- Worlds -'
+conditionEditorWorldsPrompt: Enter world names, <space>, <cancel>
+conditionEditorBiomesTitle: '- Biomes -'
+conditionEditorBiomesPrompt: Enter biome names, <space>, <cancel>
+conditionEditorStayWithinBiome: Stay within biome
+conditionEditorInvalidBiome: is not a valid biome name!
+conditionEditorRegionsTitle: '- Regions -'
+conditionEditorRegionsPrompt: Enter region names, <space>, <cancel>
+conditionEditorStayWithinRegion: Stay within region
+conditionEditorInvalidRegion: is not a valid region name!
+conditionEditorPlaceholderTitle: '- PlaceholderAPI -'
+conditionEditorSetPlaceholderId: Set placeholder identifiers
+conditionEditorSetPlaceholderVal: Set placeholder values
+conditionEditorPlaceholderCleared: Placeholder condition cleared.
+conditionEditorEnterPlaceholderId: Enter placeholder identifiers, <space>, <cancel>
+conditionEditorEnterPlaceholderVal: Enter placeholder values, <space>, <cancel>
+plnOverride: Ignore cooldown after repeat
 optNumberPrompt: Enter a level (number) for tracking progress, <clear>, <cancel>
 optAllowQuitting: Allow quitting during quest
+optIgnoreSilkTouch: Ignore blocks broken with Silk Touch
 optShareProgressLevel: Level of progress sharing
 optRequireSameQuest: Require same quest
-rewCommands: Command rewards
-rewSetCommandsOverrides: Set command display overrides
 rewCommandsCleared: Command rewards cleared.
-rewCommandsOverridePrompt: Enter command display override, <clear>, <cancel>
-rewCommandsOverrideHint: (This override will display your own text as the reward)
 rewNoCommands: You must set commands first!
-smelt: Smelt
-brew: Brew
+rewPermissions: Permission rewards
+rewSetPermissionWorlds: Set permission worlds
+rewPermissionsCleared: Permission rewards cleared.
+rewPermissionsWorldPrompt: Enter permission worlds, <semicolon>, <clear>, <cancel>
+dateCreateLoadTime: Load current time
+overrideCreateSet: Set details list override
+overrideCreateEnter: Enter replacement text, <clear>, <cancel>
+conditionEditorTitle: '- Condition Editor -'
+eventCreateTitle: '- Create Action -'
+eventEditTitle: '- Edit Action -'
+eventDeleteTitle: '- Delete Action -'
+conditionCreateTitle: '- Create Condition -'
+conditionEditTitle: '- Edit Condition -'
+conditionDeleteTitle: '- Delete Condition -'
+permissionRewardsTitle: '- Permission Rewards -'
+completedQuest: 'Completed Quests:'
+craftItem: Craft <item>
+smeltItem: Smelt <item>
+enchItem: Enchant <item>
+brewItem: Brew <item>
+consumeItem: Consume <item>
+milkCow: Milk Cow
+errorLoading: Plugin is currently loading. Please try again later!
+compassSet: Set compass target to quest <quest>.
+compassReset: Reset compass target.
+cleared: Cleared
 listsNotSameSize: All required lists must have the same number of entries!
+condition: Condition
 objectives: Objectives
 everything: Everything
+requirementsItemFail: Unable to collect required item. Is it in your off-hand?
+conditionFailQuit: Condition failed. You have quit <quest>.
+conditionFailRetry: Condition not yet met for this stage of <quest>.
+optionSilkTouchFail: Unable to progress <quest> with the Silk Touch enchantment.
 timePrompt: Enter amount of time (in seconds), <clear>, <cancel>
 duplicateEditor: You are already using an editor!
 notInstalled: Not installed

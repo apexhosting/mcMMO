@@ -146,3 +146,17 @@ IllegalEnchantLevel: '§aFixed Enchantment Level ~enchant~.(~lvl~) on ~item~ fou
   on player: ~player~'
 IllegalEnchantType: '§aCould not fix Enchantment ~enchant~.(~lvl~) on ~item~ found
   on player: ~player~ this enchantment is not valid for this item type!'
+HeadInsideSolidBlock2: 'Stopped ~player~ ''s head from being inside a ~block~ Reason:
+  potential Xray Glitch'
+ItemTypeRemovedPlayerOnPlace: '~name~ attempted to place a blacklisted item type:
+  ~item~, it has been removed'
+ItemTypeRemovedPlayerOnDrop: '~name~ attempted to drop a blacklisted item type: ~item~,
+  it has been removed'
+CustomAttribsRemoved3: Removed ~item~ with Custom attributes found in ~name~'s inventory
+  (~attributes~)
+PlayerSpawnEggBlock: §cSorry you can not use spawn eggs to change spawner types!
+StaffMsgChangedSpawnerType: Player ~player~ used ~type~ to change a spawner type @
+StaffMsgBedExplosion: Prevented a bed from being used as an explosive @
+PluginTeleportText: §6Click to teleport here
+StaffMsgDispenerFlint: Detected a downward facing dispenser from dispensing flint
+  and steel which would crash the server @

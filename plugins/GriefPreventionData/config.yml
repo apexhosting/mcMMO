@@ -10,9 +10,9 @@ GriefPrevention:
     Mode:
       lobby: Survival
       world: Survival
-      world_nether: Disabled
       world_the_end: Disabled
       yort: Survival
+      world_nether: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -34,6 +34,7 @@ GriefPrevention:
     AccruedIdlePercent: 0
     AbandonReturnRatio: 1.0
     AutomaticNewPlayerClaimsRadius: 4
+    AutomaticNewPlayerClaimsRadiusMinimum: 0
     ExtendIntoGroundDistance: 5
     MinimumWidth: 5
     MinimumArea: 100
@@ -107,8 +108,8 @@ GriefPrevention:
   BlockSurfaceOtherExplosions: true
   LimitSkyTrees: true
   LimitTreeGrowth: false
-  CheckPistonMovement: true
-  LimitPistonsToLandClaims: true
+  PistonMovement: CLAIMS_ONLY
+  PistonExplosionSound: true
   FireSpreads: false
   FireDestroys: false
   AdminsGetWhispers: true

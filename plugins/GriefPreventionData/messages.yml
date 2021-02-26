@@ -580,3 +580,5 @@ Messages:
   ConfirmAbandonAllClaims:
     Text: Are you sure you want to abandon ALL of your claims?  Please confirm with
       /AbandonAllClaims confirm
+  AutomaticClaimOtherClaimTooClose:
+    Text: Cannot create a claim for your chest, there is another claim too close!

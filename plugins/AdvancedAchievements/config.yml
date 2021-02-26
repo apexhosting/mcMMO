@@ -1,22 +1,20 @@
+
 #==============================O==============================#
 # I---------------------------------------------------------I #
 # |   Advanced Achievements 6.2.0 configuration - Readme   | #
 # 1---------------------------------------------------------1 #
 #==============================o==============================#
-
 # Only spaces, NO tabs. Don't forget the indents (2 spaces per indentation level).
 # To check syntax errors in your file, use: https://yaml-online-parser.appspot.com
 # Default config: https://github.com/PyvesB/AdvancedAchievements/blob/master/advanced-achievements-plugin/src/main/resources/config.yml
 # If you want to help the project, feel free to check our GitHub: https://github.com/PyvesB/AdvancedAchievements
 # Visit the wiki for some valuable additional documentation: https://github.com/PyvesB/AdvancedAchievements/wiki
 # For donations use: https://www.paypal.com/cgi-bin/webscr?hosted_button_id=7KTQYC4YT52NQ&cmd=_s-xclick
-
 #=============================O=O=============================#
 # II-------------------------------------------------------II #
 # |                    General  settings                    | #
 # 2---------------------------------------------------------2 #
 #=============================o=o=============================#
-
 # Time in seconds between each /aach book (unless user has permission achievement.*).
 TimeBook: 900
 
@@ -79,13 +77,13 @@ ReceiverChatMessages: true
 HoverableReceiverChatText: false
 
 # Separator between name, description and date on a book page.
-BookSeparator: ""
+BookSeparator: ''
 
 # Set the format of the achievement name in /aach list (default: "%ICON% %NAME% %ICON%").
-ListAchievementFormat: "%ICON% %NAME% %ICON%"
+ListAchievementFormat: '%ICON% %NAME% %ICON%'
 
 # Set the format of the header used for most chat messages (default: "§7[%ICON%§7]").
-ChatHeader: "§7[%ICON%§7]"
+ChatHeader: §7[%ICON%§7]
 
 # Stop all stats from increasing when player in creative mode, including PlayedTime.
 # Connection achievements will only be handled once a player switches to a non-creative mode.
@@ -103,9 +101,9 @@ RestrictAdventure: false
 # Stop all stats from increasing when player in a specific world, including PlayedTime (delete the [] before adding values).
 # Connection achievements will only be handled once a player enters a non-excluded world.
 ExcludedWorlds: []
+
 #  - yourWorld1
 #  - yourWorld2
-
 # Ignore vertical dimension (Y axis) when calculating distance statistics.
 IgnoreVerticalDistance: false
 
@@ -113,6 +111,8 @@ IgnoreVerticalDistance: false
 # Also prevent obtaining achievements for these categories and prevent stats from increasing.
 DisabledCategories:
 - AdvancementsCompleted
+- DistanceSneaking
+- JobsReborn
 
 # Obfuscate achievements that have not yet been received in /aach list.
 ObfuscateNotReceived: false
@@ -207,14 +207,13 @@ RootAdvancementTitle: Advanced Achievements
 
 # Background shown on the Advanced Achievements advancement tab.
 # Must be a resource location to any image in a resource pack.
-AdvancementsBackground: "minecraft:textures/item/book.png"
+AdvancementsBackground: minecraft:textures/item/book.png
 
 #=============================OOO=============================#
 # III-----------------------------------------------------III #
 # |                    Database settings                    | #
 # 3---------------------------------------------------------3 #
 #=============================ooo=============================#
-
 # Make a daily backup of your local database (if sqlite or h2).
 DatabaseBackup: true
 
@@ -224,25 +223,24 @@ DatabaseType: h2
 # Prefix added to the tables in the database. If you switch from the default tables names (no prefix),
 # the plugin will attempt an automatic renaming. Otherwise you have to rename your tables manually.
 # Do a full server restart for this to take effect.
-TablePrefix: ""
-  
+TablePrefix: ''
+
 # Specify additional options when opening a connection to a MySQL/PostgreSQL database. Start each option with &,
 # for instance "&useUnicode=yes&characterEncoding=UTF-8". Make sure the key-value pairs themselves are URL encoded.
-AdditionalConnectionOptions: ""
+AdditionalConnectionOptions: ''
 
 # Settings to connect to your MySQL/PostgreSQL database (ignored if sqlite).
 # A PostgreSQL database address will be similar to jdbc:postgresql://localhost:5432/minecraft
-DatabaseAddress: "jdbc:mysql://localhost:3306/minecraft"
+DatabaseAddress: jdbc:mysql://localhost:3306/minecraft
 DatabaseUser: root
 DatabasePassword: root
-  
+
 #============================OO=OO============================#
 # IV-------------------------------------------------------IV #
 # |                  Performance settings                   | #
 # |        Change only if you are an experienced user       | #
 # 4---------------------------------------------------------4 #
 #============================oo=oo============================#
-
 # Frequency of play time checks for players (seconds). Smaller values give more precision but more CPU usage.
 PlaytimeTaskInterval: 60
 
@@ -258,64 +256,56 @@ PooledRequestsTaskInterval: 10
 # |       These require sub-categories and thresholds       | #
 # 5---------------------------------------------------------5 #
 #============================ooooo============================#
-
 # When a specific block is placed (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
-Places:  
+Places:
   chest:
-    5:
-      # Optional, used in /aach list when achievement not yet received, and in advancements.
+    '5':
       Goal: Place 5 chests.
-      # Description; displayed when receiving achievement, and in /aach book and /aach list.
       Message: §6You have placed 5 chests!
-      # Database name, must also be used in /aach delete and /aach check.
       Name: place_5_chest
-      # Displayed when receiving achievement, and in /aach book and /aach list.
       DisplayName: Storage Expert
-    50:
+    '50':
       Goal: Place 50 chests.
       Message: §6You have placed 50 chests!
       Name: place_50_chest
       DisplayName: Tetris Master
   stone:
-    100:
+    '100':
       Goal: Place 100 Stones.
       Message: One hundred placed stones!
       Name: place_100_stone
       DisplayName: Stone Addict
-    1000:
+    '1000':
       Goal: Place 1000 stones.
       Message: One thousand placed stones!
       Name: place_1000_stone
       DisplayName: Stone God
       Reward:
         Command:
-          Execute: "say §7ALERT: §4PLAYER§7 has become the §4STONE GOD§7!"
+          Execute: 'say §7ALERT: §4PLAYER§7 has become the §4STONE GOD§7!'
           Display: Become the Stone God!
 
 # When a specific block is broken (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
 # You can use notations such as sand:1 for pre-1.13 versions, which means sand item with metadata 1 (red sand).
-Breaks: 
+Breaks:
   ice:
-    10:
+    '10':
       Goal: Break 10 ice blocks.
       Message: You have broken 10 ice blocks!
       Name: break_10_ice
       DisplayName: Cold Drink Supplier
-  # Use the following construct to track multiple types. Note that if ever you add/remove a type grouped to others with |,
-  # progress for this sub-category group will start back at 0.
   snow|snow_block|ice:
-    32:
+    '32':
       Goal: Break 32 ice and/or snow.
       Message: You have broken 32 ice and snow, Woo!
       Name: break_32_ice_any
       DisplayName: Praying for Summer
   stone:
-    1:
+    '1':
       Goal: Break a block.
       Message: §1The first time you went mining!
       Name: break_1_stone
       DisplayName: Cobble Gobble!
-      # Use semicolons for multiple command rewards. PLAYER will be replaced by players name.
       Reward:
         Command:
           Execute: give PLAYER dispenser 10; give PLAYER lever 5
@@ -328,42 +318,41 @@ Breaks:
 # - specificplayer- followed by player UUID to track how many times a specific player has been killed.
 Kills:
   zombie:
-    1:
+    '1':
       Goal: Kill a zombie.
       Message: The first time you killed a zombie!
       Name: kills_1_zombie
       DisplayName: The Walking Dead
       Reward:
-        Money: 1         
+        Money: 1
         Item: diamond 1
-  # Mythic Mobs 'Display' parameter. Change & to §.
   §2Skeletal Knight:
-    1:
+    '1':
       Goal: Kill the evil Skeletal Knight.
       Message: §eYou killed a Mythic Mob!
       Name: kills_1_skeletal_night
       DisplayName: Mythic Killer
   specificplayer-56c79b19-4500-466c-94ea-514a755fdd09:
-    1:
+    '1':
       Goal: Kill the evil Author.
       Message: Yippie! You killed the author of the plugin!
       Name: kills_1_darkpyves
-      DisplayName:  No More DarkPyves
+      DisplayName: No More DarkPyves
       Reward:
         IncreaseMaxHealth: 1
-          
+
 # When a specific target is shot (but not necessarily killed) with a projectile.
 # Available target block names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names
 # Available target entity names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names
 TargetsShot:
   villager:
-    10:
+    '10':
       Goal: Throw things at villagers.
       Message: You lapidated villagers 10 times.
       Name: targetsshot_10_villager
       DisplayName: The Stoner
   glass:
-    100:
+    '100':
       Goal: Try to break granny's windows.
       Message: You shot 100 projectiles at glass blocks!
       Name: targetsshot_100_glass
@@ -372,27 +361,27 @@ TargetsShot:
 # When a specific item is crafted (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
 Crafts:
   diamond_sword:
-    1:      
+    '1':
       Goal: Craft a sword.
       Message: The first time you crafted a blade!
       Name: craft_1_blade
       DisplayName: Blacksmith Apprentice
       Reward:
         Money: 2
-    100:      
+    '100':
       Goal: Craft 100 swords.
       Message: Next craft, Excalibur?
       Name: craft_100_blade
       DisplayName: Blacksmith Legend
       Reward:
         Experience: 500
-        
+
 # When a player enters a specific command (specify command prefixes in lower case without initial slash).
 # For instance a command /awf add world from the AntiWorldFly plugin matches with subcategory 'awf add'.
 # Aliases of a given command will also be taken into account.
 PlayerCommands:
   aach stats:
-    10:
+    '10':
       Goal: Check your stats 10x.
       Message: Run the stats command 10 times!
       Name: playercommand_aachstats_10
@@ -401,79 +390,76 @@ PlayerCommands:
         Commands:
           Execute: say §7PLAYER is now a statistician
           Display: Broadcast
-          
+
 # When animals breed (available names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names).
 Breeding:
   sheep:
-    1:
+    '1':
       Goal: Breed a sheep.
       Message: You bred your first sheep!
       Name: breeding_1_sheep
       DisplayName: Breeder
-      
+
 #===========================OOO=OOO===========================#
 # VI-------------------------------------------------------VI #
 # |               Normal action achievements                | #
 # |           These are based on thresholds only            | #
 # 6---------------------------------------------------------6 #
 #===========================ooo=ooo===========================#
-
 # When a player connects during the day; statistic increases at most once per day.
 Connections:
-  1:
+  '1':
     Message: You connected to our server for the first time!
     Name: connect_1
     DisplayName: Good Choice
 
 # When the player dies.
 Deaths:
-  1:
+  '1':
     Goal: You have to Die.
     Message: The first time you died!
     Name: deaths_1
     DisplayName: Rest in Peace
     Reward:
-        # Text after the material and quantity is interpreted as a custom name, shown in /aach list and when receiving the reward.
-        Item: stone 5 Tombstone
-    
+      Item: stone 5 Tombstone
+
 # When an arrow is shot.
 Arrows:
-  50:
+  '50':
     Goal: Shoot 50 arrows.
     Message: 50 arrows shot!
     Name: arrows_50
     DisplayName: Arrows Around the Place
-    
+
 # When a snowball is thrown.  
 Snowballs:
-  1000:
+  '1000':
     Goal: Throw 1000 snowballs.
     Message: 1000 snowballs thrown. That's the spirit!
     Name: snowballs_1000
-    DisplayName: Winter Addict 
+    DisplayName: Winter Addict
     Reward:
-        # 30 corresponds to one bubble in the oxygen bar.
-        IncreaseMaxOxygen: 30
-    
+      IncreaseMaxOxygen: 30
+
 # When an egg is thrown.  
 Eggs:
-  1000:
+  '1000':
     Goal: Throw 1000 eggs.
     Message: 1000 eggs thrown!
     Name: eggs_1000
-    DisplayName: Omelet Addict 
-    
+    DisplayName: Omelet Addict
+
 # When a fish is caught. 
 Fish:
-  1:
+  '1':
     Goal: Fish a fish.
     Message: The first time you caught a fish!
     Name: fish_1
     DisplayName: Time for Fish and Chips
-    
+
 # When a treasure is caught with a fishing rod.
 Treasures:
-  1:
+  '1':
     Goal: Get a treasure from the sea.
     Message: Your first treasure from the sea!
     Name: treasure_1
@@ -481,7 +467,7 @@ Treasures:
 
 # When a tool/armor/weapon is broken.  
 ItemBreaks:
-  1:
+  '1':
     Goal: Let an item break.
     Message: You broke your favorite tool!
     Name: itembreaks_1
@@ -489,15 +475,15 @@ ItemBreaks:
 
 # When an item is eaten (excludes potions and milk).
 EatenItems:
-  1:
+  '1':
     Goal: Eat something.
     Message: Just had a snack!
     Name: eatenitems_1
-    DisplayName: First Snack  
-    
+    DisplayName: First Snack
+
 # When a sheep is sheared.
 Shear:
-  100:
+  '100':
     Goal: Shear 100 sheep.
     Message: 100 sheep sheared!
     Name: shear_100
@@ -505,113 +491,113 @@ Shear:
 
 # When a cow is milked.
 Milk:
-  1:
+  '1':
     Goal: Milk a cow.
     Message: §eJust milked a cow!.... §cMOOW
     Name: milk_1
     DisplayName: First Milk
     Reward:
       Experience: 100
-    
+
 # When a bucket is filled with lava.
 LavaBuckets:
-  10:
+  '10':
     Goal: Fill 10 buckets with lava.
     Message: 10 buckets filled with lava!
     Name: lavabuckets_10
     DisplayName: Pyroman
-    
+
 # When a bucket is filled with water.
 WaterBuckets:
-  15:
+  '15':
     Goal: Fill 10 buckets with water.
     Message: 15 buckets filled with water!
     Name: waterbuckets_15
-    DisplayName: Fireman    
-    
+    DisplayName: Fireman
+
 # When a trade with a villager is made.
 Trades:
-  1:
+  '1':
     Goal: Trade with a villager.
     Message: Doing business with your first villager!
     Name: trades_1
-    DisplayName: First Trade    
-    
+    DisplayName: First Trade
+
 # When an anvil is used.
 AnvilsUsed:
-  1:
+  '1':
     Goal: Repair an item.
     Message: You just repaired your first item!
     Name: anvilsused_1
-    DisplayName: First Repair 
-    
+    DisplayName: First Repair
+
 # When an enchantment is performed.
 Enchantments:
-  5:
+  '5':
     Goal: Enchant 5 things.
     Message: 5 objects enchanted!
     Name: enchantments_5
     DisplayName: §5Wizard
-    
+
 # When a bed is entered. 
-Beds:  
-  5:
+Beds:
+  '5':
     Goal: Sleep 5 times.
     Message: You entered a bed 5 times!
     Name: bed_5
-    DisplayName: Sleepy Guy 
-    
+    DisplayName: Sleepy Guy
+
 # Maximum level reached.    
-MaxLevel:  
-  10:
+MaxLevel:
+  '10':
     Goal: Reach level 10.
     Message: Level 10 reached!
     Name: maxlevel_10
     DisplayName: §4Rookie
-    
+
 # When a potion is consumed.
 ConsumedPotions:
-  100:
+  '100':
     Goal: Drink 100 potions.
     Message: Drinking weird beverages all the time...
     Name: consumedpotions_100
-    DisplayName: Alcoholic 
-    
+    DisplayName: Alcoholic
+
 # Amount of time played on the server (in hours, use integers).
 PlayedTime:
-  1:
+  '1':
     Goal: Play an hour.
     Message: You played for one hour on the server!
     Name: playedtime_1
     DisplayName: First Hour
-    
+
 # When a distance is traveled by foot.
 DistanceFoot:
-  1000:
+  '1000':
     Goal: Travel 1000 Blocks with your feet.
     Message: You traveled 1000 blocks by foot!
     Name: distancefoot_1000
-    DisplayName: Big Walker 
-    
+    DisplayName: Big Walker
+
 # When a distance is traveled on a pig.
 DistancePig:
-  100:
+  '100':
     Goal: Travel 100 Blocks with a pig.
     Message: You traveled 100 blocks on a pig!
     Name: distancepig_100
     DisplayName: Carrot on a Stick Master
-    
+
 # When a distance is traveled on a horse.
 DistanceHorse:
-  500:
+  '500':
     Goal: Travel 500 Blocks with a horse.
     Message: You traveled 500 blocks on a horse!
     Name: distancehorse_500
     DisplayName: The Avener
-    
+
 # When a distance is traveled in a minecart.
 DistanceMinecart:
-  100:
+  '100':
     Goal: Travel 100 Blocks with a minecart.
     Message: You traveled 100 blocks in a minecart!
     Name: distanceminecart_100
@@ -619,7 +605,7 @@ DistanceMinecart:
 
 # When a distance is traveled in a boat.
 DistanceBoat:
-  200:
+  '200':
     Goal: Travel 200 Blocks with a boat.
     Message: You traveled 200 blocks in a boat!
     Name: distanceboat_200
@@ -628,16 +614,16 @@ DistanceBoat:
 # When a distance is traveled with elytra.
 # Ignored on Minecraft versions prior to 1.9.
 DistanceGliding:
-  100:
+  '100':
     Goal: Fly 100 blocks with an elytra.
     Message: You traveled 100 blocks with elytra!
     Name: distancegliding_100
     DisplayName: Angel
-    
+
 # When a distance is traveled on a llama.
 # Ignored on Minecraft versions prior to 1.11.
 DistanceLlama:
-  150:
+  '150':
     Goal: Travel 150 Blocks with a llama.
     Message: You traveled 150 blocks on a llama!
     Name: distancellama_150
@@ -645,41 +631,41 @@ DistanceLlama:
 
 # When an item is dropped on the ground.
 ItemDrops:
-  15:
+  '15':
     Goal: Drop 15 items.
     Message: §cYou're killing the planet!
     Name: itemdrops_15
     DisplayName: Polluter
-    
+
 # When an item is picked up from the ground.
 ItemPickups:
-  40:
+  '40':
     Goal: Pick 40 items up.
     Message: You're saving the planet!
     Name: itempickups_40
     DisplayName: Environmentalist
-    
+
 # When soil is plowed with a hoe.
 HoePlowings:
-  10:
+  '10':
     Goal: Plow 10 times.
     Message: You plowed the ground 10 times!
     Name: hoeplowings_10
     DisplayName: Farmer
-    Reward:                 
-        Item: cookie 15
-    
+    Reward:
+      Item: cookie 15
+
 # When bone meal is used to fertilise plants.
 Fertilising:
-  15:
+  '15':
     Goal: Use bonemeal 15 times.
     Message: You used bone meal on plants 15 times!
     Name: fertilising_15
     DisplayName: Gardener
-    
+
 # When an animal is tamed.
 Taming:
-  1:
+  '1':
     Goal: Tame an animal.
     Message: You tamed your first animal!
     Name: taming_1
@@ -687,15 +673,15 @@ Taming:
 
 # When a potion is brewed.
 Brewing:
-  1:
+  '1':
     Goal: Brew a potion.
     Message: You brewed your first potion!
     Name: brewing_1
     DisplayName: Alchemist
-    
+
 # When a firework is launched.
 Fireworks:
-  10:
+  '10':
     Goal: Launch fireworks 10 times.
     Message: You launched 10 fireworks!
     Name: fireworks_10
@@ -705,7 +691,7 @@ Fireworks:
 
 # When a music disc is played.
 MusicDiscs:
-  1:
+  '1':
     Goal: Use a jukebox.
     Message: One jukebox used!
     Name: musicdiscs_1
@@ -713,15 +699,15 @@ MusicDiscs:
 
 # When a player teleports with an enderpearl.
 EnderPearls:
-  10:
+  '10':
     Goal: Teleport with ender pearls 10 times.
     Message: 10 teleportations with ender pearls!
     Name: enderpearls_10
     DisplayName: Teleport Man
-    
+
 # When a player gives a pet to another player (requires Pet Master plugin version 1.4 or above).
 PetMasterGive:
-  3:
+  '3':
     Goal: Give 3 pets to friends.
     Message: 3 pets given to friends!
     Name: petmastergive_3
@@ -729,15 +715,15 @@ PetMasterGive:
 
 # When a player receives a pet from another player (requires Pet Master plugin version 1.4 or above).
 PetMasterReceive:
-  10:
+  '10':
     Goal: Receive 10 pets.
     Message: 10 pets received from friends!
     Name: petmasterreceive_10
     DisplayName: Receiver
-    
+
 # When an item is smelt in a furnace.
 Smelting:
-  250:
+  '250':
     Goal: Smelt 250 items.
     Message: 250 items smelt in a furnace!
     Name: smeltitems_250
@@ -745,14 +731,14 @@ Smelting:
 
 # When a raid is won.
 RaidsWon:
-  1:
+  '1':
     Goal: Win a raid.
     Message: A raid won!
     Name: raidswon_1
     DisplayName: Accident or intentional?
     Reward:
       Item: emerald 8
-  10:
+  '10':
     Goal: Win ten raids.
     Message: Ten raids!
     Name: raidswon_10
@@ -762,31 +748,30 @@ RaidsWon:
 
 # When riptide is used with a trident.
 Riptides:
-  1:
+  '1':
     Goal: Use a magical trident.
     Message: You've mastered the powers of the sea!
     Name: riptides_1
     DisplayName: Poseidon
+
 # When an a certain amount of advancements are completed.
 AdvancementsCompleted:
-  20:
+  '20':
     Goal: Complete 20 advancements.
     Message: 20 advancements completed!
     Name: advancements_20
     DisplayName: Game Block Advance
-    # Use semicolons for multiple item rewards as well. The below example will reward 8 diamond and 1 cake
     Reward:
       Item: diamond 8; cake 1
-  
+
 #===========================OOOOOOO===========================#
 # VII-----------------------------------------------------VII #
 # |               Command-based achievements                | #
 # 7---------------------------------------------------------7 #
 #===========================ooooooo===========================#
-    
 # Allow Commands achievement to be awarded several times.
 MultiCommand: true
-    
+
 # A player with achievement.give (or the console) can use /aach give yourAch1 PLAYER to give
 # yourAch1 achievement to PLAYER. The /aach give command does NOT work with other achievements.
 Commands:
@@ -795,19 +780,27 @@ Commands:
     Message: You took part in the special event!
     Name: your_ach1
     DisplayName: Special Event Achievement!
-    
+
 # When the command /aach add is called for this category.
 Custom:
   votes:
-    10:
+    '10':
       Message: Voted 10 times for the server!
       Name: customs_votes_10
       DisplayName: Server fan
       Reward:
         Money: 5
-    
+
 #==========================OOOO=OOOO==========================#
 # VIII-------------------------0-------------------------VIII #
 # |  Parameters in future plugin versions will appear here  | #
 # 8----------------------------0----------------------------8 #
 #==========================oooo=oooo==========================#
+#When a distance is traveled whilst sneaking.
+DistanceSneaking: {}
+
+#When you level up in a job (job name lower case).
+JobsReborn: {}
+
+#Set to true if you use BungeeCord or if your database is shared by multiple servers. Do a full server restart.
+BungeeMode: false

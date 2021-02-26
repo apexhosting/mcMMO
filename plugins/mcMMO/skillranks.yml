@@ -416,9 +416,23 @@ Fishing:
             Rank_1: 150
     MasterAngler:
         Standard:
-            Rank_1: 50
+            Rank_1: 1
+            Rank_8: 90
+            Rank_7: 80
+            Rank_4: 40
+            Rank_3: 30
+            Rank_6: 70
+            Rank_5: 60
+            Rank_2: 20
         RetroMode:
-            Rank_1: 500
+            Rank_1: 1
+            Rank_3: 300
+            Rank_4: 400
+            Rank_2: 200
+            Rank_7: 800
+            Rank_8: 900
+            Rank_5: 600
+            Rank_6: 700
     IceFishing:
         Standard:
             Rank_1: 5
@@ -663,6 +677,13 @@ Woodcutting:
             Rank_1: 150
             Rank_2: 350
             Rank_3: 650
+    KnockOnWood:
+        Standard:
+            Rank_1: 30
+            Rank_2: 60
+        RetroMode:
+            Rank_1: 300
+            Rank_2: 600
 Excavation:
     GigaDrillBreaker:
         Standard:
