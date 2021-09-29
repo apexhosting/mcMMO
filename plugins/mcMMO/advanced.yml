@@ -1,7 +1,7 @@
 
 #
 #  Advanced configuration
-#  Last updated on 2.1.174-b${BUILD_NUMBER}
+#  Last updated on 2.1.188-b${BUILD_NUMBER}
 #
 #  For advanced users only! There is no need to change anything here.
 #
@@ -272,8 +272,13 @@ Skills:
         ShroomThumb:
             # ChanceMax: Maximum chance of triggering Second Smelt
             # MaxBonusLevel: On this level, the chance to cause Second Smelt will be <ChanceMax>
-            # ChanceMax: Maximum chance of triggering bleeding
-            # MaxBonusLevel: On this level, the chance to cause Bleeding will be <ChanceMax>
+            # ChanceMax: Maximum chance of triggering a counter attack
+            # MaxBonusLevel: On this level, the chance to Counter will be <ChanceMax>
+            # ChanceMax: Maximum chance of triggering gore
+            # MaxBonusLevel: On this level, the chance to cause Gore will be <ChanceMax>
+            # ChanceMax: Maximum chance of disarming other players
+            # MaxBonusLevel: Level when the maximum chance to disarm is reached
+            # AntiTheft: Determines if only the disarmed player can retrieve disarmed items
             ChanceMax: 50.0
             MaxBonusLevel:
                 Standard: 100
@@ -284,13 +289,8 @@ Skills:
     Mining:
         DoubleDrops:
             SilkTouch: true
-            # ChanceMax: Maximum chance of triggering a counter attack
-            # MaxBonusLevel: On this level, the chance to Counter will be <ChanceMax>
-            # ChanceMax: Maximum chance of triggering gore
-            # MaxBonusLevel: On this level, the chance to cause Gore will be <ChanceMax>
-            # ChanceMax: Maximum chance of disarming other players
-            # MaxBonusLevel: Level when the maximum chance to disarm is reached
-            # AntiTheft: Determines if only the disarmed player can retrieve disarmed items
+            # ChanceMax: Maximum chance of deflecting arrows
+            # MaxBonusLevel: Level when the maximum chance to deflect is reached
             ChanceMax: 100.0
             MaxBonusLevel:
                 Standard: 100
@@ -360,8 +360,8 @@ Skills:
                 Standard: 100
                 RetroMode: 1000
         SuperRepair:
-            # ChanceMax: Maximum chance of deflecting arrows
-            # MaxBonusLevel: Level when the maximum chance to deflect is reached
+            # ChanceMax: Maximum chance of preventing being disarmed
+            # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
             ChanceMax: 100.0
             MaxBonusLevel:
                 Standard: 100
@@ -421,8 +421,9 @@ Skills:
     ###
     Smelting:
         SecondSmelt:
-            # ChanceMax: Maximum chance of preventing being disarmed
-            # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
+            # ChanceMax & MaxBonusLevel are only used for Classic, I'll make that more clear in the future.
+            # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
+            # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
             ChanceMax: 50.0
             MaxBonusLevel:
                 Standard: 100
@@ -447,20 +448,49 @@ Skills:
     ###
     Swords:
         Rupture:
-            # ChanceMax & MaxBonusLevel are only used for Classic, I'll make that more clear in the future.
-            # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
-            # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
             ChanceMax: 33.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
-            # DamagePlayer: Bleeding damage dealt to players
-            # DamageMobs: Bleeding damage dealt to mobs
             DamagePlayer: 2.0
             DamageMobs: 3.0
-            # These settings determine how long the Bleeding effect lasts
             MaxTicks: 8
             BaseTicks: 2
+            Rupture_Mechanics:
+                # This is % chance, 15 would mean 15% percent of the time
+                Chance_To_Apply_On_Hit:
+                    Rank_1: 15
+                    Rank_2: 33
+                    Rank_3: 40
+                    Rank_4: 66
+                Duration_In_Seconds:
+                    Against_Players: 5
+                    Against_Mobs: 5
+                # Tick interval damage is applied twice a second during rupture, it is "pure" and does not get lowered from armor or absorption etc
+                Tick_Interval_Damage:
+                    Against_Players:
+                        Rank_1: 0.1
+                        Rank_2: 0.15
+                        Rank_3: 0.2
+                        Rank_4: 0.3
+                    Against_Mobs:
+                        Rank_1: 0.5
+                        Rank_2: 0.75
+                        Rank_3: 0.9
+                        Rank_4: 1
+                # If Rupture runs for 5 seconds without being reapplied, it explodes
+                # this damage is **NOT** pure and is reduced dramatically vs armor/absorption/etc
+                Explosion_Damage:
+                    Against_Players:
+                        Rank_1: 10
+                        Rank_2: 20
+                        Rank_3: 30
+                        Rank_4: 40
+                    Against_Mobs:
+                        Rank_1: 10
+                        Rank_2: 20
+                        Rank_3: 30
+                        Rank_4: 40
         CounterAttack:
             ChanceMax: 30.0
             MaxBonusLevel:

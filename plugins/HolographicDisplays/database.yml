@@ -102,3 +102,19 @@ arena:
   - '&4&oMonsters &f&oto your heart''s content!'
   - '&f&oType &a&o/ma j &f&oto play!'
   - '&7&o(/hd edit arena)'
+i1:
+  location: world, 53.559, 113.924, 295.498
+  lines:
+  - '&7Right Click'
+i2:
+  location: world, 61.520, 113.924, 295.424
+  lines:
+  - '&7Right Click'
+i3:
+  location: world, 61.591, 113.924, 303.528
+  lines:
+  - '&7Right Click'
+i4:
+  location: world, 53.344, 113.924, 303.494
+  lines:
+  - '&7Right Click'

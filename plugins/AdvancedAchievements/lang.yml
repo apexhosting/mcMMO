@@ -236,3 +236,5 @@ achievement-not-recognized: Achievement called 'NAME' was not recognized. Did yo
 #============================================================#
 list-distance-sneaking: Distance Travelled whilst Sneaking
 list-jobsreborn: Jobs Level-Up
+
+list-consumedpotions: "Potions Consumed"

@@ -33,7 +33,7 @@
 ############################################################
 
 # Never change this value
-config-version: 6
+config-version: 7
 
 # Toggles debug mode, which prints additional information when the plugin does something.
 debug: false
@@ -65,7 +65,7 @@ locale: en-US
 player-list:
 
   # Toggles this feature.
-  enabled: true
+  enabled: false
 
   # Sets the header of the player list.
   #
@@ -135,6 +135,9 @@ welcome-title:
     # The subtitle shown.
     subtitle: ''
 
+  # The time it takes for the message to appear. (In ticks)
+  delay: 20
+
 ############################################################
 # +------------------------------------------------------+ #
 # |                  Welcome Actionbar                   | #
@@ -154,6 +157,9 @@ welcome-actionbar:
 
   # The message shown when the player joins the server for the first time.
   first-join: '&cWelcome to RPG.'
+
+  # The time it takes for the message to appear. (In ticks)
+  delay: 20
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -265,6 +271,17 @@ bandwidth:
 
   # The tick rate of the scoreboard in milliseconds. (Lower = More bandwidth & CPU usage, Higher = Less bandwidth & CPU usage)
   scoreboard-ms-per-tick: 50
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Plugin Hooks                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Allows you to enable and disable certain hooks.
+
+hooks:
+  combatlogx: true
 
 ############################################################
 # +------------------------------------------------------+ #

@@ -4,26 +4,18 @@ Exploits:
     PreventMinecartsInBoats: true
     DisableChestsOnMobs: true
     PunishForChestsOnMobs: false
-    PreventItemSwapLagExploit: true
     PreventHoppersToUnloadedChunks: true
-    PreventInvalidPotions: false
-    PreventRailDupe: true
     PreventCommandsInBed: true
-    PreventInvalidElytraFlight: true
     PreventBedrockDestruction: true
-    PreventNestedShulkers: true
     PreventEndPortalDestruction: true
     DisableRidingExploitableMobs: true
     PreventBedExplosions: true
-  Enchants:
-    FixIllegalEnchants: false
-    RemoveUnbreakableFlag: false
-    EnchantedItemWhitelist: []
-    OnlyFunctionInWorlds: []
-    DestroyIllegallyEnchantedItemsInstead: false
-    AllowBypass: false
-    RemoveCustomAttributes: false
-    CustomEnchantOverride: []
+    PreventInvalidElytraFlight: true
+    PreventNestedShulkers: true
+    PreventRailDupe: true
+    PreventInvalidPotions: true
+    PreventItemSwapLagExploit: true
+  Enchants: {}
   LavaDupe:
     PreventLavaDupe: true
   1_15_Exploits:
@@ -67,9 +59,9 @@ Exploits:
     PreventMinecartGlitch: true
   1_14_Exploits:
     Traders:
+      ZombieVillagerTransformChance: 0
       BlockVillagerTradeCheesing: true
-      ZombieVillagerTransformChance: 65
-      VillagerRestockTime: 10
+      VillagerRestockTime: 0
   TNTDupe:
     PreventIndirectTNTPowerDupe: true
   NetherPortal:
@@ -95,10 +87,9 @@ Exploits:
     AlsoPreventHeadInside:
     - COMPOSTER
   1_16_Exploits:
-    Dupes:
-      PreventPiglinDupe: true
-  ShulkerCrash2: true
+    Dupes: {}
   RecordDupe: true
+  NegativeDurability: true
 UserRequested:
   ItemRemoval:
     ItemNamesToRemove: []
@@ -113,8 +104,8 @@ UserRequested:
       DestroyInvalidShulkers: false
     HopperCheck:
       IgnoreAllHopperChecks: false
-    BlockBadItemsFromCreativeTab: false
     IgnoreAllShulkerPlaceChecks: false
+    BlockBadItemsFromCreativeTab: false
   Obsure:
     Misc:
       RemoveAllRenamedItems: false
@@ -124,10 +115,14 @@ UserRequested:
     NotifyInsteadOfBlock: []
   Cobble:
     PreventCobbleGenerators: false
+  NetherDamage:
+    DamageAmount: 0
+    DamagePlayersAboveNether: false
+    DamageDelay: 0
 Exploit:
   LagMachines:
-    ArmorStand: true
     End Crystal: true
+    ArmorStand: true
   Teleport:
     CorrectionNotify: false
 Misc:

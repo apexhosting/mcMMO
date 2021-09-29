@@ -160,3 +160,4 @@ StaffMsgBedExplosion: Prevented a bed from being used as an explosive @
 PluginTeleportText: §6Click to teleport here
 StaffMsgDispenerFlint: Detected a downward facing dispenser from dispensing flint
   and steel which would crash the server @
+IllegalStackDurability: 'Fixed durability on: ~item~ triggered by player: ~name~.'

@@ -46,14 +46,14 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  lobby:
+  world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: lobby
+    alias: world_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '1.0'
+    scale: '16.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -81,15 +81,15 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 64.0
-      z: 136.0
+      y: 65.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: NORMAL
-    seed: '-4088270094550553228'
+    environment: THE_END
+    seed: '-7481003509140488773'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -140,14 +140,14 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  world_the_end:
+  lobby:
     ==: MVWorld
     hidden: 'false'
-    alias: world_the_end
+    alias: lobby
     color: WHITE
     style: NORMAL
     pvp: 'true'
-    scale: '16.0'
+    scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
     difficulty: EASY
@@ -175,15 +175,15 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 65.0
-      z: 0.0
+      y: 64.0
+      z: 136.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: THE_END
-    seed: '-3768399597431384864'
+    environment: NORMAL
+    seed: '-4088270094550553228'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -230,7 +230,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-3768399597431384864'
+    seed: '-7481003509140488773'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

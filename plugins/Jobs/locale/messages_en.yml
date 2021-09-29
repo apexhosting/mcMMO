@@ -126,6 +126,7 @@ command:
       area: ' &eArea bonus: %money% %points% %exp%'
       mcmmo: ' &eMcMMO bonus: %money% %points% %exp%'
       final: ' &eFinal bonus: %money% %points% %exp%'
+      specialPrefix: '&6*'
       finalExplanation: ' &eDoes not include Petpay and Near spawner bonus/penalty'
   convert:
     help:
@@ -465,12 +466,20 @@ command:
       jobHeader: '&2========== [jobname] ========='
       chooseJob: '&7&n&oChoose this job'
       chooseJobHover: '&7Click here to get this job'
+  ownedblocks:
+    help:
+      info: Check block ownership
+      args: '[playername]'
+    output:
+      list: '&6[place]. &e[type] -> [location]'
+      listHover: '&6Click to remove: [location]'
   clearownership:
     help:
       info: Clear block ownership
       args: '[playername]'
     output:
       cleared: '&2Removed &7[furnaces] &2furnaces and &7[brewing] &2brewing stands'
+      lost: '&cLost ownership of &7[type] &cat [location]'
   skipquest:
     help:
       info: Skip defined quest and get new one
@@ -673,14 +682,23 @@ command:
         points: '&6[points] points'
       'on': '&aToggled: &aON'
       'off': '&aToggled: &4OFF'
+  version:
+    help:
+      info: Plugin version information
+      args: ''
+    output:
+      jobsVersion: '&eJobs: &6[version]'
+      jobsVersionNew: '&e-> [newVersion]'
+      dbType: ' &7[db]'
+      newServer: '&eServer: &6[version]'
+      Economy: '&eEconomy: &6[provider] '
+      newVault: '&eVault: &6[version] '
+      CMILib: '&eCMILib: &6[version] '
+      cmilVersionNew: '&e-> [newVersion]'
 message:
   skillup:
     broadcast: '%playername% has been promoted to a %titlename% %jobname%.'
     nobroadcast: Congratulations, you have been promoted to a %titlename% %jobname%.
-  max-level-reached:
-    title: '&2Max level reached'
-    subtitle: '&2in %jobname%!'
-    chat: '&cYou have reached the maximum level in %jobname%!'
   levelup:
     broadcast: '%playername% is now a level %joblevel% %jobname%.'
     nobroadcast: You are now level %joblevel% %jobname%.

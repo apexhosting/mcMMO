@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.0]
+
+### Changed
+Updated to Minecraft 1.17.1
+Updated All Plugins
+Implemented TAB for a custom tablist.
+Replaced PermissionsEX with Luckperms as the permissions manager.
+Implemented Helper, Mod, Admin ranks along with previous ones.
+Installed NPCs to allow players to RTP on the wilderness area. 
+
 ## [2.3.1]
 
 ### Changed
@@ -98,6 +108,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[3.0]: https://github.com/apexhosting/mcMMO/releases/tag/3.0
 [2.3.1]: https://github.com/apexhosting/mcMMO/releases/tag/2.3.1
 [2.3]: https://github.com/apexhosting/mcMMO/releases/tag/2.3
 [2.2]: https://github.com/apexhosting/mcMMO/releases/tag/2.2

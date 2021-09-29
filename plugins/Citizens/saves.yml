@@ -1,7 +1,7 @@
 # Citizens NPC Storage
 
 
-last-created-npc-id: 13
+last-created-npc-id: 17
 npc:
   '0':
     metadata:
@@ -31,10 +31,12 @@ npc:
         skinName: miner
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODY0MDAwNTUsInByb2ZpbGVJZCI6IjRlOTRmNDVjNzU5YzQyOTNhZjE2ZmRmMjE5MjM3YTVkIiwicHJvZmlsZU5hbWUiOiJNaW5lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ4ODcwY2E3N2FhNjk5ZDAxNzA5M2I4Mjc3OWQwYTU5OGRjNGYzZjQ5ZDM1MTUzMmFlNGQ5NjMzZGNjMmE1YSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: equipment,owner,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -67,10 +69,12 @@ npc:
         skinName: currency
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: owner,equipment,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -103,10 +107,12 @@ npc:
         skinName: currency
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -139,10 +145,12 @@ npc:
         skinName: currency
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -175,10 +183,12 @@ npc:
         skinName: currency
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -211,10 +221,12 @@ npc:
         skinName: currency
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: equipment,owner,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -247,10 +259,12 @@ npc:
         skinName: currency
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: owner,equipment,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -284,10 +298,12 @@ npc:
         skinName: currency
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,skintrait,type
+    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -308,9 +324,9 @@ npc:
         x: '-4.4248'
         y: '64.5'
         z: '134.5626'
-        yaw: '-48.4509'
-        pitch: '3.8808'
-        bodyYaw: -48.45087
+        yaw: '-47.8734'
+        pitch: '11.4081'
+        bodyYaw: -40.504143
       gravity:
         enabled: false
       type: PLAYER
@@ -334,10 +350,12 @@ npc:
         skinName: fallenicarus
         textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDI5NzM2NTIsInByb2ZpbGVJZCI6IjIzMzIzODRjZTk2YzQyMWQ5ZjI1NTI1NTEyNWEzZjk3IiwicHJvZmlsZU5hbWUiOiJGYWxsZW5JY2FydXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNTQwYTE2MjQyZGM1ZmRmZTM4MGQ4OWQwZDUwYzBjODQyYThiZDAyNDc3NGFlZjkyOGY0NTE0ODk2YzdiYWMifX19
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,lookclose,skintrait,type
+    traitnames: equipment,owner,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,lookclose,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -358,9 +376,9 @@ npc:
         x: '-4.3882'
         y: '64.5'
         z: '144.4076'
-        yaw: '-89.8497'
-        pitch: '5.2076'
-        bodyYaw: -89.849655
+        yaw: '-119.9788'
+        pitch: '0.1137'
+        bodyYaw: -93.51544
       gravity:
         enabled: false
       type: PLAYER
@@ -384,10 +402,12 @@ npc:
         skinName: toodie
         textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDMyNTExMzQsInByb2ZpbGVJZCI6IjhiOTU5MjI5Y2QxMzQzOGY4NzgwMjZiNDNkNzJlMTIzIiwicHJvZmlsZU5hbWUiOiJUb29kaWUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk0MTkwNTVmOTAzMTE1ZjQ5ZjU2YzkxNWYwMWUxNzYwYWIwODhiMTRmOTdiYTRlYjU5MGI1M2M1ZjQzODViNWQifX19
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,lookclose,skintrait,type
+    traitnames: equipment,owner,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,lookclose,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -406,9 +426,9 @@ npc:
         x: '5.3807'
         y: '64.5'
         z: '144.394'
-        yaw: '131.573'
-        pitch: '5.6034'
-        bodyYaw: 131.57303
+        yaw: '-179.5659'
+        pitch: '11.5907'
+        bodyYaw: -139.5659
       gravity:
         enabled: false
       lookclose:
@@ -431,10 +451,12 @@ npc:
         signature: UvK+Wsp3fcS5VQOWJqn7/OvsO38FVZAjibuAsbF2B28JNcH/rXQizryOjvP56GwR7WSSd4iknTi18rQlAVADTXtHKj2d9cARA2Yn7cESEDbs7ZA7pdmLBgKmintw4RK9l9cYNrjnD4PazG/1iCLsHjm0srBTFDb4pkssxXRNBp9Lps70SXD0yOoW2Fot91vtPxHd4a7mugVV+4zJzMxHYBV0YC2AYEKi2yR5RFb94XH+sVwWFq9xpd5cNPzs8YlYA1lKr56hM1n996rCAcWpJJbljh6u1vMuZTrjqTcqQ7zTp6f/eBnqq106gpgU3gCc1pwUAxyDXi03RIuqOelyDviZZ8ButJbA6bJoM7ATKTLKBniIQtfgYqIo1MSJzUpEsJ2u3hjAI1UROk9kktX+/EfVABfQMdTnl7GZQkT55GPrwlxoGidT4y19V+ebSK+o1udPUxQdzH+0/av7gNMnaLXTcbsGrO+9ihvrjknprk4akxF8w2+lN5Wcm9E4UOjuHtVqJFBVeNiOnfM3PmSUYboHJCxwLqYbZ2TI44Z+psA0JshC26xzEJmKCPIuKUgx22RhBPSC7UGAIB6LPW3wmpgPuNVjrHdB4GygUfKSNZSSPAT4uK8oYeYPpZd+LriKR3hE3lgYRrebtJZ1WglGEnpkSad4CPZxQih50c/8DLo=
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTg4OTUsInByb2ZpbGVJZCI6IjA1Mjk4YmJiN2JiMjQzNmJhZjkyYzJiNjI0ZGE4NGJiIiwicHJvZmlsZU5hbWUiOiJNY01NTyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlYjA5NWZmYTg1M2ZkZjVjZjc3MDA1YjhhZjQ0ODQ4MWI1YTYzNGQ1Y2U4NTNkZDczOTVmNTgxODk3ZmFhNyJ9fX0=
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,lookclose,skintrait,type
+    traitnames: equipment,owner,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,lookclose,gravity,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -455,9 +477,9 @@ npc:
         x: '5.3475'
         y: '64.5'
         z: '134.6288'
-        yaw: '19.4823'
-        pitch: '-2.8983'
-        bodyYaw: 19.482307
+        yaw: '-21.0834'
+        pitch: '-15.1143'
+        bodyYaw: 18.916603
       gravity:
         enabled: false
       lookclose:
@@ -481,10 +503,209 @@ npc:
         skinName: xthexcommanderx
         textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDMzOTMxNTMsInByb2ZpbGVJZCI6IjhmM2I0ZjkxNTkyYzQwZDk4NTVhZGE5MTA1NTNmNWMxIiwicHJvZmlsZU5hbWUiOiJ4VGhleENvbW1hbmRlcngiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4ODQyM2Y1MjFmNDM1YjdjMmY5Y2RlZmNjZDljYTI3NDFkZmU1MWYzNjU3YmYyNWMwN2RiMTAwZjBiMDc2YjEifX19
         updateSkins: false
+      sneak:
+        sneaking: false
       owner:
         owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: spawned,scoreboardtrait,equipment,owner,gravity,location,inventory,mounttrait,lookclose,skintrait,type
+    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,lookclose,gravity,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      cached-skin-uuid-name: jigbon
+      cached-skin-uuid: 43015a4f-140e-474e-872f-f7b0b4d79313
+    name: §5RTP
+    uuid: 4ecf7c1f-0d43-4267-a7b6-e6def594f10a
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: rtp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: -134.94855
+        world: world
+        x: '53.404'
+        y: '111.0'
+        z: '303.4204'
+        yaw: '-134.9485'
+        pitch: '4.6612'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: cEJO5Irq3wyI6QHzh/Dzwr4xHMdLeKRAV3lNul0UO5eFrOVmtjvs8hiqxI43X2GaH5TOGQG56zzvNBvke8BFEvO2kVg3UcdteteR63k8qH1BAQlSxdh8fASh2R3i4wlDUdX2hbXFgDKZwqL3x+5gXAmnb/qUVnj4fBjFeIREF4qvlWqMTHDWHHa/A3Y8RShbDeeUsZB4BathLK+E6omiybe96x6SBdowqw6gS1ddPLNcq06Vevrcdh8ub2/GfeM4yI1GRjQWbG+IjdOkoZQFTCbYgFaaiWE/buivIocwwcbEERamrYpuydUCEihTCkr++foCpCIjkb/MMvREp7w67q6Duoy0dHyXEbGff7yCBmvdzdMlRyDX02gSudDN1Wt0mgSHm6/K9EjOS3wc+tREh/3asSGCMGQa3uchYya526RXnZvo7+q6W9AOiGzorix7jBlPdkO7YVEmLf9iXKPESn+Dq5DeE/P1o9fYznNaLI+6pfLVhI2+stN6mQpt+CY8T1jsusICqV2UU4bbru8JAiJWyX22q+7zstle7Q4gQtfVfqGpZeCSmdNyjNHrkBrIwKl2Pc8NqUMzsfjMlnWDXnPdWx2cpSYIcSNCfoAcWSGyTQBG6eQFfZCzurlqUe/hbVuavrjfBjMrgcggkN+2evvhEEZUECDuGUfWSpy4a+Q=
+        skinName: jigbon
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzI2NDY3OSwKICAicHJvZmlsZUlkIiA6ICI0MzAxNWE0ZjE0MGU0NzRlODcyZmY3YjBiNGQ3OTMxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWdib24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY3MzlkMWE0YjAzYjhlNzQ3ZGQxYTMyZjFlMjJkNjFjN2JlNTc2MzcxY2ExNWUxYmM2NGY4Y2U0NTBkZmMwMiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: owner,equipment,type,mounttrait,commandtrait,spawned,skintrait,scoreboardtrait,inventory,location,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      cached-skin-uuid-name: smattox
+      cached-skin-uuid: fea22ef0-3efd-463b-8d3f-cc0e543fa57c
+    name: §5RTP
+    uuid: 175ee49d-d6cb-4993-a40b-ba5fb86fc385
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: rtp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 132.50104
+        world: world
+        x: '61.5609'
+        y: '111.0'
+        z: '303.5011'
+        yaw: '132.501'
+        pitch: '6.073'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: qT95trcw7Wk86G3F0aa8LH6jp2HSu6I//jzy/5gphPlio910gGpL335/+FTv8huqwCjHm/z3iDPZUzQxSw1SsQznD2T7r/p8AjH0nq9uIDM6ajrM8Hwid1RX4WEn+fC/4tsAtVfVEp1YPQ+A/49ZS6Cumvpi8zV9cxkE34dxWKFEXMnMyOKBxhFoi93uhA0bNzbBsAl6pbHXRF6IseS6TAxaZjqo6gMOy+5p8OoerM8ux8KATIm9vpGBVh2QH7wq9FGaeFVUSfkm7tJFyPlunDT3bysNuDQ6rP2fLufDHOf2TG64Z3ImHMk8yGgz2od5BY4bZc7qbnUT6+eGUT4CWHJ8oxUPK5Z+omcXrAvBl77Aj1g+Gg9yibNrA7WxuHO22bo8yhPyrvmyuu7383pfy9pvfe2DGDLhARG7v7O7tOV9fN2K/7IqmE3ojMJYQe0bTnSpwshtdTxBezdzAQ/07Fx40yq3aPdrD8vu+ZHkuEvSbPkJ0lN0pUW4roVkS8qv+vY77fDUhGvYc6ZuNBdTPN1XWjQ2bw/x35i1N8g8A0KjVNg78BwZ5pFIo+TfEKX92lYJkKm7W6ICPglq5YDH8Rap1ss2MHjUxc5+2h1549yzJBjRXNHiB9J6DdIk53DI75m/Ho+8ai6veyzJob1yFu+sbDhBXWP17ZSNAm/9fY0=
+        skinName: smattox
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzIwNjY3NCwKICAicHJvZmlsZUlkIiA6ICJmZWEyMmVmMDNlZmQ0NjNiOGQzZmNjMGU1NDNmYTU3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWF0dG94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZDIzMTkwM2Y4MzE5MWFjNjViM2NmODcxOWNiZTQ2M2RlNTJkNzAzOTllMzE4MmVjYjZiMzE1NjkyYjVlZGIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: equipment,owner,type,mounttrait,commandtrait,skintrait,spawned,scoreboardtrait,inventory,location,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    metadata:
+      cached-skin-uuid-name: jigbon
+      cached-skin-uuid: 43015a4f-140e-474e-872f-f7b0b4d79313
+    name: §5RTP
+    uuid: 8aa75193-8b3f-48c3-8512-13f8c88574f8
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: rtp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      spawned: true
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: 37.91382
+        world: world
+        x: '61.4873'
+        y: '111.0'
+        z: '295.4705'
+        yaw: '37.9138'
+        pitch: '5.1318'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: cEJO5Irq3wyI6QHzh/Dzwr4xHMdLeKRAV3lNul0UO5eFrOVmtjvs8hiqxI43X2GaH5TOGQG56zzvNBvke8BFEvO2kVg3UcdteteR63k8qH1BAQlSxdh8fASh2R3i4wlDUdX2hbXFgDKZwqL3x+5gXAmnb/qUVnj4fBjFeIREF4qvlWqMTHDWHHa/A3Y8RShbDeeUsZB4BathLK+E6omiybe96x6SBdowqw6gS1ddPLNcq06Vevrcdh8ub2/GfeM4yI1GRjQWbG+IjdOkoZQFTCbYgFaaiWE/buivIocwwcbEERamrYpuydUCEihTCkr++foCpCIjkb/MMvREp7w67q6Duoy0dHyXEbGff7yCBmvdzdMlRyDX02gSudDN1Wt0mgSHm6/K9EjOS3wc+tREh/3asSGCMGQa3uchYya526RXnZvo7+q6W9AOiGzorix7jBlPdkO7YVEmLf9iXKPESn+Dq5DeE/P1o9fYznNaLI+6pfLVhI2+stN6mQpt+CY8T1jsusICqV2UU4bbru8JAiJWyX22q+7zstle7Q4gQtfVfqGpZeCSmdNyjNHrkBrIwKl2Pc8NqUMzsfjMlnWDXnPdWx2cpSYIcSNCfoAcWSGyTQBG6eQFfZCzurlqUe/hbVuavrjfBjMrgcggkN+2evvhEEZUECDuGUfWSpy4a+Q=
+        skinName: jigbon
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzI2NDY3OSwKICAicHJvZmlsZUlkIiA6ICI0MzAxNWE0ZjE0MGU0NzRlODcyZmY3YjBiNGQ3OTMxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWdib24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY3MzlkMWE0YjAzYjhlNzQ3ZGQxYTMyZjFlMjJkNjFjN2JlNTc2MzcxY2ExNWUxYmM2NGY4Y2U0NTBkZmMwMiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: owner,equipment,type,mounttrait,spawned,skintrait,commandtrait,scoreboardtrait,inventory,location,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    metadata:
+      cached-skin-uuid-name: smattox
+      cached-skin-uuid: fea22ef0-3efd-463b-8d3f-cc0e543fa57c
+    name: §5RTP
+    uuid: debdca68-a13a-4778-b1f2-26e92591c148
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: rtp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      sneak:
+        sneaking: false
+      location:
+        bodyYaw: -43.10858
+        world: world
+        x: '53.6086'
+        y: '111.0'
+        z: '295.565'
+        yaw: '-33.2571'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: qT95trcw7Wk86G3F0aa8LH6jp2HSu6I//jzy/5gphPlio910gGpL335/+FTv8huqwCjHm/z3iDPZUzQxSw1SsQznD2T7r/p8AjH0nq9uIDM6ajrM8Hwid1RX4WEn+fC/4tsAtVfVEp1YPQ+A/49ZS6Cumvpi8zV9cxkE34dxWKFEXMnMyOKBxhFoi93uhA0bNzbBsAl6pbHXRF6IseS6TAxaZjqo6gMOy+5p8OoerM8ux8KATIm9vpGBVh2QH7wq9FGaeFVUSfkm7tJFyPlunDT3bysNuDQ6rP2fLufDHOf2TG64Z3ImHMk8yGgz2od5BY4bZc7qbnUT6+eGUT4CWHJ8oxUPK5Z+omcXrAvBl77Aj1g+Gg9yibNrA7WxuHO22bo8yhPyrvmyuu7383pfy9pvfe2DGDLhARG7v7O7tOV9fN2K/7IqmE3ojMJYQe0bTnSpwshtdTxBezdzAQ/07Fx40yq3aPdrD8vu+ZHkuEvSbPkJ0lN0pUW4roVkS8qv+vY77fDUhGvYc6ZuNBdTPN1XWjQ2bw/x35i1N8g8A0KjVNg78BwZ5pFIo+TfEKX92lYJkKm7W6ICPglq5YDH8Rap1ss2MHjUxc5+2h1549yzJBjRXNHiB9J6DdIk53DI75m/Ho+8ai6veyzJob1yFu+sbDhBXWP17ZSNAm/9fY0=
+        skinName: smattox
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzIwNjY3NCwKICAicHJvZmlsZUlkIiA6ICJmZWEyMmVmMDNlZmQ0NjNiOGQzZmNjMGU1NDNmYTU3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWF0dG94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZDIzMTkwM2Y4MzE5MWFjNjViM2NmODcxOWNiZTQ2M2RlNTJkNzAzOTllMzE4MmVjYjZiMzE1NjkyYjVlZGIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      owner:
+        owner: AllanStrat
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+    traitnames: equipment,owner,type,mounttrait,spawned,commandtrait,skintrait,scoreboardtrait,inventory,location,lookclose,sneak
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

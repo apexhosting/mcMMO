@@ -1,31 +1,56 @@
 Groups:
   Owner:
     Permission: nte.owner
-    Prefix: '&4Owner &f' 
-    Suffix: '&f'
+    Prefix: '&8[&4Owner&8] &8' 
+    Suffix: '&8'
     SortPriority: 1
   Admin:
     Permission: nte.admin
-    Prefix: '&cAdmin &f'
-    Suffix: '&f'
+    Prefix: '&8[&cAdmin&8] &8' 
+    Suffix: '&8'
     SortPriority: 2
-  Staff:
+  Mod:
     Permission: nte.moderator
-    Prefix: '&3Staff &f'
-    Suffix: '&f'
+    Prefix: '&8[&2Mod&8] &8' 
+    Suffix: '&8'
     SortPriority: 3
-  member2:
+  Helper:
+    Permission: nte.moderator
+    Prefix: '&8[&bHelper&8] &8' 
+    Suffix: '&8'
+    SortPriority: 4
+  King:
     Permission: nte.ranger
-    Prefix: '&eRanger &f'
-    Suffix: '&f'
-    SortPriority: 9
-  member3:
+    Prefix: '&8[&6King&8] &8' 
+    Suffix: '&8'
+    SortPriority: 5
+  Knight:
     Permission: nte.roamer
-    Prefix: '&2Roamer &f'
-    Suffix: '&f'
-    SortPriority: 9
-  member:
+    Prefix: '&8[&cKnight&8] &8' 
+    Suffix: '&8'
+    SortPriority: 6
+  Warrior:
     Permission: nte.adventurer
-    Prefix: '&aAdventurer &f'
-    Suffix: '&f'
+    Prefix: '&8[&bWarrior&8] &8' 
+    Suffix: '&8'
+    SortPriority: 7
+  Explorer:
+    Permission: nte.adventurer
+    Prefix: '&8[&5Explorer&8] &8' 
+    Suffix: '&8'
+    SortPriority: 8
+  Adventurer:
+    Permission: nte.adventurer
+    Prefix: '&8[&aAdventurer&8] &8'  
+    Suffix: '&8'
     SortPriority: 9
+  Ranger:
+    Permission: nte.adventurer
+    Prefix: '&8[&eRanger&8] &8' 
+    Suffix: '&8'
+    SortPriority: 10
+  default:
+    Permission: nte.adventurer
+    Prefix: '&8[&2Roamer&8] &8' 
+    Suffix: '&8'
+    SortPriority: 11

@@ -1,7 +1,7 @@
 
 #
 #  mcMMO configuration
-#  Last updated on 2.1.174-b${BUILD_NUMBER}
+#  Last updated on 2.1.188-b${BUILD_NUMBER}
 #
 #####
 #
@@ -490,6 +490,7 @@ Bonus_Drops:
         Warped_Stem: true
         Warped_Fungus: true
         Crimson_Stem: true
+        Sweet_Berry_Bush: true
     Mining:
         Andesite: true
         Diorite: true
@@ -627,3 +628,11 @@ Particles:
 Sounds:
     # This setting controls the master volume. 1.0 is Max,  0 would be off
     MasterVolume: 1.0
+# Disable or Enable the Green Thumb auto replant feature for specific crops, use the name of the block not the crop itemstack
+Green_Thumb_Replanting_Crops:
+    Carrots: true
+    Wheat: true
+    Nether_Wart: true
+    Potatoes: true
+    Beetroots: true
+    Cocoa: true
