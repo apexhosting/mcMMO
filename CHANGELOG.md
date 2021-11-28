@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.0.1]
+
+### Changed
+Updated PaperMC to build #460 to fix a strange issue with the render distance being limited to a few chunks regardless of the settings.
+
 ## [3.0]
 
 ### Changed
@@ -108,6 +113,7 @@ Installed NPCs to allow players to RTP on the wilderness area.
 ### Added
 - Initial commit of pack to Github for version control
 
+[3.0.1]: https://github.com/apexhosting/mcMMO/releases/tag/3.0.1
 [3.0]: https://github.com/apexhosting/mcMMO/releases/tag/3.0
 [2.3.1]: https://github.com/apexhosting/mcMMO/releases/tag/2.3.1
 [2.3]: https://github.com/apexhosting/mcMMO/releases/tag/2.3
