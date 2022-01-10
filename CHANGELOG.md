@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.3]
+
+### Changed
+- Updated to Minecraft 1.18.1
+
 ## [3.2]
 
 ### Changed
@@ -9,17 +14,17 @@ All notable changes to this project will be documented in this file.
 ## [3.0.1]
 
 ### Changed
-Updated PaperMC to build #460 to fix a strange issue with the render distance being limited to a few chunks regardless of the settings.
+- Updated PaperMC to build #460 to fix a strange issue with the render distance being limited to a few chunks regardless of the settings.
 
 ## [3.0]
 
 ### Changed
-Updated to Minecraft 1.17.1
-Updated All Plugins
-Implemented TAB for a custom tablist.
-Replaced PermissionsEX with Luckperms as the permissions manager.
-Implemented Helper, Mod, Admin ranks along with previous ones.
-Installed NPCs to allow players to RTP on the wilderness area. 
+- Updated to Minecraft 1.17.1
+- Updated All Plugins
+- Implemented TAB for a custom tablist.
+- Replaced PermissionsEX with Luckperms as the permissions manager.
+- Implemented Helper, Mod, Admin ranks along with previous ones.
+- Installed NPCs to allow players to RTP on the wilderness area. 
 
 ## [2.3.1]
 
@@ -118,6 +123,7 @@ Installed NPCs to allow players to RTP on the wilderness area.
 ### Added
 - Initial commit of pack to Github for version control
 
+[3.3]: https://github.com/apexhosting/mcMMO/releases/tag/3.3
 [3.2]: https://github.com/apexhosting/mcMMO/releases/tag/3.2
 [3.0.1]: https://github.com/apexhosting/mcMMO/releases/tag/3.0.1
 [3.0]: https://github.com/apexhosting/mcMMO/releases/tag/3.0
