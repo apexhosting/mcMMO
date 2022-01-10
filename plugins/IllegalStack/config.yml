@@ -15,7 +15,15 @@ Exploits:
     PreventRailDupe: true
     PreventInvalidPotions: true
     PreventItemSwapLagExploit: true
-  Enchants: {}
+  Enchants:
+    RemoveUnbreakableFlag: false
+    FixIllegalEnchants: false
+    RemoveCustomAttributes: false
+    CustomEnchantOverride: []
+    DestroyIllegallyEnchantedItemsInstead: false
+    EnchantedItemWhitelist: []
+    OnlyFunctionInWorlds: []
+    AllowBypass: false
   LavaDupe:
     PreventLavaDupe: true
   1_15_Exploits:

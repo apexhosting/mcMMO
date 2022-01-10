@@ -142,3 +142,9 @@ DistanceSneaking:
   Item: leather_helmet
 JobsReborn:
   Item: netherite_scrap
+
+BooksEdited:
+  Item: writable_book
+
+EffectsHeld:
+  Item: lingering_potion

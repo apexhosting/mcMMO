@@ -238,3 +238,9 @@ list-distance-sneaking: Distance Travelled whilst Sneaking
 list-jobsreborn: Jobs Level-Up
 
 list-consumedpotions: "Potions Consumed"
+
+boss-bar-progress: "Achievement progress: AMOUNT"
+
+list-booksedited: "Books Edited"
+
+list-effectsheld: "Effects Held"

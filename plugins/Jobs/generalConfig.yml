@@ -40,6 +40,8 @@ Optimizations:
   # When set to true staff will be informed about new Jobs plugin version
   # You need to have jobs.versioncheck permission node
   NewVersion: true
+  # Can be used to check if your database contains any duplicated user entries.
+  InformDuplicates: false
   DecimalPlaces:
     # Decimal places to be shown
     Money: 2

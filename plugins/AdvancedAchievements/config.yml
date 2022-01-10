@@ -816,3 +816,174 @@ BackButtonIsCategoryItem: true
 # the value of this parameter is greater than the total number of characters in the group. Unless you use groups of very
 # large sizes, you don't need to change this value.
 TableMaxSizeOfGroupedSubcategories: 128
+
+# Display a boss bar showing progress a few seconds after an achievement is received.
+BossBarProgress: true
+
+# Used for the Breaks achievement category. You may need to expand this list when new Minecraft versions are released.
+OreBlocks:
+  - coal_ore
+  - diamond_ore
+  - emerald_ore
+  - lapis_ore
+  - nether_gold_ore
+  - nether_quartz_ore
+  - redstone_ore
+
+# Used for the Fireworks achievement category. In vanilla Minecraft, fireworks cannot be launched on the following
+# blocks. Unless listed here, players may be able to abuse the Fireworks category by repeatedly right clicking on the
+# block and not actually using any fireworks. You may need to expand this list when new Minecraft versions are released.
+ForbiddenFireworkBlocks:
+  - glow_item_frame
+  - painting
+  - item_frame
+  - minecart
+  - hopper_minecart
+  - tnt_minecart
+  - command_block_minecart
+  - furnace_minecart
+  - chest_minecart
+
+# Used for the Fireworks achievement category. In vanilla Minecraft, fireworks can only be launched on the following
+# blocks when sneaking. Unless listed here, players may be able to abuse the Fireworks category by repeatedly right 
+# clicking on the block and not actually using any fireworks. You may need to expand this list when new Minecraft 
+# versions are released.
+ForbiddenFireworkBlocksWhenNotSneaking:
+  - polished_blackstone_button
+  - furnace
+  - dispenser
+  - chest
+  - note_block
+  - lever
+  - stone_button
+  - ender_chest
+  - beacon
+  - anvil
+  - trapped_chest
+  - hopper
+  - dropper
+  - brewing_stand
+  - crafting_table
+  - acacia_button
+  - birch_button
+  - dark_oak_button
+  - jungle_button
+  - oak_button
+  - spruce_button
+  - acacia_door
+  - birch_door
+  - dark_oak_door
+  - jungle_door
+  - oak_door
+  - spruce_door
+  - acacia_fence_gate
+  - birch_fence_gate
+  - dark_oak_fence_gate
+  - jungle_fence_gate
+  - oak_fence_gate
+  - spruce_fence_gate
+  - enchanting_table
+  - acacia_trapdoor
+  - birch_trapdoor
+  - dark_oak_trapdoor
+  - jungle_trapdoor
+  - oak_trapdoor
+  - spruce_trapdoor
+  - acacia_boat
+  - birch_boat
+  - dark_oak_boat
+  - jungle_boat
+  - oak_boat
+  - spruce_boat
+  - black_bed
+  - blue_bed
+  - brown_bed
+  - cyan_bed
+  - gray_bed
+  - green_bed
+  - light_blue_bed
+  - light_gray_bed
+  - lime_bed
+  - magenta_bed
+  - orange_bed
+  - pink_bed
+  - purple_bed
+  - red_bed
+  - white_bed
+  - yellow_bed
+  - cake
+  - comparator
+  - repeater
+  - command_block
+  - armor_stand
+  - chain_command_block
+  - repeating_command_block
+  - black_shulker_box
+  - blue_shulker_box
+  - brown_shulker_box
+  - cyan_shulker_box
+  - gray_shulker_box
+  - green_shulker_box
+  - light_blue_shulker_box
+  - lime_shulker_box
+  - magenta_shulker_box
+  - orange_shulker_box
+  - pink_shulker_box
+  - purple_shulker_box
+  - red_shulker_box
+  - white_shulker_box
+  - yellow_shulker_box
+  - shulker_box
+  - barrel
+  - bell
+  - blast_furnace
+  - cartography_table
+  - grindstone
+  - loom
+  - smoker
+  - stonecutter
+  - acacia_sign
+  - acacia_wall_sign
+  - birch_sign
+  - birch_wall_sign
+  - dark_oak_sign
+  - dark_oak_wall_sign
+  - jungle_sign
+  - jungle_wall_sign
+  - oak_sign
+  - oak_wall_sign
+  - spruce_sign
+  - spruce_wall_sign
+
+# Used for the HoePlowings achievement category. You may need to expand this list when new Minecraft versions are
+# released.
+HoePlowableBlocks:
+  - dirt
+  - grass_block
+
+# Used for the Fish achievement category. You may need to expand this list when new Minecraft versions are released.
+FishableFish:
+  - cod
+  - salmon
+  - pufferfish
+  - tropical_fish
+
+# Count effects held (effect name in lower case).
+# Available effects: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+EffectsHeld:
+  jump:
+    1:
+      Goal: Hold the jump boost effect!
+      Message: You jumped as high as a kangaroo!
+      Name: effectsheld_1_jump
+      DisplayName: Kangaroo
+      Type: normal
+
+# Count books edited.
+BooksEdited:
+  10:
+    Goal: Edit 10 books.
+    Message: You've used an entire pot of ink!
+    Name: booksedited_10
+    DisplayName: Scribe
+    Type: normal

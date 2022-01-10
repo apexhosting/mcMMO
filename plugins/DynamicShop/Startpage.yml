@@ -1,4 +1,6 @@
 # LineBreak: \, |, bracket is NOT working. Recommended character: /, _, ;, ※
+
+# LineBreak: \, |, bracket is NOT working. Recommended character: /, _, ;, ※
 Buttons:
   '0':
     icon: BLUE_STAINED_GLASS_PANE

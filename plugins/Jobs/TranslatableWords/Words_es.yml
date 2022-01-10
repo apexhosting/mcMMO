@@ -333,7 +333,6 @@ ItemList:
   GRANITE: Granito (Granite)
   GRASS: Hierba (Grass)
   GRASS_BLOCK: Césped (Grass)
-  GRASS_PATH: Camino de Hierva (Grass Path)
   GRAVEL: Grava (Gravel)
   GRAY_BANNER: Estandarte (Banner)
   GRAY_BED: Cama (Bed)
@@ -728,7 +727,6 @@ ItemList:
   SHULKER_BOX: Shulker Box
   SHULKER_SHELL: Shulker Shell
   SHULKER_SPAWN_EGG: Spawn Shulker
-  SIGN: Sign
   SILVERFISH_SPAWN_EGG: Huevo de Lepisma (Spawn Silverfish)
   SKELETON_HORSE_SPAWN_EGG: Spawn Skeleton Horse
   SKELETON_SKULL: Cabeza de Esqueleto (Mob Head (Skeleton))
@@ -1089,6 +1087,159 @@ ItemList:
   ZOGLIN_SPAWN_EGG: zoglin spawn egg
   ZOMBIFIED_PIGLIN_SPAWN_EGG: zombified piglin spawn egg
   PIGLIN_BRUTE_SPAWN_EGG: Piglin Brute Spawn Egg
+  AMETHYST_BLOCK: Amethyst Block
+  AMETHYST_CLUSTER: Amethyst Cluster
+  AMETHYST_SHARD: Amethyst Shard
+  AXOLOTL_BUCKET: Axolotl Bucket
+  AXOLOTL_SPAWN_EGG: Axolotl Spawn Egg
+  AZALEA: Azalea
+  AZALEA_LEAVES: Azalea Leaves
+  BIG_DRIPLEAF: Big Dripleaf
+  BIG_DRIPLEAF_STEM: Big Dripleaf Stem
+  BLACK_CANDLE: Black Candle
+  BLACK_CANDLE_CAKE: Black Candle Cake
+  BLUE_CANDLE: Blue Candle
+  BLUE_CANDLE_CAKE: Blue Candle Cake
+  BROWN_CANDLE: Brown Candle
+  BROWN_CANDLE_CAKE: Brown Candle Cake
+  BUDDING_AMETHYST: Budding Amethyst
+  BUNDLE: Bundle
+  CALCITE: Calcite
+  CANDLE: Candle
+  CANDLE_CAKE: Candle Cake
+  CAVE_VINES: Cave Vines
+  CAVE_VINES_PLANT: Cave Vines Plant
+  CHISELED_DEEPSLATE: Chiseled Deepslate
+  COBBLED_DEEPSLATE: Cobbled Deepslate
+  COBBLED_DEEPSLATE_SLAB: Cobbled Deepslate Slab
+  COBBLED_DEEPSLATE_STAIRS: Cobbled Deepslate Stairs
+  COBBLED_DEEPSLATE_WALL: Cobbled Deepslate Wall
+  COPPER_BLOCK: Copper Block
+  COPPER_INGOT: Copper Ingot
+  COPPER_ORE: Copper Ore
+  CRACKED_DEEPSLATE_BRICKS: Cracked Deepslate Bricks
+  CRACKED_DEEPSLATE_TILES: Cracked Deepslate Tiles
+  CUT_COPPER: Cut Copper
+  CUT_COPPER_SLAB: Cut Copper Slab
+  CUT_COPPER_STAIRS: Cut Copper Stairs
+  CYAN_CANDLE: Cyan Candle
+  CYAN_CANDLE_CAKE: Cyan Candle Cake
+  DEEPSLATE: Deepslate
+  DEEPSLATE_BRICKS: Deepslate Bricks
+  DEEPSLATE_BRICK_SLAB: Deepslate Brick Slab
+  DEEPSLATE_BRICK_STAIRS: Deepslate Brick Stairs
+  DEEPSLATE_BRICK_WALL: Deepslate Brick Wall
+  DEEPSLATE_COAL_ORE: Deepslate Coal Ore
+  DEEPSLATE_COPPER_ORE: Deepslate Copper Ore
+  DEEPSLATE_DIAMOND_ORE: Deepslate Diamond Ore
+  DEEPSLATE_EMERALD_ORE: Deepslate Emerald Ore
+  DEEPSLATE_GOLD_ORE: Deepslate Gold Ore
+  DEEPSLATE_IRON_ORE: Deepslate Iron Ore
+  DEEPSLATE_LAPIS_ORE: Deepslate Lapis Ore
+  DEEPSLATE_REDSTONE_ORE: Deepslate Redstone Ore
+  DEEPSLATE_TILES: Deepslate Tiles
+  DEEPSLATE_TILE_SLAB: Deepslate Tile Slab
+  DEEPSLATE_TILE_STAIRS: Deepslate Tile Stairs
+  DEEPSLATE_TILE_WALL: Deepslate Tile Wall
+  DIRT_PATH: Dirt Path
+  DRIPSTONE_BLOCK: Dripstone Block
+  EXPOSED_COPPER: Exposed Copper
+  EXPOSED_CUT_COPPER: Exposed Cut Copper
+  EXPOSED_CUT_COPPER_SLAB: Exposed Cut Copper Slab
+  EXPOSED_CUT_COPPER_STAIRS: Exposed Cut Copper Stairs
+  FLOWERING_AZALEA: Flowering Azalea
+  FLOWERING_AZALEA_LEAVES: Flowering Azalea Leaves
+  GLOW_BERRIES: Glow Berries
+  GLOW_INK_SAC: Glow Ink Sac
+  GLOW_ITEM_FRAME: Glow Item Frame
+  GLOW_LICHEN: Glow Lichen
+  GLOW_SQUID_SPAWN_EGG: Glow Squid Spawn Egg
+  GOAT_SPAWN_EGG: Goat Spawn Egg
+  GRAY_CANDLE: Gray Candle
+  GRAY_CANDLE_CAKE: Gray Candle Cake
+  GREEN_CANDLE: Green Candle
+  GREEN_CANDLE_CAKE: Green Candle Cake
+  HANGING_ROOTS: Hanging Roots
+  INFESTED_DEEPSLATE: Infested Deepslate
+  LARGE_AMETHYST_BUD: Large Amethyst Bud
+  LAVA_CAULDRON: Lava Cauldron
+  LIGHT: Light
+  LIGHTNING_ROD: Lightning Rod
+  LIGHT_BLUE_CANDLE: Light Blue Candle
+  LIGHT_BLUE_CANDLE_CAKE: Light Blue Candle Cake
+  LIGHT_GRAY_CANDLE: Light Gray Candle
+  LIGHT_GRAY_CANDLE_CAKE: Light Gray Candle Cake
+  LIME_CANDLE: Lime Candle
+  LIME_CANDLE_CAKE: Lime Candle Cake
+  MAGENTA_CANDLE: Magenta Candle
+  MAGENTA_CANDLE_CAKE: Magenta Candle Cake
+  MEDIUM_AMETHYST_BUD: Medium Amethyst Bud
+  MOSS_BLOCK: Moss Block
+  MOSS_CARPET: Moss Carpet
+  ORANGE_CANDLE: Orange Candle
+  ORANGE_CANDLE_CAKE: Orange Candle Cake
+  OXIDIZED_COPPER: Oxidized Copper
+  OXIDIZED_CUT_COPPER: Oxidized Cut Copper
+  OXIDIZED_CUT_COPPER_SLAB: Oxidized Cut Copper Slab
+  OXIDIZED_CUT_COPPER_STAIRS: Oxidized Cut Copper Stairs
+  PINK_CANDLE: Pink Candle
+  PINK_CANDLE_CAKE: Pink Candle Cake
+  POINTED_DRIPSTONE: Pointed Dripstone
+  POLISHED_DEEPSLATE: Polished Deepslate
+  POLISHED_DEEPSLATE_SLAB: Polished Deepslate Slab
+  POLISHED_DEEPSLATE_STAIRS: Polished Deepslate Stairs
+  POLISHED_DEEPSLATE_WALL: Polished Deepslate Wall
+  POTTED_AZALEA_BUSH: Potted Azalea Bush
+  POTTED_FLOWERING_AZALEA_BUSH: Potted Flowering Azalea Bush
+  POWDER_SNOW: Powder Snow
+  POWDER_SNOW_BUCKET: Powder Snow Bucket
+  POWDER_SNOW_CAULDRON: Powder Snow Cauldron
+  PURPLE_CANDLE: Purple Candle
+  PURPLE_CANDLE_CAKE: Purple Candle Cake
+  RAW_COPPER: Raw Copper
+  RAW_COPPER_BLOCK: Raw Copper Block
+  RAW_GOLD: Raw Gold
+  RAW_GOLD_BLOCK: Raw Gold Block
+  RAW_IRON: Raw Iron
+  RAW_IRON_BLOCK: Raw Iron Block
+  RED_CANDLE: Red Candle
+  RED_CANDLE_CAKE: Red Candle Cake
+  ROOTED_DIRT: Rooted Dirt
+  SCULK_SENSOR: Sculk Sensor
+  SMALL_AMETHYST_BUD: Small Amethyst Bud
+  SMALL_DRIPLEAF: Small Dripleaf
+  SMOOTH_BASALT: Smooth Basalt
+  SPORE_BLOSSOM: Spore Blossom
+  SPYGLASS: Spyglass
+  TINTED_GLASS: Tinted Glass
+  TUFF: Tuff
+  WATER_CAULDRON: Water Cauldron
+  WAXED_COPPER_BLOCK: Waxed Copper Block
+  WAXED_CUT_COPPER: Waxed Cut Copper
+  WAXED_CUT_COPPER_SLAB: Waxed Cut Copper Slab
+  WAXED_CUT_COPPER_STAIRS: Waxed Cut Copper Stairs
+  WAXED_EXPOSED_COPPER: Waxed Exposed Copper
+  WAXED_EXPOSED_CUT_COPPER: Waxed Exposed Cut Copper
+  WAXED_EXPOSED_CUT_COPPER_SLAB: Waxed Exposed Cut Copper Slab
+  WAXED_EXPOSED_CUT_COPPER_STAIRS: Waxed Exposed Cut Copper Stairs
+  WAXED_OXIDIZED_COPPER: Waxed Oxidized Copper
+  WAXED_OXIDIZED_CUT_COPPER: Waxed Oxidized Cut Copper
+  WAXED_OXIDIZED_CUT_COPPER_SLAB: Waxed Oxidized Cut Copper Slab
+  WAXED_OXIDIZED_CUT_COPPER_STAIRS: Waxed Oxidized Cut Copper Stairs
+  WAXED_WEATHERED_COPPER: Waxed Weathered Copper
+  WAXED_WEATHERED_CUT_COPPER: Waxed Weathered Cut Copper
+  WAXED_WEATHERED_CUT_COPPER_SLAB: Waxed Weathered Cut Copper Slab
+  WAXED_WEATHERED_CUT_COPPER_STAIRS: Waxed Weathered Cut Copper Stairs
+  WEATHERED_COPPER: Weathered Copper
+  WEATHERED_CUT_COPPER: Weathered Cut Copper
+  WEATHERED_CUT_COPPER_SLAB: Weathered Cut Copper Slab
+  WEATHERED_CUT_COPPER_STAIRS: Weathered Cut Copper Stairs
+  WHITE_CANDLE: White Candle
+  WHITE_CANDLE_CAKE: White Candle Cake
+  YELLOW_CANDLE: Yellow Candle
+  YELLOW_CANDLE_CAKE: Yellow Candle Cake
+  MUSIC_DISC_OTHERSIDE: Music Disc Otherside
+  SIGN: Sign
   LEGACY_STATIONARY_WATER: Stationary Water
   LEGACY_STATIONARY_LAVA: Stationary Lava
   LEGACY_BURNING_FURNACE: Burning Furnace
@@ -1189,12 +1340,15 @@ EntityList:
   928-STRIDER: Strider
   929-ZOGLIN: Zoglin
   930-PIGLIN_BRUTE: Piglin Brute
+  931-AXOLOTL: Axolotl
+  932-GLOW_SQUID: Glowing Squid
+  933-GOAT: Goat
   914-PLAYER: Player
 EnchantList:
   Fire protection: Fire protection
   Sharpness: Sharpness
   Flame: Flame
-  Unknown: Unknown
+  Soul speed: Soul speed
   Aqua affinity: Aqua affinity
   Punch: Punch
   Loyalty: Loyalty

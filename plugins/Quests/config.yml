@@ -1,4 +1,19 @@
-# See https://github.com/FlyingPikachu/Quests/wiki/2-%E2%80%90-Configuration
+# See https://pikamug.gitbook.io/quests/setup/configuration
+storage-data:
+  address: localhost:3306
+  database: minecraft
+  username: root
+  password: ''
+  table_prefix: quests_
+  pool-settings:
+    max-pool-size: 10
+    min-idle: 10
+    max-lifetime: 1800000
+    connection-timeout: 5000
+storage-method:
+  player-data: yaml
+trial-save: false
+update-check: true
 console-logging: 2
 disable-command-feedback: true
 allow-pranks: true

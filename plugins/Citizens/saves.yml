@@ -34,9 +34,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: equipment,owner,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -72,9 +71,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: owner,equipment,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -110,9 +108,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -148,9 +145,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -186,9 +182,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -224,9 +219,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: equipment,owner,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -262,9 +256,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: owner,equipment,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -301,9 +294,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Gullible
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,gravity,sneak
+    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -324,9 +316,9 @@ npc:
         x: '-4.4248'
         y: '64.5'
         z: '134.5626'
-        yaw: '-47.8734'
-        pitch: '11.4081'
-        bodyYaw: -40.504143
+        yaw: '-42.2412'
+        pitch: '-15.5749'
+        bodyYaw: -11.70639
       gravity:
         enabled: false
       type: PLAYER
@@ -353,9 +345,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: equipment,owner,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,lookclose,gravity,sneak
+    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -405,9 +396,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: equipment,owner,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,lookclose,gravity,sneak
+    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -454,9 +444,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: equipment,owner,type,mounttrait,spawned,skintrait,scoreboardtrait,inventory,location,lookclose,gravity,sneak
+    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -506,9 +495,8 @@ npc:
       sneak:
         sneaking: false
       owner:
-        owner: Final_Architect
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: owner,equipment,type,mounttrait,skintrait,spawned,scoreboardtrait,inventory,location,lookclose,gravity,sneak
+    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -523,6 +511,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: rtp
@@ -552,9 +542,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzI2NDY3OSwKICAicHJvZmlsZUlkIiA6ICI0MzAxNWE0ZjE0MGU0NzRlODcyZmY3YjBiNGQ3OTMxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWdib24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY3MzlkMWE0YjAzYjhlNzQ3ZGQxYTMyZjFlMjJkNjFjN2JlNTc2MzcxY2ExNWUxYmM2NGY4Y2U0NTBkZmMwMiIKICAgIH0KICB9Cn0=
         updateSkins: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: owner,equipment,type,mounttrait,commandtrait,spawned,skintrait,scoreboardtrait,inventory,location,sneak
+    traitnames: sneak,spawned,commandtrait,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -569,6 +558,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: rtp
@@ -598,9 +589,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzIwNjY3NCwKICAicHJvZmlsZUlkIiA6ICJmZWEyMmVmMDNlZmQ0NjNiOGQzZmNjMGU1NDNmYTU3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWF0dG94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZDIzMTkwM2Y4MzE5MWFjNjViM2NmODcxOWNiZTQ2M2RlNTJkNzAzOTllMzE4MmVjYjZiMzE1NjkyYjVlZGIiCiAgICB9CiAgfQp9
         updateSkins: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: equipment,owner,type,mounttrait,commandtrait,skintrait,spawned,scoreboardtrait,inventory,location,sneak
+    traitnames: sneak,spawned,commandtrait,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -615,6 +605,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: rtp
@@ -644,9 +636,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzI2NDY3OSwKICAicHJvZmlsZUlkIiA6ICI0MzAxNWE0ZjE0MGU0NzRlODcyZmY3YjBiNGQ3OTMxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWdib24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY3MzlkMWE0YjAzYjhlNzQ3ZGQxYTMyZjFlMjJkNjFjN2JlNTc2MzcxY2ExNWUxYmM2NGY4Y2U0NTBkZmMwMiIKICAgIH0KICB9Cn0=
         updateSkins: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: owner,equipment,type,mounttrait,spawned,skintrait,commandtrait,scoreboardtrait,inventory,location,sneak
+    traitnames: sneak,spawned,commandtrait,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -661,6 +652,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: rtp
@@ -703,9 +696,8 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzIwNjY3NCwKICAicHJvZmlsZUlkIiA6ICJmZWEyMmVmMDNlZmQ0NjNiOGQzZmNjMGU1NDNmYTU3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWF0dG94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZDIzMTkwM2Y4MzE5MWFjNjViM2NmODcxOWNiZTQ2M2RlNTJkNzAzOTllMzE4MmVjYjZiMzE1NjkyYjVlZGIiCiAgICB9CiAgfQp9
         updateSkins: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: equipment,owner,type,mounttrait,spawned,commandtrait,skintrait,scoreboardtrait,inventory,location,lookclose,sneak
+    traitnames: sneak,spawned,lookclose,commandtrait,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

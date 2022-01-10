@@ -1,7 +1,7 @@
 
 #
 #  Experience configuration
-#  Last updated on 2.1.188-b${BUILD_NUMBER}
+#  Last updated on 2.1.207-b${BUILD_NUMBER}
 #
 #  Configure the experience formula and experience settings here.
 #
@@ -25,6 +25,8 @@ EarlyGameBoost:
     MaxLevelMultiplier: 0.05
 ExploitFix:
     # Prevent many exploits related to fishing
+    # Prevent many exploits related to fishing
+    # Prevent many exploits related to fishing
     Fishing: true
     EndermanEndermiteFarms: true
     Acrobatics: true
@@ -37,20 +39,38 @@ ExploitFix:
     # This include NPCs from stuff like Citizens, this is not a setting for Vanilla Minecraft Villagers (Which can be considered NPCs)
     # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
     # Of course, mcMMO doesn't know for sure whether or not something is an NPC, it checks a few known things, see our source code to see how
+    # This include NPCs from stuff like Citizens, this is not a setting for Vanilla Minecraft Villagers (Which can be considered NPCs)
+    # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
+    # Of course, mcMMO doesn't know for sure whether or not something is an NPC, it checks a few known things, see our source code to see how
+    # This include NPCs from stuff like Citizens, this is not a setting for Vanilla Minecraft Villagers (Which can be considered NPCs)
+    # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
+    # Of course, mcMMO doesn't know for sure whether or not something is an NPC, it checks a few known things, see our source code to see how
     PreventPluginNPCInteraction: true
 Experience_Bars:
+    # Turn this to false if you wanna disable XP bars
+    # Turn this to false if you wanna disable XP bars
     # Turn this to false if you wanna disable XP bars
     Enable: true
     Update:
         # XP that you gained from your party but not yourself
+        # XP that you gained from your party but not yourself
+        # XP that you gained from your party but not yourself
         Party: true
         # Passive is stuff like smelting, brewing
+        # Passive is stuff like smelting, brewing
+        # Passive is stuff like smelting, brewing
         Passive: true
+    # If you want to use a fancy edited title from the locale, then you'll probably want to turn this on, but it will make your server do a lot more work!
+    # I recommend leaving this off!
+    # If you want to use a fancy edited title from the locale, then you'll probably want to turn this on, but it will make your server do a lot more work!
+    # I recommend leaving this off!
     # If you want to use a fancy edited title from the locale, then you'll probably want to turn this on, but it will make your server do a lot more work!
     # I recommend leaving this off!
     ThisMayCauseLag:
         AlwaysUpdateTitlesWhenXPIsGained:
             Enable: false
+            # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
+            # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             ExtraDetails: false
     Acrobatics:
@@ -114,14 +134,30 @@ Experience_Bars:
         Color: GREEN
         BarStyle: SEGMENTED_6
 #
+#        Settings for XP formula
+# ##
+#
+#    Settings for XP formula
+# ##
+#
 #  Settings for XP formula
 ###
 Experience_Formula:
     # Valid values are: LINEAR and EXPONENTIAL
     # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+    # LINEAR:                        base + (level * multiplier)
+    # EXPONENTIAL: multiplier * level ^ exponent + base
+    # Valid values are: LINEAR and EXPONENTIAL
+    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+    # LINEAR:            base + (level * multiplier)
+    # EXPONENTIAL: multiplier * level ^ exponent + base
+    # Valid values are: LINEAR and EXPONENTIAL
+    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
     # LINEAR:      base + (level * multiplier)
     # EXPONENTIAL: multiplier * level ^ exponent + base
     Curve: LINEAR
+    # If invalid values are entered mcMMO will not start and print an error in the console
+    # If invalid values are entered mcMMO will not start and print an error in the console
     # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
         base: 1020
@@ -132,7 +168,13 @@ Experience_Formula:
         base: 2000
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
+    # Cumulative experience curves will use a players power level instead of their skill level,
+    # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
+    # Cumulative experience curves will use a players power level instead of their skill level,
+    # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     Cumulative_Curve: false
+    # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
+    # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     Multiplier:
         Global: 1.0
@@ -141,6 +183,8 @@ Experience_Formula:
         Multiplier: 0
     Breeding:
         Multiplier: 1.0
+    # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
+    # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     Modifier:
         Swords: 1.0
@@ -158,8 +202,14 @@ Experience_Formula:
         Alchemy: 1.0
     # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
     # with 1.25 by default, resulting in a 25% XP boost
+    # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
+    # with 1.25 by default, resulting in a 25% XP boost
+    # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
+    # with 1.25 by default, resulting in a 25% XP boost
     Custom_XP_Perk:
         Boost: 1.25
+    # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
+    # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     Eggs:
         Multiplier: 0
@@ -167,13 +217,29 @@ Experience_Formula:
         Multiplier: 0
 #
 # Settings for Diminished Returns
+# ##
+#
+# Settings for Diminished Returns
+# ##
+#
+# Settings for Diminished Returns
 ###
 Diminished_Returns:
+    # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
+    # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
+    # ## Set this value to 0 to turn it off
+    # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
+    # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
+    # ## Set this value to 0 to turn it off
     #This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
     ## A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
     ### Set this value to 0 to turn it off
     Guaranteed_Minimum_Percentage: 0.05
     Enabled: false
+    # Limit the amount of experience a player can earn:
+    # Threshold (amount of experience) per Time_Interval (in minutes)
+    # Limit the amount of experience a player can earn:
+    # Threshold (amount of experience) per Time_Interval (in minutes)
     # Limit the amount of experience a player can earn:
     # Threshold (amount of experience) per Time_Interval (in minutes)
     Threshold:
@@ -192,11 +258,25 @@ Diminished_Returns:
         Alchemy: 20000
     Time_Interval: 10
 #
+#        Settings for XP conversion with '/mcconvert experience'
+# ##
+#
+#    Settings for XP conversion with '/mcconvert experience'
+# ##
+#
 #  Settings for XP conversion with '/mcconvert experience'
 ###
 Conversion:
     # Old experience will get divided by this modifier
+    # Old experience will get divided by this modifier
+    # Old experience will get divided by this modifier
     Exp_Modifier: 1
+#
+#        Settings for XP distribution
+# ##
+#
+#    Settings for XP distribution
+# ##
 #
 #  Settings for XP distribution
 ###
@@ -208,8 +288,22 @@ Experience_Values:
         Roll: 600
         Fall: 600
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
+        # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
+        # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         FeatherFall_Multiplier: 2.0
     Alchemy:
+        # Alchemy potion stages are based on the number of ingredients added
+        # Potion_Stage_1 represents a base potion
+        # Potion_Stage_2 represents a base potion with one ingredient
+        # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
+        # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
+        # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
+        # Alchemy potion stages are based on the number of ingredients added
+        # Potion_Stage_1 represents a base potion
+        # Potion_Stage_2 represents a base potion with one ingredient
+        # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
+        # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
+        # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
         # Alchemy potion stages are based on the number of ingredients added
         # Potion_Stage_1 represents a base potion
         # Potion_Stage_2 represents a base potion with one ingredient
@@ -243,6 +337,7 @@ Experience_Values:
         Snow_Block: 40
         Soul_Sand: 40
         Soul_Soil: 40
+        Rooted_Dirt: 60
     Woodcutting:
         Oak_Log: 70
         Spruce_Log: 80
@@ -375,6 +470,12 @@ Experience_Values:
         Warped_Fungus: 50
         Shroomlight: 250
         Crimson_Roots: 6
+        Small_Dripleaf: 140
+        Moss_Block: 150
+        Cave_Vines: 90
+        Glow_Lichen: 200
+        Cave_Vines_Plant: 90
+        Big_Dripleaf: 140
     Mining:
         Tube_Coral_Block: 75
         Brain_Coral_Block: 80
@@ -448,6 +549,27 @@ Experience_Values:
         Ancient_Debris: 7777
         Basalt: 40
         Crimson_Nylium: 5
+        Small_Amethyst_Bud: 10
+        Calcite: 400
+        Tuff: 10
+        Deepslate_Coal_Ore: 700
+        Deepslate_Emerald_Ore: 1700
+        Deepslate_Redstone_Ore: 900
+        Deepslate_Copper_Ore: 1900
+        Deepslate_Gold_Ore: 1900
+        Deepslate_Lapis_Ore: 1400
+        Cobbled_Deepslate: 15
+        Amethyst_Block: 500
+        Deepslate: 30
+        Deepslate_Iron_Ore: 1300
+        Large_Amethyst_Bud: 30
+        Deepslate_Diamond_Ore: 3600
+        Budding_Amethyst: 400
+        Lapis_Lazuli_Ore: 800
+        Amethyst_Cluster: 60
+        Medium_Amethyst_Bud: 20
+        Copper_Ore: 1400
+        Smooth_Basalt: 300
     Repair:
         Base: 1000.0
         Wood: 0.6
@@ -470,6 +592,20 @@ Experience_Values:
         Redstone_Ore: 15
         Nether_Gold_Ore: 35
         Ancient_Debris: 200
+        Lapis_Lazuli_Ore: 40
+        Deepslate_Lapis_Lazuli_Ore: 60
+        Deepslate_Copper_Ore: 100
+        Deepslate_Gold_Ore: 50
+        Deepslate_Coal_Ore: 20
+        Raw_Gold: 35
+        Cobbled_Deepslate: 5
+        Copper_Ore: 75
+        Raw_Copper: 75
+        Deepslate_Emerald_Ore: 110
+        Deepslate_Redstone_Ore: 30
+        Deepslate_Iron_Ore: 40
+        Raw_Iron: 25
+        Deepslate_Diamond_Ore: 140
     Taming:
         Animal_Taming:
             Llama: 1200
@@ -485,6 +621,8 @@ Experience_Values:
             Fox: 1000
             Panda: 1000
             Bee: 100
+            Goat: 250
+            Axolotl: 600
     Combat:
         Multiplier:
             Animals: 1.0
@@ -554,3 +692,9 @@ Experience_Values:
             Zombie_Pigman: 3.0
             Piglin_Brute: 4.5
             Zombified_Piglin: 3.0
+            Glow_Squid: 1.5
+            Goat: 1.5
+            Axolotl: 1.75
+Fishing_ExploitFix_Options:
+    MoveRange: 3
+    OverFishLimit: 10

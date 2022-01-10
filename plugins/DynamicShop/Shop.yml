@@ -1,4 +1,6 @@
 # Shop name can not contain formatting codes, '/' and ' '
+
+# Shop name can not contain formatting codes, '/' and ' '
 Ore:
   Options:
     title: §3§lOre
