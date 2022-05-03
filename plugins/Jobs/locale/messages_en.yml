@@ -36,7 +36,9 @@ general:
     fromconsole: '&cYou can use this command only from console!'
     worldisdisabled: '&cYou can''t use command in this world!'
     newRegistration: '&eRegistered new ownership for [block] &7[current]&e/&f[max]'
+    reenabledBlock: '&eReenabled ownership'
     noRegistration: '&cYou''ve reached max [block] count!'
+    blockDisabled: '&6Payments from &e[type] &6got disabled. &2[location]'
 command:
   help:
     output:
@@ -153,12 +155,26 @@ command:
       reachedpointslimit: '&4You have reached exp limit in given time!'
       reachedpointslimit2: '&eYou can check your limit with &2/jobs limit &ecommand'
       notenabled: '&eMoney limit is not enabled'
+  resetexploreregion:
+    help:
+      info: Resets region data of Explorering
+      args: world [worldname]
+    output:
+      notenabled: '&eNot enabled.'
+      invalidname: '&eInvalid world name'
+      reseted: '&eExploring region data has been reset for: &2%worldname%'
   resetlimit:
     help:
       info: Resets a player's payment limits
       args: '[playername]'
     output:
       reseted: '&ePayment limits have been reset for: &2%playername%'
+  resetquesttotal:
+    help:
+      info: Resets a player's done quest counter
+      args: '[playername]/all'
+    output:
+      reseted: '&eDone quests have been reset for: &2%playername%'
   resetquest:
     help:
       info: Resets a player's quest
@@ -326,6 +342,7 @@ command:
       actions: '&eValid actions are:'
       leftClick: '&eLeft Click for more info'
       middleClick: '&eMiddle Click to leave this job'
+      qClick: '&eQ key to leave this job'
       rightClick: '&eRight click to join job'
       leftSlots: '&eLeft slots:&f '
       working: '&2&nAlready working'
@@ -475,6 +492,8 @@ command:
     output:
       list: '&6[place]. &e[type] -> [location]'
       listHover: '&6Click to remove: [location]'
+      disabled: '&6(disabled)'
+      disabledHover: '&6This block got disabled due to hopper actions'
   clearownership:
     help:
       info: Clear block ownership

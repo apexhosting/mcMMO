@@ -1,8 +1,3 @@
-per-world:
-  world1:
-    Owner:
-      tabprefix: '&0&l[&a&lOwner&0&l] &a'
-      tagprefix: '&2&lOwner &a'
 _DEFAULT_:
   tabprefix: '%vault-prefix%'
   tagprefix: '%vault-prefix%'

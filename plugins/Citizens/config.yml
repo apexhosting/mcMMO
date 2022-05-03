@@ -44,6 +44,8 @@ npc:
     minecraft:
       max-fall-distance: 3
     straight-line-targeting-distance: 5
+    defaults:
+      destination-teleport-margin: -1
   default:
     look-close:
       enabled: false
@@ -64,6 +66,7 @@ npc:
     waypoints:
       cache-paths: false
     bossbar-view-range: 64
+    spawn-nodamage-ticks: 20
   limits:
     default-limit: 10
     max-permission-checks: 100

@@ -26,6 +26,7 @@ settings:
   ping-packet-limit: 100
   use-exact-login-location: false
 spawn-limits:
+  axolotls: 5
   water-underground-creature: 5
   water-ambient: 20
   monsters: 70
@@ -36,6 +37,7 @@ chunk-gc:
   period-in-ticks: 600
   load-threshold: 0
 ticks-per:
+  axolotl-spawns: 1
   water-underground-creature-spawns: 1
   water-spawns: 1
   water-ambient-spawns: 1

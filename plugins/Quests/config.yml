@@ -1,3 +1,8 @@
+clickable-prompts: true
+condition-interval: 10
+confirm-abandon: true
+confirm-accept: true
+give-journal-item: false
 # See https://pikamug.gitbook.io/quests/setup/configuration
 storage-data:
   address: localhost:3306
@@ -6,6 +11,10 @@ storage-data:
   password: ''
   table_prefix: quests_
   pool-settings:
+    keepalive-time: 0
+    properties:
+      useUnicode: true
+      characterEncoding: utf8
     max-pool-size: 10
     min-idle: 10
     max-lifetime: 1800000

@@ -141,6 +141,8 @@ enable-pay-creative: false
 enable-pay-for-exploring-when-flying: false
 # Option to allow payment to be made for exploring when player gliding.
 enable-pay-for-exploring-when-gliding: false
+# Option to allow reset exploring data.
+enable-reset-exploring-data: false
 # Disables the payment when the player riding on an entity.
 disablePaymentIfRiding: false
 # Adds the Jobs xp received to the player's Minecraft XP bar
@@ -151,7 +153,7 @@ enable-boosted-items-in-offhand: true
 enable-boosted-items-in-mainhand: true
 # Do the jobs boost ignore the boosted items usage in armor slots?
 enable-boosted-armor-items: true
-# When enabled we will try to pay player for blocks above broken ones. This only applies to sugarcane, bamboo and kelp
+# When enabled we will try to pay player for blocks above broken ones. This only applies to sugarcane, bamboo, kelp and weeping_vines
 pay-for-above: false
 # Allows to pay for stacked entities for each one. Requires StackMob or WildStacker.
 pay-for-stacked-entities: false
@@ -449,6 +451,9 @@ BossBar:
   # How long in sec to show BossBar for player
   # If you have disabled ShowOnEachAction, then keep this number higher than payment interval for better experience
   Timer: 6
+  # If enabled, bossbar creation and management will be asynchronous.
+  # This avoids TPS drops when the ShowOnEachAction option is activated.
+  Async: false
 # You can enable/disable message shown for players in action bar
 ShowActionBars:
   OnTitleChange: true

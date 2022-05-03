@@ -9,10 +9,10 @@ GriefPrevention:
     lobby: -1
   Claims:
     Mode:
-      lobby: Survival
-      world_the_end: Disabled
-      world: Survival
       world_nether: Disabled
+      lobby: Survival
+      world: Survival
+      world_the_end: Disabled
       yort: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
