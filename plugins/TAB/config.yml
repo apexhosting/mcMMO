@@ -136,7 +136,9 @@ placeholders:
   date-format: dd.MM.yyyy
   time-format: '[HH:mm:ss / h:mm a]'
   time-offset: 0
-  register-tab-expansion: true
+  remove-strings:
+  - '[]'
+  - < >
 placeholder-output-replacements:
   '%essentials_vanished%':
     'yes': '&7| Vanished'

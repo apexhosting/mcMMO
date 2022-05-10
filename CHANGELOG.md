@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.5]
+
+### Changed
+- Updated to Minecraft 1.18.2
+- Files Cleanup
+
 ## [3.4]
 
 ### Changed
@@ -127,6 +133,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - Initial commit of pack to Github for version control
+[3.4]: https://github.com/apexhosting/mcMMO/releases/tag/3.5
 [3.4]: https://github.com/apexhosting/mcMMO/releases/tag/3.4
 [3.3]: https://github.com/apexhosting/mcMMO/releases/tag/3.3
 [3.2]: https://github.com/apexhosting/mcMMO/releases/tag/3.2

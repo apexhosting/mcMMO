@@ -9,11 +9,11 @@ GriefPrevention:
     lobby: -1
   Claims:
     Mode:
-      world_nether: Disabled
       lobby: Survival
       world: Survival
-      world_the_end: Disabled
+      world_nether: Disabled
       yort: Survival
+      world_the_end: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true

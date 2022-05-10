@@ -8,13 +8,12 @@
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
-# Docs: https://docs.papermc.io/ 
+# Docs: https://paper.readthedocs.org/ 
 
 use-display-name-in-quit-message: false
 verbose: false
-config-version: 25
+config-version: 24
 settings:
-  use-dimension-type-for-custom-spawners: false
   fix-target-selector-tag-completion: true
   time-command-affects-all-worlds: false
   log-player-ip-addresses: true
@@ -68,7 +67,6 @@ settings:
       other items
   use-display-name-in-quit-message: false
   loggers:
-    use-rgb-for-named-text-colors: true
     deobfuscate-stacktraces: true
   console:
     enable-brigadier-highlighting: true
@@ -82,7 +80,6 @@ settings:
       author: 8192
       page: 16384
   chunk-loading:
-    player-max-chunk-load-rate: -1.0
     min-load-radius: 2
     max-concurrent-sends: 2
     autoconfig-send-distance: true
@@ -90,7 +87,7 @@ settings:
     global-max-chunk-send-rate: -1.0
     enable-frustum-priority: false
     global-max-chunk-load-rate: 300.0
-    player-max-concurrent-loads: 20.0
+    player-max-concurrent-loads: 4.0
     global-max-concurrent-loads: 500.0
   packet-limiter:
     kick-message: '&cSent too many packets'
@@ -124,12 +121,6 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
-    slime-spawn-height:
-      swamp-biome:
-        maximum: 70.0
-        minimum: 50.0
-      slime-chunk:
-        maximum: 40.0
     anticheat:
       obfuscation:
         items:
