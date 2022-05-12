@@ -27,6 +27,7 @@ ExploitFix:
     # Prevent many exploits related to fishing
     # Prevent many exploits related to fishing
     # Prevent many exploits related to fishing
+    # Prevent many exploits related to fishing
     Fishing: true
     EndermanEndermiteFarms: true
     Acrobatics: true
@@ -45,8 +46,12 @@ ExploitFix:
     # This include NPCs from stuff like Citizens, this is not a setting for Vanilla Minecraft Villagers (Which can be considered NPCs)
     # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
     # Of course, mcMMO doesn't know for sure whether or not something is an NPC, it checks a few known things, see our source code to see how
+    # This include NPCs from stuff like Citizens, this is not a setting for Vanilla Minecraft Villagers (Which can be considered NPCs)
+    # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
+    # Of course, mcMMO doesn't know for sure whether or not something is an NPC, it checks a few known things, see our source code to see how
     PreventPluginNPCInteraction: true
 Experience_Bars:
+    # Turn this to false if you wanna disable XP bars
     # Turn this to false if you wanna disable XP bars
     # Turn this to false if you wanna disable XP bars
     # Turn this to false if you wanna disable XP bars
@@ -55,7 +60,9 @@ Experience_Bars:
         # XP that you gained from your party but not yourself
         # XP that you gained from your party but not yourself
         # XP that you gained from your party but not yourself
+        # XP that you gained from your party but not yourself
         Party: true
+        # Passive is stuff like smelting, brewing
         # Passive is stuff like smelting, brewing
         # Passive is stuff like smelting, brewing
         # Passive is stuff like smelting, brewing
@@ -66,9 +73,12 @@ Experience_Bars:
     # I recommend leaving this off!
     # If you want to use a fancy edited title from the locale, then you'll probably want to turn this on, but it will make your server do a lot more work!
     # I recommend leaving this off!
+    # If you want to use a fancy edited title from the locale, then you'll probably want to turn this on, but it will make your server do a lot more work!
+    # I recommend leaving this off!
     ThisMayCauseLag:
         AlwaysUpdateTitlesWhenXPIsGained:
             Enable: false
+            # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
@@ -134,6 +144,9 @@ Experience_Bars:
         Color: GREEN
         BarStyle: SEGMENTED_6
 #
+#                Settings for XP formula
+# ##
+#
 #        Settings for XP formula
 # ##
 #
@@ -143,6 +156,10 @@ Experience_Bars:
 #  Settings for XP formula
 ###
 Experience_Formula:
+    # Valid values are: LINEAR and EXPONENTIAL
+    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+    # LINEAR:                                                base + (level * multiplier)
+    # EXPONENTIAL: multiplier * level ^ exponent + base
     # Valid values are: LINEAR and EXPONENTIAL
     # If an invalid value is entered, this will reset to the default setting, which is LINEAR
     # LINEAR:                        base + (level * multiplier)
@@ -159,6 +176,7 @@ Experience_Formula:
     # If invalid values are entered mcMMO will not start and print an error in the console
     # If invalid values are entered mcMMO will not start and print an error in the console
     # If invalid values are entered mcMMO will not start and print an error in the console
+    # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
         base: 1020
         multiplier: 20
@@ -172,7 +190,10 @@ Experience_Formula:
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
+    # Cumulative experience curves will use a players power level instead of their skill level,
+    # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     Cumulative_Curve: false
+    # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
@@ -183,6 +204,7 @@ Experience_Formula:
         Multiplier: 0
     Breeding:
         Multiplier: 1.0
+    # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
@@ -206,8 +228,11 @@ Experience_Formula:
     # with 1.25 by default, resulting in a 25% XP boost
     # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
     # with 1.25 by default, resulting in a 25% XP boost
+    # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
+    # with 1.25 by default, resulting in a 25% XP boost
     Custom_XP_Perk:
         Boost: 1.25
+    # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
@@ -215,6 +240,9 @@ Experience_Formula:
         Multiplier: 0
     Nether_Portal:
         Multiplier: 0
+#
+# Settings for Diminished Returns
+# ##
 #
 # Settings for Diminished Returns
 # ##
@@ -231,11 +259,16 @@ Diminished_Returns:
     # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
     # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
     # ## Set this value to 0 to turn it off
+    # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
+    # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
+    # ## Set this value to 0 to turn it off
     #This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
     ## A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
     ### Set this value to 0 to turn it off
     Guaranteed_Minimum_Percentage: 0.05
     Enabled: false
+    # Limit the amount of experience a player can earn:
+    # Threshold (amount of experience) per Time_Interval (in minutes)
     # Limit the amount of experience a player can earn:
     # Threshold (amount of experience) per Time_Interval (in minutes)
     # Limit the amount of experience a player can earn:
@@ -258,6 +291,9 @@ Diminished_Returns:
         Alchemy: 20000
     Time_Interval: 10
 #
+#                Settings for XP conversion with '/mcconvert experience'
+# ##
+#
 #        Settings for XP conversion with '/mcconvert experience'
 # ##
 #
@@ -270,7 +306,11 @@ Conversion:
     # Old experience will get divided by this modifier
     # Old experience will get divided by this modifier
     # Old experience will get divided by this modifier
+    # Old experience will get divided by this modifier
     Exp_Modifier: 1
+#
+#                Settings for XP distribution
+# ##
 #
 #        Settings for XP distribution
 # ##
@@ -290,8 +330,15 @@ Experience_Values:
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
+        # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         FeatherFall_Multiplier: 2.0
     Alchemy:
+        # Alchemy potion stages are based on the number of ingredients added
+        # Potion_Stage_1 represents a base potion
+        # Potion_Stage_2 represents a base potion with one ingredient
+        # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
+        # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
+        # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
         # Alchemy potion stages are based on the number of ingredients added
         # Potion_Stage_1 represents a base potion
         # Potion_Stage_2 represents a base potion with one ingredient
