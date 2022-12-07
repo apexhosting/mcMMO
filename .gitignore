@@ -17,11 +17,11 @@ plugins/GriefPreventionData/PlayerData/*
 plugins/LuckPerms/translations/*
 plugins/Quests/lang/*
 plugins/WorldEdit/.archive-unpack/*
-world_the_end/*
-world_nether/*
-world/stats/*
-world/playerdata/*
-world/advancements/*
+main_the_end/*
+main_nether/*
+main/stats/*
+main/playerdata/*
+main/advancements/*
 versions/1.18.1/paper-1.18.1.jar
 version_history.json
 usercache.json
