@@ -49,7 +49,7 @@ worlds:
   main:
     ==: MVWorld
     hidden: 'false'
-    alias: world
+    alias: main
     color: WHITE
     style: NORMAL
     pvp: 'true'
