@@ -7,5 +7,5 @@ Hunger:
 CustomWorlds:
   Enabled: true
   Prices:
-  - world: 50
-  - world_end: 0
+  - main: 50
+  - main_the_end: 0

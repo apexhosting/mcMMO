@@ -529,7 +529,7 @@ npc:
         sneaking: false
       location:
         bodyYaw: -134.94855
-        world: world
+        world: main
         x: '53.404'
         y: '111.0'
         z: '303.4204'
@@ -576,7 +576,7 @@ npc:
         sneaking: false
       location:
         bodyYaw: 132.50104
-        world: world
+        world: main
         x: '61.5609'
         y: '111.0'
         z: '303.5011'
@@ -623,7 +623,7 @@ npc:
         sneaking: false
       location:
         bodyYaw: 37.91382
-        world: world
+        world: main
         x: '61.4873'
         y: '111.0'
         z: '295.4705'
@@ -683,7 +683,7 @@ npc:
         sneaking: false
       location:
         bodyYaw: -43.10858
-        world: world
+        world: main
         x: '53.6086'
         y: '111.0'
         z: '295.565'

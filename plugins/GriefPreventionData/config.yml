@@ -76,9 +76,9 @@ GriefPrevention:
     Logout Message Delay In Seconds: 0
   PvP:
     RulesEnabledInWorld:
-      world: true
-      world_nether: true
-      world_the_end: true
+      main: true
+      main_nether: true
+      main_the_end: true
       yort: true
       lobby: true
     ProtectFreshSpawns: true

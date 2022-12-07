@@ -4,7 +4,7 @@ wild:
   - '&f&oGo out ~100 blocks to build!'
   - '&7&o(/hd edit wild)'
   position:
-    world: world
+    world: main
     x: 51.244
     y: 112.78
     z: 299.443
@@ -124,7 +124,7 @@ survivalworld:
   - '&f&oAll survival aspects are &a&oenabled &f&ohere'
   - '&f&oincluding &c&oPvP &f&oand &a&omcMMO/Jobs'
   position:
-    world: world
+    world: main
     x: 57.478
     y: 113.2
     z: 293.685
@@ -134,7 +134,7 @@ survivalworld2:
   - '&f&oAll survival aspects are &a&oenabled &f&ohere'
   - '&f&oincluding &c&oPvP &f&oand &a&omcMMO/Jobs'
   position:
-    world: world
+    world: main
     x: 57.524
     y: 113.2
     z: 305.315
@@ -166,7 +166,7 @@ i1:
   lines:
   - '&7Right Click'
   position:
-    world: world
+    world: main
     x: 53.559
     y: 113.924
     z: 295.498
@@ -174,7 +174,7 @@ i2:
   lines:
   - '&7Right Click'
   position:
-    world: world
+    world: main
     x: 61.52
     y: 113.924
     z: 295.424
@@ -182,7 +182,7 @@ i3:
   lines:
   - '&7Right Click'
   position:
-    world: world
+    world: main
     x: 61.591
     y: 113.924
     z: 303.528
@@ -190,7 +190,7 @@ i4:
   lines:
   - '&7Right Click'
   position:
-    world: world
+    world: main
     x: 53.344
     y: 113.924
     z: 303.494

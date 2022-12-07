@@ -20,7 +20,7 @@ Settings:
   MaxAttempts: 32
   RtpOnFirstJoin:
     Enabled: false
-    World: world
+    World: main
     SetAsRespawn: false
   Cooldown:
     Enabled: true
@@ -80,9 +80,9 @@ Overrides:
 - master_world: world
 - creative_world: world
 WorldType:
-- world: NORMAL
-- world_nether: NETHER
-- world_the_end: NORMAL
+- main: NORMAL
+- main_nether: NETHER
+- main_the_end: NORMAL
 PermissionGroup:
   Enabled: false
   Groups:

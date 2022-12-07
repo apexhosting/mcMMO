@@ -1,5 +1,5 @@
 wild:
-  location: world, 51.244, 112.780, 299.443
+  location: main, 51.244, 112.780, 299.443
   lines:
   - '&2&lSurvival &a&lWorld'
   - '&f&oGo out ~100 blocks to build!'
@@ -81,7 +81,7 @@ survivalworld:
   - '&f&oAll survival aspects are &a&oenabled &f&ohere'
   - '&f&oincluding &c&oPvP &f&oand &a&omcMMO/Jobs'
 survivalworld2:
-  location: world, 57.524, 113.200, 305.315
+  location: main, 57.524, 113.200, 305.315
   lines:
   - '&2&lSurvival &a&lWorld'
   - '&f&oAll survival aspects are &a&oenabled &f&ohere'
@@ -103,18 +103,18 @@ arena:
   - '&f&oType &a&o/ma j &f&oto play!'
   - '&7&o(/hd edit arena)'
 i1:
-  location: world, 53.559, 113.924, 295.498
+  location: main, 53.559, 113.924, 295.498
   lines:
   - '&7Right Click'
 i2:
-  location: world, 61.520, 113.924, 295.424
+  location: main, 61.520, 113.924, 295.424
   lines:
   - '&7Right Click'
 i3:
-  location: world, 61.591, 113.924, 303.528
+  location: main, 61.591, 113.924, 303.528
   lines:
   - '&7Right Click'
 i4:
-  location: world, 53.344, 113.924, 303.494
+  location: main, 53.344, 113.924, 303.494
   lines:
   - '&7Right Click'
