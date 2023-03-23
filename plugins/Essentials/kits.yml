@@ -12,46 +12,46 @@ kits:
   survival:
     delay: 86400
     items:
-    - 272 1
-    - 273 1
-    - 274 1
-    - 275 1
-    - 320 16
-    - 50   32
-    - 333 1
-    - 306 1
-    - 307 1
-    - 308 1
-    - 309 1
+    - STONE_SWORD 1
+    - STONE_SHOVEL 1
+    - STONE_PICKAXE 1
+    - STONE_AXE 1
+    - COOKED_PORKCHOP 16
+    - TORCH 32
+    - OAK_BOAT 1
+    - IRON_HELMET 1
+    - IRON_CHESTPLATE 1
+    - IRON_LEGGINGS 1
+    - IRON_BOOTS 1
   tools:
     delay: 3600
     items:
-    - 272 1
-    - 273 1
-    - 274 1
-    - 275 2
+    - STONE_SWORD 1
+    - STONE_SHOVEL 1
+    - STONE_PICKAXE 1
+    - STONE_AXE 2
     - COOKED_BEEF 32
   dtools:
     delay: 600
     items:
-    - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
-    - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
-    - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
-    - 279:780 1
+    - DIAMOND_PICKAXE 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - DIAMOND_SHOVEL 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - LEATHER_HELMET 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - DIAMOND_AXE:780 1
   notch:
     delay: 6000
     items:
-    - 397:3 1 player:Notch
+    - PLAYER_HEAD 1 player:Notch
   color:
     delay: 6000
     items:
-    - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+    - WRITTEN_BOOK 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
   firework:
     delay: 6000
     items:
-    - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
-    - 401 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+    - FIREWORK_ROCKET 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - FIREWORK_ROCKET 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
       power:1
-    - 401 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+    - FIREWORK_ROCKET 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
       color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
       shape:star effect:trail power:1
