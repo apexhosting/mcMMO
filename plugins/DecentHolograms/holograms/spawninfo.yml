@@ -1,0 +1,22 @@
+location: lobby:0.519:68.200:144.318
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f&oWelcome to ApexHosting''s'
+    height: 0.3
+  - content: '&a&omcMMO Gametype &fserver!'
+    height: 0.3
+  - content: '&f&oAround this spawn area you''ll'
+    height: 0.3
+  - content: '&f&ofind info regarding &6&l&oconfiguration'
+    height: 0.3
+  - content: '&f&oand &6&l&ousage &f&oof the &a&l&oplugins &f&owe'
+    height: 0.3
+  - content: '&f&ohave installed for you!'
+    height: 0.3
+  actions: {}

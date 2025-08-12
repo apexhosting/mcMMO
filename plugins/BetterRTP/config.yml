@@ -3,7 +3,19 @@
 
 Language-File: en.yml
 Settings:
+  Queue:
+    Enabled: true # Allows betterrtp to automatically queue up safe rtp locations prior to players executing `/rtp`
+  Logger:
+    Enabled: true # Log all things rtp related to the log.log file
+    LogToConsole: false
+    Format: yyyy-MM-dd HH:mm:ss
   Respect:
+    MinePlots: false
+    Pueblos: false
+    SaberFactions: false
+    HuskTowns: false
+    FactionsBridge: false
+    CrashClaim: false
     WorldGuard: false
     GriefPrevention: false
     Towny: false
@@ -23,6 +35,7 @@ Settings:
     World: main
     SetAsRespawn: false
   Cooldown:
+    PerWorld: false
     Enabled: true
     LockAfter: 0
     Time: 600
@@ -32,6 +45,9 @@ Settings:
     CancelOnMove: true
   DisableUpdater: false
 Default:
+  MaxY: 320
+  MinY: 0
+  RTPOnDeath: false
   UseWorldBorder: false
   Biomes: []
   MaxRadius: 1000

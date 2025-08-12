@@ -1,0 +1,30 @@
+2025-05-16 22:25:40 [INFO]: Loading Overrides...
+2025-05-16 22:25:40 [WARNING]: The world `world` doesn't seem to exist! Please update `master_world's` override! Maybe there are capital letters?
+2025-05-16 22:25:40 [WARNING]: The world `world` doesn't seem to exist! Please update `creative_world's` override! Maybe there are capital letters?
+2025-05-16 22:25:40 [INFO]: Loading World Types...
+2025-05-16 22:25:40 [INFO]: - World Type for 'main' set to 'NORMAL'
+2025-05-16 22:25:40 [INFO]: - World Type for 'main_nether' set to 'NETHER'
+2025-05-16 22:25:40 [INFO]: - World Type for 'main_the_end' set to 'NORMAL'
+2025-05-16 22:25:40 [INFO]: Loading Defaults...
+2025-05-16 22:25:40 [INFO]: Loading Custom Worlds...
+2025-05-16 22:25:40 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-05-16 22:25:40 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-05-16 22:25:40 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:lobby configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:lobby_nether configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:lobby_the_end configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:yort configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:main configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:wild configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:main_the_end configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database COOLDOWN:main_nether configured and loaded!
+2025-05-16 22:25:41 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-05-16 22:25:42 [INFO]: Attempting to queue up some more safe locations...
+2025-05-16 22:25:43 [WARNING]: Seems like the world `lobby_nether` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- lobby_nether: NETHER`
+2025-05-16 22:26:54 [INFO]: Max attempts to create a Queue reached for default_lobby_nether (amount: 0)
+2025-05-16 22:26:54 [WARNING]: Seems like the world `lobby_the_end` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- lobby_the_end: NETHER`
+2025-05-16 22:28:02 [INFO]: Max attempts to create a Queue reached for default_lobby_nether (amount: 0)
+2025-05-16 22:29:11 [INFO]: Max attempts to create a Queue reached for default_lobby_nether (amount: 0)
+2025-05-16 22:29:31 [INFO]: Disabling BetterRTP v3.6.13

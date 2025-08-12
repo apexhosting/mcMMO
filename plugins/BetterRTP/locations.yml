@@ -6,6 +6,9 @@
 #   MaxRadius: 100
 #   MinRadius: 5
 
+RequirePermission: false
+UseLocationIfAvailable: true
+UseLocationsInSameWorld: true
 Enabled: false
 Locations:
 - main_loc:

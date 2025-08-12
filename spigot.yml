@@ -30,6 +30,8 @@ settings:
   restart-script: ./start.sh
   netty-threads: 4
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
@@ -51,6 +53,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  enable-spam-exclusions: false
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -67,6 +70,15 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    unload-frozen-chunks: false
+    hopper-can-load-chunks: false
+    seed-nether: 30084232
+    seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
+    seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
     simulation-distance: default
     thunder-chance: 100000
@@ -114,6 +126,7 @@ world-settings:
         flying-monsters-every: 200
         flying-monsters-for: 100
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 48
       monsters: 48
@@ -131,6 +144,8 @@ world-settings:
     seed-monument: 10387313
     seed-slime: 987234911
     growth:
+      torchflower-modifier: 100
+      pitcherplant-modifier: 100
       twistingvines-modifier: 100
       weepingvines-modifier: 100
       cavevines-modifier: 100

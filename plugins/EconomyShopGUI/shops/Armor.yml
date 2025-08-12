@@ -1,0 +1,123 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: LEATHER_HELMET
+        displayname: LeatherHelmet
+        buy: 5.0
+        sell: 1.0
+      '2':
+        material: LEATHER_CHESTPLATE
+        displayname: LeatherChestplate
+        buy: 5.0
+        sell: 1.0
+      '3':
+        material: LEATHER_LEGGINGS
+        displayname: LeatherLeggings
+        buy: 5.0
+        sell: 1.0
+      '4':
+        material: LEATHER_BOOTS
+        displayname: LeatherBoots
+        buy: 5.0
+        sell: 1.0
+      '5':
+        material: CHAINMAIL_HELMET
+        displayname: ChainmailHelmet
+        buy: 15.0
+        sell: 5.0
+      '6':
+        material: CHAINMAIL_CHESTPLATE
+        displayname: ChainmailChestplate
+        buy: 15.0
+        sell: 5.0
+      '7':
+        material: CHAINMAIL_LEGGINGS
+        displayname: ChainmailLeggings
+        buy: 15.0
+        sell: 5.0
+      '8':
+        material: CHAINMAIL_BOOTS
+        displayname: ChainmailBoots
+        buy: 15.0
+        sell: 5.0
+      '9':
+        material: GOLDEN_HELMET
+        displayname: GoldHelmet
+        buy: 25.0
+        sell: 15.0
+      '10':
+        material: GOLDEN_CHESTPLATE
+        displayname: GoldChestplate
+        buy: 25.0
+        sell: 15.0
+      '11':
+        material: GOLDEN_LEGGINGS
+        displayname: GoldLeggings
+        buy: 25.0
+        sell: 15.0
+      '12':
+        material: GOLDEN_BOOTS
+        displayname: GoldBoots
+        buy: 25.0
+        sell: 15.0
+      '13':
+        material: IRON_HELMET
+        displayname: IronHelmet
+        buy: 30.0
+        sell: 20.0
+      '14':
+        material: IRON_CHESTPLATE
+        displayname: IronChestplate
+        buy: 30.0
+        sell: 20.0
+      '15':
+        material: IRON_LEGGINGS
+        displayname: IronLeggings
+        buy: 30.0
+        sell: 20.0
+      '16':
+        material: IRON_BOOTS
+        displayname: IronBoots
+        buy: 30.0
+        sell: 20.0
+      '17':
+        material: DIAMOND_HELMET
+        displayname: DiamondHelmet
+        buy: 1000.0
+        sell: 800.0
+      '18':
+        material: DIAMOND_CHESTPLATE
+        displayname: DiamondChestplate
+        buy: 1000.0
+        sell: 800.0
+      '19':
+        material: DIAMOND_LEGGINGS
+        displayname: DiamondLeggings
+        buy: 1000.0
+        sell: 800.0
+      '20':
+        material: DIAMOND_BOOTS
+        displayname: DiamondBoots
+        buy: 1000.0
+        sell: 800.0
+      '21':
+        material: NETHERITE_HELMET
+        displayname: NetheriteHelmet
+        buy: 5000.0
+        sell: 1500.0
+      '22':
+        material: NETHERITE_CHESTPLATE
+        displayname: NetheriteChestplate
+        buy: 5000.0
+        sell: 1500.0
+      '23':
+        material: NETHERITE_LEGGINGS
+        displayname: NetheriteLeggings
+        buy: 5000.0
+        sell: 1500.0
+      '24':
+        material: NETHERITE_BOOTS
+        displayname: NetheriteBoots
+        buy: 5000.0
+        sell: 1500.0

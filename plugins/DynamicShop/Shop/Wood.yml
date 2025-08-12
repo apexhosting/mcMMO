@@ -1,0 +1,196 @@
+Options:
+  title: §2§lWood
+  page: 2
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: BROWN_STAINED_GLASS_PANE
+'1':
+  mat: OAK_WOOD
+  value: 1.5
+  median: 35418
+  stock: 35418
+'2':
+  mat: SPRUCE_WOOD
+  value: 1.5
+  median: 35418
+  stock: 35418
+'3':
+  mat: BIRCH_WOOD
+  value: 1.5
+  median: 35418
+  stock: 35418
+'4':
+  mat: BROWN_STAINED_GLASS_PANE
+'5':
+  mat: JUNGLE_WOOD
+  value: 1.5
+  median: 35418
+  stock: 35418
+'6':
+  mat: ACACIA_WOOD
+  value: 1.5
+  median: 35418
+  stock: 35418
+'7':
+  mat: DARK_OAK_WOOD
+  value: 1.5
+  median: 35418
+  stock: 35418
+'8':
+  mat: BROWN_STAINED_GLASS_PANE
+'9':
+  mat: BROWN_STAINED_GLASS_PANE
+'10':
+  mat: OAK_PLANKS
+  value: 0.4
+  median: 52655
+  stock: 52655
+'11':
+  mat: SPRUCE_PLANKS
+  value: 0.4
+  median: 52655
+  stock: 52655
+'12':
+  mat: BIRCH_PLANKS
+  value: 0.48
+  median: 49852
+  stock: 49852
+'13':
+  mat: BROWN_STAINED_GLASS_PANE
+'14':
+  mat: JUNGLE_PLANKS
+  value: 0.4
+  median: 52655
+  stock: 52655
+'15':
+  mat: ACACIA_PLANKS
+  value: 0.48
+  median: 49852
+  stock: 49852
+'16':
+  mat: DARK_OAK_PLANKS
+  value: 0.4
+  median: 52655
+  stock: 52655
+'17':
+  mat: BROWN_STAINED_GLASS_PANE
+'18':
+  mat: BROWN_STAINED_GLASS_PANE
+'19':
+  mat: OAK_STAIRS
+  value: 0.63
+  median: 45947
+  stock: 45947
+'20':
+  mat: SPRUCE_STAIRS
+  value: 0.63
+  median: 45947
+  stock: 45947
+'21':
+  mat: BIRCH_STAIRS
+  value: 0.74
+  median: 43781
+  stock: 43781
+'22':
+  mat: BROWN_STAINED_GLASS_PANE
+'23':
+  mat: JUNGLE_STAIRS
+  value: 0.63
+  median: 45947
+  stock: 45947
+'24':
+  mat: ACACIA_STAIRS
+  value: 0.81
+  median: 42610
+  stock: 42610
+'25':
+  mat: DARK_OAK_STAIRS
+  value: 0.63
+  median: 45947
+  stock: 45947
+'26':
+  mat: BROWN_STAINED_GLASS_PANE
+'27':
+  mat: BROWN_STAINED_GLASS_PANE
+'28':
+  mat: OAK_SLAB
+  value: 0.25
+  median: 60628
+  stock: 60628
+'29':
+  mat: SPRUCE_SLAB
+  value: 0.22
+  median: 62998
+  stock: 62998
+'30':
+  mat: BIRCH_SLAB
+  value: 0.25
+  median: 60628
+  stock: 60628
+'31':
+  mat: BROWN_STAINED_GLASS_PANE
+'32':
+  mat: JUNGLE_SLAB
+  value: 0.43
+  median: 51525
+  stock: 51525
+'33':
+  mat: ACACIA_SLAB
+  value: 0.34
+  median: 55286
+  stock: 55286
+'34':
+  mat: DARK_OAK_SLAB
+  value: 0.22
+  median: 62998
+  stock: 62998
+'35':
+  mat: BROWN_STAINED_GLASS_PANE
+'36':
+  mat: BROWN_STAINED_GLASS_PANE
+'37':
+  mat: OAK_SAPLING
+  value: 0.65
+  median: 45518
+  stock: 45518
+'38':
+  mat: SPRUCE_SAPLING
+  value: 0.65
+  median: 45518
+  stock: 45518
+'39':
+  mat: BIRCH_SAPLING
+  value: 0.65
+  median: 45518
+  stock: 45518
+'40':
+  mat: BROWN_STAINED_GLASS_PANE
+'41':
+  mat: JUNGLE_SAPLING
+  value: 0.85
+  median: 41998
+  stock: 41998
+'42':
+  mat: ACACIA_SAPLING
+  value: 0.65
+  median: 45518
+  stock: 45518
+'43':
+  mat: DARK_OAK_SAPLING
+  value: 0.65
+  median: 45518
+  stock: 45518
+'44':
+  mat: BROWN_STAINED_GLASS_PANE
+'58':
+  mat: BOOKSHELF
+  value: 118.54
+  median: 9547
+  stock: 9547
+'67':
+  mat: PETRIFIED_OAK_SLAB
+  value: 0.25
+  median: 60628
+  stock: 60628

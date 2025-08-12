@@ -1,0 +1,16 @@
+location: wild:257.576:109.912:-261.508
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&2&lSurvival &a&lWorld'
+    height: 0.3
+  - content: '&f&oAll survival aspects are &a&oenabled &f&ohere'
+    height: 0.3
+  - content: '&f&oincluding &c&oPvP &f&oand &a&omcMMO/Jobs'
+    height: 0.3
+  actions: {}

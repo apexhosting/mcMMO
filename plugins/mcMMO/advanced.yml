@@ -1,4 +1,3 @@
-
 #
 #  Advanced configuration
 #  Last updated on 2.1.207-b${BUILD_NUMBER}
@@ -9,10 +8,10 @@
 #  Its mainly here if you've customized the experience formula.
 #  Configure at what level you get better with certain abilities.
 #
-#####
+# ####
 #
 #  Settings for the Skills
-###
+# ##
 # Enables anonymous statistics
 Metrics:
     bstats: true
@@ -24,9 +23,11 @@ Feedback:
     # If sendtitles is true messages will be sent using the title api (BIG TEXT ON SCREEN)
     # If sendtitles is true messages will be sent using the title api (BIG TEXT ON SCREEN)
     # If sendtitles is true messages will be sent using the title api (BIG TEXT ON SCREEN)
+    # If sendtitles is true messages will be sent using the title api (BIG TEXT ON SCREEN)
     Events:
         XP:
             SendTitles: true
+        # Send notifications to the chat or actionbar of other nearby players when a user activates an ability
         # Send notifications to the chat or actionbar of other nearby players when a user activates an ability
         # Send notifications to the chat or actionbar of other nearby players when a user activates an ability
         # Send notifications to the chat or actionbar of other nearby players when a user activates an ability
@@ -39,8 +40,10 @@ Feedback:
     # # If you disable the action bar messages, mcMMO will send the message to the chat system instead
     # The actionbar is the message location right above the health bar
     # # If you disable the action bar messages, mcMMO will send the message to the chat system instead
-    #The actionbar is the message location right above the health bar
-    ## If you disable the action bar messages, mcMMO will send the message to the chat system instead
+    # The actionbar is the message location right above the health bar
+    # # If you disable the action bar messages, mcMMO will send the message to the chat system instead
+    # The actionbar is the message location right above the health bar
+    # # If you disable the action bar messages, mcMMO will send the message to the chat system instead
     ActionBarNotifications:
         AbilityOff:
             Enabled: true
@@ -107,6 +110,13 @@ Skills:
             EnchantBuff: 5
         LimitBreak:
             AllowPVE: false
+        Attack_Cooldown:
+            Adjust_Skills_For_Attack_Cooldown: true
+    # IncreaseLevel: This setting will determine when the length of every ability gets longer with 1 second
+    # EnchantBuff: This setting determines how many enchant levels to use when buffing Super Breaker & Giga Drill Breaker
+    #
+    #                                Settings for Acrobatics
+    # ##
     # IncreaseLevel: This setting will determine when the length of every ability gets longer with 1 second
     # EnchantBuff: This setting determines how many enchant levels to use when buffing Super Breaker & Giga Drill Breaker
     #
@@ -122,13 +132,16 @@ Skills:
     #
     #    Settings for Acrobatics
     # ##
-            # IncreaseLevel: This setting will determine when the length of every ability gets longer with 1 second
-            # EnchantBuff: This setting determines how many enchant levels to use when buffing Super Breaker & Giga Drill Breaker
+    # IncreaseLevel: This setting will determine when the length of every ability gets longer with 1 second
+    # EnchantBuff: This setting determines how many enchant levels to use when buffing Super Breaker & Giga Drill Breaker
     #
     #  Settings for Acrobatics
-    ###
+    # ##
     Acrobatics:
         Dodge:
+            # ChanceMax: Maximum chance of dodging when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: On this level or higher, the dodge chance will not go higher than <ChanceMax>
+            # DamageModifier: Dodge damage will be divided by this modifier
             # ChanceMax: Maximum chance of dodging when on <MaxBonusLevel> or higher
             # MaxBonusLevel: On this level or higher, the dodge chance will not go higher than <ChanceMax>
             # DamageModifier: Dodge damage will be divided by this modifier
@@ -154,9 +167,13 @@ Skills:
             # MaxBonusLevel: Maximum bonus level of Catalysis, when a player reaches this level his brewing speed will be <MaxSpeed>
             # MinSpeed: Minimum brewing speed allowed when at <UnlockLevel> or lower
             # MaxSpeed: Maximum brewing speed allowed when at <MaxBonusLevel> or higher
+            # MaxBonusLevel: Maximum bonus level of Catalysis, when a player reaches this level his brewing speed will be <MaxSpeed>
+            # MinSpeed: Minimum brewing speed allowed when at <UnlockLevel> or lower
+            # MaxSpeed: Maximum brewing speed allowed when at <MaxBonusLevel> or higher
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
+            # DamageModifier: Damage will get divided by this modifier
             # DamageModifier: Damage will get divided by this modifier
             # DamageModifier: Damage will get divided by this modifier
             # DamageModifier: Damage will get divided by this modifier
@@ -187,11 +204,20 @@ Skills:
             # ChanceMax: Maximum chance of causing daze to opponents when on <MaxBonusLevel> or higher
             # MaxBonusLevel: Maximum bonus level of Daze, when a player reaches this level his chance of causing a daze will be <ChanceMax>
             # Modifier: Extra damage for arrows that cause a daze (2 damage = 1 heart)
+            # ChanceMax: Maximum chance of rolling when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: On this level or higher, the roll chance will not go higher than <ChanceMax>
+            # DamageThreshold: The max damage a player can negate with a roll, graceful roll doubles this number
+            # ChanceMax: Maximum chance of causing daze to opponents when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: Maximum bonus level of Daze, when a player reaches this level his chance of causing a daze will be <ChanceMax>
+            # Modifier: Extra damage for arrows that cause a daze (2 damage = 1 heart)
             ChanceMax: 100.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
             DamageThreshold: 7.0
+    #
+    #                                Settings for Alchemy
+    # ##
     #
     #                Settings for Alchemy
     # ##
@@ -203,7 +229,7 @@ Skills:
     # ##
     #
     #  Settings for Alchemy
-    ###
+    # ##
     Alchemy:
         Catalysis:
             MaxBonusLevel:
@@ -211,6 +237,9 @@ Skills:
                 RetroMode: 1000
             MinSpeed: 1.0
             MaxSpeed: 4.0
+    #
+    #                                Settings for Archery
+    # ##
     #
     #                Settings for Archery
     # ##
@@ -222,9 +251,13 @@ Skills:
     # ##
     #
     #  Settings for Archery
-    ###
+    # ##
     Archery:
         SkillShot:
+            # RankDamageMultiplier: The current rank of this subskill is multiplied by this value to determine the bonus damage, rank 20 would result in 200% damage increase with a value of 10.0 for RankDamageMultiplier
+            # RankDamageMultiplier is a percentage
+            # This number is multiplied by the current rank the player has in this subskill to find the amount of additional damage to apply
+            # With the default config value of 1.0, at rank 4 a player will deal 4.0 extra damage with Axes (1.0 * 4)
             # RankDamageMultiplier: The current rank of this subskill is multiplied by this value to determine the bonus damage, rank 20 would result in 200% damage increase with a value of 10.0 for RankDamageMultiplier
             # RankDamageMultiplier is a percentage
             # This number is multiplied by the current rank the player has in this subskill to find the amount of additional damage to apply
@@ -250,8 +283,16 @@ Skills:
             # You should be careful to not set this too low
             # MaxDamage: After adding bonus damage, the total damage dealt by the player will not exceed this number
             # You should be careful to not set this too low
+            # MaxDamage: After adding bonus damage, the total damage dealt by the player will not exceed this number
+            # You should be careful to not set this too low
             MaxDamage: 9.0
         Daze:
+            # ChanceMax: Maximum chance of retrieving arrows when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: Maximum bonus level for Arrow retrieval, at this level the chance of retrieving arrows from mobs is <ChanceMax>
+            # ChanceMax: Maximum chance of causing a critical hit when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: Level where <ChanceMax> of causing critical hits is reached
+            # ChanceMax: Maximum chance of GreenThumb when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: On this level, GreenThumb chance will be <ChanceMax>
             # ChanceMax: Maximum chance of retrieving arrows when on <MaxBonusLevel> or higher
             # MaxBonusLevel: Maximum bonus level for Arrow retrieval, at this level the chance of retrieving arrows from mobs is <ChanceMax>
             # ChanceMax: Maximum chance of causing a critical hit when on <MaxBonusLevel> or higher
@@ -290,6 +331,8 @@ Skills:
             # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
             # ChanceMax: Maximum chance of receiving double drops when on <MaxBonusLevel> or higher
             # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
+            # ChanceMax: Maximum chance of receiving double drops when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
             ChanceMax: 100.0
             MaxBonusLevel:
                 Standard: 100
@@ -298,7 +341,11 @@ Skills:
         # ForceMultiplier: Multiply the force of the bow by this for an XP boost.
         # ForceMultiplier: Multiply the force of the bow by this for an XP boost.
         # ForceMultiplier: Multiply the force of the bow by this for an XP boost.
+        # ForceMultiplier: Multiply the force of the bow by this for an XP boost.
         ForceMultiplier: 2.0
+    #
+    #                                Settings for Axes
+    # ##
     #
     #                Settings for Axes
     # ##
@@ -310,11 +357,13 @@ Skills:
     # ##
     #
     #  Settings for Axes
-    ###
+    # ##
     Axes:
         AxeMastery:
             RankDamageMultiplier: 1.0
         CriticalStrikes:
+            # ChanceMax: Maximum chance of Hylian Luck when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: On this level, Hylian Luck chance will be <ChanceMax>
             # ChanceMax: Maximum chance of Hylian Luck when on <MaxBonusLevel> or higher
             # MaxBonusLevel: On this level, Hylian Luck chance will be <ChanceMax>
             # ChanceMax: Maximum chance of Hylian Luck when on <MaxBonusLevel> or higher
@@ -331,6 +380,7 @@ Skills:
             # Damage modifier of critical hits for PVP / PVE, when causing a critical hit the damage gets multiplied by the modifier
             # Damage modifier of critical hits for PVP / PVE, when causing a critical hit the damage gets multiplied by the modifier
             # Damage modifier of critical hits for PVP / PVE, when causing a critical hit the damage gets multiplied by the modifier
+            # Damage modifier of critical hits for PVP / PVE, when causing a critical hit the damage gets multiplied by the modifier
             PVP_Modifier: 1.5
             PVE_Modifier: 2.0
         GreaterImpact:
@@ -338,6 +388,9 @@ Skills:
             # KnockbackModifier: Velocity modifier of GreaterImpact hits, this determines how great the knockback is
             # BonusDamage: Extra damage for GreaterImpact hits
             # Chance: Chance for Flux Mining to activate
+            # Chance: Chance of hitting with GreaterImpact, mobs are knocked backwards when successful
+            # KnockbackModifier: Velocity modifier of GreaterImpact hits, this determines how great the knockback is
+            # BonusDamage: Extra damage for GreaterImpact hits
             # Chance: Chance of hitting with GreaterImpact, mobs are knocked backwards when successful
             # KnockbackModifier: Velocity modifier of GreaterImpact hits, this determines how great the knockback is
             # BonusDamage: Extra damage for GreaterImpact hits
@@ -368,8 +421,13 @@ Skills:
             # Chance: Chance of hitting with ArmorImpact
             # MaxPercentageDurabilityDamage: Durability damage cap for ArmorImpact, 20% means that you can never destroy a piece of armor in less than 5 hits
             # Chance: Chance for Flux Mining to activate
+            # IncreaseLevel: Every <IncreaseLevel> the durability damage goes up with 1
+            # Chance: Chance of hitting with ArmorImpact
+            # MaxPercentageDurabilityDamage: Durability damage cap for ArmorImpact, 20% means that you can never destroy a piece of armor in less than 5 hits
+            # Chance: Chance for Flux Mining to activate
             Chance: 25.0
             MaxPercentageDurabilityDamage: 20.0
+            # Multiplied against the skill rank to determine how much damage to do
             # Multiplied against the skill rank to determine how much damage to do
             # Multiplied against the skill rank to determine how much damage to do
             # Multiplied against the skill rank to determine how much damage to do
@@ -380,7 +438,11 @@ Skills:
             # DamageModifier: Damaged caused by the damager will get divided by this modifier and dealt back to the damager
             # DamageModifier: Damaged caused by the damager will get divided by this modifier and dealt back to the damager
             # DamageModifier: Damaged caused by the damager will get divided by this modifier and dealt back to the damager
+            # DamageModifier: Damaged caused by the damager will get divided by this modifier and dealt back to the damager
             DamageModifier: 2.0
+    #
+    #                                Settings for Fishing
+    # ##
     #
     #                Settings for Fishing
     # ##
@@ -392,7 +454,7 @@ Skills:
     # ##
     #
     #  Settings for Fishing
-    ###
+    # ##
     Fishing:
         ShakeChance:
             Rank_1: 15.0
@@ -403,6 +465,8 @@ Skills:
             Rank_6: 55.0
             Rank_7: 65.0
             Rank_8: 75.0
+        # VanillaXPMultiplier: Vanilla XP gained from fishing is multiplied by these values.
+        # VanillaXPMultiplier: Vanilla XP gained from smelting ores is multiplied by these values.
         # VanillaXPMultiplier: Vanilla XP gained from fishing is multiplied by these values.
         # VanillaXPMultiplier: Vanilla XP gained from smelting ores is multiplied by these values.
         # VanillaXPMultiplier: Vanilla XP gained from fishing is multiplied by these values.
@@ -425,11 +489,13 @@ Skills:
             # This determines when Fisherman's Diet adds extra hunger recovery to food
             # This determines when Fisherman's Diet adds extra hunger recovery to food
             # This determines when Fisherman's Diet adds extra hunger recovery to food
+            # This determines when Fisherman's Diet adds extra hunger recovery to food
             RankChange: 20
         MasterAngler:
             BoatModifier: 2.0
             BiomeModifier: 2.0
             Tick_Reduction_Per_Rank:
+                # Don't modify these two unless you fully understand what you are doing
                 # Don't modify these two unless you fully understand what you are doing
                 # Don't modify these two unless you fully understand what you are doing
                 # Don't modify these two unless you fully understand what you are doing
@@ -443,6 +509,9 @@ Skills:
                 Min_Wait: 40
                 Max_Wait: 100
     #
+    #                                Settings for Herbalism
+    # ##
+    #
     #                Settings for Herbalism
     # ##
     #
@@ -453,9 +522,11 @@ Skills:
     # ##
     #
     #  Settings for Herbalism
-    ###
+    # ##
     Herbalism:
         GreenThumb:
+            # ChanceMax: Maximum chance of ShroomThumb when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: On this level, ShroomThumb chance will be <ChanceMax>
             # ChanceMax: Maximum chance of ShroomThumb when on <MaxBonusLevel> or higher
             # MaxBonusLevel: On this level, ShroomThumb chance will be <ChanceMax>
             # ChanceMax: Maximum chance of ShroomThumb when on <MaxBonusLevel> or higher
@@ -477,11 +548,15 @@ Skills:
             # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
             # ChanceMax: Maximum chance of receiving double drops when on <MaxBonusLevel> or higher
             # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
+            # ChanceMax: Maximum chance of receiving double drops when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
             ChanceMax: 100.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
         HylianLuck:
+            # ChanceMax: Maximum chance of Super Repair when on <MaxBonusLevel> or higher
+            # MaxBonusLevel: On this level, Super Repair chance will be <ChanceMax>
             # ChanceMax: Maximum chance of Super Repair when on <MaxBonusLevel> or higher
             # MaxBonusLevel: On this level, Super Repair chance will be <ChanceMax>
             # ChanceMax: Maximum chance of Super Repair when on <MaxBonusLevel> or higher
@@ -522,10 +597,24 @@ Skills:
             # MaxBonusLevel: On this level, the chance to Counter will be <ChanceMax>
             # ChanceMax: Maximum chance of triggering gore
             # MaxBonusLevel: On this level, the chance to cause Gore will be <ChanceMax>
+            # ChanceMax: Maximum chance of triggering Second Smelt
+            # MaxBonusLevel: On this level, the chance to cause Second Smelt will be <ChanceMax>
+            # ChanceMax: Maximum chance of triggering a counter attack
+            # MaxBonusLevel: On this level, the chance to Counter will be <ChanceMax>
+            # ChanceMax: Maximum chance of triggering gore
+            # MaxBonusLevel: On this level, the chance to cause Gore will be <ChanceMax>
             ChanceMax: 50.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
+        VerdantBounty:
+            ChanceMax: 50.0
+            MaxBonusLevel:
+                Standard: 1000
+                RetroMode: 10000
+    #
+    #                                Settings for Mining
+    # ##
     #
     #                Settings for Mining
     # ##
@@ -537,12 +626,15 @@ Skills:
     # ##
     #
     #  Settings for Mining
-    ###
+    # ##
     Mining:
         DoubleDrops:
             SilkTouch: true
             # ChanceMax: Maximum chance of deflecting arrows
             # MaxBonusLevel: Level when the maximum chance to deflect is reached
+            # ChanceMax: Maximum chance of disarming other players
+            # MaxBonusLevel: Level when the maximum chance to disarm is reached
+            # AntiTheft: Determines if only the disarmed player can retrieve disarmed items
             # ChanceMax: Maximum chance of disarming other players
             # MaxBonusLevel: Level when the maximum chance to disarm is reached
             # AntiTheft: Determines if only the disarmed player can retrieve disarmed items
@@ -561,6 +653,7 @@ Skills:
             # BlastDamageDecrease Ranks: % of damage reduced from TNT explosions
             # BlastDamageDecrease Ranks: % of damage reduced from TNT explosions
             # BlastDamageDecrease Ranks: % of damage reduced from TNT explosions
+            # BlastDamageDecrease Ranks: % of damage reduced from TNT explosions
             BlastDamageDecrease:
                 Rank_1: 0.0
                 Rank_2: 0.0
@@ -570,6 +663,7 @@ Skills:
                 Rank_6: 50.0
                 Rank_7: 50.0
                 Rank_8: 100.0
+            # OreBonus Ranks: % of extra ores received when Blast Mining
             # OreBonus Ranks: % of extra ores received when Blast Mining
             # OreBonus Ranks: % of extra ores received when Blast Mining
             # OreBonus Ranks: % of extra ores received when Blast Mining
@@ -587,6 +681,7 @@ Skills:
             # DebrisReduction_Rank: % of fewer non-ores received when Blast Mining
             # DebrisReduction_Rank: % of fewer non-ores received when Blast Mining
             # DebrisReduction_Rank: % of fewer non-ores received when Blast Mining
+            # DebrisReduction_Rank: % of fewer non-ores received when Blast Mining
             DebrisReduction:
                 Rank_1: 10.0
                 Rank_2: 20.0
@@ -596,6 +691,7 @@ Skills:
                 Rank_6: 30.0
                 Rank_7: 30.0
                 Rank_8: 30.0
+            # DropMultiplier Ranks: # of times each ore will drop
             # DropMultiplier Ranks: # of times each ore will drop
             # DropMultiplier Ranks: # of times each ore will drop
             # DropMultiplier Ranks: # of times each ore will drop
@@ -613,6 +709,7 @@ Skills:
             # BlastRadiusModifier Ranks: Increases the blast radius by this amount
             # BlastRadiusModifier Ranks: Increases the blast radius by this amount
             # BlastRadiusModifier Ranks: Increases the blast radius by this amount
+            # BlastRadiusModifier Ranks: Increases the blast radius by this amount
             BlastRadiusModifier:
                 Rank_1: 1.0
                 Rank_2: 1.0
@@ -622,8 +719,18 @@ Skills:
                 Rank_6: 3.0
                 Rank_7: 4.0
                 Rank_8: 4.0
+            Bonus_Drops:
+                Enabled: true
         SuperBreaker:
             AllowTripleDrops: true
+        MotherLode:
+            MaxBonusLevel:
+                Standard: 1000
+                RetroMode: 10000
+            ChanceMax: 50.0
+    #
+    #                                Settings for Repair
+    # ##
     #
     #                Settings for Repair
     # ##
@@ -635,9 +742,11 @@ Skills:
     # ##
     #
     #  Settings for Repair
-    ###
+    # ##
     Repair:
         RepairMastery:
+            # MaxBonusPercentage: Maximum bonus percentage for Repair Mastery
+            # MaxBonusLevel: On this level, the maximum bonus is reached
             # MaxBonusPercentage: Maximum bonus percentage for Repair Mastery
             # MaxBonusLevel: On this level, the maximum bonus is reached
             # MaxBonusPercentage: Maximum bonus percentage for Repair Mastery
@@ -653,6 +762,8 @@ Skills:
         SuperRepair:
             # ChanceMax: Maximum chance of preventing being disarmed
             # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
+            # ChanceMax: Maximum chance of deflecting arrows
+            # MaxBonusLevel: Level when the maximum chance to deflect is reached
             # ChanceMax: Maximum chance of deflecting arrows
             # MaxBonusLevel: Level when the maximum chance to deflect is reached
             # ChanceMax: Maximum chance of deflecting arrows
@@ -685,6 +796,9 @@ Skills:
                 Rank_7: 15.0
                 Rank_8: 10.0
     #
+    #                                Settings for Salvage
+    # ##
+    #
     #                Settings for Salvage
     # ##
     #
@@ -695,7 +809,7 @@ Skills:
     # ##
     #
     #  Settings for Salvage
-    ###
+    # ##
     Salvage:
         ArcaneSalvage:
             # EnchantLossEnabled: When salvaging enchanted items, the enchants may be lost
@@ -706,8 +820,11 @@ Skills:
             # EnchantDowngradeEnabled: When salvaging enchanted items, the enchants may be downgraded
             # EnchantLossEnabled: When salvaging enchanted items, the enchants may be lost
             # EnchantDowngradeEnabled: When salvaging enchanted items, the enchants may be downgraded
+            # EnchantLossEnabled: When salvaging enchanted items, the enchants may be lost
+            # EnchantDowngradeEnabled: When salvaging enchanted items, the enchants may be downgraded
             EnchantLossEnabled: true
             EnchantDowngradeEnabled: true
+            # ExtractFullEnchant: Chance to extract the full enchant at each ArcaneSalvage rank
             # ExtractFullEnchant: Chance to extract the full enchant at each ArcaneSalvage rank
             # ExtractFullEnchant: Chance to extract the full enchant at each ArcaneSalvage rank
             # ExtractFullEnchant: Chance to extract the full enchant at each ArcaneSalvage rank
@@ -725,6 +842,7 @@ Skills:
             # ExtractPartialEnchant: Chance to extract the partial enchant at each ArcaneSalvage rank
             # ExtractPartialEnchant: Chance to extract the partial enchant at each ArcaneSalvage rank
             # ExtractPartialEnchant: Chance to extract the partial enchant at each ArcaneSalvage rank
+            # ExtractPartialEnchant: Chance to extract the partial enchant at each ArcaneSalvage rank
             ExtractPartialEnchant:
                 Rank_1: 2.0
                 Rank_2: 2.5
@@ -734,6 +852,9 @@ Skills:
                 Rank_6: 12.5
                 Rank_7: 15.0
                 Rank_8: 17.5
+    #
+    #                                Settings for Smelting
+    # ##
     #
     #                Settings for Smelting
     # ##
@@ -745,12 +866,14 @@ Skills:
     # ##
     #
     #  Settings for Smelting
-    ###
+    # ##
     Smelting:
         SecondSmelt:
             # ChanceMax & MaxBonusLevel are only used for Classic, I'll make that more clear in the future.
             # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
             # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
+            # ChanceMax: Maximum chance of preventing being disarmed
+            # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
             # ChanceMax: Maximum chance of preventing being disarmed
             # MaxBonusLevel: Level when the maximum chance to prevent being disarmed is reached
             # ChanceMax: Maximum chance of preventing being disarmed
@@ -763,6 +886,7 @@ Skills:
                 RetroMode: 1000
         FluxMining:
             # ChanceMax: Maximum chance of triggering pummel
+            # Chance: The chance for wolves to heal hp when inflicting damage
             # Chance: The chance for wolves to heal hp when inflicting damage
             # Chance: The chance for wolves to heal hp when inflicting damage
             # Chance: The chance for wolves to heal hp when inflicting damage
@@ -780,6 +904,9 @@ Skills:
             Rank_7: 5
             Rank_8: 5
     #
+    #                                Settings for Swords
+    # ##
+    #
     #                Settings for Swords
     # ##
     #
@@ -790,9 +917,12 @@ Skills:
     # ##
     #
     #  Settings for Swords
-    ###
+    # ##
     Swords:
         Rupture:
+            # ChanceMax & MaxBonusLevel are only used for Classic, I'll make that more clear in the future.
+            # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
+            # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
             # ChanceMax & MaxBonusLevel are only used for Classic, I'll make that more clear in the future.
             # ChanceMax: Maximum chance of receiving double drops (100 = 100%)
             # MaxBonusLevel: Level when the maximum chance of receiving double drops is reached
@@ -815,6 +945,7 @@ Skills:
                 # This is % chance, 15 would mean 15% percent of the time
                 # This is % chance, 15 would mean 15% percent of the time
                 # This is % chance, 15 would mean 15% percent of the time
+                # This is % chance, 15 would mean 15% percent of the time
                 Chance_To_Apply_On_Hit:
                     Rank_1: 15
                     Rank_2: 33
@@ -823,6 +954,7 @@ Skills:
                 Duration_In_Seconds:
                     Against_Players: 5
                     Against_Mobs: 5
+                # Tick interval damage is applied twice a second during rupture, it is "pure" and does not get lowered from armor or absorption etc
                 # Tick interval damage is applied twice a second during rupture, it is "pure" and does not get lowered from armor or absorption etc
                 # Tick interval damage is applied twice a second during rupture, it is "pure" and does not get lowered from armor or absorption etc
                 # Tick interval damage is applied twice a second during rupture, it is "pure" and does not get lowered from armor or absorption etc
@@ -838,6 +970,8 @@ Skills:
                         Rank_2: 0.75
                         Rank_3: 0.9
                         Rank_4: 1
+                # If Rupture runs for 5 seconds without being reapplied, it explodes
+                # this damage is **NOT** pure and is reduced dramatically vs armor/absorption/etc
                 # If Rupture runs for 5 seconds without being reapplied, it explodes
                 # this damage is **NOT** pure and is reduced dramatically vs armor/absorption/etc
                 # If Rupture runs for 5 seconds without being reapplied, it explodes
@@ -870,10 +1004,18 @@ Skills:
             # BleedTicks: This determines how long the bleeding effect of SerratedStrikes lasts
             # DamageModifier: Damage will get divided by this modifier
             # BleedTicks: This determines how long the bleeding effect of SerratedStrikes lasts
+            # DamageModifier: Damage will get divided by this modifier
+            # BleedTicks: This determines how long the bleeding effect of SerratedStrikes lasts
             DamageModifier: 2.0
         SerratedStrikes:
             DamageModifier: 4.0
             BleedTicks: 5
+        Stab:
+            Base_Damage: 1.0
+            Per_Rank_Multiplier: 1.5
+    #
+    #                                Settings for Taming
+    # ##
     #
     #                Settings for Taming
     # ##
@@ -885,7 +1027,7 @@ Skills:
     # ##
     #
     #  Settings for Taming
-    ###
+    # ##
     Taming:
         Gore:
             ChanceMax: 100.0
@@ -900,8 +1042,11 @@ Skills:
             # Modifier: Damage will get divided by this modifier
             # Modifier: Damage will get multiplied by this modifier
             # Modifier: Damage will get divided by this modifier
+            # Modifier: Damage will get multiplied by this modifier
+            # Modifier: Damage will get divided by this modifier
             Modifier: 2.0
         FastFoodService:
+            # ChanceMax: Maximum chance of triggering pummel
             # ChanceMax: Maximum chance of triggering pummel
             # ChanceMax: Maximum chance of triggering pummel
             # ChanceMax: Maximum chance of triggering pummel
@@ -911,10 +1056,12 @@ Skills:
             # Modifier: Damage will get divided by this modifier
             # Modifier: Damage will get divided by this modifier
             # Modifier: Damage will get divided by this modifier
+            # Modifier: Damage will get divided by this modifier
             Modifier: 2.0
         ShockProof:
             Modifier: 6.0
         SharpenedClaws:
+            # Bonus: This bonus will get added to the damage caused
             # Bonus: This bonus will get added to the damage caused
             # Bonus: This bonus will get added to the damage caused
             # Bonus: This bonus will get added to the damage caused
@@ -929,10 +1076,15 @@ Skills:
             # MaxHorseJumpStrength: The maximum jump strength a summoned horse can have
             # MinHorseJumpStrength: The minimum jump strength a summoned horse must have
             # MaxHorseJumpStrength: The maximum jump strength a summoned horse can have
+            # MinHorseJumpStrength: The minimum jump strength a summoned horse must have
+            # MaxHorseJumpStrength: The maximum jump strength a summoned horse can have
             MinHorseJumpStrength: 0.7
             MaxHorseJumpStrength: 2.0
         Pummel:
             Chance: 10.0
+    #
+    #                                Settings for Unarmed
+    # ##
     #
     #                Settings for Unarmed
     # ##
@@ -944,7 +1096,7 @@ Skills:
     # ##
     #
     #  Settings for Unarmed
-    ###
+    # ##
     Unarmed:
         Disarm:
             ChanceMax: 33.0
@@ -965,6 +1117,9 @@ Skills:
         IronArmStyle:
             IncreaseLevel: 10
         SteelArmStyle:
+            # BonusMin: Minimum bonus damage for unarmed
+            # BonusMax: Maximum bonus damage for unarmed
+            # IncreaseLevel: Bonus damage increases every increase level
             # BonusMin: Minimum bonus damage for unarmed
             # BonusMax: Maximum bonus damage for unarmed
             # IncreaseLevel: Bonus damage increases every increase level
@@ -1000,6 +1155,9 @@ Skills:
                 Rank_19: 12.0
                 Rank_20: 13.5
     #
+    #                                Settings for Woodcutting
+    # ##
+    #
     #                Settings for Woodcutting
     # ##
     #
@@ -1010,7 +1168,7 @@ Skills:
     # ##
     #
     #  Settings for Woodcutting
-    ###
+    # ##
     Woodcutting:
         TreeFeller:
             Classic: false
@@ -1037,8 +1195,23 @@ Skills:
         # Double Drops
         # Double Drops
         # Double Drops
+        # Double Drops
         HarvestLumber:
             ChanceMax: 100.0
             MaxBonusLevel:
                 Standard: 100
                 RetroMode: 1000
+        CleanCuts:
+            # ChanceMax: Maximum chance of receiving triple drops (100 = 100%)
+            # MaxBonusLevel: Level when the maximum chance of receiving triple drops is reached
+            ChanceMax: 50.0
+            MaxBonusLevel:
+                Standard: 1000
+                RetroMode: 10000
+    Maces:
+        Cripple:
+            Chance_To_Apply_On_Hit:
+                Rank_1: 10
+                Rank_2: 15
+                Rank_3: 20
+                Rank_4: 33

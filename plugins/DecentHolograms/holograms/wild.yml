@@ -1,0 +1,14 @@
+location: wild:252.545:109.902:-265.945
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&2&lSurvival &a&lWorld'
+    height: 0.3
+  - content: '&f&oGo out ~100 blocks to build!'
+    height: 0.3
+  actions: {}

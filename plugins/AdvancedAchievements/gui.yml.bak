@@ -1,19 +1,32 @@
+#======================================================================================================================#
+#       _       _                               _      _        _     _                                     _          #
+#      / \   __| |_   ____ _ _ __   ___ ___  __| |    / \   ___| |__ (_) _____   _____ _ __ ___   ___ _ __ | |_ ___    #
+#     / _ \ / _` \ \ / / _` | '_ \ / __/ _ \/ _` |   / _ \ / __| '_ \| |/ _ \ \ / / _ \ '_ ` _ \ / _ \ '_ \| __/ __|   #
+#    / ___ \ (_| |\ V / (_| | | | | (_|  __/ (_| |  / ___ \ (__| | | | |  __/\ V /  __/ | | | | |  __/ | | | |_\__ \   #
+#   /_/   \_\__,_| \_/ \__,_|_| |_|\___\___|\__,_| /_/   \_\___|_| |_|_|\___| \_/ \___|_| |_| |_|\___|_| |_|\__|___/   #
+#                                                                                                                      #
+#======================================================================================================================#
 
-#==============================================================#
-# +----------------------------------------------------------+ #
-# |      Advanced Achievements 6.2.0 GUI configuration      | #
-# +----------------------------------------------------------+ #
-#==============================================================#
-# Possible items: github.com/PyvesB/AdvancedAchievements/wiki/Material-names
+# Possible items: https://github.com/PyvesB/advanced-achievements/wiki/Material-names
 # Do not use the same Item twice.
 # The order of the categories in the GUI will match the same order as in this file.
-# Items used to represent the achievements.
+
+# Items used to represent the achievements depending on their Type parameter.
 AchievementNotStarted:
-  Item: red_terracotta
+  normal:
+    Item: red_terracotta
+  rare:
+    Item: red_glazed_terracotta
 AchievementStarted:
-  Item: yellow_terracotta
+  normal:
+    Item: yellow_terracotta
+  rare:
+    Item: yellow_glazed_terracotta
 AchievementReceived:
-  Item: lime_terracotta
+  normal:
+    Item: lime_terracotta
+  rare:
+    Item: lime_glazed_terracotta
 
 # Locks for HideProgressiveAchievements and HideNotReceivedCategories.
 AchievementLock:
@@ -21,7 +34,7 @@ AchievementLock:
 CategoryLock:
   Item: barrier
 
-# Buttons when navigating in a category.
+# Buttons when navigating in a category. BackButton is ignored if BackButtonIsCategoryItem is true in config.yml.
 BackButton:
   Item: book
 PreviousButton:
@@ -42,8 +55,10 @@ Breeding:
   Item: wheat
 PlayerCommands:
   Item: paper
+JobsReborn:
+  Item: netherite_scrap
 Connections:
-  Item: writable_book
+  Item: oak_door
 Deaths:
   Item: skeleton_skull
 Arrows:
@@ -119,7 +134,9 @@ DistanceBoat:
 DistanceGliding:
   Item: elytra
 DistanceLlama:
-  Item: cyan_carpet
+  Item: llama_spawn_egg
+DistanceSneaking:
+  Item: leather_helmet
 TargetsShot:
   Item: firework_star
 RaidsWon:
@@ -128,23 +145,17 @@ Riptides:
   Item: trident
 AdvancementsCompleted:
   Item: gold_ingot
+BooksEdited:
+  Item: writable_book
+EffectsHeld:
+  Item: lingering_potion
 Custom:
   Item: feather
 Commands:
   Item: bookshelf
 
-#============================================================#
-# +--------------------------------------------------------+ #
-# | Parameters in future plugin versions will  appear here | #
-# +--------------------------------------------------------+ #
-#============================================================#
-DistanceSneaking:
-  Item: leather_helmet
-JobsReborn:
-  Item: netherite_scrap
-
-BooksEdited:
-  Item: writable_book
-
-EffectsHeld:
-  Item: lingering_potion
+#======================================================================================================================#
+#                                                  FUTURE PAREMETERS                                                   #
+#                                                                                                                      #
+#                          New parameters added in future plugin releases will appear below.                           #
+#======================================================================================================================#

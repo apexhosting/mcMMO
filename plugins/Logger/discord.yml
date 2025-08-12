@@ -1,0 +1,103 @@
+Discord:
+  Enable: false
+  Bot-Token: BOT_KEY
+  Staff:
+    Channel-ID: CHANNEL_ID
+  Player-Chat:
+    Channel-ID: CHANNEL_ID
+  Player-Commands:
+    Channel-ID: CHANNEL_ID
+  Player-Sign-Text:
+    Channel-ID: CHANNEL_ID
+  Player-Join:
+    Channel-ID: CHANNEL_ID
+  Player-Leave:
+    Channel-ID: CHANNEL_ID
+  Player-Kick:
+    Channel-ID: CHANNEL_ID
+  Player-Death:
+    Channel-ID: CHANNEL_ID
+  Player-Teleport:
+    Channel-ID: CHANNEL_ID
+  Player-Level:
+    Channel-ID: CHANNEL_ID
+  Block-Place:
+    Channel-ID: CHANNEL_ID
+  Block-Break:
+    Channel-ID: CHANNEL_ID
+  Bucket-Fill:
+    Channel-ID: CHANNEL_ID
+  Bucket-Empty:
+    Channel-ID: CHANNEL_ID
+  Anvil:
+    Channel-ID: CHANNEL_ID
+  Item-Pickup:
+    Channel-ID: CHANNEL_ID
+  Item-Drop:
+    Channel-ID: CHANNEL_ID
+  Enchanting:
+    Channel-ID: CHANNEL_ID
+  Book-Editing:
+    Channel-ID: CHANNEL_ID
+  Furnace:
+    Channel-ID: CHANNEL_ID
+  Game-Mode:
+    Channel-ID: CHANNEL_ID
+  Craft:
+    Channel-ID: CHANNEL_ID
+  Registration:
+    Channel-ID: CHANNEL_ID
+  Primed-TNT:
+    Channel-ID: CHANNEL_ID
+  Chest-Interaction:
+    Channel-ID: CHANNEL_ID
+  Entity-Death:
+    Channel-ID: CHANNEL_ID
+  Sign-Change:
+    Channel-ID: CHANNEL_ID
+  # Server Side Checkers
+  Server-Side:
+    Start:
+      Channel-ID: CHANNEL_ID
+    Stop:
+      Channel-ID: CHANNEL_ID
+    Console-Commands:
+      Channel-ID: CHANNEL_ID
+    RAM:
+      Channel-ID: CHANNEL_ID
+    TPS:
+      Channel-ID: CHANNEL_ID
+    Portal-Creation:
+      Channel-ID: CHANNEL_ID
+    RCON:
+      Channel-ID: CHANNEL_ID
+    Command-Block:
+      Channel-ID: CHANNEL_ID
+  # Extra Side Checkers
+  Extras:
+    AFK:
+      Channel-ID: CHANNEL_ID
+    Wrong-Password:
+      Channel-ID: CHANNEL_ID
+    Vault:
+      Channel-ID: CHANNEL_ID
+    LiteBans:
+      Channel-ID: CHANNEL_ID
+    AdvancedBan:
+      Channel-ID: CHANNEL_ID
+  Version-Exceptions:
+    Wood-Stripping:
+      Channel-ID: CHANNEL_ID
+ActivityCycling:
+  Enabled: true
+  Random: false
+  Activities:
+  - - watching
+    - Minecraft Movie
+  - - playing
+    - Minecraft 1.7
+  - - listening
+    - Dragon's Heart Beats
+  - - streaming
+    - Minecraft Gameplay
+  Time: 30

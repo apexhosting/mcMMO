@@ -1,0 +1,124 @@
+#Default category's module.
+Default-Category: None
+
+#Category modules.
+Category:
+    #Category module name, can be customized.
+    None: 
+        #White list, the items in the collection will belong to this category after being enabled.
+        Whitelist: false
+        #Item collection.
+        Items: []
+        #Other modules, you can directly use the collection of items from other modules.
+        Modules: []
+        #Collected items, write the corresponding item name or UID here to add to the category.
+        #About item collection, Use: /Ca Admin ItemCollection Help to view help.
+        #Example: "- 'SuperDiamondSword'" or "- 1" (1 is SuperDiamondSword's UID)
+        #You cannot filter items in this list by turning off the whitelist.
+        Item-Collection: []
+        #Get related boolean values via reflection org.bukkit.Material
+        #If you are not familiar with writing Bukkit plugins, please don't modify it at will!
+        Reflection-boolean:
+            Enabled: false
+            Methods: []
+    Others:
+        Whitelist: false
+        Items: []
+        Modules: 
+            - Armor
+            - Weapons
+            - Tools
+            - Foods
+            - Potions
+            - Blocks
+    Armor:
+        Whitelist: true
+        Modules: []
+        Items: 
+            - GOLDEN_HELMET
+            - GOLDEN_CHESTPLATE
+            - GOLDEN_LEGGINGS
+            - GOLDEN_BOOTS
+            - DIAMOND_HELMET
+            - DIAMOND_CHESTPLATE
+            - DIAMOND_LEGGINGS
+            - DIAMOND_BOOTS
+            - CHAINMAIL_HELMET
+            - CHAINMAIL_CHESTPLATE
+            - CHAINMAIL_LEGGINGS
+            - CHAINMAIL_BOOTS
+            - IRON_HELMET
+            - IRON_CHESTPLATE
+            - IRON_LEGGINGS
+            - IRON_BOOTS
+    Weapons:
+        Whitelist: true
+        Modules: []
+        Items: 
+            - WOODEN_SWORD
+            - STONE_SWORD
+            - IRON_SWORD
+            - GOLDEN_SWORD
+            - DIAMOND_SWORD
+            - WOODEN_AXE
+            - STONE_AXE
+            - IRON_AXE
+            - GOLDEN_AXE
+            - DIAMOND_AXE
+            - BOW
+            - TRIDENT
+            - CROSSBOW
+    Tools:
+        Whitelist: true
+        Modules: []
+        Items: 
+            - WOODEN_PICKAXE
+            - WOODEN_AXE
+            - WOODEN_SHOVEL
+            - WOODEN_HOE
+            - GOLDEN_PICKAXE
+            - GOLDEN_AXE
+            - GOLDEN_SHOVEL
+            - GOLDEN_HOE
+            - STONE_SHOVEL
+            - IRON_SHOVEL
+            - DIAMOND_SHOVEL
+            - STONE_PICKAXE
+            - IRON_PICKAXE
+            - DIAMOND_PICKAXE
+            - STONE_AXE
+            - IRON_AXE
+            - DIAMOND_AXE
+            - STONE_HOE
+            - IRON_HOE
+            - DIAMOND_HOE
+    Foods:
+        Whitelist: true
+        Modules: []
+        Items: []
+        Reflection-boolean:
+            Enabled: true
+            Methods:
+                - 'isEdible'
+    Potions:
+        Whitelist: true
+        Modules: []
+        Items: 
+            - POTION
+            - SPLASH_POTION
+            - LINGERING_POTION
+    Blocks:
+        Whitelist: true
+        Modules: []
+        Items: []
+        Reflection-boolean:
+            Enabled: true
+            Methods:
+                - 'isBlock'
+   #MMO:
+   #    WhiteList: true
+   #    Display-Name: '&4&lMMO RPG'
+   #    Modules: []
+   #    Items: []
+   #    Item-Collection: 
+   #        - 'SuperDiamondSword'

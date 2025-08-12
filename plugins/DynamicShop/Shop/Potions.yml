@@ -1,0 +1,1022 @@
+Options:
+  page: 2
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:night_vision
+  value: 500
+  median: -1
+  stock: -1
+'1':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_night_vision
+  value: 500
+  median: -1
+  stock: -1
+'2':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:invisibility
+  value: 500
+  median: -1
+  stock: -1
+'3':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_invisibility
+  value: 500
+  median: -1
+  stock: -1
+'4':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:leaping
+  value: 500
+  median: -1
+  stock: -1
+'5':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_leaping
+  value: 500
+  median: -1
+  stock: -1
+'6':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_leaping
+  value: 500
+  median: -1
+  stock: -1
+'7':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:fire_resistance
+  value: 500
+  median: -1
+  stock: -1
+'8':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_fire_resistance
+  value: 500
+  median: -1
+  stock: -1
+'9':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:swiftness
+  value: 500
+  median: -1
+  stock: -1
+'10':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_swiftness
+  value: 500
+  median: -1
+  stock: -1
+'11':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_swiftness
+  value: 500
+  median: -1
+  stock: -1
+'12':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:slowness
+  value: 500
+  median: -1
+  stock: -1
+'13':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_slowness
+  value: 500
+  median: -1
+  stock: -1
+'14':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_slowness
+  value: 500
+  median: -1
+  stock: -1
+'15':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'16':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'17':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'18':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:water_breathing
+  value: 500
+  median: -1
+  stock: -1
+'19':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_water_breathing
+  value: 500
+  median: -1
+  stock: -1
+'20':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:healing
+  value: 500
+  median: -1
+  stock: -1
+'21':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_healing
+  value: 500
+  median: -1
+  stock: -1
+'22':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:harming
+  value: 500
+  median: -1
+  stock: -1
+'23':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_harming
+  value: 500
+  median: -1
+  stock: -1
+'24':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:poison
+  value: 500
+  median: -1
+  stock: -1
+'25':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_poison
+  value: 500
+  median: -1
+  stock: -1
+'26':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_poison
+  value: 500
+  median: -1
+  stock: -1
+'27':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:regeneration
+  value: 500
+  median: -1
+  stock: -1
+'28':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_regeneration
+  value: 500
+  median: -1
+  stock: -1
+'29':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_regeneration
+  value: 500
+  median: -1
+  stock: -1
+'30':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strength
+  value: 500
+  median: -1
+  stock: -1
+'31':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_strength
+  value: 500
+  median: -1
+  stock: -1
+'32':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_strength
+  value: 500
+  median: -1
+  stock: -1
+'33':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:weakness
+  value: 500
+  median: -1
+  stock: -1
+'34':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_weakness
+  value: 500
+  median: -1
+  stock: -1
+'35':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:luck
+  value: 500
+  median: -1
+  stock: -1
+'36':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:slow_falling
+  value: 500
+  median: -1
+  stock: -1
+'37':
+  mat: POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_slow_falling
+  value: 500
+  median: -1
+  stock: -1
+'38':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:night_vision
+  value: 500
+  median: -1
+  stock: -1
+'39':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_night_vision
+  value: 500
+  median: -1
+  stock: -1
+'40':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:invisibility
+  value: 500
+  median: -1
+  stock: -1
+'41':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_invisibility
+  value: 500
+  median: -1
+  stock: -1
+'42':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:leaping
+  value: 500
+  median: -1
+  stock: -1
+'43':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_leaping
+  value: 500
+  median: -1
+  stock: -1
+'44':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_leaping
+  value: 500
+  median: -1
+  stock: -1
+'45':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:fire_resistance
+  value: 500
+  median: -1
+  stock: -1
+'46':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_fire_resistance
+  value: 500
+  median: -1
+  stock: -1
+'47':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:swiftness
+  value: 500
+  median: -1
+  stock: -1
+'48':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_swiftness
+  value: 500
+  median: -1
+  stock: -1
+'49':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_swiftness
+  value: 500
+  median: -1
+  stock: -1
+'50':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:slowness
+  value: 500
+  median: -1
+  stock: -1
+'51':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_slowness
+  value: 500
+  median: -1
+  stock: -1
+'52':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_slowness
+  value: 500
+  median: -1
+  stock: -1
+'53':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'54':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'55':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'56':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:water_breathing
+  value: 500
+  median: -1
+  stock: -1
+'57':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_water_breathing
+  value: 500
+  median: -1
+  stock: -1
+'58':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:healing
+  value: 500
+  median: -1
+  stock: -1
+'59':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_healing
+  value: 500
+  median: -1
+  stock: -1
+'60':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:harming
+  value: 500
+  median: -1
+  stock: -1
+'61':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_harming
+  value: 500
+  median: -1
+  stock: -1
+'62':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:poison
+  value: 500
+  median: -1
+  stock: -1
+'63':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_poison
+  value: 500
+  median: -1
+  stock: -1
+'64':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_poison
+  value: 500
+  median: -1
+  stock: -1
+'65':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:regeneration
+  value: 500
+  median: -1
+  stock: -1
+'66':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_regeneration
+  value: 500
+  median: -1
+  stock: -1
+'67':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_regeneration
+  value: 500
+  median: -1
+  stock: -1
+'68':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strength
+  value: 500
+  median: -1
+  stock: -1
+'69':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_strength
+  value: 500
+  median: -1
+  stock: -1
+'70':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_strength
+  value: 500
+  median: -1
+  stock: -1
+'71':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:weakness
+  value: 500
+  median: -1
+  stock: -1
+'72':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_weakness
+  value: 500
+  median: -1
+  stock: -1
+'73':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:luck
+  value: 500
+  median: -1
+  stock: -1
+'74':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:slow_falling
+  value: 500
+  median: -1
+  stock: -1
+'75':
+  mat: SPLASH_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_slow_falling
+  value: 500
+  median: -1
+  stock: -1
+'76':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:night_vision
+  value: 500
+  median: -1
+  stock: -1
+'77':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_night_vision
+  value: 500
+  median: -1
+  stock: -1
+'78':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:invisibility
+  value: 500
+  median: -1
+  stock: -1
+'79':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_invisibility
+  value: 500
+  median: -1
+  stock: -1
+'80':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:leaping
+  value: 500
+  median: -1
+  stock: -1
+'81':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_leaping
+  value: 500
+  median: -1
+  stock: -1
+'82':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_leaping
+  value: 500
+  median: -1
+  stock: -1
+'83':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:fire_resistance
+  value: 500
+  median: -1
+  stock: -1
+'84':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_fire_resistance
+  value: 500
+  median: -1
+  stock: -1
+'85':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:swiftness
+  value: 500
+  median: -1
+  stock: -1
+'86':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_swiftness
+  value: 500
+  median: -1
+  stock: -1
+'87':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_swiftness
+  value: 500
+  median: -1
+  stock: -1
+'88':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:slowness
+  value: 500
+  median: -1
+  stock: -1
+'89':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_slowness
+  value: 500
+  median: -1
+  stock: -1
+'90':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_slowness
+  value: 500
+  median: -1
+  stock: -1
+'91':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'92':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_turtle_master
+  value: 500
+  median: -1
+  stock: -1
+'93':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:water_breathing
+  value: 500
+  median: -1
+  stock: -1
+'94':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_water_breathing
+  value: 500
+  median: -1
+  stock: -1
+'95':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:healing
+  value: 500
+  median: -1
+  stock: -1
+'96':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_healing
+  value: 500
+  median: -1
+  stock: -1
+'97':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:harming
+  value: 500
+  median: -1
+  stock: -1
+'98':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_harming
+  value: 500
+  median: -1
+  stock: -1
+'99':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:poison
+  value: 500
+  median: -1
+  stock: -1
+'100':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_poison
+  value: 500
+  median: -1
+  stock: -1
+'101':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_poison
+  value: 500
+  median: -1
+  stock: -1
+'102':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:regeneration
+  value: 500
+  median: -1
+  stock: -1
+'103':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_regeneration
+  value: 500
+  median: -1
+  stock: -1
+'104':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_regeneration
+  value: 500
+  median: -1
+  stock: -1
+'105':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strength
+  value: 500
+  median: -1
+  stock: -1
+'106':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_strength
+  value: 500
+  median: -1
+  stock: -1
+'107':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:strong_strength
+  value: 500
+  median: -1
+  stock: -1
+'108':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:weakness
+  value: 500
+  median: -1
+  stock: -1
+'109':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_weakness
+  value: 500
+  median: -1
+  stock: -1
+'110':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:luck
+  value: 500
+  median: -1
+  stock: -1
+'111':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:slow_falling
+  value: 500
+  median: -1
+  stock: -1
+'112':
+  mat: LINGERING_POTION
+  itemStack:
+    ==: ItemMeta
+    meta-type: POTION
+    potion-type: minecraft:long_slow_falling
+  value: 500
+  median: -1
+  stock: -1

@@ -484,6 +484,7 @@ Messages:
     Text: You're not ignoring anyone.
   TrustListHeader:
     Text: 'Explicit permissions here:'
+    Notes: '0: The claim''s owner'
   Manage:
     Text: Manage
   Build:

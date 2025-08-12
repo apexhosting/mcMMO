@@ -1,0 +1,14 @@
+location: lobby:-6.498:69.200:162.437
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&9&lShops'
+    height: 0.3
+  - content: '#ICON: gold_ingot'
+    height: 0.6
+  actions: {}

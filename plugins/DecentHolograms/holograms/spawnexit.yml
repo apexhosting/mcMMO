@@ -1,0 +1,24 @@
+location: lobby:0.479:68.200:124.545
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lSpawn Exit Info'
+    height: 0.3
+  - content: '&f&oIf you go out far enough from &6&oSpawn'
+    height: 0.3
+  - content: '&f&oyou may notice your exit is blocked'
+    height: 0.3
+  - content: '&f&oThat is because this "world" is meant'
+    height: 0.3
+  - content: '&f&oto be used as solely a &a&olobby area'
+    height: 0.3
+  - content: '&f&oVisit the &2&oWilderness &f&oteleporter'
+    height: 0.3
+  - content: '&f&oto get to the &e&osurvival world!'
+    height: 0.3
+  actions: {}

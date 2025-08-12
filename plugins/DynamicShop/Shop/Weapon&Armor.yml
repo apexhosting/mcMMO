@@ -1,0 +1,315 @@
+Options:
+  title: §e§lWeapon & Armor
+  page: 2
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: DIAMOND_HOE
+  value: 250.6
+  median: 7627
+  stock: 7591
+'1':
+  mat: DIAMOND_SHOVEL
+  value: 125.6
+  median: 9383
+  stock: 9383
+'2':
+  mat: DIAMOND_PICKAXE
+  value: 375.6
+  median: 6755
+  stock: 6755
+'3':
+  mat: DIAMOND_AXE
+  value: 375.6
+  median: 6755
+  stock: 6755
+'4':
+  mat: DIAMOND_SWORD
+  value: 250.35
+  median: 7629
+  stock: 7629
+'5':
+  mat: DIAMOND_HELMET
+  value: 625.1
+  median: 5797
+  stock: 5797
+'6':
+  mat: DIAMOND_CHESTPLATE
+  value: 1000.1
+  median: 5035
+  stock: 5035
+'7':
+  mat: DIAMOND_LEGGINGS
+  value: 875.1
+  median: 5241
+  stock: 5241
+'8':
+  mat: DIAMOND_BOOTS
+  value: 500.1
+  median: 6199
+  stock: 6199
+'9':
+  mat: GOLDEN_SHOVEL
+  value: 60.79
+  median: 11665
+  stock: 11665
+'10':
+  mat: GOLDEN_PICKAXE
+  value: 181.16
+  median: 8407
+  stock: 8407
+'11':
+  mat: GOLDEN_AXE
+  value: 181.16
+  median: 8407
+  stock: 8407
+'12':
+  mat: GOLDEN_HOE
+  value: 120.98
+  median: 9489
+  stock: 9489
+'13':
+  mat: GOLDEN_SWORD
+  value: 120.73
+  median: 9495
+  stock: 9495
+'14':
+  mat: GOLDEN_HELMET
+  value: 301.04
+  median: 7218
+  stock: 7218
+'15':
+  mat: GOLDEN_CHESTPLATE
+  value: 481.6
+  median: 6269
+  stock: 6269
+'16':
+  mat: GOLDEN_LEGGINGS
+  value: 421.41
+  median: 6526
+  stock: 6526
+'17':
+  mat: GOLDEN_BOOTS
+  value: 240.85
+  median: 7718
+  stock: 7718
+'18':
+  mat: IRON_SHOVEL
+  value: 15.79
+  median: 17480
+  stock: 17480
+'19':
+  mat: IRON_PICKAXE
+  value: 46.16
+  median: 12670
+  stock: 12670
+'20':
+  mat: IRON_AXE
+  value: 46.16
+  median: 12670
+  stock: 12670
+'21':
+  mat: IRON_HOE
+  value: 30.98
+  median: 14280
+  stock: 14280
+'22':
+  mat: IRON_SWORD
+  value: 30.73
+  median: 14314
+  stock: 14314
+'23':
+  mat: IRON_HELMET
+  value: 76.04
+  median: 10908
+  stock: 10908
+'24':
+  mat: IRON_CHESTPLATE
+  value: 121.6
+  median: 9475
+  stock: 9475
+'25':
+  mat: IRON_LEGGINGS
+  value: 106.41
+  median: 9862
+  stock: 9862
+'26':
+  mat: IRON_BOOTS
+  value: 60.85
+  median: 11662
+  stock: 11662
+'27':
+  mat: WOODEN_SHOVEL
+  value: 1.0
+  median: 40000
+  stock: 40000
+'28':
+  mat: WOODEN_PICKAXE
+  value: 1.8
+  median: 33533
+  stock: 33533
+'29':
+  mat: WOODEN_AXE
+  value: 1.8
+  median: 33533
+  stock: 33533
+'30':
+  mat: WOODEN_SWORD
+  value: 1.4
+  median: 36159
+  stock: 36159
+'31':
+  mat: WOODEN_HOE
+  value: 1.4
+  median: 36159
+  stock: 36159
+'32':
+  mat: LEATHER_HELMET
+  value: 190.1
+  median: 8286
+  stock: 8286
+'33':
+  mat: LEATHER_CHESTPLATE
+  value: 304.1
+  median: 7197
+  stock: 7197
+'34':
+  mat: LEATHER_LEGGINGS
+  value: 266.1
+  median: 7491
+  stock: 7491
+'35':
+  mat: LEATHER_BOOTS
+  value: 152.1
+  median: 8859
+  stock: 8859
+'36':
+  mat: CYAN_STAINED_GLASS_PANE
+'37':
+  mat: CYAN_STAINED_GLASS_PANE
+'38':
+  mat: CYAN_STAINED_GLASS_PANE
+'39':
+  mat: CYAN_STAINED_GLASS_PANE
+'40':
+  mat: CYAN_STAINED_GLASS_PANE
+'41':
+  mat: CYAN_STAINED_GLASS_PANE
+'42':
+  mat: CYAN_STAINED_GLASS_PANE
+'43':
+  mat: CYAN_STAINED_GLASS_PANE
+'44':
+  mat: CYAN_STAINED_GLASS_PANE
+'45':
+  mat: CYAN_STAINED_GLASS_PANE
+'46':
+  mat: CYAN_STAINED_GLASS_PANE
+'47':
+  mat: CYAN_STAINED_GLASS_PANE
+'48':
+  mat: CYAN_STAINED_GLASS_PANE
+'49':
+  mat: CYAN_STAINED_GLASS_PANE
+'50':
+  mat: CYAN_STAINED_GLASS_PANE
+'51':
+  mat: CYAN_STAINED_GLASS_PANE
+'52':
+  mat: CYAN_STAINED_GLASS_PANE
+'53':
+  mat: CYAN_STAINED_GLASS_PANE
+'54':
+  mat: CYAN_STAINED_GLASS_PANE
+'55':
+  mat: CHAINMAIL_HELMET
+  value: 72.5
+  median: 8931
+  stock: 8931
+'56':
+  mat: CYAN_STAINED_GLASS_PANE
+'57':
+  mat: CHAINMAIL_CHESTPLATE
+  value: 80.0
+  median: 8629
+  stock: 8629
+'58':
+  mat: CYAN_STAINED_GLASS_PANE
+'59':
+  mat: CHAINMAIL_LEGGINGS
+  value: 75.0
+  median: 8826
+  stock: 8826
+'60':
+  mat: CYAN_STAINED_GLASS_PANE
+'61':
+  mat: CHAINMAIL_BOOTS
+  value: 70.0
+  median: 9042
+  stock: 9042
+'62':
+  mat: CYAN_STAINED_GLASS_PANE
+'63':
+  mat: CYAN_STAINED_GLASS_PANE
+'64':
+  mat: CYAN_STAINED_GLASS_PANE
+'65':
+  mat: CYAN_STAINED_GLASS_PANE
+'66':
+  mat: CYAN_STAINED_GLASS_PANE
+'67':
+  mat: CYAN_STAINED_GLASS_PANE
+'68':
+  mat: CYAN_STAINED_GLASS_PANE
+'69':
+  mat: CYAN_STAINED_GLASS_PANE
+'70':
+  mat: CYAN_STAINED_GLASS_PANE
+'71':
+  mat: CYAN_STAINED_GLASS_PANE
+'72':
+  mat: CYAN_STAINED_GLASS_PANE
+'73':
+  mat: CYAN_STAINED_GLASS_PANE
+'74':
+  mat: BOW
+  value: 3.1
+  median: 28487
+  stock: 28487
+'75':
+  mat: CYAN_STAINED_GLASS_PANE
+'76':
+  mat: ARROW
+  value: 0.74
+  median: 43781
+  stock: 43781
+'77':
+  mat: CYAN_STAINED_GLASS_PANE
+'78':
+  mat: SHIELD
+  value: 17.69
+  median: 16894
+  stock: 16894
+'79':
+  mat: CYAN_STAINED_GLASS_PANE
+'80':
+  mat: CYAN_STAINED_GLASS_PANE
+'81':
+  mat: CYAN_STAINED_GLASS_PANE
+'82':
+  mat: CYAN_STAINED_GLASS_PANE
+'83':
+  mat: CYAN_STAINED_GLASS_PANE
+'84':
+  mat: CYAN_STAINED_GLASS_PANE
+'85':
+  mat: CYAN_STAINED_GLASS_PANE
+'86':
+  mat: CYAN_STAINED_GLASS_PANE
+'87':
+  mat: CYAN_STAINED_GLASS_PANE
+'88':
+  mat: CYAN_STAINED_GLASS_PANE
+'89':
+  mat: CYAN_STAINED_GLASS_PANE

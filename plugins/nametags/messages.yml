@@ -1,0 +1,12 @@
+tag-command:
+  only-players: "&cOnly players can use this command."
+  usage: "&cUsage: /tag <player> <prefix/suffix/silentprefix/silentsuffix/rgbprefix/rgbsuffix> <tag/reset>"
+  player-not-online: "&cPlayer {player} is not online."
+  tag-reset: "&aTag reset for {player}."
+  tag-set: "&aTag set for {player}: {tag}"
+tag-command2:
+  only-players: "&cOnly players can use this command."
+  usage: "&cUsage: /tag <player> <prefix/suffix/silentprefix/silentsuffix/rgbprefix/rgbsuffix> <tag/reset>"
+  player-not-online: "&cPlayer {player} is not online."
+  tag-reset: "&aTag reset for {player}."
+  tag-set: "&aTag set for {player}: {tag}"

@@ -1,0 +1,144 @@
+Options:
+  title: §f§lWool
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: LIME_STAINED_GLASS_PANE
+'1':
+  mat: LIME_STAINED_GLASS_PANE
+'2':
+  mat: LIME_STAINED_GLASS_PANE
+'3':
+  mat: LIME_STAINED_GLASS_PANE
+'4':
+  mat: LIME_STAINED_GLASS_PANE
+'5':
+  mat: LIME_STAINED_GLASS_PANE
+'6':
+  mat: LIME_STAINED_GLASS_PANE
+'7':
+  mat: LIME_STAINED_GLASS_PANE
+'8':
+  mat: LIME_STAINED_GLASS_PANE
+'9':
+  mat: LIME_STAINED_GLASS_PANE
+'10':
+  mat: RED_WOOL
+  value: 3.98
+  median: 24666
+  stock: 24666
+'11':
+  mat: ORANGE_WOOL
+  value: 5.3
+  median: 22313
+  stock: 22313
+'12':
+  mat: YELLOW_WOOL
+  value: 4.08
+  median: 24452
+  stock: 24452
+'13':
+  mat: LIME_WOOL
+  value: 4.49
+  median: 23646
+  stock: 23646
+'14':
+  mat: GREEN_WOOL
+  value: 4.84
+  median: 23033
+  stock: 23033
+'15':
+  mat: BROWN_WOOL
+  value: 4.45
+  median: 23721
+  stock: 23721
+'16':
+  mat: LIME_STAINED_GLASS_PANE
+'17':
+  mat: LIME_STAINED_GLASS_PANE
+'18':
+  mat: LIME_STAINED_GLASS_PANE
+'19':
+  mat: LIME_STAINED_GLASS_PANE
+'20':
+  mat: CYAN_WOOL
+  value: 5.04
+  median: 22709
+  stock: 22709
+'21':
+  mat: LIGHT_BLUE_WOOL
+  value: 4.95
+  median: 22853
+  stock: 22853
+'22':
+  mat: BLUE_WOOL
+  value: 5.15
+  median: 22538
+  stock: 22538
+'23':
+  mat: PURPLE_WOOL
+  value: 4.61
+  median: 23429
+  stock: 23429
+'24':
+  mat: MAGENTA_WOOL
+  value: 5.3
+  median: 22313
+  stock: 22313
+'25':
+  mat: PINK_WOOL
+  value: 5.3
+  median: 22313
+  stock: 22313
+'26':
+  mat: LIME_STAINED_GLASS_PANE
+'27':
+  mat: LIME_STAINED_GLASS_PANE
+'28':
+  mat: WHITE_WOOL
+  value: 3.1
+  median: 26920
+  stock: 26920
+'29':
+  mat: LIME_STAINED_GLASS_PANE
+'30':
+  mat: LIGHT_GRAY_WOOL
+  value: 4.95
+  median: 22853
+  stock: 22853
+'31':
+  mat: LIME_STAINED_GLASS_PANE
+'32':
+  mat: GRAY_WOOL
+  value: 4.4
+  median: 23815
+  stock: 23815
+'33':
+  mat: LIME_STAINED_GLASS_PANE
+'34':
+  mat: BLACK_WOOL
+  value: 4.65
+  median: 23358
+  stock: 23358
+'35':
+  mat: LIME_STAINED_GLASS_PANE
+'36':
+  mat: LIME_STAINED_GLASS_PANE
+'37':
+  mat: LIME_STAINED_GLASS_PANE
+'38':
+  mat: LIME_STAINED_GLASS_PANE
+'39':
+  mat: LIME_STAINED_GLASS_PANE
+'40':
+  mat: LIME_STAINED_GLASS_PANE
+'41':
+  mat: LIME_STAINED_GLASS_PANE
+'42':
+  mat: LIME_STAINED_GLASS_PANE
+'43':
+  mat: LIME_STAINED_GLASS_PANE
+'44':
+  mat: LIME_STAINED_GLASS_PANE

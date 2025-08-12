@@ -1,0 +1,161 @@
+Options:
+  title: §6§lFood
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: BEEF
+  value: 1.35
+  median: 36556
+  stock: 36556
+'1':
+  mat: PORKCHOP
+  value: 1.25
+  median: 37409
+  stock: 37507
+'2':
+  mat: MUTTON
+  value: 1.3
+  median: 36972
+  stock: 36973
+'3':
+  mat: CHICKEN
+  value: 1.15
+  median: 38357
+  stock: 38357
+'4':
+  mat: RABBIT
+  value: 1.35
+  median: 36556
+  stock: 36556
+'5':
+  mat: POTATO
+  value: 1.35
+  median: 36556
+  stock: 36556
+'6':
+  mat: CARROT
+  value: 1.25
+  median: 37409
+  stock: 37409
+'7':
+  mat: APPLE
+  value: 1.65
+  median: 34420
+  stock: 34420
+'8':
+  mat: MELON_SLICE
+  value: 0.25
+  median: 60628
+  stock: 60628
+'9':
+  mat: COOKED_BEEF
+  value: 1.54
+  median: 35140
+  stock: 35140
+'10':
+  mat: COOKED_PORKCHOP
+  value: 1.35
+  median: 36556
+  stock: 36556
+'11':
+  mat: COOKED_MUTTON
+  value: 1.49
+  median: 35489
+  stock: 35489
+'12':
+  mat: COOKED_CHICKEN
+  value: 1.34
+  median: 36637
+  stock: 36637
+'13':
+  mat: COOKED_RABBIT
+  value: 1.54
+  median: 35140
+  stock: 35140
+'14':
+  mat: BAKED_POTATO
+  value: 1.54
+  median: 35140
+  stock: 35140
+'15':
+  mat: GOLDEN_CARROT
+  value: 54.94
+  median: 12025
+  stock: 12025
+'16':
+  mat: GOLDEN_APPLE
+  value: 55.34
+  median: 11999
+  stock: 11999
+'17':
+  mat: BEETROOT
+  value: 3.25
+  median: 28086
+  stock: 28086
+'18':
+  mat: GRASS
+'19':
+  mat: GRASS
+'20':
+  mat: GRASS
+'21':
+  mat: GRASS
+'22':
+  mat: GRASS
+'23':
+  mat: GRASS
+'24':
+  mat: GRASS
+'25':
+  mat: GRASS
+'26':
+  mat: GRASS
+'27':
+  mat: GRASS
+'28':
+  mat: WHEAT
+  value: 0.75
+  median: 43605
+  stock: 43605
+'30':
+  mat: COOKIE
+  value: 0.36
+  median: 54346
+  stock: 54346
+'32':
+  mat: BREAD
+  value: 2.35
+  median: 30955
+  stock: 30955
+'33':
+  mat: PUMPKIN_PIE
+  value: 1.71
+  median: 34053
+  stock: 34053
+'34':
+  mat: CAKE
+  value: 9.12
+  median: 20609
+  stock: 20609
+'35':
+  mat: GRASS
+'36':
+  mat: GRASS
+'37':
+  mat: GRASS
+'38':
+  mat: GRASS
+'39':
+  mat: GRASS
+'40':
+  mat: GRASS
+'41':
+  mat: GRASS
+'42':
+  mat: GRASS
+'43':
+  mat: GRASS
+'44':
+  mat: GRASS

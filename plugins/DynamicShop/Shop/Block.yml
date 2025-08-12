@@ -1,0 +1,301 @@
+Options:
+  title: §8§lBlock
+  page: 2
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: DIRT
+  value: 0.45
+  median: 50827
+  stock: 50640
+'1':
+  mat: COARSE_DIRT
+  value: 0.43
+  median: 51525
+  stock: 51525
+'2':
+  mat: GRANITE
+  value: 3.45
+  median: 27587
+  stock: 27587
+'3':
+  mat: POLISHED_GRANITE
+  value: 3.48
+  median: 27516
+  stock: 27516
+'4':
+  mat: DIORITE
+  value: 1.8
+  median: 33533
+  stock: 33533
+'5':
+  mat: POLISHED_DIORITE
+  value: 1.83
+  median: 33367
+  stock: 33367
+'6':
+  mat: ANDESITE
+  value: 1.1
+  median: 38872
+  stock: 38872
+'7':
+  mat: POLISHED_ANDESITE
+  value: 1.13
+  median: 38559
+  stock: 38559
+'8':
+  mat: GRASS_BLOCK
+  value: 3.54
+  median: 27375
+  stock: 27375
+'9':
+  mat: PODZOL
+  value: 3.79
+  median: 26820
+  stock: 26820
+'10':
+  mat: COBBLESTONE
+  value: 0.2
+  median: 64826
+  stock: 65527
+'11':
+  mat: COBBLESTONE_STAIRS
+  value: 0.33
+  median: 55783
+  stock: 55783
+'12':
+  mat: CLAY
+  value: 0.25
+  median: 60628
+  stock: 60628
+'13':
+  mat: SMOOTH_SANDSTONE
+  value: 6.73
+  median: 22576
+  stock: 22576
+'14':
+  mat: SANDSTONE
+  value: 6.7
+  median: 22606
+  stock: 22606
+'15':
+  mat: CHISELED_SANDSTONE
+  value: 6.83
+  median: 22476
+  stock: 22476
+'16':
+  mat: SANDSTONE_STAIRS
+  value: 10.08
+  median: 19999
+  stock: 19999
+'17':
+  mat: SAND
+  value: 1.65
+  median: 34420
+  stock: 34420
+'18':
+  mat: STONE
+  value: 0.39
+  median: 53056
+  stock: 53056
+'19':
+  mat: STONE_BRICKS
+  value: 0.41
+  median: 52266
+  stock: 52266
+'20':
+  mat: GRAVEL
+  value: 0.35
+  median: 54807
+  stock: 54807
+'21':
+  mat: MOSSY_STONE_BRICKS
+  value: 1.66
+  median: 34357
+  stock: 34357
+'22':
+  mat: CHISELED_STONE_BRICKS
+  value: 0.52
+  median: 48669
+  stock: 48669
+'23':
+  mat: CRACKED_STONE_BRICKS
+  value: 0.6
+  median: 46624
+  stock: 46624
+'24':
+  mat: BRICKS
+  value: 1.85
+  median: 33258
+  stock: 33258
+'25':
+  mat: OBSIDIAN
+  value: 10.0
+  median: 20047
+  stock: 20047
+'26':
+  mat: MYCELIUM
+  value: 5.79
+  median: 23618
+  stock: 23618
+'27':
+  mat: NETHERRACK
+  value: 0.35
+  median: 54807
+  stock: 54807
+'28':
+  mat: NETHER_QUARTZ_ORE
+  value: 14.34
+  median: 17992
+  stock: 17992
+'29':
+  mat: GLOWSTONE
+  value: 6.3
+  median: 23028
+  stock: 23028
+'30':
+  mat: SOUL_SAND
+  value: 1.05
+  median: 39418
+  stock: 39418
+'31':
+  mat: NETHER_BRICKS
+  value: 2.25
+  median: 31362
+  stock: 31362
+'32':
+  mat: NETHER_BRICK_STAIRS
+  value: 3.4
+  median: 27708
+  stock: 27708
+'33':
+  mat: NETHER_BRICK_SLAB
+  value: 1.14
+  median: 38458
+  stock: 38458
+'34':
+  mat: RED_NETHER_BRICKS
+  value: 2.28
+  median: 31237
+  stock: 31237
+'35':
+  mat: NETHER_WART_BLOCK
+  value: 5.05
+  median: 24607
+  stock: 24607
+'36':
+  mat: END_STONE
+  value: 3.25
+  median: 28086
+  stock: 28086
+'37':
+  mat: END_STONE_BRICKS
+  value: 3.28
+  median: 28009
+  stock: 28009
+'38':
+  mat: QUARTZ_BLOCK
+  value: 6.35
+  median: 22973
+  stock: 22973
+'39':
+  mat: QUARTZ_STAIRS
+  value: 9.48
+  median: 20371
+  stock: 20371
+'40':
+  mat: QUARTZ_SLAB
+  value: 3.17
+  median: 28297
+  stock: 28297
+'41':
+  mat: CHISELED_QUARTZ_BLOCK
+  value: 6.43
+  median: 22887
+  stock: 22887
+'42':
+  mat: SNOW_BLOCK
+  value: 0.5
+  median: 49245
+  stock: 49245
+'43':
+  mat: ICE
+  value: 5.79
+  median: 23618
+  stock: 23618
+'44':
+  mat: PACKED_ICE
+  value: 7.89
+  median: 21524
+  stock: 21524
+'45':
+  mat: RED_SANDSTONE
+  value: 6.7
+  median: 22606
+  stock: 22606
+'46':
+  mat: CHISELED_RED_SANDSTONE
+  value: 6.83
+  median: 22476
+  stock: 22476
+'47':
+  mat: RED_SANDSTONE_STAIRS
+  value: 10.08
+  median: 19999
+  stock: 19999
+'48':
+  mat: MAGMA_BLOCK
+  value: 10.7
+  median: 19644
+  stock: 19644
+'49':
+  mat: PRISMARINE
+  value: 7.1
+  median: 22216
+  stock: 22216
+'50':
+  mat: PRISMARINE_BRICKS
+  value: 15.85
+  median: 17460
+  stock: 17460
+'51':
+  mat: DARK_PRISMARINE
+  value: 15.55
+  median: 17560
+  stock: 17560
+'52':
+  mat: PURPUR_BLOCK
+  value: 5.21
+  median: 24378
+  stock: 24378
+'53':
+  mat: PURPUR_PILLAR
+  value: 5.35
+  median: 24185
+  stock: 24185
+'54':
+  mat: RED_SAND
+  value: 1.65
+  median: 34420
+  stock: 34420
+'55':
+  mat: SMOOTH_RED_SANDSTONE
+  value: 6.73
+  median: 22576
+  stock: 22576
+'56':
+  mat: RED_SANDSTONE_SLAB
+  value: 3.37
+  median: 27782
+  stock: 27782
+'57':
+  mat: BONE_BLOCK
+  value: 7.75
+  median: 21640
+  stock: 21640
+'58':
+  mat: SEA_LANTERN
+  value: 19.6
+  median: 16382
+  stock: 16382

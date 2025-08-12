@@ -1,0 +1,201 @@
+Options:
+  title: §f§lGlass
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: BLACK_STAINED_GLASS
+  value: 2.03
+  median: 31220
+  stock: 31220
+'1':
+  mat: BLUE_ORCHID
+'2':
+  mat: LIGHT_GRAY_STAINED_GLASS
+  value: 2.07
+  median: 31007
+  stock: 31007
+'3':
+  mat: BLUE_ORCHID
+'4':
+  mat: WHITE_STAINED_GLASS
+  value: 1.96
+  median: 31606
+  stock: 31606
+'5':
+  mat: BLUE_ORCHID
+'6':
+  mat: LIGHT_BLUE_STAINED_GLASS
+  value: 2.07
+  median: 31007
+  stock: 31007
+'7':
+  mat: BLUE_ORCHID
+'8':
+  mat: BROWN_STAINED_GLASS
+  value: 2.01
+  median: 31328
+  stock: 31328
+'9':
+  mat: BLACK_STAINED_GLASS_PANE
+  value: 0.77
+  median: 43831
+  stock: 43831
+'10':
+  mat: GRAY_STAINED_GLASS
+  value: 2.0
+  median: 31383
+  stock: 31383
+'11':
+  mat: LIGHT_GRAY_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'12':
+  mat: GLASS
+  value: 1.84
+  median: 32312
+  stock: 32312
+'13':
+  mat: WHITE_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'14':
+  mat: CYAN_STAINED_GLASS
+  value: 2.08
+  median: 30955
+  stock: 30955
+'15':
+  mat: LIGHT_BLUE_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'16':
+  mat: BLUE_STAINED_GLASS
+  value: 2.09
+  median: 30903
+  stock: 30903
+'17':
+  mat: BROWN_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'18':
+  mat: GREEN_STAINED_GLASS
+  value: 2.05
+  median: 31113
+  stock: 31113
+'19':
+  mat: GRAY_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'20':
+  mat: YELLOW_STAINED_GLASS
+  value: 1.96
+  median: 31606
+  stock: 31606
+'21':
+  mat: GLASS_PANE
+  value: 0.7
+  median: 45318
+  stock: 45318
+'22':
+  mat: BLUE_ORCHID
+'23':
+  mat: CYAN_STAINED_GLASS_PANE
+  value: 0.79
+  median: 43440
+  stock: 43440
+'24':
+  mat: MAGENTA_STAINED_GLASS
+  value: 2.11
+  median: 30800
+  stock: 30800
+'25':
+  mat: BLUE_STAINED_GLASS_PANE
+  value: 0.79
+  median: 43440
+  stock: 43440
+'26':
+  mat: RED_STAINED_GLASS
+  value: 1.95
+  median: 31662
+  stock: 31662
+'27':
+  mat: GREEN_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'28':
+  mat: LIME_STAINED_GLASS
+  value: 2.01
+  median: 31328
+  stock: 31328
+'29':
+  mat: YELLOW_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'30':
+  mat: ORANGE_STAINED_GLASS
+  value: 2.11
+  median: 30800
+  stock: 30800
+'31':
+  mat: GLASS_BOTTLE
+  value: 1.87
+  median: 32130
+  stock: 32130
+'32':
+  mat: PINK_STAINED_GLASS
+  value: 2.11
+  median: 30800
+  stock: 30800
+'33':
+  mat: MAGENTA_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'34':
+  mat: PURPLE_STAINED_GLASS
+  value: 2.03
+  median: 31220
+  stock: 31220
+'35':
+  mat: RED_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'36':
+  mat: BLUE_ORCHID
+'37':
+  mat: LIME_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'38':
+  mat: BLUE_ORCHID
+'39':
+  mat: ORANGE_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'40':
+  mat: BLUE_ORCHID
+'41':
+  mat: PINK_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'42':
+  mat: BLUE_ORCHID
+'43':
+  mat: PURPLE_STAINED_GLASS_PANE
+  value: 0.76
+  median: 44032
+  stock: 44032
+'44':
+  mat: BLUE_ORCHID

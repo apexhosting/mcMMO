@@ -6,7 +6,7 @@ per-world:
 _DEFAULT_:
   tabprefix: '%vault-prefix%'
   tagprefix: '%vault-prefix%'
-  tabsuffix: '%afk%'
-  tagsuffix: '%afk%'
-  customtabname: '%essentialsnick%'
-  customtagname: '%essentialsnick%'
+  tabsuffix: ''
+  tagsuffix: ''
+  customtabname: '%player%'
+  customtagname: '%player%'

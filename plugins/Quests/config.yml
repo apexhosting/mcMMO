@@ -1,4 +1,14 @@
 # See https://pikamug.gitbook.io/quests/setup/configuration
+
+clickable-prompts: true
+condition-interval: 10
+confirm-abandon: true
+confirm-accept: true
+give-journal-item: false
+language-override-client: false
+prevent-exploit: true
+show-completed-objectives: true
+# See https://pikamug.gitbook.io/quests/setup/configuration
 storage-data:
   address: localhost:3306
   database: minecraft
@@ -6,6 +16,10 @@ storage-data:
   password: ''
   table_prefix: quests_
   pool-settings:
+    keepalive-time: 0
+    properties:
+      useUnicode: true
+      characterEncoding: utf8
     max-pool-size: 10
     min-idle: 10
     max-lifetime: 1800000

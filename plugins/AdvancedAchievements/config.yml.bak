@@ -1,824 +1,125 @@
+#======================================================================================================================#
+#       _       _                               _      _        _     _                                     _          #
+#      / \   __| |_   ____ _ _ __   ___ ___  __| |    / \   ___| |__ (_) _____   _____ _ __ ___   ___ _ __ | |_ ___    #
+#     / _ \ / _` \ \ / / _` | '_ \ / __/ _ \/ _` |   / _ \ / __| '_ \| |/ _ \ \ / / _ \ '_ ` _ \ / _ \ '_ \| __/ __|   #
+#    / ___ \ (_| |\ V / (_| | | | | (_|  __/ (_| |  / ___ \ (__| | | | |  __/\ V /  __/ | | | | |  __/ | | | |_\__ \   #
+#   /_/   \_\__,_| \_/ \__,_|_| |_|\___\___|\__,_| /_/   \_\___|_| |_|_|\___| \_/ \___|_| |_| |_|\___|_| |_|\__|___/   #
+#                                                                                                                      #
+#======================================================================================================================#
 
-#==============================O==============================#
-# I---------------------------------------------------------I #
-# |   Advanced Achievements 6.2.0 configuration - Readme   | #
-# 1---------------------------------------------------------1 #
-#==============================o==============================#
-# Only spaces, NO tabs. Don't forget the indents (2 spaces per indentation level).
+# Only spaces, no tabs. Don't forget the indents (2 spaces per indentation level).
 # To check syntax errors in your file, use: https://yaml-online-parser.appspot.com
-# Default config: https://github.com/PyvesB/AdvancedAchievements/blob/master/advanced-achievements-plugin/src/main/resources/config.yml
-# If you want to help the project, feel free to check our GitHub: https://github.com/PyvesB/AdvancedAchievements
-# Visit the wiki for some valuable additional documentation: https://github.com/PyvesB/AdvancedAchievements/wiki
-# For donations use: https://www.paypal.com/cgi-bin/webscr?hosted_button_id=7KTQYC4YT52NQ&cmd=_s-xclick
-#=============================O=O=============================#
-# II-------------------------------------------------------II #
-# |                    General  settings                    | #
-# 2---------------------------------------------------------2 #
-#=============================o=o=============================#
-# Time in seconds between each /aach book (unless user has permission achievement.*).
+# To get involved with the project, visit its GitHub: https://github.com/PyvesB/advanced-achievements
+# To get some valuable additional documentation, visit the Wiki: https://github.com/PyvesB/advanced-achievements/wiki
+# The default configuration files can be found at the following address:
+# https://github.com/PyvesB/advanced-achievements/blob/master/advanced-achievements-plugin/src/main/resources/config.yml
+
+#======================================================================================================================#
+#                                                   GENERAL SETTINGS                                                   #
+#                                                                                                                      #
+#                                Various settings to fine-tune the plugin's behaviour.                                 #
+#======================================================================================================================#
+
+# Time in seconds between each /aach book. Ignored for players with achievement.* permission.
 TimeBook: 900
 
-# Check for update on plugin launch and notify when an OP joins the game.
-CheckForUpdate: true
+# Sort pages of the book in chronological order (false for reverse chronological order).
+BookChronologicalOrder: true
 
-# Set to true to activate firework effects when a player receives an achievement.
+# Separator between name, description and date on an /aach book page.
+BookSeparator: ""
+
+# Activate firework effects when a player receives an achievement.
 Firework: true
 
 # Choose ball_large, ball, burst, creeper, star or random.
 FireworkStyle: ball_large
 
-# Set to true to activate simpler effects and a calm sound when a player receives an achievement.
-# Ignored if Firework setting is set to true.
+# Activate simpler effects and a calm sound when a player receives an achievement. Ignored if Firework setting is true.
 SimplifiedReception: false
 
 # Number of players displayed in /aach top, week and month commands.
 TopList: 5
 
-# Set to true to activate particle effects when performing /aach book, /aach stats with all achievements and
+# Activate particle effects when performing /aach book, /aach stats when all achievements have been received and
 # /aach top, week or month when ranked in the top list.
 AdditionalEffects: true
 
-# Set to true to activate sounds when performing /aach book, /aach stats with all achievements and /aach top, 
-# week or month when ranked in the top list.
+# Activate sounds when performing /aach book, /aach stats when all achievements have been received and  /aach top, week
+# or month when ranked in the top list.
 Sound: true
 
-# For /aach book. Possible values: github.com/PyvesB/AdvancedAchievements/wiki/Sound-names
+# For /aach book. All sound values can be found here: https://github.com/PyvesB/advanced-achievements/wiki/Sound-names
 SoundBook: entity_player_levelup
 
-# For /aach stats with all achievements. Possible values: github.com/PyvesB/AdvancedAchievements/wiki/Sound-names
+# For /aach stats when all achievements have been received.
 SoundStats: entity_firework_rocket_blast
 
-# For /aach top, week, month when ranked in the top list. Possible values: github.com/PyvesB/AdvancedAchievements/wiki/Sound-names
+# For /aach top, week, month when ranked in the top list.
 SoundRanking: entity_firework_rocket_blast
 
-# Set the icon of the plugin (default: shamrock, \u2618).
+# Icon of the plugin (default: shamrock, \u2618).
 Icon: \u2618
 
-# Set the color of the plugin (default: 5, dark purple).
+# Main color of the plugin (default: 5, dark purple).
 Color: 5
 
-# Notify other connected players when an achievement is received.
-# This defines the default behaviour, a player can override what he sees by using /aach toggle.
+# Notify other connected players when an achievement is received. This defines the default behaviour, players can 
+# override what they see by using /aach toggle.
 NotifyOtherPlayers: false
 
-# When NotifyOtherPlayers is enabled, notifications are done using action bars when ActionBarNotify is true.
-# When ActionBarNotify is false, chat messages are used.
+# Notify other connected players using action bars, otherwise chat messages are used.
 ActionBarNotify: true
 
-# Display achievement DisplayName and Message as screen titles. Ignored if using Minecraft 1.7.9 or 1.7.10.
+# Display achievement DisplayName and Message as screen titles.
 TitleScreen: true
 
-# Display chat messages when a player receives an achievement.
+# Display a boss bar showing progress a few seconds after an achievement is received.
+BossBarProgress: true
+
+# Send informative chat messages to the player receiving an achievement.
 ReceiverChatMessages: true
 
-# When a player receives an achievement, the DisplayName, Message and rewards of the achievement are displayed in
-# the chat. If HoverableReceiverChatText is true, a single hoverable text will be displayed to the receiver.
-# Otherwise texts will be displayed one after the other.
+# When a player receives an achievement, the DisplayName, Message and rewards of the achievement are displayed in the 
+# chat as separate messages. If true, a single hoverable text will be displayed to the receiver instead.
 HoverableReceiverChatText: false
 
-# Separator between name, description and date on a book page.
-BookSeparator: ''
+# Format of the header used for most chat messages (default: "§7[%ICON%§7]"). Can be empty, "".
+ChatHeader: "§7[%ICON%§7]"
 
-# Set the format of the achievement name in /aach list (default: "%ICON% %NAME% %ICON%").
-ListAchievementFormat: '%ICON% %NAME% %ICON%'
-
-# Set the format of the header used for most chat messages (default: "§7[%ICON%§7]").
-ChatHeader: §7[%ICON%§7]
-
-# Stop all stats from increasing when player in creative mode, including PlayedTime.
-# Connection achievements will only be handled once a player switches to a non-creative mode.
+# Stop all stats from increasing when player in creative mode, including PlayedTime. Connection achievements will only
+# be handled once a player switches to a non-creative mode.
 RestrictCreative: false
 
-# Stop all stats from increasing when player in spectator mode, including PlayedTime.
-# Connection achievements will only be handled once a player switches to a non-spectator mode.
-# No effect if using Minecraft 1.7.9 or 1.7.10.
+# Stop all stats from increasing when player in spectator mode, including PlayedTime. Connection achievements will only
+# be handled once a player switches to a non-spectator mode.
 RestrictSpectator: true
 
-# Stop all stats from increasing when player in adventure mode, including PlayedTime.
-# Connection achievements will only be handled once a player switches to a non-adventure mode.
+# Stop all stats from increasing when player in adventure mode, including PlayedTime. Connection achievements will only
+# be handled once a player switches to a non-adventure mode.
 RestrictAdventure: false
 
-# Stop all stats from increasing when player in a specific world, including PlayedTime (delete the [] before adding values).
-# Connection achievements will only be handled once a player enters a non-excluded world.
+# Stop all stats from increasing when player in a specific world, including PlayedTime (delete the [] before listing
+# values). Connection achievements will only be handled once a player enters a non-excluded world.
 ExcludedWorlds: []
-
 #  - yourWorld1
 #  - yourWorld2
+
 # Ignore vertical dimension (Y axis) when calculating distance statistics.
 IgnoreVerticalDistance: false
 
-# Don't show these categories in the achievement GUI or in the stats output.
-# Also prevent obtaining achievements for these categories and prevent stats from increasing.
+# Hide these categories from the GUI and prevent statistics from increasing. Once added to this list, you do not need to
+# delete the corresponding achievement configuration section. To enable all categories, remove all listed items and
+# instead specify DisabledCategories: []
 DisabledCategories:
-- AdvancementsCompleted
-- DistanceSneaking
-- JobsReborn
-
-# Obfuscate achievements that have not yet been received in /aach list.
-ObfuscateNotReceived: false
-
-# For categories with a series of related achievements where the only thing changing is the number of times
-# the event has occurred, show achievements that have been obtained and show the next obtainable achievement,
-# but obfuscate the additional achievements. For example, under Places, stone, the first achievement could have a
-# target of 100 stone, the second 500 stone, and the third 1000 stone.  When ObfuscateProgressiveAchievements
-# is true, initially only the 100 stone achievement will be readable in the GUI.  Once 100 stone have been placed,
-# the 500 stone achievement will become legible.
-ObfuscateProgressiveAchievements: false
-
-# Similar to ObfuscateProgressiveAchievements, but displays not received achievements as locked in /aach list.
-HideProgressiveAchievements: false
-
-# Hide categories for which a player has not yet received achievements by displaying them as locked in /aach list.
-HideNotReceivedCategories: false
-
-# Completely hide categories for which the player does not have the corresponding count permissions.
-HideNoPermissionCategories: false
-
-# Hide the reward display in /aach list.
-HideRewardDisplayInList: false
-
-# Display precise statistic information in the /aach list progress bars.
-EnrichedListProgressBars: true
-
-# Annotate each achievement displayed in a /aach list category with a number.
-NumberedItemsInList: false
-
-# Color used for not yet received achievements in /aach list.
-ListColorNotReceived: 8
-
-# Italicise not yet received achievements in /aach list. Obfuscated achievements are not affected.
-ListItaliciseNotReceived: true
-
-# Sort pages of the book in chronological order (false for reverse chronological order).
-BookChronologicalOrder: true
+  - AdvancementsCompleted
 
 # Do not take into account items broken with Silk Touch for the Breaks achievements.
 DisableSilkTouchBreaks: false
 
-# Do not take into account ores broken with Silk Touch for the Breaks achievements.
-# DisableSilkTouchBreaks takes precedence over this. Not applicable to iron or gold ores.
+# Do not take into account ores broken with Silk Touch for the Breaks achievements. DisableSilkTouchBreaks takes
+# precedence over this. Not applicable to iron or gold ores.
 DisableSilkTouchOreBreaks: false
-
-# Language file to use. Available: lang.yml, lang-BP.yml, lang-CN.yml, lang-CZ.yml, lang-DE.yml, lang-ES.yml, lang-FI.yml
-# lang-FR.yml, lang-HU.yml, lang-IT.yml, lang-PL.yml, lang-RO.yml, lang-RU.yml, lang-SE.yml, lang-TR.yml, lang-TW.yml, lang-VN.yml
-LanguageFileName: lang.yml
-
-# Time in seconds between each statistic count. Only the listed categories are currently supported.
-StatisticCooldown:
-  LavaBuckets: 10
-  WaterBuckets: 10
-  Milk: 10
-  Beds: 30
-  Brewing: 5
-  MusicDiscs: 30
-
-# Display action bar message when player performs an action while in the cooldown period.
-# No effect if using Minecraft 1.7.9 or 1.7.10.
-CooldownActionBar: true
-
-# Locale used to format dates in /aach book and /aach list. You must select an ISO 639 language code.
-# The list of possible language codes can be found at www.loc.gov/standards/iso639-2/php/code_list.php
-DateLocale: en
-
-# Display reception time of achievements in /aach book and /aach list in addition to the date. For achievements
-# received in plugin versions prior to 3.0, the precise time information is not available and will be displayed as midnight.
-DateDisplayTime: true
-
-# Register advancements with a description corresponding to the Goal parameter of each achievement.
-# If changed, run /aach generate to regenerate advancements with the new parameter value taken into account.
-# No effect if using Minecraft versions prior to 1.12.
-RegisterAdvancementDescriptions: true
-
-# If true, hide advancements from the advancement GUI. Advancement notifications will still appear when receiving achievements.
-# No effect if using Minecraft versions prior to 1.12.
-HideAdvancements: false
-
-# If true, PlayedTime will no longer increase when the player is AFK. Requires Essentials to work.
-IgnoreAFKPlayedTime: false
-
-# Awarded when a player has received all the achievements. Use the same reward pattern as with achievements.
-# See https://github.com/PyvesB/AdvancedAchievements/wiki/Rewards
-AllAchievementsReceivedRewards:
-  IncreaseMaxOxygen: 30
-  Experience: 100
-
-# Title shown on the root advancement.
-RootAdvancementTitle: Advanced Achievements
-
-# Background shown on the Advanced Achievements advancement tab.
-# Must be a resource location to any image in a resource pack.
-AdvancementsBackground: minecraft:textures/item/book.png
-
-#=============================OOO=============================#
-# III-----------------------------------------------------III #
-# |                    Database settings                    | #
-# 3---------------------------------------------------------3 #
-#=============================ooo=============================#
-# Make a daily backup of your local database (if sqlite or h2).
-DatabaseBackup: true
-
-# Database type, sqlite, h2, postgresql or mysql. Do a full server restart for this to take effect.
-DatabaseType: h2
-
-# Prefix added to the tables in the database. If you switch from the default tables names (no prefix),
-# the plugin will attempt an automatic renaming. Otherwise you have to rename your tables manually.
-# Do a full server restart for this to take effect.
-TablePrefix: ''
-
-# Specify additional options when opening a connection to a MySQL/PostgreSQL database. Start each option with &,
-# for instance "&useUnicode=yes&characterEncoding=UTF-8". Make sure the key-value pairs themselves are URL encoded.
-AdditionalConnectionOptions: ''
-
-# Settings to connect to your MySQL/PostgreSQL database (ignored if sqlite).
-# A PostgreSQL database address will be similar to jdbc:postgresql://localhost:5432/minecraft
-DatabaseAddress: jdbc:mysql://localhost:3306/minecraft
-DatabaseUser: root
-DatabasePassword: root
-
-#============================OO=OO============================#
-# IV-------------------------------------------------------IV #
-# |                  Performance settings                   | #
-# |        Change only if you are an experienced user       | #
-# 4---------------------------------------------------------4 #
-#============================oo=oo============================#
-# Frequency of play time checks for players (seconds). Smaller values give more precision but more CPU usage.
-PlaytimeTaskInterval: 60
-
-# Calculates distance traveled by players (seconds). Smaller values give more precision but more CPU usage.
-DistanceTaskInterval: 5
-
-# Frequency of some statistics writes to the database (seconds). Do a full server restart, and not just /aach reload.
-PooledRequestsTaskInterval: 10
-
-#============================OOOOO============================#
-# V---------------------------------------------------------V #
-# |              Multiple action achievements               | #
-# |       These require sub-categories and thresholds       | #
-# 5---------------------------------------------------------5 #
-#============================ooooo============================#
-# When a specific block is placed (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
-Places:
-  chest:
-    '5':
-      Goal: Place 5 chests.
-      Message: §6You have placed 5 chests!
-      Name: place_5_chest
-      DisplayName: Storage Expert
-    '50':
-      Goal: Place 50 chests.
-      Message: §6You have placed 50 chests!
-      Name: place_50_chest
-      DisplayName: Tetris Master
-  stone:
-    '100':
-      Goal: Place 100 Stones.
-      Message: One hundred placed stones!
-      Name: place_100_stone
-      DisplayName: Stone Addict
-    '1000':
-      Goal: Place 1000 stones.
-      Message: One thousand placed stones!
-      Name: place_1000_stone
-      DisplayName: Stone God
-      Reward:
-        Command:
-          Execute: 'say §7ALERT: §4PLAYER§7 has become the §4STONE GOD§7!'
-          Display: Become the Stone God!
-
-# When a specific block is broken (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
-# You can use notations such as sand:1 for pre-1.13 versions, which means sand item with metadata 1 (red sand).
-Breaks:
-  ice:
-    '10':
-      Goal: Break 10 ice blocks.
-      Message: You have broken 10 ice blocks!
-      Name: break_10_ice
-      DisplayName: Cold Drink Supplier
-  snow|snow_block|ice:
-    '32':
-      Goal: Break 32 ice and/or snow.
-      Message: You have broken 32 ice and snow, Woo!
-      Name: break_32_ice_any
-      DisplayName: Praying for Summer
-  stone:
-    '1':
-      Goal: Break a block.
-      Message: §1The first time you went mining!
-      Name: break_1_stone
-      DisplayName: Cobble Gobble!
-      Reward:
-        Command:
-          Execute: give PLAYER dispenser 10; give PLAYER lever 5
-
-# When "something" is killed. You can use any of the following:
-# - an entity type (available names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names).
-# - poweredcreeper.
-# - a mob's custom name (name tag/plugins such as Mythic Mobs) for Minecraft 1.8 or more recent.
-# - player to track player kills as a whole.
-# - specificplayer- followed by player UUID to track how many times a specific player has been killed.
-Kills:
-  zombie:
-    '1':
-      Goal: Kill a zombie.
-      Message: The first time you killed a zombie!
-      Name: kills_1_zombie
-      DisplayName: The Walking Dead
-      Reward:
-        Money: 1
-        Item: diamond 1
-  §2Skeletal Knight:
-    '1':
-      Goal: Kill the evil Skeletal Knight.
-      Message: §eYou killed a Mythic Mob!
-      Name: kills_1_skeletal_night
-      DisplayName: Mythic Killer
-  specificplayer-56c79b19-4500-466c-94ea-514a755fdd09:
-    '1':
-      Goal: Kill the evil Author.
-      Message: Yippie! You killed the author of the plugin!
-      Name: kills_1_darkpyves
-      DisplayName: No More DarkPyves
-      Reward:
-        IncreaseMaxHealth: 1
-
-# When a specific target is shot (but not necessarily killed) with a projectile.
-# Available target block names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names
-# Available target entity names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names
-TargetsShot:
-  villager:
-    '10':
-      Goal: Throw things at villagers.
-      Message: You lapidated villagers 10 times.
-      Name: targetsshot_10_villager
-      DisplayName: The Stoner
-  glass:
-    '100':
-      Goal: Try to break granny's windows.
-      Message: You shot 100 projectiles at glass blocks!
-      Name: targetsshot_100_glass
-      DisplayName: Window Breaker
-
-# When a specific item is crafted (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
-Crafts:
-  diamond_sword:
-    '1':
-      Goal: Craft a sword.
-      Message: The first time you crafted a blade!
-      Name: craft_1_blade
-      DisplayName: Blacksmith Apprentice
-      Reward:
-        Money: 2
-    '100':
-      Goal: Craft 100 swords.
-      Message: Next craft, Excalibur?
-      Name: craft_100_blade
-      DisplayName: Blacksmith Legend
-      Reward:
-        Experience: 500
-
-# When a player enters a specific command (specify command prefixes in lower case without initial slash).
-# For instance a command /awf add world from the AntiWorldFly plugin matches with subcategory 'awf add'.
-# Aliases of a given command will also be taken into account.
-PlayerCommands:
-  aach stats:
-    '10':
-      Goal: Check your stats 10x.
-      Message: Run the stats command 10 times!
-      Name: playercommand_aachstats_10
-      DisplayName: Statistician
-      Rewards:
-        Commands:
-          Execute: say §7PLAYER is now a statistician
-          Display: Broadcast
-
-# When animals breed (available names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names).
-Breeding:
-  sheep:
-    '1':
-      Goal: Breed a sheep.
-      Message: You bred your first sheep!
-      Name: breeding_1_sheep
-      DisplayName: Breeder
-
-#===========================OOO=OOO===========================#
-# VI-------------------------------------------------------VI #
-# |               Normal action achievements                | #
-# |           These are based on thresholds only            | #
-# 6---------------------------------------------------------6 #
-#===========================ooo=ooo===========================#
-# When a player connects during the day; statistic increases at most once per day.
-Connections:
-  '1':
-    Message: You connected to our server for the first time!
-    Name: connect_1
-    DisplayName: Good Choice
-
-# When the player dies.
-Deaths:
-  '1':
-    Goal: You have to Die.
-    Message: The first time you died!
-    Name: deaths_1
-    DisplayName: Rest in Peace
-    Reward:
-      Item: stone 5 Tombstone
-
-# When an arrow is shot.
-Arrows:
-  '50':
-    Goal: Shoot 50 arrows.
-    Message: 50 arrows shot!
-    Name: arrows_50
-    DisplayName: Arrows Around the Place
-
-# When a snowball is thrown.  
-Snowballs:
-  '1000':
-    Goal: Throw 1000 snowballs.
-    Message: 1000 snowballs thrown. That's the spirit!
-    Name: snowballs_1000
-    DisplayName: Winter Addict
-    Reward:
-      IncreaseMaxOxygen: 30
-
-# When an egg is thrown.  
-Eggs:
-  '1000':
-    Goal: Throw 1000 eggs.
-    Message: 1000 eggs thrown!
-    Name: eggs_1000
-    DisplayName: Omelet Addict
-
-# When a fish is caught. 
-Fish:
-  '1':
-    Goal: Fish a fish.
-    Message: The first time you caught a fish!
-    Name: fish_1
-    DisplayName: Time for Fish and Chips
-
-# When a treasure is caught with a fishing rod.
-Treasures:
-  '1':
-    Goal: Get a treasure from the sea.
-    Message: Your first treasure from the sea!
-    Name: treasure_1
-    DisplayName: Treasure Hunter
-
-# When a tool/armor/weapon is broken.  
-ItemBreaks:
-  '1':
-    Goal: Let an item break.
-    Message: You broke your favorite tool!
-    Name: itembreaks_1
-    DisplayName: §4Clumsy Guy
-
-# When an item is eaten (excludes potions and milk).
-EatenItems:
-  '1':
-    Goal: Eat something.
-    Message: Just had a snack!
-    Name: eatenitems_1
-    DisplayName: First Snack
-
-# When a sheep is sheared.
-Shear:
-  '100':
-    Goal: Shear 100 sheep.
-    Message: 100 sheep sheared!
-    Name: shear_100
-    DisplayName: §1Wool Addict
-
-# When a cow is milked.
-Milk:
-  '1':
-    Goal: Milk a cow.
-    Message: §eJust milked a cow!.... §cMOOW
-    Name: milk_1
-    DisplayName: First Milk
-    Reward:
-      Experience: 100
-
-# When a bucket is filled with lava.
-LavaBuckets:
-  '10':
-    Goal: Fill 10 buckets with lava.
-    Message: 10 buckets filled with lava!
-    Name: lavabuckets_10
-    DisplayName: Pyroman
-
-# When a bucket is filled with water.
-WaterBuckets:
-  '15':
-    Goal: Fill 10 buckets with water.
-    Message: 15 buckets filled with water!
-    Name: waterbuckets_15
-    DisplayName: Fireman
-
-# When a trade with a villager is made.
-Trades:
-  '1':
-    Goal: Trade with a villager.
-    Message: Doing business with your first villager!
-    Name: trades_1
-    DisplayName: First Trade
-
-# When an anvil is used.
-AnvilsUsed:
-  '1':
-    Goal: Repair an item.
-    Message: You just repaired your first item!
-    Name: anvilsused_1
-    DisplayName: First Repair
-
-# When an enchantment is performed.
-Enchantments:
-  '5':
-    Goal: Enchant 5 things.
-    Message: 5 objects enchanted!
-    Name: enchantments_5
-    DisplayName: §5Wizard
-
-# When a bed is entered. 
-Beds:
-  '5':
-    Goal: Sleep 5 times.
-    Message: You entered a bed 5 times!
-    Name: bed_5
-    DisplayName: Sleepy Guy
-
-# Maximum level reached.    
-MaxLevel:
-  '10':
-    Goal: Reach level 10.
-    Message: Level 10 reached!
-    Name: maxlevel_10
-    DisplayName: §4Rookie
-
-# When a potion is consumed.
-ConsumedPotions:
-  '100':
-    Goal: Drink 100 potions.
-    Message: Drinking weird beverages all the time...
-    Name: consumedpotions_100
-    DisplayName: Alcoholic
-
-# Amount of time played on the server (in hours, use integers).
-PlayedTime:
-  '1':
-    Goal: Play an hour.
-    Message: You played for one hour on the server!
-    Name: playedtime_1
-    DisplayName: First Hour
-
-# When a distance is traveled by foot.
-DistanceFoot:
-  '1000':
-    Goal: Travel 1000 Blocks with your feet.
-    Message: You traveled 1000 blocks by foot!
-    Name: distancefoot_1000
-    DisplayName: Big Walker
-
-# When a distance is traveled on a pig.
-DistancePig:
-  '100':
-    Goal: Travel 100 Blocks with a pig.
-    Message: You traveled 100 blocks on a pig!
-    Name: distancepig_100
-    DisplayName: Carrot on a Stick Master
-
-# When a distance is traveled on a horse.
-DistanceHorse:
-  '500':
-    Goal: Travel 500 Blocks with a horse.
-    Message: You traveled 500 blocks on a horse!
-    Name: distancehorse_500
-    DisplayName: The Avener
-
-# When a distance is traveled in a minecart.
-DistanceMinecart:
-  '100':
-    Goal: Travel 100 Blocks with a minecart.
-    Message: You traveled 100 blocks in a minecart!
-    Name: distanceminecart_100
-    DisplayName: Carting Fan
-
-# When a distance is traveled in a boat.
-DistanceBoat:
-  '200':
-    Goal: Travel 200 Blocks with a boat.
-    Message: You traveled 200 blocks in a boat!
-    Name: distanceboat_200
-    DisplayName: Great Sailor
-
-# When a distance is traveled with elytra.
-# Ignored on Minecraft versions prior to 1.9.
-DistanceGliding:
-  '100':
-    Goal: Fly 100 blocks with an elytra.
-    Message: You traveled 100 blocks with elytra!
-    Name: distancegliding_100
-    DisplayName: Angel
-
-# When a distance is traveled on a llama.
-# Ignored on Minecraft versions prior to 1.11.
-DistanceLlama:
-  '150':
-    Goal: Travel 150 Blocks with a llama.
-    Message: You traveled 150 blocks on a llama!
-    Name: distancellama_150
-    DisplayName: Llama Rider
-
-# When an item is dropped on the ground.
-ItemDrops:
-  '15':
-    Goal: Drop 15 items.
-    Message: §cYou're killing the planet!
-    Name: itemdrops_15
-    DisplayName: Polluter
-
-# When an item is picked up from the ground.
-ItemPickups:
-  '40':
-    Goal: Pick 40 items up.
-    Message: You're saving the planet!
-    Name: itempickups_40
-    DisplayName: Environmentalist
-
-# When soil is plowed with a hoe.
-HoePlowings:
-  '10':
-    Goal: Plow 10 times.
-    Message: You plowed the ground 10 times!
-    Name: hoeplowings_10
-    DisplayName: Farmer
-    Reward:
-      Item: cookie 15
-
-# When bone meal is used to fertilise plants.
-Fertilising:
-  '15':
-    Goal: Use bonemeal 15 times.
-    Message: You used bone meal on plants 15 times!
-    Name: fertilising_15
-    DisplayName: Gardener
-
-# When an animal is tamed.
-Taming:
-  '1':
-    Goal: Tame an animal.
-    Message: You tamed your first animal!
-    Name: taming_1
-    DisplayName: Tamer
-
-# When a potion is brewed.
-Brewing:
-  '1':
-    Goal: Brew a potion.
-    Message: You brewed your first potion!
-    Name: brewing_1
-    DisplayName: Alchemist
-
-# When a firework is launched.
-Fireworks:
-  '10':
-    Goal: Launch fireworks 10 times.
-    Message: You launched 10 fireworks!
-    Name: fireworks_10
-    DisplayName: Pyrotechnist
-    Reward:
-      Experience: 200
-
-# When a music disc is played.
-MusicDiscs:
-  '1':
-    Goal: Use a jukebox.
-    Message: One jukebox used!
-    Name: musicdiscs_1
-    DisplayName: DJ
-
-# When a player teleports with an enderpearl.
-EnderPearls:
-  '10':
-    Goal: Teleport with ender pearls 10 times.
-    Message: 10 teleportations with ender pearls!
-    Name: enderpearls_10
-    DisplayName: Teleport Man
-
-# When a player gives a pet to another player (requires Pet Master plugin version 1.4 or above).
-PetMasterGive:
-  '3':
-    Goal: Give 3 pets to friends.
-    Message: 3 pets given to friends!
-    Name: petmastergive_3
-    DisplayName: Donator
-
-# When a player receives a pet from another player (requires Pet Master plugin version 1.4 or above).
-PetMasterReceive:
-  '10':
-    Goal: Receive 10 pets.
-    Message: 10 pets received from friends!
-    Name: petmasterreceive_10
-    DisplayName: Receiver
-
-# When an item is smelt in a furnace.
-Smelting:
-  '250':
-    Goal: Smelt 250 items.
-    Message: 250 items smelt in a furnace!
-    Name: smeltitems_250
-    DisplayName: The Smelter
-
-# When a raid is won.
-RaidsWon:
-  '1':
-    Goal: Win a raid.
-    Message: A raid won!
-    Name: raidswon_1
-    DisplayName: Accident or intentional?
-    Reward:
-      Item: emerald 8
-  '10':
-    Goal: Win ten raids.
-    Message: Ten raids!
-    Name: raidswon_10
-    DisplayName: Village Protector
-    Reward:
-      Item: totem_of_undying 1
-
-# When riptide is used with a trident.
-Riptides:
-  '1':
-    Goal: Use a magical trident.
-    Message: You've mastered the powers of the sea!
-    Name: riptides_1
-    DisplayName: Poseidon
-
-# When an a certain amount of advancements are completed.
-AdvancementsCompleted:
-  '20':
-    Goal: Complete 20 advancements.
-    Message: 20 advancements completed!
-    Name: advancements_20
-    DisplayName: Game Block Advance
-    Reward:
-      Item: diamond 8; cake 1
-
-#===========================OOOOOOO===========================#
-# VII-----------------------------------------------------VII #
-# |               Command-based achievements                | #
-# 7---------------------------------------------------------7 #
-#===========================ooooooo===========================#
-# Allow Commands achievement to be awarded several times.
-MultiCommand: true
-
-# A player with achievement.give (or the console) can use /aach give yourAch1 PLAYER to give
-# yourAch1 achievement to PLAYER. The /aach give command does NOT work with other achievements.
-Commands:
-  yourAch1:
-    Goal: Take part in the special event!\nEvery Friday at 8pm!
-    Message: You took part in the special event!
-    Name: your_ach1
-    DisplayName: Special Event Achievement!
-
-# When the command /aach add is called for this category.
-Custom:
-  votes:
-    '10':
-      Message: Voted 10 times for the server!
-      Name: customs_votes_10
-      DisplayName: Server fan
-      Reward:
-        Money: 5
-
-#==========================OOOO=OOOO==========================#
-# VIII-------------------------0-------------------------VIII #
-# |  Parameters in future plugin versions will appear here  | #
-# 8----------------------------0----------------------------8 #
-#==========================oooo=oooo==========================#
-#When a distance is traveled whilst sneaking.
-DistanceSneaking: {}
-
-#When you level up in a job (job name lower case).
-JobsReborn: {}
-
-#Set to true if you use BungeeCord or if your database is shared by multiple servers. Do a full server restart.
-BungeeMode: false
-
-# By default, the back button in the GUI returns to the listing of all categories. Use this option if you want to run a
-# command instead. PLAYER placeholder is supported. 
-OverrideBackButtonBehaviour: ""
-
-# If true, the icon of the back button in the GUI will be the same as the category currently being viewed.
-BackButtonIsCategoryItem: true
-
-# When using groups of subcategories for Multiple action achievements (e.g. snow|snow_block|ice), you must ensure that
-# the value of this parameter is greater than the total number of characters in the group. Unless you use groups of very
-# large sizes, you don't need to change this value.
-TableMaxSizeOfGroupedSubcategories: 128
-
-# Display a boss bar showing progress a few seconds after an achievement is received.
-BossBarProgress: true
 
 # Used for the Breaks achievement category. You may need to expand this list when new Minecraft versions are released.
 OreBlocks:
@@ -829,6 +130,53 @@ OreBlocks:
   - nether_gold_ore
   - nether_quartz_ore
   - redstone_ore
+
+# Language file to use. Available: lang.yml, lang-BP.yml, lang-CN.yml, lang-CZ.yml, lang-DA.yml, lang-DE.yml,
+# lang-ES.yml, lang-FI.yml, lang-FR.yml, lang-HU.yml, lang-IT.yml, lang-PL.yml, lang-RO.yml, lang-RU.yml, lang-SE.yml,
+# lang-SK.yml, lang-TR.yml, lang-TW.yml, lang-VN.yml
+LanguageFileName: lang.yml
+
+# Time in seconds between each statistic count. Only the listed categories are currently supported.
+StatisticCooldown:
+  LavaBuckets: 10
+  WaterBuckets: 10
+  Milk: 10
+  Beds: 30
+  Brewing: 5
+  MusicDiscs: 30
+  BooksEdited: 10
+
+# Display action bar message when player performs an action while in a cooldown period.
+CooldownActionBar: true
+
+# Locale used to format dates in /aach book and /aach list. You must select an ISO 639 language code. The list of
+# possible language codes can be found at https://www.loc.gov/standards/iso639-2/php/code_list.php
+DateLocale: en
+
+# Display reception time of achievements in /aach book and /aach list in addition to the date.
+DateDisplayTime: true
+
+# Awarded when a player has received all the achievements. Use the same reward pattern as with achievements.
+# See https://github.com/PyvesB/advanced-achievements/wiki/Rewards
+AllAchievementsReceivedRewards:
+  IncreaseMaxOxygen: 30
+  Experience: 100
+
+# PlayedTime will no longer increase when the player is AFK. Requires Essentials to work.
+IgnoreAFKPlayedTime: false
+
+# Register advancements with a description corresponding to the Goal parameter of each achievement. If changed, run
+# /aach generate to regenerate advancements with the new value taken into account.
+RegisterAdvancementDescriptions: true
+
+# Hide advancements from the advancement GUI. Advancement notifications will still appear when receiving achievements.
+HideAdvancements: false
+
+# Title shown on the root advancement.
+RootAdvancementTitle: Advanced Achievements
+
+# Background shown on the advancement tab. Must be a resource location to any image in a resource pack.
+AdvancementsBackground: "minecraft:textures/item/book.png"
 
 # Used for the Fireworks achievement category. In vanilla Minecraft, fireworks cannot be launched on the following
 # blocks. Unless listed here, players may be able to abuse the Fireworks category by repeatedly right clicking on the
@@ -968,6 +316,298 @@ FishableFish:
   - pufferfish
   - tropical_fish
 
+#======================================================================================================================#
+#                                                     GUI SETTINGS                                                     #
+#                                                                                                                      #
+#        Configure the behaviour of /aach list. The items being displayed can be further customised in gui.yml.        #
+#======================================================================================================================#
+
+# Format of the achievement category name in /aach list (default: "%ICON% %NAME% %ICON%").
+ListAchievementFormat: "%ICON% %NAME% %ICON%"
+
+# Obfuscate achievements that have not yet been received in /aach list.
+ObfuscateNotReceived: false
+
+# For Multiple action achievement categories with a series of related achievements, show achievements that have been
+# obtained and show the next obtainable achievement, but obfuscate the additional achievements. For example, under 
+# Places, stone, the first achievement could have a target of 100 stone, the second 500 stone, and the third 1000 stone.
+# When ObfuscateProgressiveAchievements is true, initially only the 100 stone achievement will be readable in the GUI.
+# Once 100 stone have been placed, the 500 stone achievement will become legible.
+ObfuscateProgressiveAchievements: false
+
+# Similar to ObfuscateProgressiveAchievements, but displays not received achievements as locked in /aach list.
+HideProgressiveAchievements: false
+
+# Hide categories for which a player has not yet received achievements by displaying them as locked in /aach list.
+HideNotReceivedCategories: false
+
+# Completely hide categories for which the player does not have the matching permission (e.g. achievement.count.beds).
+HideNoPermissionCategories: false
+
+# Hide the reward display in /aach list.
+HideRewardDisplayInList: false
+
+# Display precise statistic information in the /aach list progress bars.
+EnrichedListProgressBars: true
+
+# Annotate each achievement displayed in a /aach list category with a number.
+NumberedItemsInList: false
+
+# Color used for not yet received achievements in /aach list.
+ListColorNotReceived: 8
+
+# Italicise not yet received achievements in /aach list. Obfuscated achievements are not affected.
+ListItaliciseNotReceived: true
+
+# By default, the back button in the GUI returns to the listing of all categories. Use this option if you want to run a
+# command instead. PLAYER placeholder is supported. 
+OverrideBackButtonBehaviour: ""
+
+# If true, the icon of the back button in the GUI will be the same as the category currently being viewed.
+BackButtonIsCategoryItem: true
+
+#======================================================================================================================#
+#                                                  DATABASE SETTINGS                                                   #
+#                                                                                                                      #
+#                       The database is where all player statistics and achievements are stored.                       #
+#======================================================================================================================#
+
+# Make a daily backup of your local database (if sqlite or h2) when the server restarts.
+DatabaseBackup: true
+
+# Database type, sqlite, h2, postgresql or mysql. Do a full server restart for this to take effect.
+DatabaseType: h2
+
+# Prefix added to the tables in the database. If you switch from the default tables names (no prefix), the plugin does
+# an automatic renaming. Otherwise you must rename tables manually. Do a full server restart for this to take effect.
+TablePrefix: ""
+
+# When using groups of subcategories for Multiple action achievements (e.g. snow|snow_block|ice), you must ensure that
+# the value of this parameter is greater than the total number of characters in the group. Unless you use groups of very
+# large sizes, you don't need to change this value.
+TableMaxSizeOfGroupedSubcategories: 128
+
+# Specify additional options when opening a connection to a MySQL/PostgreSQL database. Start each option with &, for
+# example "&useUnicode=yes&characterEncoding=UTF-8". Make sure the key-value pairs themselves are URL encoded.
+AdditionalConnectionOptions: ""
+
+# Settings to connect to your MySQL/PostgreSQL database (ignored if sqlite).
+# A PostgreSQL database address will be similar to jdbc:postgresql://localhost:5432/minecraft
+DatabaseAddress: "jdbc:mysql://localhost:3306/minecraft"
+DatabaseUser: root
+DatabasePassword: root
+
+#======================================================================================================================#
+#                                                 PERFORMANCE SETTINGS                                                 #
+#                                                                                                                      #
+#                                    In most cases, you won't need to change these.                                    #
+#======================================================================================================================#
+
+# Frequency of play time checks for players (seconds). Smaller values give more precision but more CPU usage.
+PlaytimeTaskInterval: 60
+
+# Frequency of distance traveled checks by players (seconds). Smaller values give more precision but more CPU usage.
+DistanceTaskInterval: 5
+
+# Enable if you use BungeeCord or if your database is shared by multiple servers. Do a full server restart.
+BungeeMode: false
+
+#======================================================================================================================#
+#                                             MULTIPLE ACTION ACHIEVEMENTS                                             #
+#                                                                                                                      #
+#                Achievements in the following categories require both a sub-category and a threshold.                 #
+#======================================================================================================================#
+
+# Count blocks placed. You can use any of the following:
+# - block names (available names: https://github.com/PyvesB/advanced-achievements/wiki/Material-names).
+# - custom display name of items (e.g. the name of a player's head).
+Places:
+  chest:
+    5:
+      # Optional, used in /aach list when achievement not yet received, and in advancements.
+      Goal: Place 5 chests.
+      # Description, displayed when receiving achievement, and in /aach book and /aach list.
+      Message: §6You have placed 5 chests!
+      # Database name, must also be used in /aach delete and /aach check.
+      Name: place_5_chest
+      # Displayed when receiving achievement, and in /aach book and /aach list.
+      DisplayName: Storage Expert
+      # Used to select the display item for this achievement in gui.yml.
+      Type: normal
+    50:
+      Goal: Place 50 chests.
+      Message: §6You have placed 50 chests!
+      Name: place_50_chest
+      DisplayName: Tetris Master
+      Type: normal
+  stone:
+    100:
+      Goal: Place 100 Stones.
+      Message: One hundred placed stones!
+      Name: place_100_stone
+      DisplayName: Stone Addict
+      Type: normal
+    1000:
+      Goal: Place 1000 stones.
+      Message: One thousand placed stones!
+      Name: place_1000_stone
+      DisplayName: Stone God
+      Type: normal
+      Reward:
+        Command:
+          Execute: "say §7ALERT: §4PLAYER§7 has become the §4STONE GOD§7!"
+          Display: Become the Stone God!
+  # Item custom display name, for example Mario's head from the Custom Heads plugin.
+  §eMario:
+    1:
+      Goal: Place Mario's head.
+      Message: Mario's head is on the ground!
+      Name: place_1_mario
+      DisplayName: It's-a me, Mario!
+      Type: rare
+
+# Count blocks broken. You can use any of the following:
+# - block names (available names: https://github.com/PyvesB/advanced-achievements/wiki/Material-names).
+Breaks:
+  ice:
+    10:
+      Goal: Break 10 ice blocks.
+      Message: You have broken 10 ice blocks!
+      Name: break_10_ice
+      DisplayName: Cold Drink Supplier
+      Type: normal
+  # Use the following construct to track multiple types. Note that if ever you add/remove a type grouped to 
+  # others with |, progress for this sub-category group will start back at 0.
+  snow|snow_block|ice:
+    32:
+      Goal: Break 32 ice and/or snow.
+      Message: You have broken 32 ice and snow, Woo!
+      Name: break_32_ice_any
+      DisplayName: Praying for Summer
+      Type: normal
+  stone:
+    1:
+      Goal: Break a block.
+      Message: §1The first time you went mining!
+      Name: break_1_stone
+      DisplayName: Cobble Gobble!
+      Type: normal
+      Reward:
+        Command:
+          Execute:
+            - give PLAYER dispenser 10
+            - give PLAYER lever 5
+
+# Count entities killed. You can use any of the following:
+# - entity types (available names: https://github.com/PyvesB/advanced-achievements/wiki/Entity-names).
+# - poweredcreeper.
+# - custom mob name (name tag/plugins such as Mythic Mobs).
+# - player to track player kills as a whole.
+# - specificplayer- followed by player UUID to track how many times a specific player has been killed.
+Kills:
+  zombie:
+    1:
+      Goal: Kill a zombie.
+      Message: The first time you killed a zombie!
+      Name: kills_1_zombie
+      DisplayName: The Walking Dead
+      Type: normal
+      Reward:
+        IncreaseMaxHealth: 1
+        Item: diamond 1
+  # Mythic Mobs 'Display' parameter. Change & to §.
+  §2Skeletal Knight:
+    1:
+      Goal: Kill the evil Skeletal Knight.
+      Message: §eYou killed a Mythic Mob!
+      Name: kills_1_skeletal_night
+      DisplayName: Mythic Killer
+      Type: rare
+  specificplayer-56c79b19-4500-466c-94ea-514a755fdd09:
+    1:
+      Goal: Kill the evil Author.
+      Message: Yippie! You killed the author of the plugin!
+      Name: kills_1_darkpyves
+      DisplayName:  No More DarkPyves
+      Type: rare
+      Reward:
+        IncreaseMaxHealth: 1
+
+# Count targets shot (but not necessarily killed) with a projectile. You can use any of the following:
+# - block names: https://github.com/PyvesB/advanced-achievements/wiki/Material-names
+# - entity names: https://github.com/PyvesB/advanced-achievements/wiki/Entity-names
+TargetsShot:
+  villager:
+    10:
+      Goal: Throw things at villagers.
+      Message: You lapidated villagers 10 times.
+      Name: targetsshot_10_villager
+      DisplayName: The Stoner
+      Type: normal
+  glass:
+    100:
+      Goal: Try to break granny's windows.
+      Message: You shot 100 projectiles at glass blocks!
+      Name: targetsshot_100_glass
+      DisplayName: Window Breaker
+      Type: normal
+
+# Count items crafted (available names: https://github.com/PyvesB/advanced-achievements/wiki/Material-names).
+Crafts:
+  diamond_sword:
+    1:
+      Goal: Craft a sword.
+      Message: The first time you crafted a blade!
+      Name: craft_1_blade
+      DisplayName: Blacksmith Apprentice
+      Type: normal
+      Reward:
+        Experience: 150
+    100:
+      Goal: Craft 100 swords.
+      Message: Next craft, Excalibur?
+      Name: craft_100_blade
+      DisplayName: Blacksmith Legend
+      Type: rare
+      Reward:
+        Experience: 500
+
+# Count specific commands used. Specify command prefixes in lower case without initial slash. For example, command
+# '/petm setcolor red' from the PetMaster plugin matches with subcategory 'petm setcolor'. Aliases of a given command
+# will also be taken into account.
+PlayerCommands:
+  aach stats:
+    10:
+      Goal: Check your stats 10x.
+      Message: Run the stats command 10 times!
+      Name: playercommand_aachstats_10
+      DisplayName: Statistician
+      Type: normal
+      Rewards:
+        Command:
+          Execute: say §7PLAYER is now a statistician
+          Display: Broadcast
+
+# Count animals bred (available names: https://github.com/PyvesB/advanced-achievements/wiki/Entity-names).
+Breeding:
+  sheep:
+    1:
+      Goal: Breed a sheep.
+      Message: You bred your first sheep!
+      Name: breeding_1_sheep
+      DisplayName: Breeder
+      Type: normal
+
+# Count the maximum level reached in a job (full job name in lower case).
+JobsReborn:
+  hunter:
+    1:
+      Goal: Level up as a hunter!
+      Message: You have reached hunter level 2!
+      Name: jobsreborn_1_hunter
+      DisplayName: Hunter
+      Type: normal
+
 # Count effects held (effect name in lower case).
 # Available effects: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
 EffectsHeld:
@@ -979,6 +619,424 @@ EffectsHeld:
       DisplayName: Kangaroo
       Type: normal
 
+#======================================================================================================================#
+#                                              NORMAL ACTION ACHIEVEMENTS                                              #
+#                                                                                                                      #
+#                      Achievements in the following categories require only require a threshold.                      #
+#======================================================================================================================#
+
+# Count player connections during the day; statistic increases at most once per day.
+Connections:
+  1:
+    Message: You connected to our server for the first time!
+    Name: connect_1
+    DisplayName: Good Choice
+    Type: normal
+
+# Count player deaths.
+Deaths:
+  1:
+    Goal: You have to Die.
+    Message: The first time you died!
+    Name: deaths_1
+    DisplayName: Rest in Peace
+    Type: normal
+    Reward:
+        # Text after the material and quantity will be used as the custom name of the item.
+        Item: stone 5 Tombstone
+
+# Count arrows shot.
+Arrows:
+  50:
+    Goal: Shoot 50 arrows.
+    Message: 50 arrows shot!
+    Name: arrows_50
+    DisplayName: Arrows Around the Place
+    Type: normal
+
+# Count snowballs thrown.
+Snowballs:
+  1000:
+    Goal: Throw 1000 snowballs.
+    Message: 1000 snowballs thrown. That's the spirit!
+    Name: snowballs_1000
+    DisplayName: Winter Addict
+    Type: normal
+    Reward:
+        # 30 corresponds to one bubble in the oxygen bar.
+        IncreaseMaxOxygen: 30
+
+# Count eggs thrown
+Eggs:
+  1000:
+    Goal: Throw 1000 eggs.
+    Message: 1000 eggs thrown!
+    Name: eggs_1000
+    DisplayName: Omelet Addict
+    Type: normal
+
+# Count fish caught.
+Fish:
+  1:
+    Goal: Fish a fish.
+    Message: The first time you caught a fish!
+    Name: fish_1
+    DisplayName: Time for Fish and Chips
+    Type: normal
+
+# Count treasures caught with a fishing rod.
+Treasures:
+  1:
+    Goal: Get a treasure from the sea.
+    Message: Your first treasure from the sea!
+    Name: treasure_1
+    DisplayName: Treasure Hunter
+    Type: normal
+
+# Count tools, armors or weapons broken.
+ItemBreaks:
+  1:
+    Goal: Let an item break.
+    Message: You broke your favorite tool!
+    Name: itembreaks_1
+    DisplayName: §4Clumsy Guy
+    Type: normal
+
+# Count items eaten (excludes potions and milk).
+EatenItems:
+  1:
+    Goal: Eat something.
+    Message: Just had a snack!
+    Name: eatenitems_1
+    DisplayName: First Snack
+    Type: normal
+
+# Count sheep sheared.
+Shear:
+  100:
+    Goal: Shear 100 sheep.
+    Message: 100 sheep sheared!
+    Name: shear_100
+    DisplayName: §1Wool Addict
+    Type: normal
+
+# Count cows milked.
+Milk:
+  1:
+    Goal: Milk a cow.
+    Message: §eJust milked a cow!.... §cMOOW
+    Name: milk_1
+    DisplayName: First Milk
+    Type: normal
+    Reward:
+      Experience: 100
+
+# Count buckets filled with lava.
+LavaBuckets:
+  10:
+    Goal: Fill 10 buckets with lava.
+    Message: 10 buckets filled with lava!
+    Name: lavabuckets_10
+    DisplayName: Pyroman
+    Type: normal
+
+# Count buckets filled with water.
+WaterBuckets:
+  15:
+    Goal: Fill 10 buckets with water.
+    Message: 15 buckets filled with water!
+    Name: waterbuckets_15
+    DisplayName: Fireman
+    Type: normal
+
+# Count trades with a villager (increases by one per trade regardless of the number of items traded).
+Trades:
+  1:
+    Goal: Trade with a villager.
+    Message: Doing business with your first villager!
+    Name: trades_1
+    DisplayName: First Trade
+    Type: normal
+
+# Count anvil usages.
+AnvilsUsed:
+  1:
+    Goal: Repair an item.
+    Message: You just repaired your first item!
+    Name: anvilsused_1
+    DisplayName: First Repair
+    Type: normal
+
+# Count enchantments performed.
+Enchantments:
+  5:
+    Goal: Enchant 5 things.
+    Message: 5 objects enchanted!
+    Name: enchantments_5
+    DisplayName: §5Wizard
+    Type: normal
+
+# Count the number of times a player enters a bed.
+Beds:
+  5:
+    Goal: Sleep 5 times.
+    Message: You entered a bed 5 times!
+    Name: bed_5
+    DisplayName: Sleepy Guy
+    Type: normal
+
+# Count the maximum level reached.
+MaxLevel:
+  10:
+    Goal: Reach level 10.
+    Message: Level 10 reached!
+    Name: maxlevel_10
+    DisplayName: §4Rookie
+    Type: normal
+
+# Count potions consumed.
+ConsumedPotions:
+  100:
+    Goal: Drink 100 potions.
+    Message: Drinking weird beverages all the time...
+    Name: consumedpotions_100
+    DisplayName: Alcoholic
+    Type: normal
+
+# Count the amount of time played on the server (in hours, use integers).
+PlayedTime:
+  1:
+    Goal: Play an hour.
+    Message: You played for one hour on the server!
+    Name: playedtime_1
+    DisplayName: First Hour
+    Type: normal
+
+# Count distance traveled by foot.
+DistanceFoot:
+  1000:
+    Goal: Travel 1000 Blocks with your feet.
+    Message: You traveled 1000 blocks by foot!
+    Name: distancefoot_1000
+    DisplayName: Big Walker
+    Type: normal
+
+# Count distance traveled on a pig.
+DistancePig:
+  100:
+    Goal: Travel 100 Blocks with a pig.
+    Message: You traveled 100 blocks on a pig!
+    Name: distancepig_100
+    DisplayName: Carrot on a Stick Master
+    Type: rare
+
+# Count distance traveled on a horse.
+DistanceHorse:
+  500:
+    Goal: Travel 500 Blocks with a horse.
+    Message: You traveled 500 blocks on a horse!
+    Name: distancehorse_500
+    DisplayName: The Avener
+    Type: normal
+
+# Count distance traveled in a minecart.
+DistanceMinecart:
+  100:
+    Goal: Travel 100 Blocks with a minecart.
+    Message: You traveled 100 blocks in a minecart!
+    Name: distanceminecart_100
+    DisplayName: Carting Fan
+    Type: normal
+
+# Count distance traveled in a boat.
+DistanceBoat:
+  200:
+    Goal: Travel 200 Blocks with a boat.
+    Message: You traveled 200 blocks in a boat!
+    Name: distanceboat_200
+    DisplayName: Great Sailor
+    Type: normal
+
+# Count distance traveled with elytra.
+DistanceGliding:
+  100:
+    Goal: Fly 100 blocks with an elytra.
+    Message: You traveled 100 blocks with elytra!
+    Name: distancegliding_100
+    DisplayName: Angel
+    Type: rare
+
+# Count distance traveled on a llama.
+DistanceLlama:
+  150:
+    Goal: Travel 150 blocks with a llama.
+    Message: You traveled 150 blocks on a llama!
+    Name: distancellama_150
+    DisplayName: Llama Rider
+    Type: rare
+
+# Count distance traveled whilst sneaking.
+DistanceSneaking:
+  500:
+    Goal: Travel 500 blocks whilst sneaking.
+    Message: You traveled 500 blocks whilst sneaking!
+    Name: distancesneaking_500
+    DisplayName: Ninja
+    Type: normal
+
+# Count items dropped on the ground.
+ItemDrops:
+  15:
+    Goal: Drop 15 items.
+    Message: §cYou're killing the planet!
+    Name: itemdrops_15
+    DisplayName: Polluter
+    Type: normal
+
+# Count items picked up from the ground.
+ItemPickups:
+  40:
+    Goal: Pick 40 items up.
+    Message: You're saving the planet!
+    Name: itempickups_40
+    DisplayName: Environmentalist
+    Type: normal
+
+# Count blocks of soil plowed with a hoe.
+HoePlowings:
+  10:
+    Goal: Plow 10 times.
+    Message: You plowed the ground 10 times!
+    Name: hoeplowings_10
+    DisplayName: Farmer
+    Type: normal
+    Reward:
+        Item: cookie 15
+
+# Count the number of bone meals used to fertilise plants.
+Fertilising:
+  15:
+    Goal: Use bonemeal 15 times.
+    Message: You used bone meal on plants 15 times!
+    Name: fertilising_15
+    DisplayName: Gardener
+    Type: normal
+
+# Count animals tamed.
+Taming:
+  1:
+    Goal: Tame an animal.
+    Message: You tamed your first animal!
+    Name: taming_1
+    DisplayName: Tamer
+    Type: normal
+
+# Count potions brewed.
+Brewing:
+  1:
+    Goal: Brew a potion.
+    Message: You brewed your first potion!
+    Name: brewing_1
+    DisplayName: Alchemist
+    Type: normal
+
+# Count fireworks launched.
+Fireworks:
+  10:
+    Goal: Launch fireworks 10 times.
+    Message: You launched 10 fireworks!
+    Name: fireworks_10
+    DisplayName: Pyrotechnist
+    Type: normal
+    Reward:
+      Experience: 200
+
+# Count music discs played (i.e. inserted in a jukebox).
+MusicDiscs:
+  1:
+    Goal: Use a jukebox.
+    Message: One jukebox used!
+    Name: musicdiscs_1
+    DisplayName: DJ
+    Type: normal
+
+# Count teleportations with an enderpearl.
+EnderPearls:
+  10:
+    Goal: Teleport with ender pearls 10 times.
+    Message: 10 teleportations with ender pearls!
+    Name: enderpearls_10
+    DisplayName: Teleport Man
+    Type: normal
+
+# Count pets given to another player (requires Pet Master plugin).
+PetMasterGive:
+  3:
+    Goal: Give 3 pets to friends.
+    Message: 3 pets given to friends!
+    Name: petmastergive_3
+    DisplayName: Donator
+    Type: rare
+
+# Count pets received from another player (requires Pet Master plugin).
+PetMasterReceive:
+  10:
+    Goal: Receive 10 pets.
+    Message: 10 pets received from friends!
+    Name: petmasterreceive_10
+    DisplayName: Receiver
+    Type: rare
+
+# Count items smelt in a furnace.
+Smelting:
+  250:
+    Goal: Smelt 250 items.
+    Message: 250 items smelt in a furnace!
+    Name: smeltitems_250
+    DisplayName: The Smelter
+    Type: normal
+
+# Count raids won.
+RaidsWon:
+  1:
+    Goal: Win a raid.
+    Message: A raid won!
+    Name: raidswon_1
+    DisplayName: Accident or intentional?
+    Type: normal
+    Reward:
+      Item: emerald 8
+  10:
+    Goal: Win ten raids.
+    Message: Ten raids!
+    Name: raidswon_10
+    DisplayName: Village Protector
+    Type: rare
+    Reward:
+      Item: totem_of_undying 1
+
+# Count the number of times riptide is used with a trident.
+Riptides:
+  1:
+    Goal: Use a magical trident.
+    Message: You've mastered the powers of the sea!
+    Name: riptides_1
+    DisplayName: Poseidon
+    Type: normal
+
+# Count the number of advancements completed. Covers all Vanilla advancements, not only those created by /aach generate.
+AdvancementsCompleted:
+  20:
+    Goal: Complete 20 advancements.
+    Message: 20 advancements completed!
+    Name: advancements_20
+    DisplayName: Game Block Advance
+    Type: normal
+    Reward:
+      Item:
+        - diamond 8
+        - cake 1
+
 # Count books edited.
 BooksEdited:
   10:
@@ -987,3 +1045,39 @@ BooksEdited:
     Name: booksedited_10
     DisplayName: Scribe
     Type: normal
+
+#======================================================================================================================#
+#                                                 COMMAND ACHIEVEMENTS                                                 #
+#                                                                                                                      #
+#    Achievements in the following categories can only be obtained by running commands or integrating with the API.    #
+#======================================================================================================================#
+
+# Allow Commands achievement to be awarded several times.
+MultiCommand: true
+
+# Achievements in this category can be awarded with commands such as use '/aach give yourAch1 PLAYER'. The /aach give
+# command does not work with other achievements.
+Commands:
+  yourAch1:
+    Goal: Take part in the special event!\nEvery Friday at 8pm!
+    Message: You took part in the special event!
+    Name: your_ach1
+    DisplayName: Special Event Achievement!
+    Type: rare
+
+# Statistics for this category can be increased using commands such as '/aach add 1 Custom.votes PLAYER'.
+Custom:
+  votes:
+    10:
+      Message: Voted 10 times for the server!
+      Name: customs_votes_10
+      DisplayName: Server fan
+      Type: normal
+      Reward:
+        IncreaseMaxHealth: 1
+
+#======================================================================================================================#
+#                                                  FUTURE PAREMETERS                                                   #
+#                                                                                                                      #
+#                          New parameters added in future plugin releases will appear below.                           #
+#======================================================================================================================#

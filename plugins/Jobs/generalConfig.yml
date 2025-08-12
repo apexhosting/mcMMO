@@ -86,8 +86,13 @@ Optimizations:
     List:
     - world
   Explore:
+    # Do you want to use new exploration tracking method. Only for 1.16+ servers
+    NewMethod: true
     # By setting this to true when there is max amount of players explored a chunk then it will be marked as fully explored and exact players who explored it will not be saved to save some memory
     Compact: true
+    # While enabled explored chunk data will be saved into database and will persist over server restarts
+    # While disabled expored chunk data resets on every server startup which will freeup memory and speedup server startups and stop in some cases
+    SaveIntoDatabase: false
 Logging:
   # With this set to true all players jobs actions will be logged to database for easy to see statistics
   # This is still in development and in future it will expand
@@ -103,11 +108,16 @@ broadcast:
     levels:
     - 0
 DailyQuests:
+  # Enables or disables daily quests
+  Enabled: true
   # Defines time in 24hour format when we want to give out new daily quests
   # Any daily quests given before reset will be invalid and new ones will be given out
   ResetTime:
     Hour: 4
     Minute: 0
+  # Defines amount of skips player can do on a quest
+  # This allows player to abandon current quest and get new one
+  useGUI: true
   # Defines amount of skips player can do on a quest
   # This allows player to abandon current quest and get new one
   Skips: 1
@@ -123,7 +133,7 @@ ScheduleManager:
 # Counting in hours
 JobExpirationTime: 0
 # Maximum number of jobs a player can join.
-# Use 0 for no maximum
+# Use -1 to disable limitations
 # Keep in mind that jobs.max.[amount] will bypass this setting
 max-jobs: 3
 # Disabling the payment if the user reached the maximum level of a job.
@@ -132,6 +142,10 @@ disable-payment-if-max-level-reached: false
 hide-jobs-without-permission: false
 # Hide jobs info from player if they lack the permission to join the job
 hide-jobsinfo-without-permission: false
+# Prevent players to enchant items from the shop in the anvil with enchanted books
+prevent-shop-item-enchanting: true
+# Enables or disables jobs shop
+jobs-shop-enabled: true
 # Option to allow payment to be made when killing mobs from a spawner.
 # Use jobs.nearspawner.[amount] to define multiplayer. Example jobs.nearspawner.-0.5 will pay half of payment, jobs.nearspawner.-1 will not pay at all
 enable-pay-near-spawner: false
@@ -141,6 +155,8 @@ enable-pay-creative: false
 enable-pay-for-exploring-when-flying: false
 # Option to allow payment to be made for exploring when player gliding.
 enable-pay-for-exploring-when-gliding: false
+# Option to allow reset exploring data.
+enable-reset-exploring-data: false
 # Disables the payment when the player riding on an entity.
 disablePaymentIfRiding: false
 # Adds the Jobs xp received to the player's Minecraft XP bar
@@ -151,7 +167,23 @@ enable-boosted-items-in-offhand: true
 enable-boosted-items-in-mainhand: true
 # Do the jobs boost ignore the boosted items usage in armor slots?
 enable-boosted-armor-items: true
-# When enabled we will try to pay player for blocks above broken ones. This only applies to sugarcane, bamboo and kelp
+# While this is enabled we will check if boosted item is in correct slot
+# Armor items will be ignored if player only holds one in their hand
+# Tool and weapon items will be ignored if those are equiped in players armor slots
+# None tool or weapon items will be allowed in players head slot
+boosted-items-slot-specific: true
+# Extra boost values for nearSpawner and petPay will be multiplied by sum of other boost values
+# When set to true and for example nearSpawner set to -0.98 aka 2% of original payment with other bonuses which should double payment will result in you getting 4% instead of corrent 102% payment
+# If set to false all bonus are sumed to one
+multiply-boosted-extra-values: false
+# Default (false) and we will prioritize specific permission over general, which means that jobs.boost.miner.money.0.5 will override and be used instead of jobs.boost.all.money.0.8
+# When enabled we will pick highest permission node from all accesible ones
+# Only applies while add-permission-boost set to false
+highest-permission-boost: false
+# When enabled we will add all permission bonuses and penalties instead of picking highest one
+# This will add access to all permissions from jobs.boost.[jobName].[type].[amount] jobs.boost.all.[type].[amount] jobs.boost.[jobName].all.[amount] and jobs.boost.all.all.[amount] category
+add-permission-boost: false
+# When enabled we will try to pay player for blocks above broken ones. This only applies to sugarcane, bamboo, kelp and weeping_vines
 pay-for-above: false
 # Allows to pay for stacked entities for each one. Requires StackMob or WildStacker.
 pay-for-stacked-entities: false
@@ -187,8 +219,8 @@ Economy:
   # Useful for removing particular payment method without editing whole jobConfig file
   PaymentMethods:
     Money: true
-    Points: true
     Exp: true
+    Points: true
   # Can be used to change payment amounts for all jobs and all actions if you want to readjust them
   # Amounts are in percentage, above 0 will increase payments
   # Amount belove 0 will decrease payments
@@ -281,6 +313,10 @@ Economy:
       MoneyLimit: 500+500*(totallevel/100)
       # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
+      # Time in 24 hour format when limit should reset. This will override TimeLimit if defined
+      # Example: '00:00:00' will reset timer at midnight, '04:30:00' will reset at 4:30 in the morning
+      # Set to empty field if you want to use TimeLimit
+      ResetTime: ''
       # Delay between announcements about reached money limit
       # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
       AnnouncementDelay: 30
@@ -299,6 +335,10 @@ Economy:
       Limit: 500+500*(totallevel/100)
       # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
+      # Time in 24 hour format when limit should reset. This will override TimeLimit if defined
+      # Example: '00:00:00' will reset timer at midnight, '04:30:00' will reset at 4:30 in the morning
+      # Set to empty field if you want to use TimeLimit
+      ResetTime: ''
       # Delay between announcements about reached limit
       # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
       AnnouncementDelay: 30
@@ -318,6 +358,10 @@ Economy:
       Limit: 5000+5000*(totallevel/100)
       # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
+      # Time in 24 hour format when limit should reset. This will override TimeLimit if defined
+      # Example: '00:00:00' will reset timer at midnight, '04:30:00' will reset at 4:30 in the morning
+      # Set to empty field if you want to use TimeLimit
+      ResetTime: ''
       # Delay between announcements about reached Exp limit
       # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
       AnnouncementDelay: 30
@@ -374,17 +418,33 @@ ExploitProtections:
       # Enable blocks protection, like ore, from exploiting by placing and destroying same block again and again.
       # Modify restrictedBlocks.yml for blocks you want to protect
       Enabled: true
+      # Should we use new block protection method
+      # In most cases this is more efficient way to check for break/place protection and doesn't involve any cache or data saving into database
+      # Only works with 1.14+ servers
+      NewMethod: true
+      BlockTracker:
+        # Should we use BlockTracker plugin instead of built in block tracker
+        Enabled: false
       # Enabling this we will ignore blocks generated in ore generators, liko stone, coublestone and obsidian. You can still use timer on player placed obsidian block
       IgnoreOreGenerators: true
+      # Only applies when old method is used
       # For how long in days to keep block protection data in data base
       # This will clean block data which ones have -1 as cooldown value
       # Data base cleanup will be performed on each server startup
       # This cant be more then 14 days
       KeepDataFor: 14
-      # All blocks will be protected X sec after player places it on ground.
       GlobalBlockTimer:
-        Use: true
-        Timer: 3
+        # All blocks will be protected X seconds after player places it
+        Place:
+          Use: true
+          # Time in seconds. This can only be positive number and no higher than 900
+          # If higher timers are needed then it can be defined in restrictedBlocks.yml file for each specific block
+          Timer: 3
+        Break:
+          Use: true
+          # Time in seconds. This can only be positive number and no higher than 60
+          # This is only to prevent player from placing blocks into same place and getting paid once more
+          Timer: 3
       # Enable silk touch protection.
       # With this enabled players wont get paid for broken blocks from restrictedblocks list with silk touch tool.
       SilkTouchProtection: false
@@ -393,6 +453,11 @@ ExploitProtections:
       # This prevents from killing monsters in one hit when they suffer in example fall damage
       Use: false
       Percentage: 60
+      # When enabled we will avoid checking damage done to ender dragon, wither and warden
+      # This can help out in case you have server with custom damage sources which might not be registered and payouts might not be given out
+      IgnoreBosses: true
+    # Should tamed animals payout to their owners?
+    TameablesPayout: true
   # McMMO abilities
   McMMO:
     # Players will get part of money from cutting trees with treefeller ability enabled.
@@ -408,12 +473,19 @@ ExploitProtections:
   # Disable if you having issues with it or using old version
   MythicMobs:
     enabled: true
+  # CustomFishing plugin support (Optional)
+  # If setting is enabled, Fish and PyroFishingPro actions are disabled and only CustomFishing action is enabled.
+  # Leave it disabled if you're not experiencing issues because of CustomFishing Plugin.
+  CustomFishing:
+    Use-CustomFishing-Only: false
   Smelt:
     # Prevent payments when hoppers moving items into furnace
     # Player will not get paid, but items will be smelted
     PreventHopperFillUps: true
   Brew:
     PreventBrewingStandFillUps: true
+  # Do you want to show informational message when payments from blocks gets disabled due to hopper transfers
+  informOnPaymentDisable: true
 # Breeder finder.
 # If you are not using breeding payment, you can disable this to save little resources. Really little.
 use-breeder-finder: true
@@ -426,28 +498,34 @@ old-job:
   # Percentage to loose when leaving job at max level
   # Only works when fix-at-max-level is set to false
   level-loss-from-max-level: 30
-ActionBars:
+ChatText:
   Messages:
-    # When this set to true player will see action bar messages by default
-    # When false, players will see chat messages instead.
-    EnabledByDefault: true
-    # If true, should we mute the payment messages from appearing in chat if actionbar is disabled?
-    SilentMode: false
+    # States of chat text messages when payment is issued
+    # Valid options: Off, Batched
+    # This will be used if player disables action bar payment messages
+    DefaultState: 'Off'
+ActionBars:
+  # Enables ActionBar messages
+  Enabled: true
+  Messages:
+    # States of action bar messages
+    # Valid options: Off, Rapid, Batched
+    DefaultState: Rapid
+    # Time in seconds action bar will remain visible if rapid state is enabled
+    # This time is used to define for how long we will accumulate payments to be shown in action bar
+    # If no payments are being issued in defined time then it will reset to 0 and remain hidden
+    KeepFor: 5
 BossBar:
   # Enables BossBar feature
   # Works only from 1.9 mc version
   Enabled: true
   Messages:
     # When this set to true player will see Bossbar messages by default
-    EnabledByDefault: true
-  # If enabled boss bar will update after each action
-  # If disabled, BossBar will update only on each payment. This can save some server resources
-  ShowOnEachAction: false
+    DefaultState: Batched
   # Defines in how many parts bossbar will be split visually
   # Valid options: 1, 6, 10, 12, 20
   SegmentCount: 1
   # How long in sec to show BossBar for player
-  # If you have disabled ShowOnEachAction, then keep this number higher than payment interval for better experience
   Timer: 6
 # You can enable/disable message shown for players in action bar
 ShowActionBars:
@@ -541,17 +619,32 @@ JobsGUI:
   GroupAmount: 7
   # Defines by how many slots we need to skip after group
   SkipAmount: 2
-  BackButton:
-    Material: JACK_O_LANTERN
-  NextButton:
-    Material: ARROW
-  Filler:
-    Material: GREEN_STAINED_GLASS_PANE
+  InfoButton:
+    # Slot for info button. Set it to 0 if you want to disable it
+    # Locale can be customized in locale file under gui->infoLore section
+    Slot: 9
+    Material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+    # closeinv! can be used to close players inventory when you click this icon
+    Commands:
+    - closeinv!
+  JoinButton:
+    Material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlYzNkMjVhZTBkMTQ3YzM0MmM0NTM3MGUwZTQzMzAwYTRlNDhhNWI0M2Y5YmI4NThiYWJmZjc1NjE0NGRhYyJ9fX0=
+  LeaveButton:
+    Material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY1ZjNiYWUwZDIwM2JhMTZmZTFkYzNkMTMwN2E4NmE2MzhiZTkyNDQ3MWYyM2U4MmFiZDlkNzhmOGEzZmNhIn19fQ==
 Commands:
+  # What should happen when performing clean /jobs command
+  # Options:
+  # Default - behaves like before and will open jobs help page with list of commands player can access
+  # Browse - will open jobs browse GUI where player can check existing jobs and their actions
+  # Last option is to define command you want to perform, use [playerName] variable to replace it with players name who performed it. Multiple commands can be provided too. Commands will be performed from console.
+  Jobs: Default
   PageRow:
     JobsTop:
       # Defines amount of players to be shown in one page for /jobs top & /jobs gtop
       AmountToShow: 15
+      # List of player names who should be excluded from /jobs top & /jobs gtop
+      HiddenPlayers:
+      - Zrips
     Placeholders:
       # Defines amount of placeholders to be shown in one page for /jobs placeholders
       AmountToShow: 10
@@ -567,9 +660,14 @@ Commands:
   JobsInfo:
     # Open up the jobs browse action list, when your performed /jobs info command?
     open-browse: false
+  Stats:
+    # Amount of progress bars to be shown in /jobs stats command
+    BarCount: 50
 BlockOwnership:
   # Set to 0 or lower if you want to disable this. Setting to positive number will mean that player needs to be in this range from owner block to get paid
   Range: 0
   # When enabled by interacting with furncae ownership will get transfered to new player
   # If set to false then furnace will belong to player who interacted with it first until its ownership is removed
   TakeOver: false
+  # When set to true, all checks and actions regarding ownership will no longer be carried out. This mode does not cause a loss of any already existing data.
+  Disabled: false

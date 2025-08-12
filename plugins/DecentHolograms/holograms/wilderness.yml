@@ -1,0 +1,12 @@
+location: lobby:0.618:67.270:156.188
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7&oRight click me to visit the &2&oWilderness'
+    height: 0.3
+  actions: {}

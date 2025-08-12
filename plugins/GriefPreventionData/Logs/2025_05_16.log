@@ -1,0 +1,74 @@
+20:24 MerKaiRain: test
+20:59 MerKaiRain: I see something I need to fix already xD
+20:59 Chesvin1  : Oop
+20:59 Chesvin1  : how do I go back?
+20:59 Chesvin1  : I'm in the mob arena
+20:59 MerKaiRain: ./ma leave
+21:00 Chesvin1  : ah, would be worth leaving a sign that runs the command or something like that
+21:00 MerKaiRain: Yeeahh true
+21:00 Chesvin1  : tab prefixes seem borked
+21:00 MerKaiRain: Yeah that's what I noticed when you joined heh
+21:02 Chesvin1  : wilderness and that spawn are different worlds, right?
+21:03 MerKaiRain: Should be, yes
+21:03 Chesvin1  : uhhh
+21:03 Chesvin1  : O_o
+21:03 Chesvin1  : I just RTPd and found this, did you build it?
+21:03 MerKaiRain: No O.O
+21:03 Chesvin1  : rtp platform is over there
+21:03 Chesvin1  : hmm
+21:04 MerKaiRain: I wonder if the person who originally made this built it?
+21:04 Chesvin1  : this world looks like old world generation too actually, may be worth trimming it or replacing the world with a new one yeah
+21:04 Chesvin1  : this may have been from a gametype test
+21:04 Chesvin1  : with the staff
+21:05 Chesvin1  : seems to be the only structure around
+21:06 MerKaiRain: May have just been an example, that you can build this far out then?
+21:06 Chesvin1  : hmmm
+21:06 Chesvin1  : maybe
+21:06 MerKaiRain: Will trim it though
+21:06 Chesvin1  : still think it would be good to load a new world rather than trimming, maybe just copy that platform over to the new world
+21:06 Chesvin1  : this world generation looks pre 1.17
+21:06 Chesvin1  : yeah even underground
+21:06 MerKaiRain: Will do, will do
+21:07 Chesvin1  : sounds good, asides from that everything else looks noice
+21:07 MerKaiRain: Cool! I was able to fix the shops too, so they don't have spam in chat xD
+21:07 Chesvin1  : also worth setting up a worldborder in the spawn world
+21:08 Chesvin1  : seems like you can just walk away
+21:08 MerKaiRain: How big roughly?
+21:08 Chesvin1  : looks like 400
+21:09 Chesvin1  : just changed it nw
+21:09 MerKaiRain: Cool cool, no worries
+21:09 MerKaiRain: Tab should be fixed too, after a restart
+21:10 Chesvin1  : alrighty, looks great, good job 😄
+21:10 MerKaiRain: Thank you!
+21:10 Chesvin1  : got to go now, lemme know if you submit the PR today
+21:10 MerKaiRain: Will do!
+21:21 MerKaiRain:  placed a sign @ lobby: x39, z-53
+  Click here
+  to leave!
+21:21 MerKaiRain:  placed a sign @ lobby: x39, z-53
+  Click here
+  to leave!
+21:22 MerKaiRain:  placed a sign @ lobby: x39, z-53
+  Click here
+  to leave!
+21:22 MerKaiRain:  placed a sign @ lobby: x39, z-53
+  Click here
+  to leave!
+21:23 MerKaiRain:  placed a sign @ lobby: x39, z-56
+  Click here
+  to leave!
+21:23 MerKaiRain:  placed a sign @ lobby: x39, z-56
+  Click here
+  to leave!
+21:23 MerKaiRain:  placed a sign @ lobby: x39, z-56
+  Click here
+  to leave!
+21:28 MerKaiRain:  placed a sign @ lobby: x39, z-60
+  Click here
+  to leave!
+21:35 MerKaiRain:  placed a sign @ lobby: x39, z-56
+  Click here to
+  leave!
+21:35 MerKaiRain:  placed a sign @ lobby: x39, z-53
+  Click here to
+  leave!

@@ -2,18 +2,24 @@
 
 GriefPrevention:
   SeaLevelOverrides:
-    world: -1
-    world_nether: -1
-    world_the_end: -1
-    yort: -1
     lobby: -1
+    lobby_nether: -1
+    lobby_the_end: -1
+    yort: -1
+    main: -1
+    wild: -1
+    main_the_end: -1
+    main_nether: -1
   Claims:
     Mode:
       lobby: Survival
-      world: Survival
-      world_nether: Disabled
+      main: Survival
+      wild: Survival
+      lobby_nether: Disabled
       yort: Survival
-      world_the_end: Disabled
+      main_the_end: Disabled
+      lobby_the_end: Disabled
+      main_nether: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -39,7 +45,7 @@ GriefPrevention:
     ExtendIntoGroundDistance: 5
     MinimumWidth: 5
     MinimumArea: 100
-    MaximumDepth: 0
+    MaximumDepth: -2147483648
     InvestigationTool: STICK
     ModificationTool: GOLDEN_SHOVEL
     Expiration:
@@ -76,11 +82,14 @@ GriefPrevention:
     Logout Message Delay In Seconds: 0
   PvP:
     RulesEnabledInWorld:
-      main: true
-      main_nether: true
-      main_the_end: true
-      yort: true
       lobby: true
+      lobby_nether: true
+      lobby_the_end: true
+      yort: true
+      main: true
+      wild: true
+      main_the_end: true
+      main_nether: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15
@@ -115,15 +124,17 @@ GriefPrevention:
   FireDestroys: false
   AdminsGetWhispers: true
   AdminsGetSignNotifications: true
+  VisualizationAntiCheatCompatMode: false
   SmartBan: true
   Mute New Players Using Banned Words: true
   MaxPlayersPerIpAddress: 3
+  SilenceBans: true
   Siege:
     Worlds: []
     BreakableBlocks:
     - DIRT
     - GRASS_BLOCK
-    - GRASS
+    - GRASS     <-- can't understand this entry, see BukkitDev documentation
     - FERN
     - DEAD_BUSH
     - COBBLESTONE
@@ -161,6 +172,7 @@ GriefPrevention:
   CreaturesTrampleCrops: false
   RabbitsEatCrops: true
   HardModeZombiesBreakDoors: false
+  MobProjectilesChangeBlocks: false
   Database:
     URL: ''
     UserName: ''
@@ -179,3 +191,4 @@ GriefPrevention:
       Administrative Activity: false
       Debug: false
       Muted Chat Messages: false
+  ConfigVersion: 1

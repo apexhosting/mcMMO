@@ -1,0 +1,14 @@
+location: lobby:-14.385:66.700:131.518
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lMob &8&lDrop &4&lShop'
+    height: 0.3
+  - content: '#ICON: gunpowder'
+    height: 0.6
+  actions: {}

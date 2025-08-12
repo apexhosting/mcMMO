@@ -1,32 +1,50 @@
 # Language: ex) en-US,ko-KR
-# Prefix: Prefix of plugin messages
-# SalesTax: ~99%
-# UseShopCommand: Set this to false if you want to disable /shop command
-# DefaultShopName: This shop will open when player run /shop or /ds shop command
+# UseShopCommand: Set this to false if you want to disable '/shop'
+# DeliveryChargeScale: This is only used for shop with the 'delivery charge' flag. 0.01 ~
+# NumberOfPlayer: This is used to calculate the recommended median. 3~100
+# UseLegacyStockStabilization: false = Changed by n% of the gap with median. true = Changed by n% of median.
 # DisplayStockAsStack: ex) true: 10Stacks, false: 640
-# DeliveryChargeScale: 0.01~
-# NumberOfPlayer: This number is used to calculate the recommended median. 3~100
+# Version: Do NOT edit this
 
-# Language: ex) en-US,ko-KR
-# Prefix: Prefix of plugin messages
-# SalesTax: ~99%
-# UseShopCommand: Set this to false if you want to disable /shop command
-# DefaultShopName: This shop will open when player run /shop or /ds shop command
-# DisplayStockAsStack: ex) true: 10Stacks, false: 640
-# DeliveryChargeScale: 0.01~
-# NumberOfPlayer: This number is used to calculate the recommended median. 3~100
-SalesTax: 25.0
+ShopYmlBackup:
+  Enable: true
+  IntervalMinutes: 60
+  CullAgeMinutes: 300
 Language: en-US
 Prefix: §3§l[dShop] §f
-UseShopCommand: true
-DefaultShopName: Main
-DeliveryChargeScale: 1.0
-DisplayStockAsStack: false
-NumberOfPlayer: 10
-OnClickCloseButton_OpenStartPage: true
-OpenStartPageInsteadOfDefaultShop: false
-ShowTax: true
-SaveLogs: true
-CullLogs: true
-LogCullAgeMinutes: 7200
-LogCullTimeMinutes: 120
+Command:
+  PermissionCheckWhenCreatingAShopList: false
+  UseShopCommand: true
+  OpenStartPageInsteadOfDefaultShop: false
+  DefaultShopName: Main
+Shop:
+  DeliveryChargeMin: 1
+  DeliveryChargeMax: 25
+  UseLegacyStockStabilization: false
+  SalesTax: 25
+  DeliveryChargeScale: 1.0
+  NumberOfPlayer: 10
+UI:
+  CloseButtonIcon: BARRIER
+  PageButtonIcon: PAPER
+  ShopInfoButtonIcon: OAK_SIGN
+  BalanceButtonIcon: EMERALD
+  SellToggleButtonIcon: GREEN_STAINED_GLASS
+  BuyToggleButtonIcon: RED_STAINED_GLASS
+  IntFormat: '###,###'
+  DoubleFormat: '###,##0.00'
+  LocalizedItemName: true
+  UsePlaceholderAPI: true
+  UseHexColorCode: true
+  EnableInventoryClickSearch:
+    StartPage: true
+    Shop: true
+  DisplayStockAsStack: false
+  OpenStartPageWhenClickCloseButton: true
+Log:
+  LogFileNameFormat: MM_dd_yyyy
+  SaveLogs: true
+  CullLogs: true
+  LogCullAgeMinutes: 7200
+  LogCullTimeMinutes: 120
+Version: 7

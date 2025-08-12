@@ -161,3 +161,13 @@ PluginTeleportText: §6Click to teleport here
 StaffMsgDispenerFlint: Detected a downward facing dispenser from dispensing flint
   and steel which would crash the server @
 IllegalStackDurability: 'Fixed durability on: ~item~ triggered by player: ~name~.'
+VexEjected: Found a vex trapped in a boat, it has been set free @
+InvalidThrownPotionRemoved: 'Removed an invalid potion thrown by ~name~ with the following
+  effects: ~effects~'
+BlockedStringDupe: Removed a string that would have been broken by water..  Possible
+  string dupe @
+PlayerItemCraftPrevented: §cSorry ~name~ you can not craft that item!
+StaffMsgSpawnerOnSpawnReset: A ~type~ spawner was reset to a pig spawner when it tried
+  to spawn a creature. @
+PreventedItemCraft: ~player~ was prevented from crafting ~item~ as per DisableCraftingRecipes
+  settings

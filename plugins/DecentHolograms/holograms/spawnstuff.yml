@@ -1,0 +1,16 @@
+location: lobby:15.305:68.200:139.508
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f&oAll the buildings around &e&ospawn'
+    height: 0.3
+  - content: '&f&ocan be used for anything you''d like'
+    height: 0.3
+  - content: '&f&oor can be left empty or removed!'
+    height: 0.3
+  actions: {}

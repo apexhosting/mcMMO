@@ -1,0 +1,138 @@
+Options:
+  title: §d§lDyes
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: ACACIA_LEAVES
+'1':
+  mat: ACACIA_LEAVES
+'2':
+  mat: ACACIA_LEAVES
+'3':
+  mat: ACACIA_LEAVES
+'4':
+  mat: ACACIA_LEAVES
+'5':
+  mat: ACACIA_LEAVES
+'6':
+  mat: ACACIA_LEAVES
+'7':
+  mat: ACACIA_LEAVES
+'8':
+  mat: ACACIA_LEAVES
+'9':
+  mat: ACACIA_LEAVES
+'10':
+  mat: RED_DYE
+  value: 0.78
+  median: 43095
+  stock: 43095
+'11':
+  mat: ORANGE_DYE
+  value: 2.1
+  median: 30851
+  stock: 30851
+'12':
+  mat: YELLOW_DYE
+  value: 0.88
+  median: 41563
+  stock: 41563
+'13':
+  mat: LIME_DYE
+  value: 1.29
+  median: 36589
+  stock: 36589
+'14':
+  mat: GREEN_DYE
+  value: 1.64
+  median: 34483
+  stock: 34483
+'15':
+  mat: GRASS
+'16':
+  mat: GRASS
+'17':
+  mat: ACACIA_LEAVES
+'18':
+  mat: ACACIA_LEAVES
+'19':
+  mat: GRASS
+'20':
+  mat: CYAN_DYE
+  value: 1.84
+  median: 32312
+  stock: 32312
+'21':
+  mat: LIGHT_BLUE_DYE
+  value: 1.75
+  median: 32884
+  stock: 32884
+'22':
+  mat: LAPIS_LAZULI
+  value: 1.95
+  median: 31662
+  stock: 31662
+'23':
+  mat: MAGENTA_DYE
+  value: 2.1
+  median: 30851
+  stock: 30851
+'24':
+  mat: PINK_DYE
+  value: 2.1
+  median: 30851
+  stock: 30851
+'25':
+  mat: PURPLE_DYE
+  value: 1.41
+  median: 35467
+  stock: 35467
+'26':
+  mat: ACACIA_LEAVES
+'27':
+  mat: ACACIA_LEAVES
+'28':
+  mat: GRASS
+'29':
+  mat: GRASS
+'30':
+  mat: GRASS
+'31':
+  mat: GRASS
+'32':
+  mat: COCOA_BEANS
+  value: 1.25
+  median: 36994
+  stock: 36994
+'33':
+  mat: LIGHT_GRAY_DYE
+  value: 1.75
+  median: 32884
+  stock: 32884
+'34':
+  mat: GRAY_DYE
+  value: 1.2
+  median: 37527
+  stock: 37527
+'35':
+  mat: ACACIA_LEAVES
+'36':
+  mat: ACACIA_LEAVES
+'37':
+  mat: ACACIA_LEAVES
+'38':
+  mat: ACACIA_LEAVES
+'39':
+  mat: ACACIA_LEAVES
+'40':
+  mat: ACACIA_LEAVES
+'41':
+  mat: ACACIA_LEAVES
+'42':
+  mat: ACACIA_LEAVES
+'43':
+  mat: ACACIA_LEAVES
+'44':
+  mat: ACACIA_LEAVES

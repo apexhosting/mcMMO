@@ -1,0 +1,192 @@
+Options:
+  title: §8§lConcrete
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: RED_CONCRETE
+  value: 2.46
+  median: 29189
+  stock: 29189
+'1':
+  mat: ORANGE_CONCRETE
+  value: 2.63
+  median: 28515
+  stock: 28515
+'2':
+  mat: YELLOW_CONCRETE
+  value: 2.47
+  median: 29148
+  stock: 29148
+'3':
+  mat: LIME_CONCRETE
+  value: 2.52
+  median: 28944
+  stock: 28944
+'4':
+  mat: GREEN_CONCRETE
+  value: 30.37
+  median: 12111
+  stock: 12111
+'5':
+  mat: LIGHT_BLUE_CONCRETE
+  value: 2.58
+  median: 28707
+  stock: 28707
+'6':
+  mat: CYAN_CONCRETE
+  value: 2.59
+  median: 28668
+  stock: 28668
+'7':
+  mat: BLUE_CONCRETE
+  value: 2.61
+  median: 28591
+  stock: 28591
+'8':
+  mat: PURPLE_CONCRETE
+  value: 2.54
+  median: 28864
+  stock: 28864
+'9':
+  mat: MAGENTA_CONCRETE
+  value: 2.63
+  median: 28515
+  stock: 28515
+'10':
+  mat: PINK_CONCRETE
+  value: 2.63
+  median: 28515
+  stock: 28515
+'11':
+  mat: BROWN_CONCRETE
+  value: 2.42
+  median: 29357
+  stock: 29357
+'12':
+  mat: GRAY_STAINED_GLASS_PANE
+'13':
+  mat: GRAY_STAINED_GLASS_PANE
+'14':
+  mat: WHITE_CONCRETE
+  value: 2.47
+  median: 29148
+  stock: 29148
+'15':
+  mat: LIGHT_GRAY_CONCRETE
+  value: 2.58
+  median: 28707
+  stock: 28707
+'16':
+  mat: GRAY_CONCRETE
+  value: 2.51
+  median: 28985
+  stock: 28985
+'17':
+  mat: BLACK_CONCRETE
+  value: 2.54
+  median: 28864
+  stock: 28864
+'18':
+  mat: RED_CONCRETE_POWDER
+  value: 1.11
+  median: 38565
+  stock: 38565
+'19':
+  mat: ORANGE_CONCRETE_POWDER
+  value: 1.28
+  median: 36689
+  stock: 36689
+'20':
+  mat: YELLOW_CONCRETE_POWDER
+  value: 1.12
+  median: 38444
+  stock: 38444
+'21':
+  mat: LIME_CONCRETE_POWDER
+  value: 1.17
+  median: 37861
+  stock: 37861
+'22':
+  mat: GREEN_CONCRETE_POWDER
+  value: 29.02
+  median: 12305
+  stock: 12305
+'23':
+  mat: LIGHT_BLUE_CONCRETE_POWDER
+  value: 1.23
+  median: 37204
+  stock: 37204
+'24':
+  mat: CYAN_CONCRETE_POWDER
+  value: 1.24
+  median: 37099
+  stock: 37099
+'25':
+  mat: BLUE_CONCRETE_POWDER
+  value: 1.26
+  median: 36891
+  stock: 36891
+'26':
+  mat: PURPLE_CONCRETE_POWDER
+  value: 1.19
+  median: 37637
+  stock: 37637
+'27':
+  mat: MAGENTA_CONCRETE_POWDER
+  value: 1.28
+  median: 37144
+  stock: 37144
+'28':
+  mat: PINK_CONCRETE_POWDER
+  value: 1.28
+  median: 37144
+  stock: 37144
+'29':
+  mat: BROWN_CONCRETE_POWDER
+  value: 1.17
+  median: 38159
+  stock: 38159
+'30':
+  mat: GRAY_STAINED_GLASS_PANE
+'31':
+  mat: GRAY_STAINED_GLASS_PANE
+'32':
+  mat: WHITE_CONCRETE_POWDER
+  value: 1.12
+  median: 38444
+  stock: 38444
+'33':
+  mat: LIGHT_GRAY_CONCRETE_POWDER
+  value: 1.23
+  median: 37591
+  stock: 37591
+'34':
+  mat: GRAY_CONCRETE_POWDER
+  value: 1.16
+  median: 37975
+  stock: 37975
+'35':
+  mat: BLACK_CONCRETE_POWDER
+  value: 1.19
+  median: 37637
+  stock: 37637
+'36':
+  mat: GRAY_STAINED_GLASS_PANE
+'37':
+  mat: GRAY_STAINED_GLASS_PANE
+'38':
+  mat: GRAY_STAINED_GLASS_PANE
+'39':
+  mat: GRAY_STAINED_GLASS_PANE
+'40':
+  mat: GRAY_STAINED_GLASS_PANE
+'41':
+  mat: GRAY_STAINED_GLASS_PANE
+'42':
+  mat: GRAY_STAINED_GLASS_PANE
+'43':
+  mat: GRAY_STAINED_GLASS_PANE
+'44':
+  mat: GRAY_STAINED_GLASS_PANE

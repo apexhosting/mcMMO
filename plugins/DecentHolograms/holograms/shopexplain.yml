@@ -1,0 +1,22 @@
+location: lobby:-6.538:71.200:178.479
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&f&oAll &a&odefault shops &f&ocan be'
+    height: 0.3
+  - content: '&f&ofound here except for &4&o&lMob Drops'
+    height: 0.3
+  - content: '&f&oThat shop has been moved down the'
+    height: 0.3
+  - content: '&f&oroad to show what it would be'
+    height: 0.3
+  - content: '&f&olike to have &c&oseparate &f&oshopkeepers'
+    height: 0.3
+  - content: '&f&ospread around the spawn area!'
+    height: 0.3
+  actions: {}

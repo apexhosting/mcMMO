@@ -1,0 +1,147 @@
+Options:
+  title: §5§lTerracotta
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: WHITE_STAINED_GLASS_PANE
+'1':
+  mat: WHITE_STAINED_GLASS_PANE
+'2':
+  mat: WHITE_STAINED_GLASS_PANE
+'3':
+  mat: WHITE_STAINED_GLASS_PANE
+'4':
+  mat: WHITE_STAINED_GLASS_PANE
+'5':
+  mat: WHITE_STAINED_GLASS_PANE
+'6':
+  mat: WHITE_STAINED_GLASS_PANE
+'7':
+  mat: WHITE_STAINED_GLASS_PANE
+'8':
+  mat: WHITE_STAINED_GLASS_PANE
+'9':
+  mat: WHITE_STAINED_GLASS_PANE
+'10':
+  mat: RED_TERRACOTTA
+  value: 1.4
+  median: 36159
+  stock: 36159
+'11':
+  mat: ORANGE_TERRACOTTA
+  value: 1.56
+  median: 35004
+  stock: 35004
+'12':
+  mat: YELLOW_TERRACOTTA
+  value: 1.41
+  median: 36082
+  stock: 36082
+'13':
+  mat: LIME_TERRACOTTA
+  value: 2.01
+  median: 32441
+  stock: 32441
+'14':
+  mat: GREEN_TERRACOTTA
+  value: 1.5
+  median: 35418
+  stock: 35418
+'15':
+  mat: LIGHT_BLUE_TERRACOTTA
+  value: 1.52
+  median: 35278
+  stock: 35278
+'16':
+  mat: BLUE_TERRACOTTA
+  value: 1.54
+  median: 35140
+  stock: 35140
+'17':
+  mat: WHITE_STAINED_GLASS_PANE
+'18':
+  mat: WHITE_STAINED_GLASS_PANE
+'19':
+  mat: MAGENTA_TERRACOTTA
+  value: 1.56
+  median: 35004
+  stock: 35004
+'20':
+  mat: PINK_TERRACOTTA
+  value: 1.56
+  median: 35004
+  stock: 35004
+'21':
+  mat: PURPLE_TERRACOTTA
+  value: 1.48
+  median: 35561
+  stock: 35561
+'22':
+  mat: CYAN_TERRACOTTA
+  value: 1.53
+  median: 35208
+  stock: 35208
+'23':
+  mat: TERRACOTTA
+  value: 1.29
+  median: 37058
+  stock: 37058
+'24':
+  mat: WHITE_TERRACOTTA
+  value: 1.41
+  median: 36082
+  stock: 36082
+'25':
+  mat: LIGHT_GRAY_TERRACOTTA
+  value: 1.52
+  median: 35278
+  stock: 35278
+'26':
+  mat: WHITE_STAINED_GLASS_PANE
+'27':
+  mat: WHITE_STAINED_GLASS_PANE
+'28':
+  mat: BROWN_TERRACOTTA
+  value: 1.46
+  median: 35707
+  stock: 35707
+'29':
+  mat: WHITE_STAINED_GLASS_PANE
+'30':
+  mat: WHITE_STAINED_GLASS_PANE
+'31':
+  mat: WHITE_STAINED_GLASS_PANE
+'32':
+  mat: WHITE_STAINED_GLASS_PANE
+'33':
+  mat: GRAY_TERRACOTTA
+  value: 1.45
+  median: 35780
+  stock: 35780
+'34':
+  mat: BLACK_TERRACOTTA
+  value: 1.48
+  median: 35561
+  stock: 35561
+'35':
+  mat: WHITE_STAINED_GLASS_PANE
+'36':
+  mat: WHITE_STAINED_GLASS_PANE
+'37':
+  mat: WHITE_STAINED_GLASS_PANE
+'38':
+  mat: WHITE_STAINED_GLASS_PANE
+'39':
+  mat: WHITE_STAINED_GLASS_PANE
+'40':
+  mat: WHITE_STAINED_GLASS_PANE
+'41':
+  mat: WHITE_STAINED_GLASS_PANE
+'42':
+  mat: WHITE_STAINED_GLASS_PANE
+'43':
+  mat: WHITE_STAINED_GLASS_PANE
+'44':
+  mat: WHITE_STAINED_GLASS_PANE

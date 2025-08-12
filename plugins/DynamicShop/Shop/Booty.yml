@@ -1,0 +1,119 @@
+Options:
+  title: §6§lBooty
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: RED_STAINED_GLASS_PANE
+'1':
+  mat: BLACK_STAINED_GLASS_PANE
+'2':
+  mat: BLACK_STAINED_GLASS_PANE
+'3':
+  mat: BLACK_STAINED_GLASS_PANE
+'4':
+  mat: GRAY_STAINED_GLASS_PANE
+'5':
+  mat: GRAY_STAINED_GLASS_PANE
+'6':
+  mat: GRAY_STAINED_GLASS_PANE
+'7':
+  mat: GRAY_STAINED_GLASS_PANE
+'8':
+  mat: GRAY_STAINED_GLASS_PANE
+'9':
+  mat: GRAY_STAINED_GLASS_PANE
+'10':
+  mat: STRING
+  value: 0.75
+  median: 44237
+  stock: 44237
+'11':
+  mat: FEATHER
+  value: 1.25
+  median: 36994
+  stock: 36994
+'12':
+  mat: GUNPOWDER
+  value: 1.25
+  median: 36994
+  stock: 36994
+'13':
+  mat: FLINT
+  value: 1.05
+  median: 39322
+  stock: 39322
+'14':
+  mat: LEATHER
+  value: 38.0
+  median: 11197
+  stock: 11197
+'15':
+  mat: INK_SAC
+  value: 1.45
+  median: 35122
+  stock: 35122
+'16':
+  mat: SLIME_BALL
+  value: 1.25
+  median: 37409
+  stock: 37409
+'17':
+  mat: GRAY_STAINED_GLASS_PANE
+'18':
+  mat: GRAY_STAINED_GLASS_PANE
+'26':
+  mat: GRAY_STAINED_GLASS_PANE
+'27':
+  mat: GRAY_STAINED_GLASS_PANE
+'28':
+  mat: ENDER_PEARL
+  value: 2.1
+  median: 30851
+  stock: 30851
+'29':
+  mat: BONE
+  value: 2.25
+  median: 30115
+  stock: 30115
+'30':
+  mat: BLAZE_ROD
+  value: 2.5
+  median: 29025
+  stock: 29025
+'31':
+  mat: GOLD_NUGGET
+  value: 6.7
+  median: 20555
+  stock: 20555
+'32':
+  mat: RABBIT_HIDE
+  value: 0.5
+  median: 50982
+  stock: 50982
+'34':
+  mat: EXPERIENCE_BOTTLE
+  value: 65.0
+  median: 9279
+  stock: 9279
+'35':
+  mat: GRAY_STAINED_GLASS_PANE
+'36':
+  mat: GRAY_STAINED_GLASS_PANE
+'37':
+  mat: GRAY_STAINED_GLASS_PANE
+'38':
+  mat: GRAY_STAINED_GLASS_PANE
+'39':
+  mat: GRAY_STAINED_GLASS_PANE
+'40':
+  mat: GRAY_STAINED_GLASS_PANE
+'41':
+  mat: BLACK_STAINED_GLASS_PANE
+'42':
+  mat: BLACK_STAINED_GLASS_PANE
+'43':
+  mat: BLACK_STAINED_GLASS_PANE
+'44':
+  mat: RED_STAINED_GLASS_PANE

@@ -11,26 +11,26 @@
 #
 regions:
     yeet:
-        min: {x: 27.0, y: 0.0, z: 48.0}
-        max: {x: 29.0, y: 255.0, z: 51.0}
+        min: {x: 27, y: 0, z: 48}
+        max: {x: 29, y: 255, z: 51}
         members: {}
         flags: {}
         owners: {}
         type: cuboid
         priority: 0
     spawn:
-        min: {x: -294.0, y: 0.0, z: -158.0}
-        max: {x: 297.0, y: 255.0, z: 436.0}
+        min: {x: -294, y: 0, z: -158}
+        max: {x: 297, y: 255, z: 436}
         members: {}
-        flags: {feed-max-hunger: 10, exit: deny, exit-deny-message: Visit the Wilderness
-                teleporter to leave!, build: deny, heal-max-health: 10.0, invincible: deny,
-            leaf-decay: deny, damage-animals: allow, weather-lock: CLEAR}
+        flags: {feed-max-hunger: 10, exit: deny, build: deny, exit-deny-message: Visit
+                the Wilderness teleporter to leave!, heal-max-health: 10.0, invincible: deny,
+            leaf-decay: deny, damage-animals: allow, weather-lock: clear}
         owners: {}
         type: cuboid
         priority: 0
     mcmmo:
-        min: {x: 2.0, y: 64.0, z: 140.0}
-        max: {x: 9.0, y: 69.0, z: 148.0}
+        min: {x: 2, y: 64, z: 140}
+        max: {x: 9, y: 69, z: 148}
         members: {}
         flags: {vine-growth: deny, mushroom-growth: deny}
         owners: {}
@@ -38,8 +38,9 @@ regions:
         priority: 0
     __global__:
         members: {}
-        flags: {build: deny, interact: allow, chest-access: allow, pvp: deny, mob-spawning: deny,
-            fire-spread: deny}
+        flags: {build: deny, fall-damage: deny, invincible: allow, interact: allow,
+            pvp: deny, chest-access: allow, mob-spawning: deny, fire-spread: deny,
+            natural-hunger-drain: deny}
         owners: {}
         type: global
         priority: 0

@@ -1,0 +1,20 @@
+location: lobby:62.972:75.200:-6.802
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lMob &c&lArena'
+    height: 0.3
+  - content: '&f&oWelcome to the &c&oArena!'
+    height: 0.3
+  - content: '&f&oThis is where you can fight'
+    height: 0.3
+  - content: '&4&oMonsters &f&oto your heart''s content!'
+    height: 0.3
+  - content: '&f&oType &a&o/ma j &f&oto play!'
+    height: 0.3
+  actions: {}

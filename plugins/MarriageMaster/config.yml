@@ -37,7 +37,7 @@ Database:
       Partner: marry_partners
       Home: marry_home
       Priests: marry_priests
-  # Settings controlling the cache behavior of the plugin. You may can optimize it a little bit depending on your player count, ram or cpu bottlenecks.
+  # Settings controlling the cache behavior of the plugin. You might be able to optimize it a little bit depending on your player count, ram or cpu bottlenecks.
   Cache:
     UnCache:
       # The strategy used to uncache offline players. Options
@@ -56,7 +56,8 @@ Marriage:
   # This option defines if a priest is needed to divorce 2 players or if they can divorce on their own.
   # Options: true, false, auto (auto will copy the RequirePriest value)
   DivorceRequiresPriest: auto
-  AllowMultiplePartners: false
+  # Max numbers of partners that a player can have. Values < 1 disable the limit.
+  MaxPartners: 1
   # This setting disables the "/marry setpriest" command players can still be promoted to a priest with the "marry.priest" permission.
   DisableSetPriestCommand: false
   Surnames:
@@ -69,7 +70,10 @@ Marriage:
     MinLength: 3
     # Values below the in length will be set to the min length
     MaxLength: 16
+  # Defines if marriages should be announced to all players.
   AnnounceOnMarriage: true
+  # Defines if divorces should be announced to all players. auto mirrors the AnnounceOnMarriage setting
+  AnnounceOnDivorce: auto
   Confirmation:
     Enable: true
     AutoDialog: true
@@ -129,6 +133,8 @@ Hug:
   Enable: true
   # Time between two hugs in seconds, 0 to disable cooldown
   WaitTime: 10
+  # How many particles should be spawned, 0 to disable
+  ParticleCount: 25
 
 List:
   UseFooter: true
@@ -169,6 +175,8 @@ BonusXp:
 HealthRegain:
   Enable: true
   Multiplier: 2
+  # List of worlds where players can't receive health regain bonus
+  BlacklistedWorlds: []
 
 Chat:
   Enabled: true
@@ -185,6 +193,7 @@ Range:
   KissInteract: 5
   Hug: 2
   HearthVisible: 128
+  HugParticleVisible: 128
   BonusXP: 10
   Heal: 3
 
@@ -197,6 +206,8 @@ Teleport:
   BlacklistedWorlds: []
   # This option controls whether a safety check is performed before the player is teleported.
   CheckSafety: true
+  # This option controls whether the plugin attempts to find a safe location if the safety check failed. Enabling this might allow the play to glitch through walls.
+  FindSafeLocation: false
   # If this option is enabled the partner has to accept the teleport request before the player will be teleported. Only applicable for teleporting to another player.
   RequireConfirmation: false
 
@@ -223,7 +234,7 @@ CommandExecutor:
   Enable: false
   # General information about the command executor:
   # The commands can contain placeholders in the format {PlaceholderName} (The {} is part of the name. The available placeholders are listed right about the event).
-  # Every event can executed multiple commands in the list. Commands do not have to start with / !
+  # Every event can execute multiple commands in the list. Commands do not have to start with / !
   # Commands to be executed:
   # Will be executed when two players marry, without a priest
   # Allowed placeholders: {Player1}, {Player2}
@@ -242,8 +253,14 @@ CommandExecutor:
 # The command that should be used if no sub-command was used.
 # Options: help (/marry help), custom_help (will display the messages defined in the language file in Language.Ingame.Help.CustomHelp)
 DefaultCommand: "help"
-# The marriage color is used for the magic/colored heart and is set to an random value by default.
+# The marriage color is used for the magic/colored heart and is set to a random value by default.
 AllowPlayersToChangeMarriageColor: true
+
+Sound:
+  # Global setting if sounds should be used. Each sound effect can be disabled individually by setting it to 'DISABLED'.
+  Enable: true
+  Married: ORB_PICKUP
+  Divorced: ORB_PICKUP
 
 Misc:
   AutoUpdate:
@@ -254,4 +271,4 @@ Misc:
   UseBungeeCord: false
 
 # Config File Version. Don't touch it!
-Version: 105
+Version: 107

@@ -1,0 +1,14 @@
+currentQuests: []
+currentStages: []
+quest-points: 0
+completedRedoableQuests:
+- Hunter
+- Miner
+- CatchFish
+- TimedQuest
+completedQuestTimes:
+- 1746221474378
+- 1745010974886
+- 1746221474378
+- 1745010974886
+lastKnownName: MerKaiRain

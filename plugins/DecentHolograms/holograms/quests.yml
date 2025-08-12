@@ -1,0 +1,12 @@
+location: lobby:-2.325:68.200:136.687
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&5&lQuests &d&lInfo'
+    height: 0.3
+  actions: {}

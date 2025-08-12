@@ -1,13 +1,13 @@
 # Citizens NPC Storage
 
 
-last-created-npc-id: 17
+last-created-npc-id: 24
 npc:
   '0':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODY0MDAwNTUsInByb2ZpbGVJZCI6IjRlOTRmNDVjNzU5YzQyOTNhZjE2ZmRmMjE5MjM3YTVkIiwicHJvZmlsZU5hbWUiOiJNaW5lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ4ODcwY2E3N2FhNjk5ZDAxNzA5M2I4Mjc3OWQwYTU5OGRjNGYzZjQ5ZDM1MTUzMmFlNGQ5NjMzZGNjMmE1YSJ9fX0=
-      cached-skin-uuid-name: miner
-      cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
+      cached-skin-uuid-name: merkairain
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
       player-skin-name: miner
       player-skin-signature: Bdfc4CtLr0ouJLu4D3v1UlaccIguXmv1S1qY6n5LqKBkXF1JgGS5rMXKfubjWEXJ28w8TFeeHaXU3ciJwPOUTg0J433u/a4le6IquY/WBpkCg1ZRA8wAEXQqq4Wwx2DNtHCFQMfc0MZsi4GPHiIXGVulFWTICb5M34mAFvksDP0lcHDKiZKM1+rV31qKutlaYeIqb1eKD1lAj8tVINLKWB2CGXpNg/XxdMviRg3xa4EiM5dbBYk7fI4DxP9UuedvprEKIMrYXBkzgiEDuH3FbONzPEUUCOp1nz/LI7Wr7WFP49FgX/gmq0SdL5617bgVesGkC+e7VcOBql1gtpIAgDXTmSOUKS5nw1VKcVrtXExwh2SpPZuZKLZ5GxmtORHK8kfZtmswasiqtUwa3zcnEKegFy4mVE0srMpNRPbUWOjVsovEqxQQzmsfQP1lpwDhVQaQbB7F7jJYIm+T+U1vC/jc0w9SlDubqLX8VavwSvMaL8hFim2ybJ/HC09728C0vP3vYsXbEwDhHHG2Ls3XYTm40lkukxe1K29HBN+LvVmP6eWrc05+BrHOOk6n0k59yUMnFO4VNyWW3/JgZfNCS2nqVtOvHDV40giM0+gmG3PW4XAR2dJqeGVHgKjxPNZhcwjghDfSS0eDqfHvwOipbyGZMNzwt7J0lAo3WGqa+YA=
     name: Wilderness
@@ -17,182 +17,47 @@ npc:
       spawned: true
       location:
         world: lobby
-        x: '0.5816'
-        y: '64.0'
-        z: '156.2076'
-        yaw: '179.0557'
-        pitch: '0.0'
+        x: 0.5816
+        y: 64.0
+        z: 156.2076
+        yaw: 179.0557
+        pitch: 0.0
         bodyYaw: 179.0557
-      gravity:
-        enabled: false
+      gravity: {}
       skintrait:
-        fetchDefaultSkin: true
-        signature: Bdfc4CtLr0ouJLu4D3v1UlaccIguXmv1S1qY6n5LqKBkXF1JgGS5rMXKfubjWEXJ28w8TFeeHaXU3ciJwPOUTg0J433u/a4le6IquY/WBpkCg1ZRA8wAEXQqq4Wwx2DNtHCFQMfc0MZsi4GPHiIXGVulFWTICb5M34mAFvksDP0lcHDKiZKM1+rV31qKutlaYeIqb1eKD1lAj8tVINLKWB2CGXpNg/XxdMviRg3xa4EiM5dbBYk7fI4DxP9UuedvprEKIMrYXBkzgiEDuH3FbONzPEUUCOp1nz/LI7Wr7WFP49FgX/gmq0SdL5617bgVesGkC+e7VcOBql1gtpIAgDXTmSOUKS5nw1VKcVrtXExwh2SpPZuZKLZ5GxmtORHK8kfZtmswasiqtUwa3zcnEKegFy4mVE0srMpNRPbUWOjVsovEqxQQzmsfQP1lpwDhVQaQbB7F7jJYIm+T+U1vC/jc0w9SlDubqLX8VavwSvMaL8hFim2ybJ/HC09728C0vP3vYsXbEwDhHHG2Ls3XYTm40lkukxe1K29HBN+LvVmP6eWrc05+BrHOOk6n0k59yUMnFO4VNyWW3/JgZfNCS2nqVtOvHDV40giM0+gmG3PW4XAR2dJqeGVHgKjxPNZhcwjghDfSS0eDqfHvwOipbyGZMNzwt7J0lAo3WGqa+YA=
-        skinName: miner
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODY0MDAwNTUsInByb2ZpbGVJZCI6IjRlOTRmNDVjNzU5YzQyOTNhZjE2ZmRmMjE5MjM3YTVkIiwicHJvZmlsZU5hbWUiOiJNaW5lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ4ODcwY2E3N2FhNjk5ZDAxNzA5M2I4Mjc3OWQwYTU5OGRjNGYzZjQ5ZDM1MTUzMmFlNGQ5NjMzZGNjMmE1YSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
+        signature: QKeCpu/u9WlMkMUWIQVIGySCdIkP4LSzo17YbIH2OmDt5zrfGYiZ+GdEw++1FfluUH4QwGJQ7a2B5KWL5mzrWBIiNtbsgjnV+63Lb2UiLgXHzTRjMLABB/PmM6B5hNxIjOhXcr75wyQ6gEu1VI5QVC6KzTKyFXRwR1pZxAjSE6nPcOguW3aQZCUh4HYTxYFUL5Lzdfc+UHn0rKz/Z2uIiJLcGkM7wC0F5fyAakVDKvCDAEcGUlkQ/wnC3eYW2susQgrk284nxQdE4vk3SUKQ5fi9/O2fye5xEQHRB7QxrlfFqxXzG2l6Y9ZgVl33NuGiNnShikdonNo8pJFfIeyJvaKaupJoshKesd6bP667XMDtNNfSUcgOwsTMAO9T4zbuexCFEDrToKGSqNmYhTqFOLXbS1AquKrnKvuODpnjTg16P0CrOl8ENE8yuH1fJe2c1BOJtFHZGACZFNa4+ZjBphli4malNfifLcJ4ydTTINZjNwrwRIMCH6aIsSIqGjhg1188QxumZuWGGY8eG5IEPq1ozu7u1BxVCknmP7kp/PS+GgnTyqmDi6KmblsG6ls2WvQxmV8sM1ko6FikEVUTjrk6HlzQEsAdEsNKy9Ae9qaTg8oOu7rf9iCpoPueIUewY+AGmsm/VuLj7wU9he8WdIoBktIarSmeo6PIMYEjk+0=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NTAxMDkxOTEzNywKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJkMjJhNDQxNTQ0MjUyYjE2NzE1ZDJlMWRhZDhkOTIwYTc2YzFkMDk2NTQ1ZmNjMTk2ZTQyOGIyNGMwNjUwZGQiCiAgICB9CiAgfQp9
+      sneak: {}
       owner:
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      commandtrait:
+        commands:
+          '0':
+            command: mvtp wild
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,spawned,owner,commandtrait,gravity,mounttrait,skintrait,equipment,location,type,inventory,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
-  '7':
-    metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-      cached-skin-uuid-name: currency
-      cached-skin-uuid: cea14222-2a7d-43b0-a3c5-fdafae5d7953
-      player-skin-name: currency
-      player-skin-signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-    name: Blocks
-    uuid: ff5ed9b5-6cec-4426-af99-503dde2127fd
-    traits:
-      type: PLAYER
-      spawned: true
-      location:
-        world: lobby
-        x: '-9.3292'
-        y: '67.0'
-        z: '169.4421'
-        yaw: '-90.872'
-        pitch: '0.0'
-        bodyYaw: -90.872
-      gravity:
-        enabled: false
-      skintrait:
-        fetchDefaultSkin: true
-        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-        skinName: currency
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
-      owner:
-        uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
-  '6':
-    metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-      cached-skin-uuid-name: currency
-      cached-skin-uuid: cea14222-2a7d-43b0-a3c5-fdafae5d7953
-      player-skin-name: currency
-      player-skin-signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-    name: Glass
-    uuid: 6699176e-92fc-44ad-be12-52fa76d9567e
-    traits:
-      type: PLAYER
-      spawned: true
-      location:
-        world: lobby
-        x: '-9.0007'
-        y: '67.0'
-        z: '173.3547'
-        yaw: '-90.3488'
-        pitch: '0.0'
-        bodyYaw: -90.3488
-      gravity:
-        enabled: false
-      skintrait:
-        fetchDefaultSkin: true
-        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-        skinName: currency
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
-      owner:
-        uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
-  '5':
-    metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-      cached-skin-uuid-name: currency
-      cached-skin-uuid: cea14222-2a7d-43b0-a3c5-fdafae5d7953
-      player-skin-name: currency
-      player-skin-signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-    name: Concrete
-    uuid: f6d0a045-9523-49cb-a5e6-f612d34d17d0
-    traits:
-      type: PLAYER
-      spawned: true
-      location:
-        world: lobby
-        x: '-9.4702'
-        y: '67.0'
-        z: '176.2682'
-        yaw: '-89.9865'
-        pitch: '0.0'
-        bodyYaw: -89.9865
-      gravity:
-        enabled: false
-      skintrait:
-        fetchDefaultSkin: true
-        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-        skinName: currency
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
-      owner:
-        uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
-  '4':
-    metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-      cached-skin-uuid-name: currency
-      cached-skin-uuid: cea14222-2a7d-43b0-a3c5-fdafae5d7953
-      player-skin-name: currency
-      player-skin-signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-    name: Weapons & Armor
-    uuid: 04334337-e33f-4ab7-a065-35dcb177fed4
-    traits:
-      type: PLAYER
-      spawned: true
-      location:
-        world: lobby
-        x: '-3.6'
-        y: '67.0'
-        z: '169.5'
-        yaw: '179.1382'
-        pitch: '0.0'
-        bodyYaw: 179.1382
-      gravity:
-        enabled: false
-      skintrait:
-        fetchDefaultSkin: true
-        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-        skinName: currency
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
-      owner:
-        uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '3':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-      cached-skin-uuid-name: currency
-      cached-skin-uuid: cea14222-2a7d-43b0-a3c5-fdafae5d7953
+      cached-skin-uuid-name: merkairain
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
       player-skin-name: currency
       player-skin-signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
     name: Food
@@ -202,104 +67,50 @@ npc:
       spawned: true
       location:
         world: lobby
-        x: '-3.2019'
-        y: '67.0'
-        z: '176.2264'
-        yaw: '84.6393'
-        pitch: '0.0'
-        bodyYaw: 84.6393
-      gravity:
-        enabled: false
+        x: -3.2019
+        y: 67.0
+        z: 176.2264
+        yaw: 92.4122
+        pitch: 0.0
+        bodyYaw: 112.41222
+      gravity: {}
       skintrait:
-        fetchDefaultSkin: true
-        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-        skinName: currency
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
+        signature: n3fiKt6secpEF8k54dQPUnTNfvl0d9JcCK80DtuicOGhhvFK5SeljHEuG7DCKGVWHuIUZDnQhZaYVbL2545c3G0G4ZVVFghAVw553doY/8UvdqZHSnIrAOSmVT3WisD1/rFXoYPl0JXaA2VLd2KlXaNFEJlSfmF1cJBObMvtt1dA0PHeXA9mzCnwiHBCUgR2R4Jf1+923eMk3r5l0O0aWe8yVG20Rm7Lq55KainZUvZc9GFrP4nizJyESAqspPSu/T4bJuwGs+8xIDzBO28CrTeXbs8AfTq5wjrPwo9rstc/BN6V9Rdl1LtRs4pcvlF2nL+N7gHihISgzX8zU30VAqZV9+ZnJgh+FO7B0o8mX0lZAN8qRap7llmbiX0xxpJc+NJ5TYKekwIcbrf33EgI3xc0p0ZE8mokjjUZj6gPFqawC9NmuNPQmOY3xPzpdoJdNjS+gOxbfB/i3IOB1kfZ3Kl3J2XKgecBaOExBRaKS7Yst53EoFgt6DD7yr9taW65wTrmuQ0fq1H1Ejeg5oWmd5d4UGqWRE2f1o1aMMmC64T+e/QRG5gYSCRw1U/Z2FGBt4EUhZKOm/0wh9qdfLlHY+HkCJfyxY08GzP3xd4vhu1DLxRK9o9PPXH++vB8YU14Py9knM5xwQxkET4CjMgXOg3STlaSMCp+2TBCctVH4CI=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNjA2NDU0NywKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2N2RjZTQ2NDUzNDllNDFhN2YzNTc5N2UyYjkyNzllMzVhNjVmNWU4MWEzNDQ5Njg4NWQyNzI2OGYzNjkxMzkiCiAgICB9CiAgfQp9
+      sneak: {}
       owner:
         uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      commandtrait:
+        commands:
+          '0':
+            command: shop Food
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,shop,commandtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,gravity,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
-  '2':
-    metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-      cached-skin-uuid-name: currency
-      cached-skin-uuid: cea14222-2a7d-43b0-a3c5-fdafae5d7953
-      player-skin-name: currency
-      player-skin-signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-    name: Ores
-    uuid: 2532a1b8-8bbd-4ca3-a438-7dc929e78306
-    traits:
-      type: PLAYER
-      spawned: true
-      location:
-        world: lobby
-        x: '-3.266'
-        y: '67.0'
-        z: '173.2709'
-        yaw: '88.5049'
-        pitch: '0.0'
-        bodyYaw: 88.5049
-      gravity:
-        enabled: false
-      skintrait:
-        fetchDefaultSkin: true
-        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-        skinName: currency
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
-      owner:
-        uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
-  '1':
-    metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-      cached-skin-uuid-name: currency
-      cached-skin-uuid: cea14222-2a7d-43b0-a3c5-fdafae5d7953
-      player-skin-name: currency
-      nameplate-visible: 'true'
-      player-skin-signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-    name: Mob Drops
-    uuid: 03d86db5-ce96-47da-8ad3-6b59d86ceb1b
-    traits:
-      type: PLAYER
-      spawned: true
-      location:
-        world: lobby
-        x: '-23.6'
-        y: '64.0'
-        z: '138.5'
-        yaw: '90.5149'
-        pitch: '0.0'
-        bodyYaw: 90.5149
-      gravity:
-        enabled: false
-      skintrait:
-        fetchDefaultSkin: true
-        signature: EAXo0r8NtCEymp5UBDSMuYSLuPx4O9O8Yv/uBtkhWEKulJaLMTEE2RtWNUtssfyB7P5oUejTQJenD7FmWCF/khQxhpEb2Q21OU5VpnQxr62JnDQi6L/cPKO5YK3e0QNZTsMNC7afI8V84XPNK7YD9alTFqHqCCxppZftb/Lggnugvqo4vaeqb34QGcm6PmiMGuYcnFUM4LzrbJvRgYJwFmXk3t7aw3pppZChd0ckdcWN/C4TP7KfSbqf4rPWavqjweZXXGlz30ExpXV4xnGRw7nQzdlZiaU57s7GisMp+WpK4j6U2w0GeQIU2/nwmYIIXyfK67bk2IpMwwWQ6xQcU5s3eNoMnqkRaOBHYjm7n+2fs2Dr2/bTzvx6hBJU8qWoZ+yOhlsn327Vw/D5CJ6f1p4Rj1TyA10uW50fVYMAM2B1wHDWRJPpD5d1tBSr15gica0r/hqwSaixIjGNlJKVQhpdJ6jq7tRD4zS3UWAVokzbKizbynwC7T3xtJi1sxmyxngYgOGzcGf3yODP2F/BA5RP3enaA2tNSfk4/NgOCBp2w/oH3nCnbL72Mt5CkI2x5XPm5LjmOGRXo2CpCpZOQerSZVcoBcZQYEr52f2BUUnclbSHE/haCZE/IPN6+2TGCz4qEIkAgNcJg2OdrLjs1/ydZkywmQGnuoJtMd1Q4mg=
-        skinName: currency
-        textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTkxMjIsInByb2ZpbGVJZCI6ImNlYTE0MjIyMmE3ZDQzYjBhM2M1ZmRhZmFlNWQ3OTUzIiwicHJvZmlsZU5hbWUiOiJDdXJyZW5jeSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhMzE3OWRkZjdhMWNkMWU1ZGJiNmIyYzQwMjVmNDljNTM2Y2M0MzQ0N2QyYzk4YjdmZGQzODZmZjQwNWE0MSJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
-      owner:
-        uuid: ab32b857-1f3a-4742-b0e0-b193a992813a
-    traitnames: sneak,spawned,gravity,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '11':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzczMDI5NzM2NTIsInByb2ZpbGVJZCI6IjIzMzIzODRjZTk2YzQyMWQ5ZjI1NTI1NTEyNWEzZjk3IiwicHJvZmlsZU5hbWUiOiJGYWxsZW5JY2FydXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNTQwYTE2MjQyZGM1ZmRmZTM4MGQ4OWQwZDUwYzBjODQyYThiZDAyNDc3NGFlZjkyOGY0NTE0ODk2YzdiYWMifX19
@@ -313,23 +124,18 @@ npc:
     traits:
       location:
         world: lobby
-        x: '-4.4248'
-        y: '64.5'
-        z: '134.5626'
-        yaw: '-42.2412'
-        pitch: '-15.5749'
-        bodyYaw: -11.70639
-      gravity:
-        enabled: false
+        x: -4.4248
+        y: 64.5
+        z: 134.5626
+        yaw: -49.4795
+        pitch: 0.7864
+        bodyYaw: -49.47946
+      gravity: {}
       type: PLAYER
       spawned: true
       lookclose:
         enabled: true
-        range: '5.0'
-        realisticlooking: false
-        enableRandomLook: false
-        randomLookDelay: 60
-        disablewhilenavigating: true
+        range: 5.0
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -337,20 +143,20 @@ npc:
           '0': 0.0
           '1': 360.0
       skintrait:
-        fetchDefaultSkin: true
         signature: f/CkyJ4Fc6Cm+nNKKLGgGDcB2BNSEzXXLsPdctIEtTICSu7mSX6uoKrFhzGr1nJGaKpB6bK6rWtV2DjQ803Tbu20chbO6fLgXIpylRZiZlXXJ5E6fq+wK8OjPQzM7D2AALEy41xNuL0rVjplz35uRjhdQpF28dbzf/w5wTFfnezG2C33nFwE8dZ56xWcQVNlMaNSIqdwwEdmiy+KwmHF9DIxvaK0G9t4iGDGBIHhmDpMgVTRV8wg73+C8BMTxyxswZBVyA32qWY+1u4B0HX3c9pt6eSUwvFczv1vtV9pp/r9B213YDeK0z+nEq5B92sOFXCIUDB4bdh/vMGtnQs/RIrgaN13O2jgxfVjlk5z/LrNkd5K32fcYSV6AAHmrD6cGQoQH9pjLWVcLO+mdYeJleKMJjk7ONwTBOpMDlSXfQxR1iDKkAUBlrzcjJ/RF+9Uq4yDX2CA1Z7XEPXEZhirrBlSKHAmsoByL/lIyqGKueE+q5TVeReJbfoPgR7514e6GDEVOXvoniyuo3Vd9AXxwJ6aY+htVQTN4vVc0XluBwybzxlEn+6CmBDL4ARvEemkT5kR3Aqj0E5QABFY7uK2WhQZX8xjTS8MJ8Amf6XoYbZdzE8jCozfliJYYy7X/zdd7gPWh27rBXcg1in14G4NfaRd3EpeDQi21frH8ygXvWE=
         skinName: fallenicarus
         textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDI5NzM2NTIsInByb2ZpbGVJZCI6IjIzMzIzODRjZTk2YzQyMWQ5ZjI1NTI1NTEyNWEzZjk3IiwicHJvZmlsZU5hbWUiOiJGYWxsZW5JY2FydXMiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNTQwYTE2MjQyZGM1ZmRmZTM4MGQ4OWQwZDUwYzBjODQyYThiZDAyNDc3NGFlZjkyOGY0NTE0ODk2YzdiYWMifX19
-        updateSkins: false
-      sneak:
-        sneaking: false
+      sneak: {}
       owner:
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,gravity,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '8':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzczMDMyNTExMzQsInByb2ZpbGVJZCI6IjhiOTU5MjI5Y2QxMzQzOGY4NzgwMjZiNDNkNzJlMTIzIiwicHJvZmlsZU5hbWUiOiJUb29kaWUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk0MTkwNTVmOTAzMTE1ZjQ5ZjU2YzkxNWYwMWUxNzYwYWIwODhiMTRmOTdiYTRlYjU5MGI1M2M1ZjQzODViNWQifX19
@@ -364,23 +170,18 @@ npc:
     traits:
       location:
         world: lobby
-        x: '-4.3882'
-        y: '64.5'
-        z: '144.4076'
-        yaw: '-119.9788'
-        pitch: '0.1137'
-        bodyYaw: -93.51544
-      gravity:
-        enabled: false
+        x: -4.3882
+        y: 64.5
+        z: 144.4076
+        yaw: -58.5682
+        pitch: 0.0481
+        bodyYaw: -58.568245
+      gravity: {}
       type: PLAYER
       spawned: true
       lookclose:
         enabled: true
-        range: '5.0'
-        realisticlooking: false
-        enableRandomLook: false
-        randomLookDelay: 60
-        disablewhilenavigating: true
+        range: 5.0
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -388,20 +189,20 @@ npc:
           '0': 0.0
           '1': 360.0
       skintrait:
-        fetchDefaultSkin: true
         signature: yhbBQQ1OeyqizNlRJn6sS2JWoP41DS84BSybEZff+RAhrcq2dpZCQAeUTXz8xiyZnk9OHRsI32+6K9M5Q4HObWGtzP9gTHQa+DgfifmlNaY1rYfLcSpgUBZzrI33RWCxAZbq4OmbfQdOW8zaZULviY2eJ85IA/c7OFwAM8OwAxmOFSi5kjHW27H4ygtQJOFGZIt5+NKCTDxw91MOUBPCtWxsJit4Z6/R2IwqsOOso/0WxoZ7UVYReU0qq3y4kEHWa7yPtCevRmjpdgdLlXzcpq9/U9jz8ehaszmvt85AX2QsikWtWzBLt5Y1yzRJ2JzifPLHwNDvp5j7RVXlldPTeTO2+tBH/3VXem1TPBuvDTg2Zq6Zua0r/h5jtsCe+pEBkHSP4KsPmdGYw9qmLhNid1SB2BOSWERx1S0JbBF5N1sawYmkXyYTKE+sD1tO0Y9scFgwFNq5dOOsykvPdetxfYmcPC5qMsv057D4Etp81QGLSaAP0EUjUtagae4MDiVLSf9jeH8d0uNmrc1kz9P+o4ps53/ZCJ19mC9CcuCeFr621NcVmcxD6MPqbf4PG4jH8X/8J910uo8hsICbWhWPptX1EaES+YhbSIx3apGkZkDVVnNwIrpqYj+mi4ChZuE+OCOOTe5tSlyjTjefZF8uCmQzgBuXdZszlYJo1Eeu6CY=
         skinName: toodie
         textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDMyNTExMzQsInByb2ZpbGVJZCI6IjhiOTU5MjI5Y2QxMzQzOGY4NzgwMjZiNDNkNzJlMTIzIiwicHJvZmlsZU5hbWUiOiJUb29kaWUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk0MTkwNTVmOTAzMTE1ZjQ5ZjU2YzkxNWYwMWUxNzYwYWIwODhiMTRmOTdiYTRlYjU5MGI1M2M1ZjQzODViNWQifX19
-        updateSkins: false
-      sneak:
-        sneaking: false
+      sneak: {}
       owner:
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,gravity,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '13':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTg4OTUsInByb2ZpbGVJZCI6IjA1Mjk4YmJiN2JiMjQzNmJhZjkyYzJiNjI0ZGE4NGJiIiwicHJvZmlsZU5hbWUiOiJNY01NTyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlYjA5NWZmYTg1M2ZkZjVjZjc3MDA1YjhhZjQ0ODQ4MWI1YTYzNGQ1Y2U4NTNkZDczOTVmNTgxODk3ZmFhNyJ9fX0=
@@ -413,21 +214,16 @@ npc:
     traits:
       location:
         world: lobby
-        x: '5.3807'
-        y: '64.5'
-        z: '144.394'
-        yaw: '-179.5659'
-        pitch: '11.5907'
-        bodyYaw: -139.5659
-      gravity:
-        enabled: false
+        x: 5.3807
+        y: 64.5
+        z: 144.394
+        yaw: 147.7776
+        pitch: 5.631
+        bodyYaw: 127.77757
+      gravity: {}
       lookclose:
         enabled: true
-        range: '5.0'
-        realisticlooking: false
-        enableRandomLook: false
-        randomLookDelay: 60
-        disablewhilenavigating: true
+        range: 5.0
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -437,19 +233,19 @@ npc:
       type: PLAYER
       spawned: true
       skintrait:
-        fetchDefaultSkin: true
         signature: UvK+Wsp3fcS5VQOWJqn7/OvsO38FVZAjibuAsbF2B28JNcH/rXQizryOjvP56GwR7WSSd4iknTi18rQlAVADTXtHKj2d9cARA2Yn7cESEDbs7ZA7pdmLBgKmintw4RK9l9cYNrjnD4PazG/1iCLsHjm0srBTFDb4pkssxXRNBp9Lps70SXD0yOoW2Fot91vtPxHd4a7mugVV+4zJzMxHYBV0YC2AYEKi2yR5RFb94XH+sVwWFq9xpd5cNPzs8YlYA1lKr56hM1n996rCAcWpJJbljh6u1vMuZTrjqTcqQ7zTp6f/eBnqq106gpgU3gCc1pwUAxyDXi03RIuqOelyDviZZ8ButJbA6bJoM7ATKTLKBniIQtfgYqIo1MSJzUpEsJ2u3hjAI1UROk9kktX+/EfVABfQMdTnl7GZQkT55GPrwlxoGidT4y19V+ebSK+o1udPUxQdzH+0/av7gNMnaLXTcbsGrO+9ihvrjknprk4akxF8w2+lN5Wcm9E4UOjuHtVqJFBVeNiOnfM3PmSUYboHJCxwLqYbZ2TI44Z+psA0JshC26xzEJmKCPIuKUgx22RhBPSC7UGAIB6LPW3wmpgPuNVjrHdB4GygUfKSNZSSPAT4uK8oYeYPpZd+LriKR3hE3lgYRrebtJZ1WglGEnpkSad4CPZxQih50c/8DLo=
         textureRaw: eyJ0aW1lc3RhbXAiOjE1NTcyODYzOTg4OTUsInByb2ZpbGVJZCI6IjA1Mjk4YmJiN2JiMjQzNmJhZjkyYzJiNjI0ZGE4NGJiIiwicHJvZmlsZU5hbWUiOiJNY01NTyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlYjA5NWZmYTg1M2ZkZjVjZjc3MDA1YjhhZjQ0ODQ4MWI1YTYzNGQ1Y2U4NTNkZDczOTVmNTgxODk3ZmFhNyJ9fX0=
-        updateSkins: false
-      sneak:
-        sneaking: false
+      sneak: {}
       owner:
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,gravity,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '12':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MzczMDMzOTMxNTMsInByb2ZpbGVJZCI6IjhmM2I0ZjkxNTkyYzQwZDk4NTVhZGE5MTA1NTNmNWMxIiwicHJvZmlsZU5hbWUiOiJ4VGhleENvbW1hbmRlcngiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4ODQyM2Y1MjFmNDM1YjdjMmY5Y2RlZmNjZDljYTI3NDFkZmU1MWYzNjU3YmYyNWMwN2RiMTAwZjBiMDc2YjEifX19
@@ -463,21 +259,16 @@ npc:
     traits:
       location:
         world: lobby
-        x: '5.3475'
-        y: '64.5'
-        z: '134.6288'
-        yaw: '-21.0834'
-        pitch: '-15.1143'
-        bodyYaw: 18.916603
-      gravity:
-        enabled: false
+        x: 5.3475
+        y: 64.5
+        z: 134.6288
+        yaw: 31.6418
+        pitch: 4.8639
+        bodyYaw: 31.6418
+      gravity: {}
       lookclose:
         enabled: true
-        range: '5.0'
-        realisticlooking: false
-        enableRandomLook: false
-        randomLookDelay: 60
-        disablewhilenavigating: true
+        range: 5.0
         randomPitchRange:
           '0': -10.0
           '1': 0.0
@@ -487,218 +278,515 @@ npc:
       type: PLAYER
       spawned: true
       skintrait:
-        fetchDefaultSkin: true
         signature: N5u5vgi2kW1wD2Z9v8re3POpjZshDB/m6I66UQGndBnbeEOwP5QbRAHf6qxJ43cBO5Y5nykVzrbMNnNyITJNGwwxV4Yt9YGsVEuxakuz0cVcupCoWYCj0Ahi+THrbPuW7yfxygaweIPMXkVzGLkT07e9ALuSnxioa+s9RU/eTfwP4WcfDP7PLvph3Yh6uFxR+YHHAwh6zK0NMlGnyYHOZ+NE7FH3uPadR9mlK6dQ4QAQ3GfEHqwDQqzYsYndI+OexEqWRXfC7Litk22xrTJipn5FVS8NbZJVD8cF8cr4F7w9+ADwWaW90xRC9Z1s6VvYomPZ7vntg6HghXh363rTe9/iOo2hEuj0WKbHGIBmRp3cqOMBPDpMdeXxd2taa8orpm9V2Nqk+ebTtH6ygOJi0pZgD2IndySazUrL+R0v74KTK8nkes63lEzgVQlr2c9FxwCU+E8yjwtMpajwC/eV3a6zPODQqsmH2RV0NNKlAxeLO+Ed/2cTaoFALHzcQ/d8Feg2ONRO6rT67wah3MACJIae2EXSTd9/0IgN2it5l7w8+baDZXE0lgvpcpflZ+6hnMPDivBWTWiE1JFSYU3OjLJOHqtVkkEEneh87G83GM/0+6fAoHVOmX+WZ0j4cvh7A76ElRMc1yLpZ82YPq8tiONWoe2UwRccHNeqnKm++dI=
         skinName: xthexcommanderx
         textureRaw: eyJ0aW1lc3RhbXAiOjE1MzczMDMzOTMxNTMsInByb2ZpbGVJZCI6IjhmM2I0ZjkxNTkyYzQwZDk4NTVhZGE5MTA1NTNmNWMxIiwicHJvZmlsZU5hbWUiOiJ4VGhleENvbW1hbmRlcngiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4ODQyM2Y1MjFmNDM1YjdjMmY5Y2RlZmNjZDljYTI3NDFkZmU1MWYzNjU3YmYyNWMwN2RiMTAwZjBiMDc2YjEifX19
-        updateSkins: false
-      sneak:
-        sneaking: false
+      sneak: {}
       owner:
         uuid: cce24294-62b8-4684-a3b9-495f14cada7b
-    traitnames: sneak,spawned,gravity,lookclose,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,gravity,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '17':
     metadata:
-      cached-skin-uuid-name: jigbon
-      cached-skin-uuid: 43015a4f-140e-474e-872f-f7b0b4d79313
+      cached-skin-uuid-name: chesvin1
+      cached-skin-uuid: 5a32cd55-9e5f-43bf-9b63-b602a19571a2
     name: §5RTP
     uuid: 4ecf7c1f-0d43-4267-a7b6-e6def594f10a
     traits:
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: rtp
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       type: PLAYER
       spawned: true
-      sneak:
-        sneaking: false
+      sneak: {}
       location:
-        bodyYaw: -134.94855
-        world: main
-        x: '53.404'
-        y: '111.0'
-        z: '303.4204'
-        yaw: '-134.9485'
-        pitch: '4.6612'
+        bodyYaw: -132.4372
+        world: wild
+        x: 248.5581
+        y: 107.0
+        z: -257.5217
+        yaw: -132.4372
+        pitch: 0.0
       skintrait:
-        fetchDefaultSkin: true
-        signature: cEJO5Irq3wyI6QHzh/Dzwr4xHMdLeKRAV3lNul0UO5eFrOVmtjvs8hiqxI43X2GaH5TOGQG56zzvNBvke8BFEvO2kVg3UcdteteR63k8qH1BAQlSxdh8fASh2R3i4wlDUdX2hbXFgDKZwqL3x+5gXAmnb/qUVnj4fBjFeIREF4qvlWqMTHDWHHa/A3Y8RShbDeeUsZB4BathLK+E6omiybe96x6SBdowqw6gS1ddPLNcq06Vevrcdh8ub2/GfeM4yI1GRjQWbG+IjdOkoZQFTCbYgFaaiWE/buivIocwwcbEERamrYpuydUCEihTCkr++foCpCIjkb/MMvREp7w67q6Duoy0dHyXEbGff7yCBmvdzdMlRyDX02gSudDN1Wt0mgSHm6/K9EjOS3wc+tREh/3asSGCMGQa3uchYya526RXnZvo7+q6W9AOiGzorix7jBlPdkO7YVEmLf9iXKPESn+Dq5DeE/P1o9fYznNaLI+6pfLVhI2+stN6mQpt+CY8T1jsusICqV2UU4bbru8JAiJWyX22q+7zstle7Q4gQtfVfqGpZeCSmdNyjNHrkBrIwKl2Pc8NqUMzsfjMlnWDXnPdWx2cpSYIcSNCfoAcWSGyTQBG6eQFfZCzurlqUe/hbVuavrjfBjMrgcggkN+2evvhEEZUECDuGUfWSpy4a+Q=
-        skinName: jigbon
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzI2NDY3OSwKICAicHJvZmlsZUlkIiA6ICI0MzAxNWE0ZjE0MGU0NzRlODcyZmY3YjBiNGQ3OTMxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWdib24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY3MzlkMWE0YjAzYjhlNzQ3ZGQxYTMyZjFlMjJkNjFjN2JlNTc2MzcxY2ExNWUxYmM2NGY4Y2U0NTBkZmMwMiIKICAgIH0KICB9Cn0=
-        updateSkins: false
+        signature: pZcJl8Aiv+w8DTilF4mGy6ru0nQF2icffskecr8cMFWLwNtPqQ5QcdiegLlKHOQRJvCo9em+Vb+kvVzkyjd9X/9e5gTcFXz7MlvGjQFwlPasaq9RCWfdWX/hY5yfz/19T6Ps+yUrU1pd6WXVmMnEDUoOCHXRXKQU7YMwiyWQ4s2yXz9VbmrMNIcSgCsKMak8eLQ+iDRngwCPpXeUf8K7nJ5tegg3Rc/8E5WdAHseG804KdUNlRxdm4hwmjNDlETu3zKy1Ijq4y4cCsdT89v1KS0d1l6MhnNeko4dcBtAjvlw+zqu+jbQBGYFtDhD+CS9MkT7hmqLIJDMJBGSCreNZF8ZEYuXkJzr1ZjFhhcP8fj0OM8frjnzY+auyt7WcCxSsI4I1CUy7ZxtDyki0UD0PsYL7fShkag3YuErjLoAl7agxgcHRMet4Kp0m26bMOgzRHu7o8z8tGdb1mT4K5sj82mjXYDfWAf/LHbrr6EQdvM08cf9+gmF+ZHk/83f4MkL3DSh1tPhClIZLbups0ZpomrZrtsv4TeAZgMRbZWcNy/aeCIuxdmAR9WpAgTtb432c7lMhWGVv5NcAehXFxIyIE33hPB9vJ4/BB0QUo3SLmrHU92H76joN6l6ih50HDjRqmejZ4ZQOBM8AgxX2Wu4GUOtOi2LY2q6LDsXtX85tQc=
+        skinName: Chesvin1
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNjIxMDU2MSwKICAicHJvZmlsZUlkIiA6ICI1YTMyY2Q1NTllNWY0M2JmOWI2M2I2MDJhMTk1NzFhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGVzdmluMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81N2E3NTJlNTYxYzhiMmU3ODRiNWNiMTUxMTJlNWE2MzRjNzcwMmRjN2ZhYzk1OWJhMzM0YWU4ODljNmFjZTM3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0=
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: sneak,spawned,commandtrait,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '16':
     metadata:
-      cached-skin-uuid-name: smattox
-      cached-skin-uuid: fea22ef0-3efd-463b-8d3f-cc0e543fa57c
+      cached-skin-uuid-name: irlkaren
+      cached-skin-uuid: 84cb3ca0-4a1a-4443-adcf-97165199dafc
     name: §5RTP
     uuid: 175ee49d-d6cb-4993-a40b-ba5fb86fc385
     traits:
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: rtp
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       type: PLAYER
       spawned: true
-      sneak:
-        sneaking: false
+      sneak: {}
       location:
-        bodyYaw: 132.50104
-        world: main
-        x: '61.5609'
-        y: '111.0'
-        z: '303.5011'
-        yaw: '132.501'
-        pitch: '6.073'
+        bodyYaw: 131.42393
+        world: wild
+        x: 256.4588
+        y: 107.0
+        z: -257.4795
+        yaw: 129.762
+        pitch: 0.0
       skintrait:
-        fetchDefaultSkin: true
-        signature: qT95trcw7Wk86G3F0aa8LH6jp2HSu6I//jzy/5gphPlio910gGpL335/+FTv8huqwCjHm/z3iDPZUzQxSw1SsQznD2T7r/p8AjH0nq9uIDM6ajrM8Hwid1RX4WEn+fC/4tsAtVfVEp1YPQ+A/49ZS6Cumvpi8zV9cxkE34dxWKFEXMnMyOKBxhFoi93uhA0bNzbBsAl6pbHXRF6IseS6TAxaZjqo6gMOy+5p8OoerM8ux8KATIm9vpGBVh2QH7wq9FGaeFVUSfkm7tJFyPlunDT3bysNuDQ6rP2fLufDHOf2TG64Z3ImHMk8yGgz2od5BY4bZc7qbnUT6+eGUT4CWHJ8oxUPK5Z+omcXrAvBl77Aj1g+Gg9yibNrA7WxuHO22bo8yhPyrvmyuu7383pfy9pvfe2DGDLhARG7v7O7tOV9fN2K/7IqmE3ojMJYQe0bTnSpwshtdTxBezdzAQ/07Fx40yq3aPdrD8vu+ZHkuEvSbPkJ0lN0pUW4roVkS8qv+vY77fDUhGvYc6ZuNBdTPN1XWjQ2bw/x35i1N8g8A0KjVNg78BwZ5pFIo+TfEKX92lYJkKm7W6ICPglq5YDH8Rap1ss2MHjUxc5+2h1549yzJBjRXNHiB9J6DdIk53DI75m/Ho+8ai6veyzJob1yFu+sbDhBXWP17ZSNAm/9fY0=
-        skinName: smattox
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzIwNjY3NCwKICAicHJvZmlsZUlkIiA6ICJmZWEyMmVmMDNlZmQ0NjNiOGQzZmNjMGU1NDNmYTU3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWF0dG94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZDIzMTkwM2Y4MzE5MWFjNjViM2NmODcxOWNiZTQ2M2RlNTJkNzAzOTllMzE4MmVjYjZiMzE1NjkyYjVlZGIiCiAgICB9CiAgfQp9
-        updateSkins: false
+        signature: N9XOSLgWFE4NdEMxcLYSKZeIw88jrzJlrnTgPNEY57/FWR80jufRlUtkXVM8n4jTu+o1+BcvEvtuJRvq8SOjZF5tEV4bZNKJUkJhPx6KVuH78jeTQw3GFqK75xLWZofhEyzk7PT+Ge5k+WkXK5Blxmosh45sSC7uP9RsyoguS7JQZ/9EK1my5Frnq7F2A9cDl2XfrpZwBGlzfZiqcWja3UbKOXCqfXp3y8AhipjbV3qggmRjLe+HY53ERtd8lVYF25zh4uzYejnIELH1v8kLMJsgy8vdFt/48Qa1lyaiYgwRNNbBEt8EW+RtNCPOZYJvAPpDs6fsQp4AAVatMDm+ydYDJMLdwpZhNYj8YYBABKYXi+GaJaEKgc0FZ+37Th1HApc3dtBNv+UZKcaiD6M/WxU8J6e28PMQPk8+Jf6XRF1Dto53ZKIOMlzdoOOZPT/OTNrLhLT3tBQ4TMIKZ9Kf3au8boO50I+fq/3E9PeovTDTdTxpjiHxoLE0J7YJ86HWgpZdQKDjpe60aGMNdIUaf1yP8jRZzFUqknNeAZCBb45D3mY7UKQm0MmWFA7wTqG5FR4hKgpdgnG+4Qthcx+0bHDzmMzmoXxKg4hrm5+XrXDfVsTXvivDAlMw4v0RTHf7JQJSHuDTC+GDvumoBsIko/kHxXJynuF5xvMp87K1gZA=
+        skinName: irlKaren
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNjI2MDY4MiwKICAicHJvZmlsZUlkIiA6ICI4NGNiM2NhMDRhMWE0NDQzYWRjZjk3MTY1MTk5ZGFmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpcmxrYXJlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzFjYjZlNjM4NzgyYWZjMmYxNzIwNDJjYjI1ODA1OTI5NGRjNGQ2NzZjMTVmMjk4NzQ3YzQ4MmE3NTAwY2VlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: sneak,spawned,commandtrait,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '15':
     metadata:
-      cached-skin-uuid-name: jigbon
-      cached-skin-uuid: 43015a4f-140e-474e-872f-f7b0b4d79313
+      cached-skin-uuid-name: chesvin1
+      cached-skin-uuid: 5a32cd55-9e5f-43bf-9b63-b602a19571a2
     name: §5RTP
     uuid: 8aa75193-8b3f-48c3-8512-13f8c88574f8
     traits:
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: rtp
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       type: PLAYER
       spawned: true
-      sneak:
-        sneaking: false
+      sneak: {}
       location:
-        bodyYaw: 37.91382
-        world: main
-        x: '61.4873'
-        y: '111.0'
-        z: '295.4705'
-        yaw: '37.9138'
-        pitch: '5.1318'
+        bodyYaw: 26.322227
+        world: wild
+        x: 256.4238
+        y: 107.0
+        z: -265.4936
+        yaw: 26.3222
+        pitch: 0.0
       skintrait:
-        fetchDefaultSkin: true
-        signature: cEJO5Irq3wyI6QHzh/Dzwr4xHMdLeKRAV3lNul0UO5eFrOVmtjvs8hiqxI43X2GaH5TOGQG56zzvNBvke8BFEvO2kVg3UcdteteR63k8qH1BAQlSxdh8fASh2R3i4wlDUdX2hbXFgDKZwqL3x+5gXAmnb/qUVnj4fBjFeIREF4qvlWqMTHDWHHa/A3Y8RShbDeeUsZB4BathLK+E6omiybe96x6SBdowqw6gS1ddPLNcq06Vevrcdh8ub2/GfeM4yI1GRjQWbG+IjdOkoZQFTCbYgFaaiWE/buivIocwwcbEERamrYpuydUCEihTCkr++foCpCIjkb/MMvREp7w67q6Duoy0dHyXEbGff7yCBmvdzdMlRyDX02gSudDN1Wt0mgSHm6/K9EjOS3wc+tREh/3asSGCMGQa3uchYya526RXnZvo7+q6W9AOiGzorix7jBlPdkO7YVEmLf9iXKPESn+Dq5DeE/P1o9fYznNaLI+6pfLVhI2+stN6mQpt+CY8T1jsusICqV2UU4bbru8JAiJWyX22q+7zstle7Q4gQtfVfqGpZeCSmdNyjNHrkBrIwKl2Pc8NqUMzsfjMlnWDXnPdWx2cpSYIcSNCfoAcWSGyTQBG6eQFfZCzurlqUe/hbVuavrjfBjMrgcggkN+2evvhEEZUECDuGUfWSpy4a+Q=
-        skinName: jigbon
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzI2NDY3OSwKICAicHJvZmlsZUlkIiA6ICI0MzAxNWE0ZjE0MGU0NzRlODcyZmY3YjBiNGQ3OTMxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWdib24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY3MzlkMWE0YjAzYjhlNzQ3ZGQxYTMyZjFlMjJkNjFjN2JlNTc2MzcxY2ExNWUxYmM2NGY4Y2U0NTBkZmMwMiIKICAgIH0KICB9Cn0=
-        updateSkins: false
+        signature: pZcJl8Aiv+w8DTilF4mGy6ru0nQF2icffskecr8cMFWLwNtPqQ5QcdiegLlKHOQRJvCo9em+Vb+kvVzkyjd9X/9e5gTcFXz7MlvGjQFwlPasaq9RCWfdWX/hY5yfz/19T6Ps+yUrU1pd6WXVmMnEDUoOCHXRXKQU7YMwiyWQ4s2yXz9VbmrMNIcSgCsKMak8eLQ+iDRngwCPpXeUf8K7nJ5tegg3Rc/8E5WdAHseG804KdUNlRxdm4hwmjNDlETu3zKy1Ijq4y4cCsdT89v1KS0d1l6MhnNeko4dcBtAjvlw+zqu+jbQBGYFtDhD+CS9MkT7hmqLIJDMJBGSCreNZF8ZEYuXkJzr1ZjFhhcP8fj0OM8frjnzY+auyt7WcCxSsI4I1CUy7ZxtDyki0UD0PsYL7fShkag3YuErjLoAl7agxgcHRMet4Kp0m26bMOgzRHu7o8z8tGdb1mT4K5sj82mjXYDfWAf/LHbrr6EQdvM08cf9+gmF+ZHk/83f4MkL3DSh1tPhClIZLbups0ZpomrZrtsv4TeAZgMRbZWcNy/aeCIuxdmAR9WpAgTtb432c7lMhWGVv5NcAehXFxIyIE33hPB9vJ4/BB0QUo3SLmrHU92H76joN6l6ih50HDjRqmejZ4ZQOBM8AgxX2Wu4GUOtOi2LY2q6LDsXtX85tQc=
+        skinName: Chesvin1
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNjIxMDU2MSwKICAicHJvZmlsZUlkIiA6ICI1YTMyY2Q1NTllNWY0M2JmOWI2M2I2MDJhMTk1NzFhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGVzdmluMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81N2E3NTJlNTYxYzhiMmU3ODRiNWNiMTUxMTJlNWE2MzRjNzcwMmRjN2ZhYzk1OWJhMzM0YWU4ODljNmFjZTM3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0=
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: sneak,spawned,commandtrait,mounttrait,equipment,owner,skintrait,type,location,inventory,scoreboardtrait
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      lookclose:
+        range: 5.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '14':
     metadata:
-      cached-skin-uuid-name: smattox
-      cached-skin-uuid: fea22ef0-3efd-463b-8d3f-cc0e543fa57c
+      cached-skin-uuid-name: irlkaren
+      cached-skin-uuid: 84cb3ca0-4a1a-4443-adcf-97165199dafc
     name: §5RTP
     uuid: debdca68-a13a-4778-b1f2-26e92591c148
     traits:
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: rtp
             hand: RIGHT
             player: true
+            npc: false
             op: false
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       type: PLAYER
       spawned: true
       lookclose:
-        range: '5.0'
-        disablewhilenavigating: true
-        enabled: false
-        enableRandomLook: false
-        randomLookDelay: 60
-        realisticlooking: false
+        range: 5.0
+        enabled: true
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-      sneak:
-        sneaking: false
+      sneak: {}
       location:
-        bodyYaw: -43.10858
-        world: main
-        x: '53.6086'
-        y: '111.0'
-        z: '295.565'
-        yaw: '-33.2571'
-        pitch: '0.0'
+        bodyYaw: -42.813644
+        world: wild
+        x: 248.6151
+        y: 107.0
+        z: -265.4701
+        yaw: -42.8136
+        pitch: -25.3745
       skintrait:
-        fetchDefaultSkin: true
-        signature: qT95trcw7Wk86G3F0aa8LH6jp2HSu6I//jzy/5gphPlio910gGpL335/+FTv8huqwCjHm/z3iDPZUzQxSw1SsQznD2T7r/p8AjH0nq9uIDM6ajrM8Hwid1RX4WEn+fC/4tsAtVfVEp1YPQ+A/49ZS6Cumvpi8zV9cxkE34dxWKFEXMnMyOKBxhFoi93uhA0bNzbBsAl6pbHXRF6IseS6TAxaZjqo6gMOy+5p8OoerM8ux8KATIm9vpGBVh2QH7wq9FGaeFVUSfkm7tJFyPlunDT3bysNuDQ6rP2fLufDHOf2TG64Z3ImHMk8yGgz2od5BY4bZc7qbnUT6+eGUT4CWHJ8oxUPK5Z+omcXrAvBl77Aj1g+Gg9yibNrA7WxuHO22bo8yhPyrvmyuu7383pfy9pvfe2DGDLhARG7v7O7tOV9fN2K/7IqmE3ojMJYQe0bTnSpwshtdTxBezdzAQ/07Fx40yq3aPdrD8vu+ZHkuEvSbPkJ0lN0pUW4roVkS8qv+vY77fDUhGvYc6ZuNBdTPN1XWjQ2bw/x35i1N8g8A0KjVNg78BwZ5pFIo+TfEKX92lYJkKm7W6ICPglq5YDH8Rap1ss2MHjUxc5+2h1549yzJBjRXNHiB9J6DdIk53DI75m/Ho+8ai6veyzJob1yFu+sbDhBXWP17ZSNAm/9fY0=
-        skinName: smattox
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMjkzNzIwNjY3NCwKICAicHJvZmlsZUlkIiA6ICJmZWEyMmVmMDNlZmQ0NjNiOGQzZmNjMGU1NDNmYTU3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWF0dG94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmZDIzMTkwM2Y4MzE5MWFjNjViM2NmODcxOWNiZTQ2M2RlNTJkNzAzOTllMzE4MmVjYjZiMzE1NjkyYjVlZGIiCiAgICB9CiAgfQp9
-        updateSkins: false
+        signature: N9XOSLgWFE4NdEMxcLYSKZeIw88jrzJlrnTgPNEY57/FWR80jufRlUtkXVM8n4jTu+o1+BcvEvtuJRvq8SOjZF5tEV4bZNKJUkJhPx6KVuH78jeTQw3GFqK75xLWZofhEyzk7PT+Ge5k+WkXK5Blxmosh45sSC7uP9RsyoguS7JQZ/9EK1my5Frnq7F2A9cDl2XfrpZwBGlzfZiqcWja3UbKOXCqfXp3y8AhipjbV3qggmRjLe+HY53ERtd8lVYF25zh4uzYejnIELH1v8kLMJsgy8vdFt/48Qa1lyaiYgwRNNbBEt8EW+RtNCPOZYJvAPpDs6fsQp4AAVatMDm+ydYDJMLdwpZhNYj8YYBABKYXi+GaJaEKgc0FZ+37Th1HApc3dtBNv+UZKcaiD6M/WxU8J6e28PMQPk8+Jf6XRF1Dto53ZKIOMlzdoOOZPT/OTNrLhLT3tBQ4TMIKZ9Kf3au8boO50I+fq/3E9PeovTDTdTxpjiHxoLE0J7YJ86HWgpZdQKDjpe60aGMNdIUaf1yP8jRZzFUqknNeAZCBb45D3mY7UKQm0MmWFA7wTqG5FR4hKgpdgnG+4Qthcx+0bHDzmMzmoXxKg4hrm5+XrXDfVsTXvivDAlMw4v0RTHf7JQJSHuDTC+GDvumoBsIko/kHxXJynuF5xvMp87K1gZA=
+        skinName: irlKaren
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNjI2MDY4MiwKICAicHJvZmlsZUlkIiA6ICI4NGNiM2NhMDRhMWE0NDQzYWRjZjk3MTY1MTk5ZGFmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpcmxrYXJlbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzFjYjZlNjM4NzgyYWZjMmYxNzIwNDJjYjI1ODA1OTI5NGRjNGQ2NzZjMTVmMjk4NzQ3YzQ4MmE3NTAwY2VlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: sneak,spawned,lookclose,commandtrait,mounttrait,equipment,owner,skintrait,type,location,scoreboardtrait,inventory
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,mounttrait,skintrait,lookclose,equipment,type,inventory,location,sneak
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
+  '19':
+    metadata:
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      cached-skin-uuid-name: merkairain
+    name: Ores
+    uuid: 5b7fa7e0-f2e7-419f-a7ec-2837bbf6228f
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 87.484985
+        world: lobby
+        x: -3.6485
+        y: 67.0
+        z: 173.2648
+        yaw: 87.485
+        pitch: 0.0
+      type: PLAYER
+      owner:
+        uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      spawned: true
+      lookclose:
+        range: 5.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: n3fiKt6secpEF8k54dQPUnTNfvl0d9JcCK80DtuicOGhhvFK5SeljHEuG7DCKGVWHuIUZDnQhZaYVbL2545c3G0G4ZVVFghAVw553doY/8UvdqZHSnIrAOSmVT3WisD1/rFXoYPl0JXaA2VLd2KlXaNFEJlSfmF1cJBObMvtt1dA0PHeXA9mzCnwiHBCUgR2R4Jf1+923eMk3r5l0O0aWe8yVG20Rm7Lq55KainZUvZc9GFrP4nizJyESAqspPSu/T4bJuwGs+8xIDzBO28CrTeXbs8AfTq5wjrPwo9rstc/BN6V9Rdl1LtRs4pcvlF2nL+N7gHihISgzX8zU30VAqZV9+ZnJgh+FO7B0o8mX0lZAN8qRap7llmbiX0xxpJc+NJ5TYKekwIcbrf33EgI3xc0p0ZE8mokjjUZj6gPFqawC9NmuNPQmOY3xPzpdoJdNjS+gOxbfB/i3IOB1kfZ3Kl3J2XKgecBaOExBRaKS7Yst53EoFgt6DD7yr9taW65wTrmuQ0fq1H1Ejeg5oWmd5d4UGqWRE2f1o1aMMmC64T+e/QRG5gYSCRw1U/Z2FGBt4EUhZKOm/0wh9qdfLlHY+HkCJfyxY08GzP3xd4vhu1DLxRK9o9PPXH++vB8YU14Py9knM5xwQxkET4CjMgXOg3STlaSMCp+2TBCctVH4CI=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNjA2NDU0NywKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2N2RjZTQ2NDUzNDllNDFhN2YzNTc5N2UyYjkyNzllMzVhNjVmNWU4MWEzNDQ5Njg4NWQyNzI2OGYzNjkxMzkiCiAgICB9CiAgfQp9
+        skinName: MerKaiRain
+      commandtrait:
+        commands:
+          '0':
+            command: shop Ores
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '23':
+    metadata:
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      cached-skin-uuid-name: merkairain
+    name: Decoration
+    uuid: f0046d01-aeaf-4ac4-8a41-e1c974dbb041
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      spawned: true
+      location:
+        bodyYaw: -91.23071
+        world: lobby
+        x: -9.369
+        y: 67.0
+        z: 176.6318
+        yaw: -91.2307
+        pitch: 5.0076
+      skintrait:
+        signature: ZQT16dEfCI1zBOYbVMT5eai/7Z3H+xh/AtUe3aCJSy8xYl903YqjrZOU+1NSvFtFhUWtcQiA9PsHBimtSzUoXH/26V7gmaS/vAfxzcpJYUEnNboINJuwZOkGFLm6NNJJ7PkdBn7D9ePHuEYrVJCvXV85I5wJG5Ty9vcwhbNtpGBt1Pys+ZMTlcKOtb/+0AtPLW3/cByrZx6W2XsnMYGxQYwfYo23ziEH6HGVhWKWdm5ADHRQdqYp8k7FoXgubjAVc/SmAW5U4R4l4tByLdmMgfptXgE11hDSEK2LettSKpBo8NkMnJyq6VwE+AtqFC/10JEjBH6gOcl9+7VEP1236agdMc3VUIwrjodYjTbPKw9D10cBS0bFOIkfN4gmY7g7nokmLXuf5W5Qya1Jk9pNucF7aMtRM/F8SZQZpQEwz3pKWccbJkkc7PEF1XNrD8I+GzB7FcFIGbuq+vVs81sHhAWXLZ8n2jTXtPlgnOKkcA8G7as+MSPOuuviy4Qc0NtLMn4Jeq8GxKQKJhoWaUBKCIV15d3ObgQT7s6R9YxkqZYaaR9WwnysEWCt8RT174/gz/Z2YaCo3PZaYxwIsXjVVG7rcLFMoOJHLlR5AVsOeHZrAD+uZHxzRG6MiLiOoVnUTXC8UnsIwvS1lxZWO9FscK5BoAJgdx4heFcJ+gW9biA=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNzQ0MzExMiwKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2N2RjZTQ2NDUzNDllNDFhN2YzNTc5N2UyYjkyNzllMzVhNjVmNWU4MWEzNDQ5Njg4NWQyNzI2OGYzNjkxMzkiCiAgICB9CiAgfQp9
+      commandtrait:
+        commands:
+          '0':
+            command: shop Decoration
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '22':
+    metadata:
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      cached-skin-uuid-name: merkairain
+    name: Miscellaneous
+    uuid: 703ce65d-9f0d-4fc1-acdc-84a49ca0c1f2
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      spawned: true
+      location:
+        bodyYaw: -89.142944
+        world: lobby
+        x: -9.3898
+        y: 67.0
+        z: 173.1579
+        yaw: -89.1429
+        pitch: -1.7041
+      skintrait:
+        signature: bFDzq5bbtrxI0Vw/2OjrMGnmL6CovYhhMzO9RDyG6Xc6aa3k53upEMZBE0S6gNza9zLQijBgyRQN8RE7vhXB6X3HSFzOMM1kKBB/yUiYpmCvhxo/MwoC1tU0BltXQCvy/8xLYDi+H9lZefSzoQhovn/ix85YDqdY45L+VIobt7aTjEmMHg1YVQfGgrO679tn/Ka7Di8zJnw0OBe9SMFjIv0mn9u+0ZejdKrbjQEd8yyVweDrOsEaLaoT1s5u6dorxeLggpmkM3yQt1n1NrcWWeLwiDnE8OS9fG39OTJgJ0jAw6UZKZv1gXhmekXo0lc1slIHiBRzna2R1730kE6H+q1qM8SnldNg+pykF16SJVtRPMxJinmO59e4wCQjA1HyCNYwH7jkxnFK9SXW8xVxUYwpgEoFvJjeKN5EiKcZpGW9FYt7pGkIJfMQOWeY1dyTgzF3xoDgXLN+V+IIgON3qowQbQAU6LbGOSN1T6BpqcYFehafFsASnBOQMkXAwal+IBBN76u8uXrH3fJo/GT51rObD/J2VW8Z1IDaJTV+Tt0wDjLSrmvJb3LrkOPoRPg9F0+VZBr3jGB6Ub/lPSOQeSamTjbGmOJINTzTt1ZMqLoXOYIv56s14/QrBDMGLYb/7+JpUmDT1+GKUps2jpcaDzzNpQj+CCE7CYO9w7ytpN4=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNzM2NDMwNiwKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2N2RjZTQ2NDUzNDllNDFhN2YzNTc5N2UyYjkyNzllMzVhNjVmNWU4MWEzNDQ5Njg4NWQyNzI2OGYzNjkxMzkiCiAgICB9CiAgfQp9
+      commandtrait:
+        commands:
+          '0':
+            command: shop Miscellaneous
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '21':
+    metadata:
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      cached-skin-uuid-name: merkairain
+    name: Blocks
+    uuid: 65839cbd-84b7-4238-b26c-6cbf8251a848
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      spawned: true
+      location:
+        bodyYaw: -88.64905
+        world: lobby
+        x: -9.366
+        y: 67.0
+        z: 169.4747
+        yaw: -88.649
+        pitch: -1.3054
+      skintrait:
+        signature: xSf0fkLmFg9VZf4C/keXnulQWP4Zy8fuNED/XJ9Yc/ZM050e4P59G9RCC5bcRDCanr0oezPEzFzYRKY/yJD61bcoZxIuzQ/Pedv+YKHJY1SPVB40uuC9yIKtBienBJriRnEejvTkv12j6y8lF/4Sbk8mYikI38LdG0SSc6MkKn0oTqju1bY083/kKeJm3/0zSML298Db5H6Eqf8ABXZfoanMqKwGlhoIsi9Vfp0c1ZOg5i5uH+MPJNseNUmcv7Tv5D/xXeGYxAPUv3AgqdiOoXuFQNghntehm6WYmJfJrae+azG+fxJEmbg6XdRH8rLU3PgKxDT+DDCt1lOyBJiL7LnzolUjesINKyLiLmwUTVDta8xHFvtFbEyMcLn0jS2HPMVj7mnbiNmgHLrNVo9aKMhSzFvCn1Uc2Y8c2/3cRtDVHFPsT5I4Z+TvaV5Ov0dduWbnh3d23wXzNDhid4MtQXBKypXwkNJz+pDELBsoNF4Bz2hAfttpZemvllfU18Mv6cX5Ugv+BLNFcjOeal/D7tGhSHFLNCXZ27EftVwicVmXiioEA/GJi7TTbMWT5N+b5kr/PQdACds0lykphF63BUtrxMgp9d0IGSlnx5ufZbhiQwOieXO8NMAP5DpuCtch9sscEnmkpk16ibMEZXFdr5nEDncnR9bUFco3k8Gnif0=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNzI5MzEwMywKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2N2RjZTQ2NDUzNDllNDFhN2YzNTc5N2UyYjkyNzllMzVhNjVmNWU4MWEzNDQ5Njg4NWQyNzI2OGYzNjkxMzkiCiAgICB9CiAgfQp9
+      commandtrait:
+        commands:
+          '0':
+            command: shop Blocks
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '20':
+    metadata:
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      cached-skin-uuid-name: merkairain
+    name: Armor
+    uuid: deec9fc3-9d1b-410a-85b0-db8e6801230d
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      spawned: true
+      location:
+        bodyYaw: 91.50403
+        world: lobby
+        x: -3.7764
+        y: 67.0
+        z: 169.5361
+        yaw: 91.504
+        pitch: 5.3398
+      skintrait:
+        signature: xSf0fkLmFg9VZf4C/keXnulQWP4Zy8fuNED/XJ9Yc/ZM050e4P59G9RCC5bcRDCanr0oezPEzFzYRKY/yJD61bcoZxIuzQ/Pedv+YKHJY1SPVB40uuC9yIKtBienBJriRnEejvTkv12j6y8lF/4Sbk8mYikI38LdG0SSc6MkKn0oTqju1bY083/kKeJm3/0zSML298Db5H6Eqf8ABXZfoanMqKwGlhoIsi9Vfp0c1ZOg5i5uH+MPJNseNUmcv7Tv5D/xXeGYxAPUv3AgqdiOoXuFQNghntehm6WYmJfJrae+azG+fxJEmbg6XdRH8rLU3PgKxDT+DDCt1lOyBJiL7LnzolUjesINKyLiLmwUTVDta8xHFvtFbEyMcLn0jS2HPMVj7mnbiNmgHLrNVo9aKMhSzFvCn1Uc2Y8c2/3cRtDVHFPsT5I4Z+TvaV5Ov0dduWbnh3d23wXzNDhid4MtQXBKypXwkNJz+pDELBsoNF4Bz2hAfttpZemvllfU18Mv6cX5Ugv+BLNFcjOeal/D7tGhSHFLNCXZ27EftVwicVmXiioEA/GJi7TTbMWT5N+b5kr/PQdACds0lykphF63BUtrxMgp9d0IGSlnx5ufZbhiQwOieXO8NMAP5DpuCtch9sscEnmkpk16ibMEZXFdr5nEDncnR9bUFco3k8Gnif0=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NjgyNzI5MzEwMywKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2N2RjZTQ2NDUzNDllNDFhN2YzNTc5N2UyYjkyNzllMzVhNjVmNWU4MWEzNDQ5Njg4NWQyNzI2OGYzNjkxMzkiCiAgICB9CiAgfQp9
+      commandtrait:
+        commands:
+          '0':
+            command: shop Armor
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '24':
+    metadata:
+      cached-skin-uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      cached-skin-uuid-name: merkairain
+    name: Mob Drops
+    uuid: f5a08b86-cfe0-4b3a-84c4-8e900fccaa06
+    traits:
+      owner:
+        uuid: 21c1ffe5-208b-477b-b070-5ff94182d48d
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: shop Mobs
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      location:
+        bodyYaw: -88.83438
+        world: lobby
+        x: -23.28
+        y: 64.0
+        z: 138.519
+        yaw: -88.8344
+        pitch: -5.5584
+      skintrait:
+        signature: CP9mFw1kPZfGualAJ9UbtbkoekgCKvhvZ7+yuJjzkPi2CIu31dFPpuI7B4BeqsGV7Dem9hkBwPxNE99baa4atUGBJnpDpCmFyG33be6/YLSXn9sofNJ4P7AeK0pLUcNiGeGDBZPut6Zkw/ql+urgOuHPK5lg4rzsLM84kL7MgbiuGW2sbjCibJDiUgfbmRs/aq+oWZ/sMzAwwJGInpuL0M5bkhijYxCes4+5nTsdirs2oPCGGUMwFgzAuxk5KVKh3QKyurjdmODPNnq5oH4Y4vf2OyR4YQC4LU3DlLR1LU1QiakeYJPJhnlDHhqLOZAfhSJFnHNl0Us6pOpoF1XUn/SLOfULXgVU9UU4bepx7bckcBCqPxhvMrkvmflym2Y+ysEp5HTovrvfwKMCta0H8RDtpyFCC4UcFPDV+MoIg+ptVV322mWWvjTU4KLrEyh7DucFrPz+SbFPK7EK6rPxpLgmH4ntgbz6dJ+b1whYS9BDmsizy/VftbtE8hQw8kLr9xZZhRGoZBJ36IVQhNqfnjQHDCxZLrpg9ZLks9cu7WG3WUZWhVYWaGXv4pt8hj0N72NqPXP+sA7lSWG+Ecpn3+04o1rNc+PgTx3c7R+CiHDV0/vIO7CYh8PkBLGW3DTQdIM3DKWnFSCmlXAyCtQda4TR3lhw3sKFPuqc/uPZTzI=
+        skinName: MerKaiRain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NzQyODI1NDYwNiwKICAicHJvZmlsZUlkIiA6ICIyMWMxZmZlNTIwOGI0NzdiYjA3MDVmZjk0MTgyZDQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJLYWlSYWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2N2RjZTQ2NDUzNDllNDFhN2YzNTc5N2UyYjkyNzllMzVhNjVmNWU4MWEzNDQ5Njg4NWQyNzI2OGYzNjkxMzkiCiAgICB9CiAgfQp9
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

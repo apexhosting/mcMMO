@@ -1,29 +1,29 @@
-
 #
 #  Experience configuration
 #  Last updated on 2.1.207-b${BUILD_NUMBER}
 #
 #  Configure the experience formula and experience settings here.
 #
-#####
+# ####
 # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
 # These are the only valid colors for Experience Bars, use the exact name found here
 # BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW (As of the time of this update these are the only Bar colors available, this could change in the future so check the BarColor enum to see if it has)
 # BarStyle Settings (USE THE EXACT NAME) :
-#SEGMENTED_10
+# SEGMENTED_10
 #   Splits the boss bar into 10 segments
-#SEGMENTED_12
+# SEGMENTED_12
 #   Splits the boss bar into 12 segments
-#SEGMENTED_20
+# SEGMENTED_20
 #   Splits the boss bar into 20 segments
-#SEGMENTED_6
+# SEGMENTED_6
 #   Splits the boss bar into 6 segments
-#SOLID
+# SOLID
 #   The bar is one solid piece
 EarlyGameBoost:
     Enabled: true
     MaxLevelMultiplier: 0.05
 ExploitFix:
+    # Prevent many exploits related to fishing
     # Prevent many exploits related to fishing
     # Prevent many exploits related to fishing
     # Prevent many exploits related to fishing
@@ -49,8 +49,18 @@ ExploitFix:
     # This include NPCs from stuff like Citizens, this is not a setting for Vanilla Minecraft Villagers (Which can be considered NPCs)
     # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
     # Of course, mcMMO doesn't know for sure whether or not something is an NPC, it checks a few known things, see our source code to see how
+    # This include NPCs from stuff like Citizens, this is not a setting for Vanilla Minecraft Villagers (Which can be considered NPCs)
+    # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
+    # Of course, mcMMO doesn't know for sure whether or not something is an NPC, it checks a few known things, see our source code to see how
     PreventPluginNPCInteraction: true
+    Combat:
+        XPCeiling:
+            Enabled: true
+            Damage_Limit: 100
+    PreventArmorStandInteraction: true
+    LimitTallPlantFarming: true
 Experience_Bars:
+    # Turn this to false if you wanna disable XP bars
     # Turn this to false if you wanna disable XP bars
     # Turn this to false if you wanna disable XP bars
     # Turn this to false if you wanna disable XP bars
@@ -61,7 +71,9 @@ Experience_Bars:
         # XP that you gained from your party but not yourself
         # XP that you gained from your party but not yourself
         # XP that you gained from your party but not yourself
+        # XP that you gained from your party but not yourself
         Party: true
+        # Passive is stuff like smelting, brewing
         # Passive is stuff like smelting, brewing
         # Passive is stuff like smelting, brewing
         # Passive is stuff like smelting, brewing
@@ -75,9 +87,12 @@ Experience_Bars:
     # I recommend leaving this off!
     # If you want to use a fancy edited title from the locale, then you'll probably want to turn this on, but it will make your server do a lot more work!
     # I recommend leaving this off!
+    # If you want to use a fancy edited title from the locale, then you'll probably want to turn this on, but it will make your server do a lot more work!
+    # I recommend leaving this off!
     ThisMayCauseLag:
         AlwaysUpdateTitlesWhenXPIsGained:
             Enable: false
+            # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
             # You can make your own custom details in the locale file without having to use the ExtraDetails setting!
@@ -143,6 +158,21 @@ Experience_Bars:
         Enable: true
         Color: GREEN
         BarStyle: SEGMENTED_6
+    Crossbows:
+        Enable: true
+        Color: BLUE
+        BarStyle: SEGMENTED_6
+    Maces:
+        Enable: true
+        Color: BLUE
+        BarStyle: SEGMENTED_6
+    Tridents:
+        Enable: true
+        Color: BLUE
+        BarStyle: SEGMENTED_6
+#
+#                                Settings for XP formula
+# ##
 #
 #                Settings for XP formula
 # ##
@@ -154,8 +184,12 @@ Experience_Bars:
 # ##
 #
 #  Settings for XP formula
-###
+# ##
 Experience_Formula:
+    # Valid values are: LINEAR and EXPONENTIAL
+    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+    # LINEAR:                                                                                                base + (level * multiplier)
+    # EXPONENTIAL: multiplier * level ^ exponent + base
     # Valid values are: LINEAR and EXPONENTIAL
     # If an invalid value is entered, this will reset to the default setting, which is LINEAR
     # LINEAR:                                                base + (level * multiplier)
@@ -177,6 +211,7 @@ Experience_Formula:
     # If invalid values are entered mcMMO will not start and print an error in the console
     # If invalid values are entered mcMMO will not start and print an error in the console
     # If invalid values are entered mcMMO will not start and print an error in the console
+    # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
         base: 1020
         multiplier: 20
@@ -192,7 +227,10 @@ Experience_Formula:
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
+    # Cumulative experience curves will use a players power level instead of their skill level,
+    # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     Cumulative_Curve: false
+    # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
@@ -204,6 +242,7 @@ Experience_Formula:
         Multiplier: 0
     Breeding:
         Multiplier: 1.0
+    # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
@@ -230,8 +269,11 @@ Experience_Formula:
     # with 1.25 by default, resulting in a 25% XP boost
     # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
     # with 1.25 by default, resulting in a 25% XP boost
+    # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
+    # with 1.25 by default, resulting in a 25% XP boost
     Custom_XP_Perk:
         Boost: 1.25
+    # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
@@ -240,6 +282,23 @@ Experience_Formula:
         Multiplier: 0
     Nether_Portal:
         Multiplier: 0
+    Skill_Multiplier:
+        Maces: 1.0
+        Crossbows: 1.0
+        Tridents: 1.0
+        Swords: 1.0
+        Taming: 1.0
+        Acrobatics: 1.0
+        Excavation: 1.0
+        Herbalism: 1.0
+        Unarmed: 1.0
+        Woodcutting: 1.0
+        Mining: 1.0
+        Archery: 1.0
+        Axes: 1.0
+        Repair: 1.0
+        Fishing: 1.0
+        Alchemy: 1.0
 #
 # Settings for Diminished Returns
 # ##
@@ -251,7 +310,10 @@ Experience_Formula:
 # ##
 #
 # Settings for Diminished Returns
-###
+# ##
+#
+# Settings for Diminished Returns
+# ##
 Diminished_Returns:
     # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
     # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
@@ -262,11 +324,16 @@ Diminished_Returns:
     # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
     # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
     # ## Set this value to 0 to turn it off
-    #This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
-    ## A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
-    ### Set this value to 0 to turn it off
+    # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
+    # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
+    # ## Set this value to 0 to turn it off
+    # This is the minimum amount of XP a player will earn after reaching the timed threshold (this is to prevent punishing a player too hard for earning XP)
+    # # A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
+    # ## Set this value to 0 to turn it off
     Guaranteed_Minimum_Percentage: 0.05
     Enabled: false
+    # Limit the amount of experience a player can earn:
+    # Threshold (amount of experience) per Time_Interval (in minutes)
     # Limit the amount of experience a player can earn:
     # Threshold (amount of experience) per Time_Interval (in minutes)
     # Limit the amount of experience a player can earn:
@@ -289,7 +356,13 @@ Diminished_Returns:
         Repair: 20000
         Fishing: 20000
         Alchemy: 20000
+        Crossbows: 20000
+        Tridents: 20000
+        Maces: 20000
     Time_Interval: 10
+#
+#                                Settings for XP conversion with '/mcconvert experience'
+# ##
 #
 #                Settings for XP conversion with '/mcconvert experience'
 # ##
@@ -301,13 +374,17 @@ Diminished_Returns:
 # ##
 #
 #  Settings for XP conversion with '/mcconvert experience'
-###
+# ##
 Conversion:
     # Old experience will get divided by this modifier
     # Old experience will get divided by this modifier
     # Old experience will get divided by this modifier
     # Old experience will get divided by this modifier
+    # Old experience will get divided by this modifier
     Exp_Modifier: 1
+#
+#                                Settings for XP distribution
+# ##
 #
 #                Settings for XP distribution
 # ##
@@ -319,7 +396,7 @@ Conversion:
 # ##
 #
 #  Settings for XP distribution
-###
+# ##
 Experience_Values:
     PVP:
         Rewards: true
@@ -327,6 +404,7 @@ Experience_Values:
         Dodge: 800
         Roll: 600
         Fall: 600
+        # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
@@ -357,11 +435,29 @@ Experience_Values:
         # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
         # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
         # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
+        # Alchemy potion stages are based on the number of ingredients added
+        # Potion_Stage_1 represents a base potion
+        # Potion_Stage_2 represents a base potion with one ingredient
+        # Potion_Stage_3 represents a base potion with one ingredient and one amplifier
+        # Potion_Stage_4 represents a base potion with one ingredient and two amplifiers
+        # Potion_Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
         Potion_Stage_1: 15
         Potion_Stage_2: 30
         Potion_Stage_3: 60
         Potion_Stage_4: 120
         Potion_Stage_5: 0
+        Potion_Brewing:
+            # Alchemy potion stages are based on the number of ingredients added
+            # Stage_1 represents a base potion
+            # Stage_2 represents a base potion with one ingredient
+            # Stage_3 represents a base potion with one ingredient and one amplifier
+            # Stage_4 represents a base potion with one ingredient and two amplifiers
+            # Stage_5 represents a base potion with one ingredient where the amplifiers are swapped
+            Stage_1: 666
+            Stage_2: 1111
+            Stage_3: 1750
+            Stage_4: 2250
+            Stage_5: 0
     Archery:
         Distance_Multiplier: 0.025
     Fishing:
@@ -385,6 +481,8 @@ Experience_Values:
         Soul_Sand: 40
         Soul_Soil: 40
         Rooted_Dirt: 60
+        Mud: 80
+        Muddy_Mangrove_Roots: 90
     Woodcutting:
         Oak_Log: 70
         Spruce_Log: 80
@@ -422,6 +520,20 @@ Experience_Values:
         Warped_Wart_Block: 1
         Stripped_Crimson_Hyphae: 50
         Nether_Wart_Block: 1
+        Cherry_Log: 105
+        Pale_Oak_Log: 130
+        Stripped_Cherry_Log: 105
+        Stripped_Pale_Oak_Log: 130
+        Stripped_Cherry_Wood: 70
+        Stripped_Pale_Oak_Wood: 90
+        Stripped_Mangrove_Log: 110
+        Stripped_Crimson_Stem: 50
+        Stripped_Warped_Stem: 50
+        Cherry_Wood: 105
+        Pale_Oak_Wood: 110
+        Mangrove_Wood: 80
+        Mangrove_Log: 95
+        Mangrove_Roots: 10
     Herbalism:
         Sweet_Berry_Bush: 300
         Seagrass: 10
@@ -523,6 +635,17 @@ Experience_Values:
         Glow_Lichen: 200
         Cave_Vines_Plant: 90
         Big_Dripleaf: 140
+        Eyeblossom: 66
+        Open_Eyeblossom: 66
+        Closed_Eyeblossom: 66
+        Pitcher_Plant: 160
+        Pink_Petals: 10
+        Pale_Hanging_Moss: 150
+        Pale_Moss_Block: 10
+        Pale_Moss_Carpet: 10
+        Beetroot: 50
+        Short_Grass: 10
+        Torchflower: 90
     Mining:
         Tube_Coral_Block: 75
         Brain_Coral_Block: 80
@@ -617,6 +740,15 @@ Experience_Values:
         Medium_Amethyst_Bud: 20
         Copper_Ore: 1400
         Smooth_Basalt: 300
+        Sculk: 4
+        Sculk_Vein: 3
+        Sculk_Sensor: 6
+        Sculk_Catalyst: 10
+        Sculk_Shrieker: 12
+        Reinforced_Deepslate: 500
+        Packed_Mud: 30
+        Mud_Bricks: 40
+        Dripstone_Block: 35
     Repair:
         Base: 1000.0
         Wood: 0.6
@@ -670,6 +802,10 @@ Experience_Values:
             Bee: 100
             Goat: 250
             Axolotl: 600
+            Camel: 1300
+            Sniffer: 1500
+            Snifflet: 900
+            Frog: 900
     Combat:
         Multiplier:
             Animals: 1.0
@@ -742,6 +878,16 @@ Experience_Values:
             Glow_Squid: 1.5
             Goat: 1.5
             Axolotl: 1.75
+            Armadillo: 1.1
+            Allay: 0.2
+            Frog: 1.7
+            Warden: 6.0
+            Tadpole: 0.2
+            Sniffer: 1.1
+            Snifflet: 1.1
+            Camel: 1.2
+            Bogged: 2.0
+            Breeze: 4.0
 Fishing_ExploitFix_Options:
     MoveRange: 3
     OverFishLimit: 10

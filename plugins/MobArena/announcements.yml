@@ -83,3 +83,4 @@ join-interrupted-by-damage: Join aborted due to taking damage.
 join-interrupted-by-movement: Join aborted due to movement.
 not-in-lobby: You are not in the lobby
 misc-reward-added: 'You were just given a reward: &e%&r'
+wave-tier-reward: 'You just unlocked a new reward tier: &e%&r'

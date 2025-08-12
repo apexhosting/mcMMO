@@ -2,18 +2,13 @@ ConfigVersion: '2.0'
 Exploits:
   Other:
     PreventMinecartsInBoats: true
-    DisableChestsOnMobs: true
-    PunishForChestsOnMobs: false
     PreventHoppersToUnloadedChunks: true
     PreventCommandsInBed: true
     PreventBedrockDestruction: true
     PreventEndPortalDestruction: true
-    DisableRidingExploitableMobs: true
     PreventBedExplosions: true
-    PreventInvalidElytraFlight: true
     PreventNestedShulkers: true
     PreventRailDupe: true
-    PreventInvalidPotions: true
     PreventItemSwapLagExploit: true
   Enchants:
     RemoveUnbreakableFlag: false
@@ -29,6 +24,7 @@ Exploits:
   1_15_Exploits:
     Dupes:
       PreventTripwireDupe: true
+      PreventStringDupe: true
   OverStack:
     RemoveItemsOfType: []
     StackWhiteListMode: true
@@ -98,6 +94,10 @@ Exploits:
     Dupes: {}
   RecordDupe: true
   NegativeDurability: true
+  1_13_Exploits:
+    Entities:
+      ProjectileDespawnDelay: 0
+      PreventProjectileExploit2: false
 UserRequested:
   ItemRemoval:
     ItemNamesToRemove: []
@@ -114,11 +114,15 @@ UserRequested:
       IgnoreAllHopperChecks: false
     IgnoreAllShulkerPlaceChecks: false
     BlockBadItemsFromCreativeTab: false
+    Misc:
+      RemoveAllRenamedItems: false
+    DisableCraftingRecipes: []
   Obsure:
     Misc:
       RemoveAllRenamedItems: false
   Mobs:
     PreventZombieItemPickup: false
+    PreventVexTrapping: false
   Misc:
     NotifyInsteadOfBlock: []
   Cobble:
@@ -127,6 +131,10 @@ UserRequested:
     DamageAmount: 0
     DamagePlayersAboveNether: false
     DamageDelay: 0
+  Spawners:
+    ResetSpawnersOfType: []
+    ResetSpawnersOfTypeOnSpawn: []
+    SpawnerReset: false
 Exploit:
   LagMachines:
     End Crystal: true

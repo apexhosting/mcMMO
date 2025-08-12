@@ -1,0 +1,12 @@
+location: lobby:4.188:68.200:135.754
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lMobArena &c&lInfo'
+    height: 0.3
+  actions: {}

@@ -1,4 +1,3 @@
-
 # This config allows servers to change which data is persistent and which data isn't
 # For 10 years mcMMO had transient data (temporary) for a lot of things and recently in October 2020 I added the option to have things be persistent (saved to disk and permanently remembered)
 # However, this is Minecraft, and Minecraft has a lot of entities, and when you start to make data persistent there is a performance cost associated with that

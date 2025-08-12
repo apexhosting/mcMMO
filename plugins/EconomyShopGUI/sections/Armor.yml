@@ -1,0 +1,14 @@
+enable: true
+slot: 5
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: DIAMOND_CHESTPLATE
+  displayname: '&b&lArmor'
+  name: '&b&lArmor'

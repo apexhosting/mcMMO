@@ -1,0 +1,14 @@
+currentQuests: []
+currentStages: []
+quest-points: 0
+completedRedoableQuests:
+- Hunter
+- TimedQuest
+- CatchFish
+- Miner
+completedQuestTimes:
+- 1747429140581
+- 1747429140581
+- 1747429140581
+- 1747429140581
+lastKnownName: Chesvin1

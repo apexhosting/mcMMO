@@ -79,6 +79,12 @@ arenas:
       boss-health-bar: boss-bar
       arena-warp-offset: 0
       announcer-type: title
+      clear-wave-leeway: 0
+      monster-teleporting: false
+      auto-leave-on-end: false
+      spawnpoint-min-distance: 0
+      spawnpoint-max-distance: 15
+      auto-ignite-fuse: 80
     waves:
       recurrent:
         def1:

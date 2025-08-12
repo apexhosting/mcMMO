@@ -1,0 +1,737 @@
+Settings: 
+    Prefix: '&6&lCrazyAuctionsPlus &f&l>>> ' #Prefix of when you get Crazy Auctions Messages.
+    Main-GUIName: '&8&lGlobal Market&c&l' #Name of the Main GUI.
+    Sell-GUIName: '&8&lGlobal Market | &b&lSelling&c&l' #Name of the Selling Items GUI.
+    Buy-GUIName: '&8&lGlobal Market | &d&lBuying&c&l' #Name of the Buying Items GUI.
+    Bid-GUIName: '&8&lGlobal Market | &5&lBidding&c&l' #Name of the Bidding Items GUI.
+    Player-Items-List: '&8&lItems List' #The Name of the Player items list GUI.
+    Player-Items-Mail: '&8&lMail&c&l' #Name of the Player Item Mail GUI.
+    Player-Viewer-GUIName: '&8&lViewing other players'' items&c&l' #Name of the Viewer GUI.
+    Buying-Item: '&8Purchase Item: Are You Sure?' #Name of the Buying GUI.
+    Selling-Item: '&8Items for sale: Are You Sure?' #Name of the Selling GUI.
+    Bidding-On-Item: '&8You Are Bidding On This Item.' #Name of the Bidding GUI.
+    Categories: '&8&lCategories' #Name of the Category GUI.
+    Language: English #Messages.yml language
+    Sell-Time: 10d #The time that each item will sell for.
+    Buy-Time: 10d #The time that each item will buy for.
+    Bid-Time: 2m #Time for each item that is biddable.
+    Full-Expire-Time: 10d #The full time the item is in the crazy auctions.
+    Minimum-Sell-Price: 10 #Minimum amount you can sell a item for.
+    Max-Beginning-Sell-Price: 1000000 #Max amount you can sell a item for.
+    Minimum-Buy-Reward: 10 #Minimum amount you can buy a item for.
+    Max-Beginning-Buy-Reward: 1000000 #Max amount you can buy a item for.
+    Minimum-Bid-Price: 100 #Minimum starting bid.
+    Max-Beginning-Bid-Price: 1000000 #Maximum starting bid.
+    Repricing-Timeout: 30 #Repricing timeout (seconds)
+    Allow-Damaged-Items: false #Allow items that have been damaged.
+    Join-Message: true #Whether to prompt if there is a new item email when the player joining.
+    Auction-Starts-Broadcast: true #Whether to send a message to all players in the server when a player initiates a new auction.
+    Category-Page-Opens-First: false #If set to true the categories page will open when they do /CA.
+    Item-NBT-comparison: true #Does the item match the buyer's and seller's NBT when purchasing the item.
+    Automatic-Backup: false #Whether to enable automatic backup, automatically back up the stored data every time the server is shut down.
+    Download: #Database download file related settings
+        Market: 'plugins/CrazyAuctionsPlus/Download/GlobalMarket-%date%.yml'
+        PlayerData: 'plugins/CrazyAuctionsPlus/Download/Player/%player%-%uuid%.yml'
+    Upload: #Database upload file related settings
+        Market: 'plugins/CrazyAuctionsPlus/Database.yml'
+        PlayerData: 'plugins/CrazyAuctionsPlus/Player/%uuid%.yml'
+    Global-Market-Automatic-Update: #Automatic update of market data
+        Enabled: true
+        Update-Delay: 5
+    Feature-Toggle: #Toggle if a feature is on or off.
+        Selling: true #Able to use the selling part of the auction house.
+        Bidding: true #Able to use the bidding part of the auction house.
+        Buying: true #Able to use the buying part of the auction house.
+    Disabled-Worlds: #Worlds where the use of this plug-in function is prohibited.
+    - exampleworld 
+    MySQL-Storage: #MySQL Database settings
+        Enabled: false
+        Hostname: localhost
+        Port: 3306
+        Username: 'root'
+        Password: 'password'
+        Database: 'crazyauctionsplus' #Database's name
+        Parameter: '?useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8' #More connection parameters. If you are not a developer and are not familiar with JDBC, please do not modify it.
+        Automatic-Repair: -1 #The number of times the system automatically repairs the connection when the database connection is disconnected (-1 is infinite)
+        Data-Reacquisition: #If you have multiple servers using the same MySQL, it is recommended to enable it to ensure real-time data synchronization
+            Market: true
+            Item-Mail: true
+            Delay: 0 #Interval (seconds, can have decimals)
+        Table-Name: 
+            Market: market
+            Item-Mail: itemMail
+    SQLite-Storage: #SQLite Database settings
+        Enabled: false
+        Database-File: 'Database.db'
+        Database-Path: 'plugins/CrazyAuctionsPlus/'
+        Automatic-Repair: 3 #When the database fails, the number of automatic repairs, filling -1 is countless times
+        Data-Reacquisition:
+            Market: false
+            Item-Mail: false
+            Delay: 5 #Interval (seconds, can have decimals)
+        Table-Name: 
+            Market: market
+            Item-Mail: itemMail
+    #Make different storage objects stored on different types of databases.
+    #Optional: YAML (.yml), MySQL, SQlite (.db)
+    Split-Database:
+        Enabled: false
+        Market: MySQL
+        Item-Mail: MySQL
+    Sounds:
+        Toggle: true #Disable the clicking sound.
+        Sound: 'UI_BUTTON_CLICK' #Make sure if you use 1.8 or lower you use the 1.8 sound and 1.9 and up use 1.9 sounds. The default sound is 1.8.
+        #Sounds are found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    #Item Blacklist
+    BlackList:
+    - 'BEDROCK'
+    - 'END_PORTAL_FRAME'
+    #Item lores blacklist (If this lore text is included, it will not be listed into market)
+    Lore-Blacklist: 
+    - '[Blacklist]' #If this text "[Blacklist]" is included in item's lore, it will not be listed into market.
+    #Sign's Shop
+    #When the player clicks on the sign, open the shop viewer of the specified player
+    Shop-Sign:
+        Enabled: true
+        #This text format is used for the first line of the sign.
+        #Place a sign, write the format on the first line, and the player's name on the second line.
+        #You can open the designated player's shop viewer by right-clicking the sign.
+        Title-Format: '[ShopSign]'
+    #Easy commands, automatically replaced by other commands when the player enters the specified command
+    Easy-Commands:
+        Enabled: true
+        Commands:
+            #Format  'custom command': 'target command'
+            'shop': 'ca gui'
+            'market': 'ca gui'
+            'ah': 'ca gui'
+            'hdv': 'ca gui'
+    Auction-Process-Settings:
+        Starting:
+            Enabled: true
+            Messages:
+                - '{prefix}&aPlayer &e%player% &ahas started an auction of the item &r%item% &afor &e$%money%&a! Use the command &c/Ca Gui Bid &ato Join the Auction!'
+        Bidding:
+            Enabled: true
+            Messages: 
+                - '{prefix}&aPlayer &e%bidder% &abids on &r%item% &afor &e$%price%! &7(Use [/ca gui bid] to bid!)'
+        Bid-Overtime: #When another player initiates a bid for a product with the remaining specified time, the auction transaction time will be extended.
+            Enabled: false
+            Times:
+                60: #60 seconds remaining
+                    Overtime: 120 #Overtime duration (unit is second, can have decimals)
+                    Messages: 
+                       - '{prefix}&aPlayer &e%bidder% &abids on auction item &r%item% &awith less than a minute remaining! So overtime for two minutes! &7(Use [/ca gui bid] to bid!)'
+        Countdown-Tips:
+            Enabled: true
+            Update-Delay: 1 #It is not recommended to change to a number other than 1, it may cause some time to be undetectable
+            Times:
+                90:
+                - '{prefix}&aPlayer &e%owner%''s &aauction item &r%item% &ahas &c90 seconds &ato announce a deal!, Use [/ca gui bid] to bid!'
+                60:
+                - '{prefix}&aPlayer &e%owner%''s &aauction item &r%item% &ahas &c60 seconds &ato announce a deal!, Use [/ca gui bid] to bid!'
+                30:
+                - '{prefix}&aPlayer &e%owner%''s &aauction item &r%item% &ahas &c30 seconds &ato announce a deal!, Use [/ca gui bid] to bid!'
+                10:
+                - '{prefix}&aPlayer &e%owner%''s &aauction item &r%item% &ahas &c10 seconds &ato announce a deal!, Use [/ca gui bid] to bid!'
+        Ending:
+            Enabled: true
+            Messages: 
+                - '{prefix}&aPlayer &e%bidder% &awon the auction for item &r%item% &aat the highest price of &e$%price%&a! Congratulations!'
+    GUISettings: #Settings for things in the gui.
+        Auction-Settings:
+            Top-Bidder: #The item for when a player is already the top bidder.
+                Item: 'BARRIER'
+                Name: '&cYou are already the top bidder.'
+            Bidding: #The item in the middle when bidding on an item.
+                Item: 'BLACK_STAINED_GLASS_PANE'
+                Name: '&7Bidding'
+                Lore:
+                - '&7<--&aAdd &cRemove&7-->'
+                - '&9Your Current Bid: &e$%bid%'
+                - '&9Current Top Bid: &e$%topbid%'
+            Bid: #The button for when you want to confirm your bid.
+                Item: 'LIGHT_BLUE_STAINED_GLASS_PANE'
+                Name: '&bBid Now'
+                Lore:
+                - '&7Click here to Bid Now.'
+            Bidding-Buttons:
+                1:
+                    Item: LIME_STAINED_GLASS_PANE
+                    Name: '&a+1'
+                    Slot: 9
+                10:
+                    Item: LIME_STAINED_GLASS_PANE
+                    Name: '&a+10'
+                    Slot: 10
+                100:
+                    Item: LIME_STAINED_GLASS_PANE
+                    Name: '&a+100'
+                    Slot: 11
+                1000:
+                    Item: LIME_STAINED_GLASS_PANE
+                    Name: '&a+1000'
+                    Slot: 12
+                -1:
+                    Item: RED_STAINED_GLASS_PANE
+                    Name: '&c-1'
+                    Slot: 14
+                -10:
+                    Item: RED_STAINED_GLASS_PANE
+                    Name: '&c-10'
+                    Slot: 15
+                -100:
+                    Item: RED_STAINED_GLASS_PANE
+                    Name: '&c-100'
+                    Slot: 16
+                -1000:
+                    Item: RED_STAINED_GLASS_PANE
+                    Name: '&c-1000'
+                    Slot: 17
+        Category-Settings:
+            GUI-Size: 45 #GUI interface size
+            ShopType-Category:
+                Selling:
+                    Item: 'LIGHT_BLUE_WOOL'
+                    Toggle: true
+                    Slot: 29
+                    Name: '&b&lSelling items'
+                    Lore:
+                    - '&7This category contains'
+                    - '&7All selling items.'
+                Buying:
+                    Item: 'MAGENTA_WOOL'
+                    Toggle: true
+                    Slot: 31
+                    Name: '&d&lBuying items'
+                    Lore:
+                    - '&7This category contains'
+                    - '&7All buying items.'
+                Bidding:
+                    Item: 'PURPLE_WOOL'
+                    Toggle: true
+                    Slot: 33
+                    Name: '&5&lBidding items'
+                    Lore:
+                    - '&7This category contains'
+                    - '&7All bidding items.'
+                None:
+                    Item: 'LIME_WOOL'
+                    Toggle: true
+                    Slot: 35
+                    Name: '&a&lNone Store Category'
+                    Lore:
+                    - '&7This category contains'
+                    - '&7All items currently.'
+            Custom-Category:
+                #You can create a new category button in the following style.
+                Armor:
+                    Item: 'DIAMOND_CHESTPLATE'
+                    Toggle: true
+                    Category-Module: Armor
+                    Slot: 11
+                    Name: '&6&lArmor'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7armor that is currently.'
+                Weapons:
+                    Item: 'DIAMOND_SWORD'
+                    Toggle: true
+                    Category-Module: Weapons
+                    Slot: 12
+                    Name: '&6&lWeapons'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7weapons that are currently.'
+                Tools:
+                    Item: 'DIAMOND_PICKAXE'
+                    Toggle: true
+                    Category-Module: Tools
+                    Slot: 13
+                    Name: '&6&lTools'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7tools that are currently.'
+                Food:
+                    Item: 'ENCHANTED_GOLDEN_APPLE'
+                    Toggle: true
+                    Category-Module: Foods
+                    Slot: 14
+                    Name: '&6&lFood'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7food that is currently.'
+                Potions:
+                    Item: 'POTION'
+                    Toggle: true
+                    Category-Module: Potions
+                    Slot: 15
+                    Name: '&6&lPotions'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7potions that are currently.'
+                Blocks:
+                    Item: 'GRASS_BLOCK'
+                    Toggle: true
+                    Category-Module: Blocks
+                    Slot: 16
+                    Name: '&6&lBlocks'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7blocks that are currently.'
+                Other:
+                    Item: 'LAVA_BUCKET'
+                    Toggle: true
+                    Category-Module: Others
+                    Slot: 17
+                    Name: '&6&lOthers'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7the other items currently.'
+                None:
+                    Item: 'COMPASS'
+                    Toggle: true
+                    Category-Module: None
+                    Slot: 23
+                    Name: '&3&lNone Categories'
+                    Lore:
+                    - '&7This category contains all'
+                    - '&7items currently being sold.'
+        OtherSettings: #Other Settings for the GUIs.
+            Commoditys: #The button for your current items.
+                Item: 'DIAMOND' #The item that this button is.
+                Toggle: true #If the item is in the gui or not.
+                Slot: 47 #The slot it is in. I recommend not changing these. If you do make sure they are still in the bottom row.
+                Name: '&6All your items' #Name of the item.
+                Lore: #Lore of the item.
+                - '&aClick here to view all the items you'
+                - '&aare currently selling on the auction.'
+            Items-Mail: #The button for Cancelled/Expired Items.
+                Item: 'ENDER_CHEST'
+                Toggle: true
+                Slot: 48
+                Name: '&6Items Mail'
+                Lore:
+                - '&aClick here to view and collect all of the'
+                - '&aitems you have canceled or has expired.'
+            PreviousPage: #The button for Previous Page.
+                Item: 'PAPER'
+                Toggle: true
+                Slot: 49
+                Name: '&6Previous Page'
+                Lore: {}
+            Refesh: #The button for Refresh Page.
+                Item: 'SUNFLOWER'
+                Toggle: true
+                Slot: 50
+                Name: '&6Refresh Page'
+                Lore: {}
+            NextPage: #The button for Next Page.
+                Item: 'PAPER'
+                Toggle: true
+                Slot: 51
+                Name: '&6Next Page'
+                Lore: {}
+            Category: #The button for Category.
+                Item: 'CHEST'
+                Toggle: true
+                Slot: 52
+                Name: '&6Categories'
+                Lore:
+                - ''
+                - '&bCurrent Category: &6%category%'
+                - '&aWant to see items in specific categories?'
+                - '&aClick here to see all categories of items.'
+            Custom: #Custom button
+                Item: 'COMPASS'
+                Toggle: true
+                Slot: 46
+                Close: false
+                Name: '&cBack to Main menu'
+                Lore:
+                - ''
+                - '&eClick to back.'
+                #Command format: '[target]:[command]'
+                #Example:
+                # - 'server:say hello' Executed by the console.
+                # - 'op:say hello' Performed by the player, bypassing permissions restrictions.
+                # - 'player:say hello' Performed by the player.
+                #Placeholders: %player% = player's name, %player_uuid% = player's uuid.
+                Commands:
+                - 'server:dm open menu %player%'
+            Shopping: #Switch between Selling, Buying, Bidding and All.
+                Others:
+                    Item: 'LIME_WOOL'
+                    Toggle: true
+                    Slot: 53
+                    Name: '&6Viewing &a&lAll &6products now.'
+                    Lore:
+                    - ''
+                    - '&eClick to switch to &b&lSelling'
+                Selling:
+                    Item: 'LIGHT_BLUE_WOOL'
+                    Toggle: true
+                    Slot: 53
+                    Name: '&6Viewing &b&lSelling &6products now.'
+                    Lore:
+                    - ''
+                    - '&eClick to switch to &d&lBuying'
+                Buying:
+                    Item: 'MAGENTA_WOOL'
+                    Toggle: true
+                    Slot: 53
+                    Name: '&6Viewing &d&lBuying &6products now.'
+                    Lore:
+                    - ''
+                    - '&eClick to switch to &5&lBidding'
+                Bidding:
+                    Item: 'PURPLE_WOOL'
+                    Toggle: true
+                    Slot: 53
+                    Name: '&6Viewing &5&lBidding &6products now.'
+                    Lore:
+                    - ''
+                    - '&eClick to switch to &a&lAll'
+            WhatIsThis: #The info on all the Books buttons.
+                MainShop: #The Book in the main shop.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 54
+                    Name: '&a&lMarket Help'
+                    Lore:
+                    - ''
+                    - '&7Here is the global market,'
+                    - '&7You can trade goods with others here,'
+                    - '&7Use &c/ca help &7to view more help.'
+                SellingShop: #The Book in the selling shop.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 54
+                    Name: '&b&lSelling &e&lFeatures'
+                    Lore:
+                    - ''
+                    - '&7This is the global market for sale,'
+                    - '&7You can buy other people''s products here,'
+                    - '&7Or sell your items.'
+                    - ''
+                    - "&7Use '&c/ca sell [Price] [Amount]&7'"
+                    - '&7Sell your items in the market'
+                BuyingShop: #The Book in the buying shop.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 54
+                    Name: '&d&lBuying &e&lFeatures'
+                    Lore:
+                    - ''
+                    - '&7This is the global market for buy,'
+                    - '&7You can sell goods to other buyers here,'
+                    - '&7Or initiate an acquisition.'
+                    - ''
+                    - "&7Use '&c/ca buy [Reward] [Amount] [Item]&7'"
+                    - '&7Acquire your hand/designated items in the market'
+                BiddingShop: #The Book in the bidding shop.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 54
+                    Name: '&5&lBiding &e&lFeatures'
+                    Lore:
+                    - ''
+                    - '&7This is the global market for auctions,'
+                    - '&7You can bid on other people''s products here,'
+                    - '&7Or you can launch your own auction.'
+                    - ''
+                    - "&7Use '&c/ca bid [Price] [Amount]&7'"
+                    - '&7Auction your product in the market'
+                CurrentItems: #The Book in the Current items GUI.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 54
+                    Name: '&e&lCurrent Items Help'
+                    Lore:
+                    - ''
+                    - '&7Listed here are all your current products.'
+                Items-Mail: #The Book in the Items Mail GUI.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 54
+                    Name: '&6Items Mail Help'
+                    Lore:
+                    - ''
+                    - '&7Listed here are your '
+                    - '&7Cancelled/Expired/Purchased items'
+                    - '&7Click to return to the inventory.'
+                Viewing: #The Book in the Viewing Items GUI.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 50
+                    Name: '&e&lItems Viewer Help'
+                    Lore:
+                    - ''
+                    - '&7Shown here are all the products of'
+                    - '&7the player you specified.'
+                Categories: #The Book in the Viewing Items GUI.
+                    Item: 'ENCHANTED_BOOK'
+                    Toggle: true
+                    Slot: 45
+                    Name: '&e&lCategories Help'
+                    Lore:
+                    - ''
+                    - '&7This page shows all the categories'
+                    - '&7that you can choose from. When you click'
+                    - '&7a category it will open the gui with only'
+                    - '&7items that belong to that category.'
+            Player-Items-List-Back: #Player items list gui's Back Buttons.
+                Item: 'PAPER'
+                Slot: 46
+                Name: '&6Back'
+            Player-Items-Mail-Back: #Player items mail gui's Back Buttons.
+                Item: 'PAPER'
+                Slot: 46
+                Name: '&6Back'
+            Categories-Back: #Categories gui's Back Buttons.
+                Item: 'PAPER'
+                Slot: 37
+                Name: '&6Back'
+            Return: #The Return Buttons.
+                Item: 'FLOWER_POT'
+                Slot: 50
+                Name: '&6Return All'
+                Lore:
+                - '&aClick here to return all cancelled'
+                - '&aand expired items to your inventory.'
+            Confirm: #The Confirm Buttons.
+                Item: 'LIME_STAINED_GLASS_PANE'
+                Name: '&aConfirm'
+            Cancel: #The Cancel Buttons.
+                Item: 'RED_STAINED_GLASS_PANE'
+                Name: '&cCancel'
+            Your-Item: #The item that shows when you try to buy/bid on your item.
+                Item: 'BARRIER'
+                Name: '&cYou Can''t Purchase Your Own Item.'
+            Cant-Afford: #The item that shows when you cant afford this item.
+                Item: 'BARRIER'
+                Name: '&cYou Can''t Afford This Item.'
+            Not-owned: #When you can't pay for what you need.
+                Item: 'BARRIER'
+                Name: '&cYou do not own this item!'
+    #Permission's settings
+    Permissions:
+        #View update information
+        Updater:
+            Permission: crazyauctionsplus.updater
+            Default: false
+        Market:
+            #Bypass the maximum number of items for sale
+            Sell-Bypass: 
+                Permission: crazyauctionsplus.market.sell-bypass
+                #Whether the default player has this permission
+                Default: false
+            #Bypass the maximum number of items for buy
+            Buy-Bypass: 
+                Permission: crazyauctionsplus.market.buy-bypass
+                Default: false
+            #Bypass the maximum number of items for bid
+            Bid-Bypass: 
+                Permission: crazyauctionsplus.market.bid-bypass
+                Default: false
+            #Bypass taxes on items sold
+            Sell-Tax-Rate-Bypass: 
+                Permission: crazyauctionsplus.market.sell-tax-rate-bypass
+                Default: false
+            #Bypass taxes on purchases
+            Buy-Tax-Rate-Bypass: 
+                Permission: crazyauctionsplus.market.buy-tax-rate-bypass
+                Default: false
+            #Bypass taxes on items bid
+            Bid-Tax-Rate-Bypass: 
+                Permission: crazyauctionsplus.market.bid-tax-rate-bypass
+                Default: false
+            #Cancelled item's permission
+            Cancelled-Item: 
+                Permission: crazyauctionsplus.market.cancelleditem
+                Default: false
+            Permission-Groups:
+                #Customizable, follow the format below:
+                Vip:
+                    Permission: crazyauctionsplus.group.vip
+                    Default: false
+                    #Maximum number of items sell, -1 is unlimited
+                    Sell-Limit: -1
+                    #Maximum number of items buy, -1 is unlimited
+                    Buy-Limit: -1
+                    #Maximum number of items bid, -1 is unlimited
+                    Bid-Limit: -1
+                    #Tax rate, 0 is none
+                    Sell-Tax-Rate: 0.05
+                    Buy-Tax-Rate: 0.05
+                    Bid-Tax-Rate: 0.05
+                Default:
+                    Permission: crazyauctionsplus.group.default
+                    #Whether it is the default permission group?
+                    Default: true
+                    Sell-Limit: 10
+                    Buy-Limit: 10
+                    Bid-Limit: 3
+                    Sell-Tax-Rate: 0.05
+                    Buy-Tax-Rate: 0.05
+                    Bid-Tax-Rate: 0.05
+        #Command permissions
+        Commands:
+            #Permissions to use plugin main commands
+            Access: 
+                Permission: crazyauctionsplus.command.access
+                #Whether the default player has this permission
+                Default: true
+            #Permissions to use /ca help
+            Help: 
+                Permission: crazyauctionsplus.command.help
+                Default: true
+            #Permissions to use /ca reload
+            Reload: 
+                Permission: crazyauctionsplus.command.reload
+                Default: false
+                #Sub commands
+                SubCommands:
+                    Config:
+                        Permission: crazyauctionsplus.command.reload.config
+                        Default: false
+                    Database:
+                        Permission: crazyauctionsplus.command.reload.database
+                        Default: false
+                    Messages:
+                        Permission: crazyauctionsplus.command.reload.messages
+                        Default: false
+                    Market:
+                        Permission: crazyauctionsplus.command.reload.market
+                        Default: false
+                    PlayerData:
+                        Permission: crazyauctionsplus.command.reload.playerdata
+                        Default: false
+                    Category:
+                        Permission: crazyauctionsplus.command.reload.category
+                        Default: false
+                    ItemCollection:
+                        Permission: crazyauctionsplus.command.reload.itemcollection
+                        Default: false
+            #Permissions to use /ca gui
+            Gui: 
+                Permission: crazyauctionsplus.command.gui
+                Default: true
+            #Permissions to use /ca gui [others player] 
+            Gui-Others-Player: 
+                Permission: crazyauctionsplus.command.gui.othersplayer
+                Default: false
+            #Permissions to use /ca view
+            View: 
+                Permission: crazyauctionsplus.command.view
+                Default: true
+            #Permissions to use /ca view [others player]
+            View-Others-Player: 
+                Permission: crazyauctionsplus.command.view.othersplayer
+                Default: true
+            #Permissions to use /ca mail
+            Mail: 
+                Permission: crazyauctionsplus.command.mail
+                Default: true
+            #Permissions to use /ca listed
+            Listed: 
+                Permission: crazyauctionsplus.command.listed
+                Default: true
+            #Permissions to use /ca sell
+            Sell: 
+                Permission: crazyauctionsplus.command.Sell
+                Default: true
+            #Permissions to use /ca buy
+            Buy: 
+                Permission: crazyauctionsplus.command.buy
+                Default: true
+            #Permissions to use /ca bid
+            Bid: 
+                Permission: crazyauctionsplus.command.bid
+                Default: true
+            #Permissions to use /ca admin
+            Admin:
+                Permission: crazyauctionsplus.command.admin
+                Default: false
+                SubCommands:
+                    RollBack:
+                        Permission: crazyauctionsplus.command.admin.rollback
+                        Default: false
+                    Backup:
+                        Permission: crazyauctionsplus.command.admin.backup
+                        Default: false
+                    Synchronize:
+                        Permission: crazyauctionsplus.command.admin.synchronize
+                        Default: false
+                    Info:
+                        Permission: crazyauctionsplus.command.admin.info
+                        Default: false
+                    PrintStackTrace:
+                        Permission: crazyauctionsplus.command.admin.printstacktrace
+                        Default: false
+                    Market:
+                        Permission: crazyauctionsplus.command.admin.market
+                        Default: false
+                        SubCommands:
+                            Confirm:
+                                Permission: crazyauctionsplus.command.admin.market.confirm
+                                Default: false
+                            Clear:
+                                Permission: crazyauctionsplus.command.admin.market.clear
+                                Default: false
+                            List:
+                                Permission: crazyauctionsplus.command.admin.market.list
+                                Default: false
+                            Repricing:
+                                Permission: crazyauctionsplus.command.admin.market.repricing
+                                Default: false
+                            Delete:
+                                Permission: crazyauctionsplus.command.admin.market.delete
+                                Default: false
+                            Download:
+                                Permission: crazyauctionsplus.command.admin.market.download
+                                Default: false
+                            Upload:
+                                Permission: crazyauctionsplus.command.admin.market.upload
+                                Default: false
+                    Player:
+                        Permission: crazyauctionsplus.command.admin.player
+                        Default: false
+                        SubCommands:
+                            Confirm:
+                                Permission: crazyauctionsplus.command.admin.player.confirm
+                                Default: false
+                            Clear:
+                                Permission: crazyauctionsplus.command.admin.player.clear
+                                Default: false
+                            List:
+                                Permission: crazyauctionsplus.command.admin.player.list
+                                Default: false
+                            View:
+                                Permission: crazyauctionsplus.command.admin.player.view
+                                Default: false
+                            Delete:
+                                Permission: crazyauctionsplus.command.admin.player.delete
+                                Default: false
+                            Download:
+                                Permission: crazyauctionsplus.command.admin.player.download
+                                Default: false
+                            Upload:
+                                Permission: crazyauctionsplus.command.admin.player.upload
+                                Default: false
+                    ItemCollection:
+                        Permission: crazyauctionsplus.command.admin.itemcollection
+                        Default: false
+                        SubCommands:
+                            Add: 
+                                Permission: crazyauctionsplus.command.admin.itemcollection.add
+                                Default: false
+                            Delete: 
+                                Permission: crazyauctionsplus.command.admin.itemcollection.delete
+                                Default: false
+                            List:
+                                Permission: crazyauctionsplus.command.admin.itemcollection.list
+                                Default: false
+                            Give:
+                                Permission: crazyauctionsplus.command.admin.itemcollection.give
+                                Default: false

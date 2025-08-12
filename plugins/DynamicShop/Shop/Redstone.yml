@@ -1,0 +1,135 @@
+Options:
+  title: §4§lRedstone
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: RED_STAINED_GLASS_PANE
+'1':
+  mat: RED_STAINED_GLASS_PANE
+'2':
+  mat: RED_STAINED_GLASS_PANE
+'3':
+  mat: RED_STAINED_GLASS_PANE
+'4':
+  mat: RED_STAINED_GLASS_PANE
+'5':
+  mat: RED_STAINED_GLASS_PANE
+'6':
+  mat: RED_STAINED_GLASS_PANE
+'7':
+  mat: RED_STAINED_GLASS_PANE
+'8':
+  mat: RED_STAINED_GLASS_PANE
+'9':
+  mat: RED_STAINED_GLASS_PANE
+'10':
+  mat: RED_STAINED_GLASS_PANE
+'11':
+  mat: DISPENSER
+  itemStack:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    blockMaterial: DISPENSER
+  value: 5.25
+  median: 22387
+  stock: 22387
+'12':
+  mat: NOTE_BLOCK
+  value: 3.95
+  median: 24731
+  stock: 24731
+'13':
+  mat: STICKY_PISTON
+  value: 19.29
+  median: 14196
+  stock: 14196
+'14':
+  mat: PISTON
+  value: 17.94
+  median: 14562
+  stock: 14562
+'15':
+  mat: RED_STAINED_GLASS_PANE
+'16':
+  mat: RED_STAINED_GLASS_PANE
+'17':
+  mat: RED_STAINED_GLASS_PANE
+'18':
+  mat: RED_STAINED_GLASS_PANE
+'19':
+  mat: RED_STAINED_GLASS_PANE
+'20':
+  mat: RED_STAINED_GLASS_PANE
+'21':
+  mat: RED_STAINED_GLASS_PANE
+'22':
+  mat: RED_STAINED_GLASS_PANE
+'23':
+  mat: RED_STAINED_GLASS_PANE
+'24':
+  mat: RED_STAINED_GLASS_PANE
+'25':
+  mat: RED_STAINED_GLASS_PANE
+'26':
+  mat: RED_STAINED_GLASS_PANE
+'27':
+  mat: RED_STAINED_GLASS_PANE
+'28':
+  mat: RED_STAINED_GLASS_PANE
+'29':
+  mat: TNT
+  value: 12.95
+  median: 16321
+  stock: 16321
+'30':
+  mat: DROPPER
+  itemStack:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    blockMaterial: DROPPER
+  value: 2.15
+  median: 30598
+  stock: 30598
+'31':
+  mat: OBSERVER
+  value: 4.15
+  median: 24307
+  stock: 24307
+'32':
+  mat: REPEATER
+  value: 3.91
+  median: 24819
+  stock: 24819
+'33':
+  mat: COMPARATOR
+  itemStack:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    blockMaterial: COMPARATOR
+  value: 5.81
+  median: 21607
+  stock: 21607
+'34':
+  mat: RED_STAINED_GLASS_PANE
+'35':
+  mat: RED_STAINED_GLASS_PANE
+'36':
+  mat: RED_STAINED_GLASS_PANE
+'37':
+  mat: RED_STAINED_GLASS_PANE
+'38':
+  mat: RED_STAINED_GLASS_PANE
+'39':
+  mat: RED_STAINED_GLASS_PANE
+'40':
+  mat: RED_STAINED_GLASS_PANE
+'41':
+  mat: RED_STAINED_GLASS_PANE
+'42':
+  mat: RED_STAINED_GLASS_PANE
+'43':
+  mat: RED_STAINED_GLASS_PANE
+'44':
+  mat: RED_STAINED_GLASS_PANE

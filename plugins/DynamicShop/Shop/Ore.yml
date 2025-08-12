@@ -1,0 +1,120 @@
+Options:
+  title: §3§lOre
+  page: 1
+  permission: ''
+  lore: ''
+  currency: Vault
+'0':
+  mat: BLACK_STAINED_GLASS_PANE
+'1':
+  mat: BLACK_STAINED_GLASS_PANE
+'2':
+  mat: CYAN_STAINED_GLASS_PANE
+'3':
+  mat: LIME_STAINED_GLASS_PANE
+'4':
+  mat: YELLOW_STAINED_GLASS_PANE
+'5':
+  mat: BLUE_STAINED_GLASS_PANE
+'6':
+  mat: WHITE_STAINED_GLASS_PANE
+'7':
+  mat: RED_STAINED_GLASS_PANE
+'8':
+  mat: RED_STAINED_GLASS_PANE
+'9':
+  mat: BLACK_STAINED_GLASS_PANE
+'10':
+  mat: BLACK_STAINED_GLASS_PANE
+'11':
+  mat: DIAMOND
+  value: 125.0
+  median: 7381
+  stock: 7381
+'12':
+  mat: LIME_STAINED_GLASS_PANE
+'13':
+  mat: GOLD_INGOT
+  value: 60.19
+  median: 9532
+  stock: 9532
+'14':
+  mat: BLUE_STAINED_GLASS_PANE
+'15':
+  mat: IRON_INGOT
+  value: 15.19
+  median: 15435
+  stock: 15435
+'16':
+  mat: RED_STAINED_GLASS_PANE
+'17':
+  mat: RED_STAINED_GLASS_PANE
+'18':
+  mat: BLACK_STAINED_GLASS_PANE
+'19':
+  mat: BLACK_STAINED_GLASS_PANE
+'20':
+  mat: CYAN_STAINED_GLASS_PANE
+'21':
+  mat: LIME_STAINED_GLASS_PANE
+'22':
+  mat: YELLOW_STAINED_GLASS_PANE
+'23':
+  mat: BLUE_STAINED_GLASS_PANE
+'24':
+  mat: WHITE_STAINED_GLASS_PANE
+'25':
+  mat: RED_STAINED_GLASS_PANE
+'26':
+  mat: RED_STAINED_GLASS_PANE
+'27':
+  mat: BLACK_STAINED_GLASS_PANE
+'28':
+  mat: COAL
+  value: 1.5
+  median: 34707
+  stock: 34707
+'29':
+  mat: CYAN_STAINED_GLASS_PANE
+'30':
+  mat: EMERALD
+  value: 65.0
+  median: 9279
+  stock: 9279
+  tradeType: BuyOnly
+'31':
+  mat: YELLOW_STAINED_GLASS_PANE
+'32':
+  mat: LAPIS_LAZULI
+  value: 1.95
+  median: 31662
+  stock: 31662
+  tradeType: BuyOnly
+'33':
+  mat: WHITE_STAINED_GLASS_PANE
+'34':
+  mat: REDSTONE
+  value: 0.65
+  median: 46509
+  stock: 46509
+  tradeType: BuyOnly
+'35':
+  mat: RED_STAINED_GLASS_PANE
+'36':
+  mat: BLACK_STAINED_GLASS_PANE
+'37':
+  mat: BLACK_STAINED_GLASS_PANE
+'38':
+  mat: CYAN_STAINED_GLASS_PANE
+'39':
+  mat: LIME_STAINED_GLASS_PANE
+'40':
+  mat: YELLOW_STAINED_GLASS_PANE
+'41':
+  mat: BLUE_STAINED_GLASS_PANE
+'42':
+  mat: WHITE_STAINED_GLASS_PANE
+'43':
+  mat: RED_STAINED_GLASS_PANE
+'44':
+  mat: RED_STAINED_GLASS_PANE

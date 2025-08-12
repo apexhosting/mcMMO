@@ -331,7 +331,7 @@ ItemList:
   GOLD_NUGGET: Gold Nugget
   GOLD_ORE: Gold Ore
   GRANITE: Granite
-  GRASS: Grass
+  SHORT_GRASS: Short Grass
   GRASS_BLOCK: Grass Block
   GRAVEL: Gravel
   GRAY_BANNER: Gray Banner
@@ -710,7 +710,7 @@ ItemList:
   SANDSTONE: Sandstone
   SANDSTONE_SLAB: Sandstone Slab
   SANDSTONE_STAIRS: Sandstone Stairs
-  SCUTE: Scute
+  TURTLE_SCUTE: Turtle Scute
   SEAGRASS: Seagrass
   SEA_LANTERN: Sea Lantern
   SEA_PICKLE: Sea Pickle
@@ -999,11 +999,11 @@ ItemList:
   CRIMSON_PRESSURE_PLATE: crimson pressure plate
   CRIMSON_ROOTS: crimson roots
   CRIMSON_SIGN: crimson sign
+  CRIMSON_WALL_SIGN: crimson wall sign
   CRIMSON_SLAB: crimson slab
   CRIMSON_STAIRS: crimson stairs
   CRIMSON_STEM: crimson stem
   CRIMSON_TRAPDOOR: crimson trapdoor
-  CRIMSON_WALL_SIGN: crimson wall sign
   CRYING_OBSIDIAN: crying obsidian
   GILDED_BLACKSTONE: gilded blackstone
   HOGLIN_SPAWN_EGG: hoglin spawn egg
@@ -1069,11 +1069,11 @@ ItemList:
   WARPED_PRESSURE_PLATE: warped pressure plate
   WARPED_ROOTS: warped roots
   WARPED_SIGN: warped sign
+  WARPED_WALL_SIGN: warped wall sign
   WARPED_SLAB: warped slab
   WARPED_STAIRS: warped stairs
   WARPED_STEM: warped stem
   WARPED_TRAPDOOR: warped trapdoor
-  WARPED_WALL_SIGN: warped wall sign
   WARPED_WART_BLOCK: warped wart block
   WEEPING_VINES: weeping vines
   WEEPING_VINES_PLANT: weeping vines plant
@@ -1232,7 +1232,328 @@ ItemList:
   YELLOW_CANDLE: Yellow candle
   YELLOW_CANDLE_CAKE: Yellow candle cake
   MUSIC_DISC_OTHERSIDE: Music Disc Otherside
+  ACACIA_CHEST_BOAT: Acacia Chest Boat
+  ALLAY_SPAWN_EGG: Allay Spawn Egg
+  BIRCH_CHEST_BOAT: Birch Chest Boat
+  DARK_OAK_CHEST_BOAT: Dark Oak Chest Boat
+  DISC_FRAGMENT_5: Disc Fragment 5
+  ECHO_SHARD: Echo Shard
+  FROGSPAWN: Frogspawn
+  FROG_SPAWN_EGG: Frog Spawn Egg
+  GOAT_HORN: Goat Horn
+  JUNGLE_CHEST_BOAT: Jungle Chest Boat
+  MANGROVE_BOAT: Mangrove Boat
+  MANGROVE_BUTTON: Mangrove Button
+  MANGROVE_CHEST_BOAT: Mangrove Chest Boat
+  MANGROVE_DOOR: Mangrove Door
+  MANGROVE_FENCE: Mangrove Fence
+  MANGROVE_FENCE_GATE: Mangrove Fence Gate
+  MANGROVE_LEAVES: Mangrove Leaves
+  MANGROVE_LOG: Mangrove Log
+  MANGROVE_PLANKS: Mangrove Planks
+  MANGROVE_PRESSURE_PLATE: Mangrove Pressure Plate
+  MANGROVE_PROPAGULE: Mangrove Propagule
+  MANGROVE_ROOTS: Mangrove Roots
+  MANGROVE_SIGN: Mangrove Sign
+  MANGROVE_WALL_SIGN: Mangrove Wall Sign
+  MANGROVE_SLAB: Mangrove Slab
+  MANGROVE_STAIRS: Mangrove Stairs
+  MANGROVE_TRAPDOOR: Mangrove Trapdoor
+  MANGROVE_WOOD: Mangrove Wood
+  MUD: Mud
+  MUDDY_MANGROVE_ROOTS: Muddy Mangrove Roots
+  MUD_BRICKS: Mud Bricks
+  MUD_BRICK_SLAB: Mud Brick Slab
+  MUD_BRICK_STAIRS: Mud Brick Stairs
+  MUD_BRICK_WALL: Mud Brick Wall
+  MUSIC_DISC_5: Music Disc 5
+  OAK_CHEST_BOAT: Oak Chest Boat
+  OCHRE_FROGLIGHT: Ochre Froglight
+  PACKED_MUD: Packed Mud
+  PEARLESCENT_FROGLIGHT: Pearlescent Froglight
+  POTTED_MANGROVE_PROPAGULE: Potted Mangrove Propagule
+  RECOVERY_COMPASS: Recovery Compass
+  REINFORCED_DEEPSLATE: Reinforced Deepslate
+  SCULK: Sculk
+  SCULK_CATALYST: Sculk Catalyst
+  SCULK_SHRIEKER: Sculk Shrieker
+  SCULK_VEIN: Sculk Vein
+  SPRUCE_CHEST_BOAT: Spruce Chest Boat
+  STRIPPED_MANGROVE_LOG: Stripped Mangrove Log
+  STRIPPED_MANGROVE_WOOD: Stripped Mangrove Wood
+  TADPOLE_BUCKET: Tadpole Bucket
+  TADPOLE_SPAWN_EGG: Tadpole Spawn Egg
+  VERDANT_FROGLIGHT: Verdant Froglight
+  WARDEN_SPAWN_EGG: Warden Spawn Egg
+  ACACIA_HANGING_SIGN: Acacia Hanging Sign
+  ACACIA_WALL_HANGING_SIGN: Acacia Wall Hanging Sign
+  ANGLER_POTTERY_SHERD: Angler Pottery Sherd
+  ARCHER_POTTERY_SHERD: Archer Pottery Sherd
+  ARMS_UP_POTTERY_SHERD: Arms Up Pottery Sherd
+  BAMBOO_BLOCK: Bamboo Block
+  BAMBOO_BUTTON: Bamboo Button
+  BAMBOO_CHEST_RAFT: Bamboo Chest Raft
+  BAMBOO_DOOR: Bamboo Door
+  BAMBOO_FENCE: Bamboo Fence
+  BAMBOO_FENCE_GATE: Bamboo Fence Gate
+  BAMBOO_HANGING_SIGN: Bamboo Hanging Sign
+  BAMBOO_MOSAIC: Bamboo Mosaic
+  BAMBOO_MOSAIC_SLAB: Bamboo Mosaic Slab
+  BAMBOO_MOSAIC_STAIRS: Bamboo Mosaic Stairs
+  BAMBOO_PLANKS: Bamboo Planks
+  BAMBOO_PRESSURE_PLATE: Bamboo Pressure Plate
+  BAMBOO_RAFT: Bamboo Raft
+  BAMBOO_SIGN: Bamboo Sign
+  BAMBOO_SLAB: Bamboo Slab
+  BAMBOO_STAIRS: Bamboo Stairs
+  BAMBOO_TRAPDOOR: Bamboo Trapdoor
+  BAMBOO_WALL_HANGING_SIGN: Bamboo Wall Hanging Sign
+  BAMBOO_WALL_SIGN: Bamboo Wall Sign
+  BIRCH_HANGING_SIGN: Birch Hanging Sign
+  BIRCH_WALL_HANGING_SIGN: Birch Wall Hanging Sign
+  BLADE_POTTERY_SHERD: Blade Pottery Sherd
+  BREWER_POTTERY_SHERD: Brewer Pottery Sherd
+  BRUSH: Brush
+  BURN_POTTERY_SHERD: Burn Pottery Sherd
+  CALIBRATED_SCULK_SENSOR: Calibrated Sculk Sensor
+  CAMEL_SPAWN_EGG: Camel Spawn Egg
+  CHERRY_BOAT: Cherry Boat
+  CHERRY_BUTTON: Cherry Button
+  CHERRY_CHEST_BOAT: Cherry Chest Boat
+  CHERRY_DOOR: Cherry Door
+  CHERRY_FENCE: Cherry Fence
+  CHERRY_FENCE_GATE: Cherry Fence Gate
+  CHERRY_HANGING_SIGN: Cherry Hanging Sign
+  CHERRY_LEAVES: Cherry Leaves
+  CHERRY_LOG: Cherry Log
+  CHERRY_PLANKS: Cherry Planks
+  CHERRY_PRESSURE_PLATE: Cherry Pressure Plate
+  CHERRY_SAPLING: Cherry Sapling
+  CHERRY_SIGN: Cherry Sign
+  CHERRY_SLAB: Cherry Slab
+  CHERRY_STAIRS: Cherry Stairs
+  CHERRY_TRAPDOOR: Cherry Trapdoor
+  CHERRY_WALL_HANGING_SIGN: Cherry Wall Hanging Sign
+  CHERRY_WALL_SIGN: Cherry Wall Sign
+  CHERRY_WOOD: Cherry Wood
+  CHISELED_BOOKSHELF: Chiseled Bookshelf
+  COAST_ARMOR_TRIM_SMITHING_TEMPLATE: Coast Armor Trim Smithing Template
+  CRIMSON_HANGING_SIGN: Crimson Hanging Sign
+  CRIMSON_WALL_HANGING_SIGN: Crimson Wall Hanging Sign
+  DANGER_POTTERY_SHERD: Danger Pottery Sherd
+  DARK_OAK_HANGING_SIGN: Dark Oak Hanging Sign
+  DARK_OAK_WALL_HANGING_SIGN: Dark Oak Wall Hanging Sign
+  DECORATED_POT: Decorated Pot
+  DUNE_ARMOR_TRIM_SMITHING_TEMPLATE: Dune Armor Trim Smithing Template
+  ENDER_DRAGON_SPAWN_EGG: Ender Dragon Spawn Egg
+  EXPLORER_POTTERY_SHERD: Explorer Pottery Sherd
+  EYE_ARMOR_TRIM_SMITHING_TEMPLATE: Eye Armor Trim Smithing Template
+  FRIEND_POTTERY_SHERD: Friend Pottery Sherd
+  HEARTBREAK_POTTERY_SHERD: Heartbreak Pottery Sherd
+  HEART_POTTERY_SHERD: Heart Pottery Sherd
+  HOST_ARMOR_TRIM_SMITHING_TEMPLATE: Host Armor Trim Smithing Template
+  HOWL_POTTERY_SHERD: Howl Pottery Sherd
+  IRON_GOLEM_SPAWN_EGG: Iron Golem Spawn Egg
+  JUNGLE_HANGING_SIGN: Jungle Hanging Sign
+  JUNGLE_WALL_HANGING_SIGN: Jungle Wall Hanging Sign
+  MANGROVE_HANGING_SIGN: Mangrove Hanging Sign
+  MANGROVE_WALL_HANGING_SIGN: Mangrove Wall Hanging Sign
+  MINER_POTTERY_SHERD: Miner Pottery Sherd
+  MOURNER_POTTERY_SHERD: Mourner Pottery Sherd
+  MUSIC_DISC_RELIC: Music Disc Relic
+  NETHERITE_UPGRADE_SMITHING_TEMPLATE: Netherite Upgrade Smithing Template
+  OAK_HANGING_SIGN: Oak Hanging Sign
+  OAK_WALL_HANGING_SIGN: Oak Wall Hanging Sign
+  PIGLIN_HEAD: Piglin Head
+  PIGLIN_WALL_HEAD: Piglin Wall Head
+  PINK_PETALS: Pink Petals
+  PITCHER_CROP: Pitcher Crop
+  PITCHER_PLANT: Pitcher Plant
+  PITCHER_POD: Pitcher Pod
+  PLENTY_POTTERY_SHERD: Plenty Pottery Sherd
+  POTTED_CHERRY_SAPLING: Potted Cherry Sapling
+  POTTED_TORCHFLOWER: Potted Torchflower
+  PRIZE_POTTERY_SHERD: Prize Pottery Sherd
+  RAISER_ARMOR_TRIM_SMITHING_TEMPLATE: Raiser Armor Trim Smithing Template
+  RIB_ARMOR_TRIM_SMITHING_TEMPLATE: Rib Armor Trim Smithing Template
+  SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE: Sentry Armor Trim Smithing Template
+  SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE: Shaper Armor Trim Smithing Template
+  SHEAF_POTTERY_SHERD: Sheaf Pottery Sherd
+  SHELTER_POTTERY_SHERD: Shelter Pottery Sherd
+  SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE: Silence Armor Trim Smithing Template
+  SKULL_POTTERY_SHERD: Skull Pottery Sherd
+  SNIFFER_EGG: Sniffer Egg
+  SNIFFER_SPAWN_EGG: Sniffer Spawn Egg
+  SNORT_POTTERY_SHERD: Snort Pottery Sherd
+  SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE: Snout Armor Trim Smithing Template
+  SNOW_GOLEM_SPAWN_EGG: Snow Golem Spawn Egg
+  SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE: Spire Armor Trim Smithing Template
+  SPRUCE_HANGING_SIGN: Spruce Hanging Sign
+  SPRUCE_WALL_HANGING_SIGN: Spruce Wall Hanging Sign
+  STRIPPED_BAMBOO_BLOCK: Stripped Bamboo Block
+  STRIPPED_CHERRY_LOG: Stripped Cherry Log
+  STRIPPED_CHERRY_WOOD: Stripped Cherry Wood
+  SUSPICIOUS_GRAVEL: Suspicious Gravel
+  SUSPICIOUS_SAND: Suspicious Sand
+  TIDE_ARMOR_TRIM_SMITHING_TEMPLATE: Tide Armor Trim Smithing Template
+  TORCHFLOWER: Torchflower
+  TORCHFLOWER_CROP: Torchflower Crop
+  TORCHFLOWER_SEEDS: Torchflower Seeds
+  VEX_ARMOR_TRIM_SMITHING_TEMPLATE: Vex Armor Trim Smithing Template
+  WARD_ARMOR_TRIM_SMITHING_TEMPLATE: Ward Armor Trim Smithing Template
+  WARPED_HANGING_SIGN: Warped Hanging Sign
+  WARPED_WALL_HANGING_SIGN: Warped Wall Hanging Sign
+  WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE: Wayfinder Armor Trim Smithing Template
+  WILD_ARMOR_TRIM_SMITHING_TEMPLATE: Wild Armor Trim Smithing Template
+  WITHER_SPAWN_EGG: Wither Spawn Egg
+  MUSIC_DISC_CREATOR: Music Disc Creator
+  MUSIC_DISC_CREATOR_MUSIC_BOX: Music Disc Creator Music Box
+  MUSIC_DISC_PRECIPICE: Music Disc Precipice
+  ARMADILLO_SCUTE: Armadillo Scute
+  WOLF_ARMOR: Wolf Armor
+  ARMADILLO_SPAWN_EGG: Armadillo Spawn Egg
+  BOGGED_SPAWN_EGG: Bogged Spawn Egg
+  BOLT_ARMOR_TRIM_SMITHING_TEMPLATE: Bolt Armor Trim Smithing Template
+  BREEZE_ROD: Breeze Rod
+  BREEZE_SPAWN_EGG: Breeze Spawn Egg
+  CHISELED_COPPER: Chiseled Copper
+  CHISELED_TUFF: Chiseled Tuff
+  CHISELED_TUFF_BRICKS: Chiseled Tuff Bricks
+  COPPER_BULB: Copper Bulb
+  COPPER_DOOR: Copper Door
+  COPPER_GRATE: Copper Grate
+  COPPER_TRAPDOOR: Copper Trapdoor
+  CRAFTER: Crafter
+  EXPOSED_CHISELED_COPPER: Exposed Chiseled Copper
+  EXPOSED_COPPER_BULB: Exposed Copper Bulb
+  EXPOSED_COPPER_DOOR: Exposed Copper Door
+  EXPOSED_COPPER_GRATE: Exposed Copper Grate
+  EXPOSED_COPPER_TRAPDOOR: Exposed Copper Trapdoor
+  FLOW_ARMOR_TRIM_SMITHING_TEMPLATE: Flow Armor Trim Smithing Template
+  FLOW_BANNER_PATTERN: Flow Banner Pattern
+  FLOW_POTTERY_SHERD: Flow Pottery Sherd
+  GUSTER_BANNER_PATTERN: Guster Banner Pattern
+  GUSTER_POTTERY_SHERD: Guster Pottery Sherd
+  HEAVY_CORE: Heavy Core
+  MACE: Mace
+  OMINOUS_BOTTLE: Ominous Bottle
+  OMINOUS_TRIAL_KEY: Ominous Trial Key
+  OXIDIZED_CHISELED_COPPER: Oxidized Chiseled Copper
+  OXIDIZED_COPPER_BULB: Oxidized Copper Bulb
+  OXIDIZED_COPPER_DOOR: Oxidized Copper Door
+  OXIDIZED_COPPER_GRATE: Oxidized Copper Grate
+  OXIDIZED_COPPER_TRAPDOOR: Oxidized Copper Trapdoor
+  POLISHED_TUFF: Polished Tuff
+  POLISHED_TUFF_SLAB: Polished Tuff Slab
+  POLISHED_TUFF_STAIRS: Polished Tuff Stairs
+  POLISHED_TUFF_WALL: Polished Tuff Wall
+  SCRAPE_POTTERY_SHERD: Scrape Pottery Sherd
+  TRIAL_KEY: Trial Key
+  TRIAL_SPAWNER: Trial Spawner
+  TUFF_BRICKS: Tuff Bricks
+  TUFF_BRICK_SLAB: Tuff Brick Slab
+  TUFF_BRICK_STAIRS: Tuff Brick Stairs
+  TUFF_BRICK_WALL: Tuff Brick Wall
+  TUFF_SLAB: Tuff Slab
+  TUFF_STAIRS: Tuff Stairs
+  TUFF_WALL: Tuff Wall
+  VAULT: Vault
+  WAXED_CHISELED_COPPER: Waxed Chiseled Copper
+  WAXED_COPPER_BULB: Waxed Copper Bulb
+  WAXED_COPPER_DOOR: Waxed Copper Door
+  WAXED_COPPER_GRATE: Waxed Copper Grate
+  WAXED_COPPER_TRAPDOOR: Waxed Copper Trapdoor
+  WAXED_EXPOSED_CHISELED_COPPER: Waxed Exposed Chiseled Copper
+  WAXED_EXPOSED_COPPER_BULB: Waxed Exposed Copper Bulb
+  WAXED_EXPOSED_COPPER_DOOR: Waxed Exposed Copper Door
+  WAXED_EXPOSED_COPPER_GRATE: Waxed Exposed Copper Grate
+  WAXED_EXPOSED_COPPER_TRAPDOOR: Waxed Exposed Copper Trapdoor
+  WAXED_OXIDIZED_CHISELED_COPPER: Waxed Oxidized Chiseled Copper
+  WAXED_OXIDIZED_COPPER_BULB: Waxed Oxidized Copper Bulb
+  WAXED_OXIDIZED_COPPER_DOOR: Waxed Oxidized Copper Door
+  WAXED_OXIDIZED_COPPER_GRATE: Waxed Oxidized Copper Grate
+  WAXED_OXIDIZED_COPPER_TRAPDOOR: Waxed Oxidized Copper Trapdoor
+  WAXED_WEATHERED_CHISELED_COPPER: Waxed Weathered Chiseled Copper
+  WAXED_WEATHERED_COPPER_BULB: Waxed Weathered Copper Bulb
+  WAXED_WEATHERED_COPPER_DOOR: Waxed Weathered Copper Door
+  WAXED_WEATHERED_COPPER_GRATE: Waxed Weathered Copper Grate
+  WAXED_WEATHERED_COPPER_TRAPDOOR: Waxed Weathered Copper Trapdoor
+  WEATHERED_CHISELED_COPPER: Weathered Chiseled Copper
+  WEATHERED_COPPER_BULB: Weathered Copper Bulb
+  WEATHERED_COPPER_DOOR: Weathered Copper Door
+  WEATHERED_COPPER_GRATE: Weathered Copper Grate
+  WEATHERED_COPPER_TRAPDOOR: Weathered Copper Trapdoor
+  WIND_CHARGE: Wind Charge
+  BLACK_BUNDLE: Black Bundle
+  BLUE_BUNDLE: Blue Bundle
+  WHITE_BUNDLE: White Bundle
+  YELLOW_BUNDLE: Yellow Bundle
+  BROWN_BUNDLE: Brown Bundle
+  CYAN_BUNDLE: Cyan Bundle
+  GRAY_BUNDLE: Gray Bundle
+  GREEN_BUNDLE: Green Bundle
+  LIME_BUNDLE: Lime Bundle
+  MAGENTA_BUNDLE: Magenta Bundle
+  ORANGE_BUNDLE: Orange Bundle
+  LIGHT_BLUE_BUNDLE: Light Blue Bundle
+  LIGHT_GRAY_BUNDLE: Light Gray Bundle
+  PINK_BUNDLE: Pink Bundle
+  PURPLE_BUNDLE: Purple Bundle
+  RED_BUNDLE: Red Bundle
+  BORDURE_INDENTED_BANNER_PATTERN: Bordure Indented Banner Pattern
+  CREAKING_HEART: Creaking Heart
+  CREAKING_SPAWN_EGG: Creaking Spawn Egg
+  FIELD_MASONED_BANNER_PATTERN: Field Masoned Banner Pattern
+  PALE_HANGING_MOSS: Pale Hanging Moss
+  PALE_MOSS_BLOCK: Pale Moss Block
+  PALE_MOSS_CARPET: Pale Moss Carpet
+  PALE_OAK_BOAT: Pale Oak Boat
+  PALE_OAK_BUTTON: Pale Oak Button
+  PALE_OAK_CHEST_BOAT: Pale Oak Chest Boat
+  PALE_OAK_DOOR: Pale Oak Door
+  PALE_OAK_FENCE: Pale Oak Fence
+  PALE_OAK_FENCE_GATE: Pale Oak Fence Gate
+  PALE_OAK_HANGING_SIGN: Pale Oak Hanging Sign
+  PALE_OAK_WALL_HANGING_SIGN: Pale Oak Wall Hanging Sign
+  PALE_OAK_WALL_SIGN: Pale Oak Wall Sign
+  PALE_OAK_LEAVES: Pale Oak Leaves
+  PALE_OAK_LOG: Pale Oak Log
+  PALE_OAK_PLANKS: Pale Oak Planks
+  PALE_OAK_PRESSURE_PLATE: Pale Oak Pressure Plate
+  PALE_OAK_SAPLING: Pale Oak Sapling
+  PALE_OAK_SIGN: Pale Oak Sign
+  PALE_OAK_SLAB: Pale Oak Slab
+  PALE_OAK_STAIRS: Pale Oak Stairs
+  PALE_OAK_TRAPDOOR: Pale Oak Trapdoor
+  PALE_OAK_WOOD: Pale Oak Wood
+  POTTED_PALE_OAK_SAPLING: Potted Pale Oak Sapling
+  STRIPPED_PALE_OAK_LOG: Stripped Pale Oak Log
+  STRIPPED_PALE_OAK_WOOD: Stripped Pale Oak Wood
+  CHISELED_RESIN_BRICKS: Chiseled Resin Bricks
+  CLOSED_EYEBLOSSOM: Closed Eyeblossom
+  OPEN_EYEBLOSSOM: Open Eyeblossom
+  POTTED_CLOSED_EYEBLOSSOM: Potted Closed Eyeblossom
+  POTTED_OPEN_EYEBLOSSOM: Potted Open Eyeblossom
+  RESIN_BLOCK: Resin Block
+  RESIN_BRICK: Resin Brick
+  RESIN_BRICKS: Resin Bricks
+  RESIN_BRICK_SLAB: Resin Brick Slab
+  RESIN_BRICK_STAIRS: Resin Brick Stairs
+  RESIN_BRICK_WALL: Resin Brick Wall
+  RESIN_CLUMP: Resin Clump
+  BLUE_EGG: Blue Egg
+  BROWN_EGG: Brown Egg
+  BUSH: Bush
+  CACTUS_FLOWER: Cactus Flower
+  FIREFLY_BUSH: Firefly Bush
+  LEAF_LITTER: Leaf Litter
+  SHORT_DRY_GRASS: Short Dry Grass
+  TALL_DRY_GRASS: Tall Dry Grass
+  WILDFLOWERS: Wildflowers
+  TEST_BLOCK: Test Block
+  TEST_INSTANCE_BLOCK: Test Instance Block
   SIGN: Sign
+  GRASS: Grass
   LEGACY_STATIONARY_WATER: Stationary Water
   LEGACY_STATIONARY_LAVA: Stationary Lava
   LEGACY_BURNING_FURNACE: Burning Furnace
@@ -1262,120 +1583,181 @@ ItemList:
   LEGACY_BREWING_STAND: LEGACY_BREWING_STAND
   LEGACY_WHEAT: Wheat block
 EntityList:
-  4-ELDER_GUARDIAN: Elder Guardian
-  5-WITHER_SKELETON: Wither Skeleton
-  6-STRAY: Stray
-  23-HUSK: Husk
-  27-ZOMBIE_VILLAGER: Zombie Villager
-  28-SKELETON_HORSE: Skeleton Horse
-  29-ZOMBIE_HORSE: Zombie Horse
-  30-ARMOR_STAND: Armor Stand
-  31-DONKEY: Donkey
-  32-MULE: Mule
-  34-EVOKER: Evoker
-  35-VEX: Vex
-  36-VINDICATOR: Vindicator
-  37-ILLUSIONER: Illusioner
-  50-CREEPER: Creeper
-  51-SKELETON: Skeleton
-  52-SPIDER: Spider
-  53-GIANT: Giant
-  54-ZOMBIE: Zombie
-  55-SLIME: Slime
-  56-GHAST: Ghast
-  925-ZOMBIFIED_PIGLIN: Zombified Piglin
-  58-ENDERMAN: Enderman
-  59-CAVE_SPIDER: Cave Spider
-  60-SILVERFISH: Silverfish
-  61-BLAZE: Blaze
-  62-MAGMA_CUBE: Magma Cube
-  63-ENDER_DRAGON: Ender Dragon
-  64-WITHER: Wither
-  65-BAT: Bat
-  66-WITCH: Witch
-  67-ENDERMITE: Endermite
-  68-GUARDIAN: Guardian
-  69-SHULKER: Shulker
-  90-PIG: Pig
-  91-SHEEP: Sheep
-  92-COW: Cow
-  93-CHICKEN: Chicken
-  94-SQUID: Squid
-  95-WOLF: Wolf
-  96-MUSHROOM_COW: Mushroom Cow
-  97-SNOWMAN: Snowman
-  98-OCELOT: Ocelot
-  99-IRON_GOLEM: Iron Golem
-  100-HORSE: Horse
-  101-RABBIT: Rabbit
-  102-POLAR_BEAR: Polar Bear
-  103-LLAMA: Llama
-  105-PARROT: Parrot
-  120-VILLAGER: Villager
-  901-TURTLE: Turtle
-  902-PHANTOM: Phantom
-  904-COD: Cod
-  905-SALMON: Salmon
-  906-PUFFERFISH: Pufferfish
-  907-TROPICAL_FISH: Tropical Fish
-  908-DROWNED: Drowned
-  909-DOLPHIN: Dolphin
-  923-CAT: Cat
-  917-PANDA: Panda
-  918-PILLAGER: Pillager
-  919-RAVAGER: Ravager
-  920-TRADER_LLAMA: Trader Llama
-  921-WANDERING_TRADER: Wandering Trader
-  922-FOX: Fox
-  924-BEE: Bee
-  926-HOGLIN: Hoglin
-  927-PIGLIN: Piglin
-  928-STRIDER: Strider
-  929-ZOGLIN: Zoglin
-  930-PIGLIN_BRUTE: Piglin Brute
-  931-AXOLOTL: Axolotl
-  932-GLOW_SQUID: Glowing Squid
-  933-GOAT: Goat
-  914-PLAYER: Player
+  0-ELDER_GUARDIAN: Elder Guardian
+  0-WITHER_SKELETON: Wither Skeleton
+  0-STRAY: Stray
+  0-HUSK: Husk
+  0-ZOMBIE_VILLAGER: Zombie Villager
+  0-SKELETON_HORSE: Skeleton Horse
+  0-ZOMBIE_HORSE: Zombie Horse
+  0-ARMOR_STAND: Armor Stand
+  0-DONKEY: Donkey
+  0-MULE: Mule
+  0-EVOKER: Evoker
+  0-VEX: Vex
+  0-VINDICATOR: Vindicator
+  0-ILLUSIONER: Illusioner
+  0-CREEPER: Creeper
+  0-SKELETON: Skeleton
+  0-SPIDER: Spider
+  0-GIANT: Giant
+  0-ZOMBIE: Zombie
+  0-SLIME: Slime
+  0-GHAST: Ghast
+  0-ZOMBIFIED_PIGLIN: Zombified Piglin
+  0-ENDERMAN: Enderman
+  0-CAVE_SPIDER: Cave Spider
+  0-SILVERFISH: Silverfish
+  0-BLAZE: Blaze
+  0-MAGMA_CUBE: Magma Cube
+  0-ENDER_DRAGON: Ender Dragon
+  0-WITHER: Wither
+  0-BAT: Bat
+  0-WITCH: Witch
+  0-ENDERMITE: Endermite
+  0-GUARDIAN: Guardian
+  0-SHULKER: Shulker
+  0-PIG: Pig
+  0-SHEEP: Sheep
+  0-COW: Cow
+  0-CHICKEN: Chicken
+  0-SQUID: Squid
+  0-WOLF: Wolf
+  0-MOOSHROOM: Mooshroom
+  0-SNOW_GOLEM: Snow Golem
+  0-OCELOT: Ocelot
+  0-IRON_GOLEM: Iron Golem
+  0-HORSE: Horse
+  0-RABBIT: Rabbit
+  0-POLAR_BEAR: Polar Bear
+  0-LLAMA: Llama
+  0-PARROT: Parrot
+  0-VILLAGER: Villager
+  0-TURTLE: Turtle
+  0-PHANTOM: Phantom
+  0-COD: Cod
+  0-SALMON: Salmon
+  0-PUFFERFISH: Pufferfish
+  0-TROPICAL_FISH: Tropical Fish
+  0-DROWNED: Drowned
+  0-DOLPHIN: Dolphin
+  0-CAT: Cat
+  0-PANDA: Panda
+  0-PILLAGER: Pillager
+  0-RAVAGER: Ravager
+  0-TRADER_LLAMA: Trader Llama
+  0-WANDERING_TRADER: Wandering Trader
+  0-FOX: Fox
+  0-BEE: Bee
+  0-HOGLIN: Hoglin
+  0-PIGLIN: Piglin
+  0-STRIDER: Strider
+  0-ZOGLIN: Zoglin
+  0-PIGLIN_BRUTE: Piglin Brute
+  0-AXOLOTL: Axolotl
+  0-GLOW_SQUID: Glow Squid
+  0-GOAT: Goat
+  0-ALLAY: Allay
+  0-FROG: Frog
+  0-TADPOLE: Tadpole
+  0-WARDEN: Warden
+  0-CAMEL: Camel
+  0-SNIFFER: Sniffer
+  0-BREEZE: Breeze
+  0-ARMADILLO: Armadillo
+  0-BOGGED: Bogged
+  0-CREAKING: Creaking
+  0-PLAYER: Player
 EnchantList:
-  Fire protection: Fire protection
-  Sharpness: Sharpness
-  Flame: Flame
-  Soul speed: Soul speed
-  Aqua affinity: Aqua affinity
-  Punch: Punch
-  Loyalty: Loyalty
-  Depth strider: Depth strider
-  Vanishing curse: Vanishing curse
-  Unbreaking: Unbreaking
-  Knockback: Knockback
-  Luck of the sea: Luck of the sea
-  Binding curse: Binding curse
-  Fortune: Fortune
-  Protection: Protection
-  Efficiency: Efficiency
-  Mending: Mending
-  Frost walker: Frost walker
-  Lure: Lure
-  Looting: Looting
-  Piercing: Piercing
-  Blast protection: Blast protection
-  Smite: Smite
-  Multishot: Multishot
-  Fire aspect: Fire aspect
-  Channeling: Channeling
-  Sweeping: Sweeping
-  Thorns: Thorns
-  Bane of arthropods: Bane of arthropods
-  Respiration: Respiration
-  Riptide: Riptide
-  Silk touch: Silk touch
-  Quick charge: Quick charge
-  Projectile protection: Projectile protection
+  Density: Density
+  Swiftsneak: Swiftsneak
+  Breach: Breach
+  Protectionfall: Protectionfall
+  Arrowinfinite: Arrowinfinite
+  Arrowfire: Arrowfire
   Impaling: Impaling
-  Feather falling: Feather falling
-  Power: Power
-  Infinity: Infinity
+  Protectionenvironmental: Protectionenvironmental
+  Knockback: Knockback
+  Depthstrider: Depthstrider
+  Luck: Luck
+  Silktouch: Silktouch
+  Loyalty: Loyalty
+  Vanishingcurse: Vanishingcurse
+  Protectionfire: Protectionfire
+  Channeling: Channeling
+  Bindingcurse: Bindingcurse
+  Quickcharge: Quickcharge
+  Damagearthropods: Damagearthropods
+  Frostwalker: Frostwalker
+  Multishot: Multishot
+  Protectionprojectile: Protectionprojectile
+  Waterworker: Waterworker
+  Soulspeed: Soulspeed
+  Windburst: Windburst
+  Lootbonusmobs: Lootbonusmobs
+  Damageundead: Damageundead
+  Piercing: Piercing
+  Lure: Lure
+  Riptide: Riptide
+  Arrowdamage: Arrowdamage
+  Protectionexplosions: Protectionexplosions
+  Mending: Mending
+  Fireaspect: Fireaspect
+  Oxygen: Oxygen
+  Thorns: Thorns
+  Sweepingedge: Sweepingedge
+  Arrowknockback: Arrowknockback
+  Damageall: Damageall
+  Digspeed: Digspeed
+  Lootbonusblocks: Lootbonusblocks
+  Durability: Durability
+PotionEffects:
+  Water: Water
+  Mundane: Mundane
+  Thick: Thick
+  Awkward: Awkward
+  Night vision: Night vision
+  Long night vision: Long night vision
+  Invisibility: Invisibility
+  Long invisibility: Long invisibility
+  Leaping: Leaping
+  Long leaping: Long leaping
+  Strong leaping: Strong leaping
+  Fire resistance: Fire resistance
+  Long fire resistance: Long fire resistance
+  Swiftness: Swiftness
+  Long swiftness: Long swiftness
+  Strong swiftness: Strong swiftness
+  Slowness: Slowness
+  Long slowness: Long slowness
+  Strong slowness: Strong slowness
+  Water breathing: Water breathing
+  Long water breathing: Long water breathing
+  Healing: Healing
+  Strong healing: Strong healing
+  Harming: Harming
+  Strong harming: Strong harming
+  Poison: Poison
+  Long poison: Long poison
+  Strong poison: Strong poison
+  Regeneration: Regeneration
+  Long regeneration: Long regeneration
+  Strong regeneration: Strong regeneration
+  Strength: Strength
+  Long strength: Long strength
+  Strong strength: Strong strength
+  Weakness: Weakness
+  Long weakness: Long weakness
+  Luck: Luck
+  Turtle master: Turtle master
+  Long turtle master: Long turtle master
+  Strong turtle master: Strong turtle master
+  Slow falling: Slow falling
+  Long slow falling: Long slow falling
+  Wind charged: Wind charged
+  Weaving: Weaving
+  Oozing: Oozing
+  Infested: Infested
 ColorList:
   0-white: '&fWhite'
   1-orange: '&6Orange'

@@ -11,8 +11,8 @@
 #
 regions:
     wildspawn:
-        min: {x: 9.0, y: 0.0, z: 250.0}
-        max: {x: 100.0, y: 255.0, z: 343.0}
+        min: {x: 9, y: 0, z: 250}
+        max: {x: 100, y: 255, z: 343}
         members: {}
         flags: {build: deny, pvp: deny, mob-spawning: deny}
         owners: {}
